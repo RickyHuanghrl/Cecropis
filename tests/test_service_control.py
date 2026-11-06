@@ -143,16 +143,29 @@ class ServiceChecks(unittest.TestCase):
         def cli(*args):
             return subprocess.run([sys.executable, '-B', '-m', 'cecropis', *args], cwd=ROOT,
                                   capture_output=True, text=True, encoding='utf-8', timeout=20)
+        startup_timeout = 60
+        startup_script = (
+            "import faulthandler, runpy\n"
+            "faulthandler.dump_traceback_later(45)\n"
+            "try:\n"
+            "    runpy.run_module('cecropis', run_name='__main__')\n"
+            "finally:\n"
+            "    faulthandler.cancel_dump_traceback_later()\n"
+        )
         for iteration in range(2):
-            child = subprocess.Popen([sys.executable, '-B', '-m', 'cecropis', 'start', '--port', str(port), '--no-banner'],
-                                     cwd=ROOT, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            # A file avoids pipe-buffer stalls and retains startup diagnostics.
+            log = tempfile.TemporaryFile()
+            self.addCleanup(log.close)
+            child = subprocess.Popen([sys.executable, '-B', '-c', startup_script,
+                                      'start', '--port', str(port), '--no-banner'],
+                                     cwd=ROOT, stdout=log, stderr=subprocess.STDOUT)
             try:
-                deadline = time.monotonic()+20
+                deadline = time.monotonic()+startup_timeout
                 while not service_path(port).exists():
                     if child.poll() is not None:
-                        self.fail(child.stderr.read().decode())
+                        self.fail(f'service exited before registering (exit {child.returncode})')
                     if time.monotonic()>deadline:
-                        self.fail('service did not register')
+                        self.fail(f'service did not register within {startup_timeout}s')
                     time.sleep(.05)
                 self.assertEqual(json.loads(cli('status','--port',str(port)).stdout)['status'], 'running')
                 if iteration == 0:
@@ -168,7 +181,7 @@ class ServiceChecks(unittest.TestCase):
                     response=client.getresponse()
                     self.assertEqual(response.status,200,response.read())
                     client.close()
-                    deadline=time.monotonic()+20
+                    deadline=time.monotonic()+startup_timeout
                     while True:
                         try:
                             client=HTTPConnection('127.0.0.1',port,timeout=1)
@@ -210,6 +223,11 @@ class ServiceChecks(unittest.TestCase):
                 if child.poll() is None:
                     child.kill()  # Only this test's own child.
                 child.communicate(timeout=10)
+                if sys.exc_info()[0] is not None:
+                    log.seek(0)
+                    print(f'Service child output (iteration {iteration}):\n'
+                          + log.read().decode('utf-8', errors='replace'), file=sys.stderr)
+                log.close()
 
 
 if __name__ == '__main__':

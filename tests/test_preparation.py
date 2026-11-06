@@ -24,7 +24,7 @@ class PreparationChecks(unittest.TestCase):
 
     def test_first_build_readonly_check_reuse_and_configuration(self):
         with tempfile.TemporaryDirectory(prefix='准备 中文 ') as folder:
-            root=Path(folder);paths=self.fixture(root);output=root/'工作 区'/'workspace.json'
+            root=Path(folder).resolve();paths=self.fixture(root);output=root/'工作 区'/'workspace.json'
             with patch('cecropis.global_index.ds.dataset',side_effect=AssertionError('Check must not scan')):
                 report=check_preparation(paths)
             self.assertTrue(report['can_build']);self.assertFalse(output.parent.exists())
