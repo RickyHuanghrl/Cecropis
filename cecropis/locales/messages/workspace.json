@@ -1,0 +1,562 @@
+{
+  "workspace.adoptPortableDraft.condition_edit_current_draft_bc7956": {
+    "zh-CN": "任务条件已成为新草稿 · 原任务文件保持 · 编辑后请从当前编辑条件导出",
+    "en": "Task conditions adopted as a new draft. Export the current draft to save further edits.",
+    "ja": "タスク条件を新しい下書きに適用しました。変更を保存するには現在の下書きをエクスポートしてください。",
+    "fr": "Conditions de la tâche reprises dans un nouveau brouillon. Exportez le brouillon actuel pour conserver vos modifications.",
+    "de": "Aufgabenbedingungen als neuen Entwurf übernommen. Exportieren Sie den aktuellen Entwurf, um weitere Änderungen zu speichern.",
+    "es": "Condiciones de la tarea adoptadas como nuevo borrador. Exporte el borrador actual para guardar los cambios."
+  },
+  "workspace.adoptPortableDraft.condition_save_edit_continue_3a8dd9": {
+    "zh-CN": "采用任务条件将替换当前未保存的编辑草稿。继续？",
+    "en": "Adopting task conditions replaces the current unsaved draft. Continue?",
+    "ja": "タスク条件を採用すると、現在の未保存の下書きが置き換わります。続行しますか？",
+    "fr": "Adopter les conditions de la tâche remplace le brouillon non enregistré. Continuer ?",
+    "de": "Die Übernahme der Aufgabenbedingungen ersetzt den ungespeicherten Entwurf. Fortfahren?",
+    "es": "Adoptar las condiciones de la tarea reemplaza el borrador sin guardar. ¿Continuar?"
+  },
+  "workspace.adoptPortableDraft.interventioneditcandidate_set_9a4d32": {
+    "zh-CN": "不在当前干预编辑候选集合：",
+    "en": "Outside the current intervention candidate set: ",
+    "ja": "現在の介入候補集合に含まれません: ",
+    "fr": "Hors de l’ensemble actuel des candidats à l’intervention : ",
+    "de": "Außerhalb der aktuellen Interventionskandidaten: ",
+    "es": "Fuera del conjunto actual de candidatos a la intervención:"
+  },
+  "workspace.adoptPortableDraft.task_definition_run_c3d939": {
+    "zh-CN": "。任务定义仍可直接运行。",
+    "en": ". The task definition can still be run directly.",
+    "ja": "。タスク定義は直接実行できます。",
+    "fr": ". La définition de la tâche peut toujours être exécutée directement.",
+    "de": ". Die Aufgabendefinition kann weiterhin direkt ausgeführt werden.",
+    "es": ". La definición de la tarea se puede seguir ejecutando directamente."
+  },
+  "workspace.controls.cancel_keepcomplete_e434da": {
+    "zh-CN": "正在取消 · 保留完成部分",
+    "en": "Cancelling · Completed work will be retained",
+    "ja": "キャンセル中 · 完了分は保持されます",
+    "fr": "Annulation en cours · Le travail terminé sera conservé",
+    "de": "Wird abgebrochen · Abgeschlossene Arbeit bleibt erhalten",
+    "es": "Cancelando · Se conservará el trabajo completado"
+  },
+  "workspace.controls.condition_check_request_0e324d": {
+    "zh-CN": "条件或来源已更改，请重新预检报告",
+    "en": "The conditions or source changed. Preview the report again.",
+    "ja": "条件またはソースが変更されました。レポートを再度プレビューしてください。",
+    "fr": "Les conditions ou la source ont changé. Prévisualisez à nouveau le rapport.",
+    "de": "Bedingungen oder Quelle geändert. Bericht erneut in der Vorschau prüfen.",
+    "es": "Las condiciones o la fuente han cambiado. Vuelva a previsualizar el informe."
+  },
+  "workspace.controls.constraints_11cc3d": {
+    "zh-CN": "{p0} · 确切协议与约束",
+    "en": "{p0} · Protocol and constraints",
+    "ja": "{p0} · プロトコルと制約",
+    "fr": "{p0} · Protocole et contraintes",
+    "de": "{p0} · Protokoll und Bedingungen",
+    "es": "{p0} · Protocolo y restricciones"
+  },
+  "workspace.controls.exceeded_314600": {
+    "zh-CN": "超限",
+    "en": "Exceeded",
+    "ja": "超過",
+    "fr": "Dépassé",
+    "de": "Überschritten",
+    "es": "Excedido"
+  },
+  "workspace.controls.message_f5d87a": {
+    "zh-CN": " 字节",
+    "en": " bytes",
+    "ja": " バイト",
+    "fr": " octets",
+    "de": " Bytes",
+    "es": " bytes"
+  },
+  "workspace.controls.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "workspace.controls.save_daff80": {
+    "zh-CN": "离线报告已保存",
+    "en": "Offline report saved",
+    "ja": "オフラインレポートを保存しました",
+    "fr": "Rapport hors ligne enregistré",
+    "de": "Offline-Bericht gespeichert",
+    "es": "Informe sin conexión guardado"
+  },
+  "workspace.controls.stop_542334": {
+    "zh-CN": "请先结束当前任务",
+    "en": "Finish or cancel the current task first",
+    "ja": "先に現在のタスクを完了またはキャンセルしてください",
+    "fr": "Terminez ou annulez d’abord la tâche en cours",
+    "de": "Beenden oder stoppen Sie zuerst die aktuelle Aufgabe",
+    "es": "Termine o cancele primero la tarea actual"
+  },
+  "workspace.controls.task_definition_16_mib_086f43": {
+    "zh-CN": "任务定义文件不能超过16 MiB",
+    "en": "The task definition file must not exceed 16 MiB",
+    "ja": "タスク定義ファイルは16 MiB以下にしてください",
+    "fr": "Le fichier de définition de tâche ne doit pas dépasser 16 MiB",
+    "de": "Die Aufgabendefinition darf 16 MiB nicht überschreiten",
+    "es": "El archivo de definición de tarea no debe superar 16 MiB"
+  },
+  "workspace.controls.undefined_2c744a": {
+    "zh-CN": "无定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "workspace.exportPortableTask.comparison_open_savecomparison_0bda12": {
+    "zh-CN": "此比较未绑定服务端来源，请重新打开已保存比较",
+    "en": "This comparison has no server source reference. Reopen the saved comparison.",
+    "ja": "この比較にはサーバー上のソース参照がありません。保存済み比較を再度開いてください。",
+    "fr": "Cette comparaison n’a pas de référence source sur le serveur. Rouvrez la comparaison enregistrée.",
+    "de": "Dieser Vergleich hat keinen serverseitigen Quellverweis. Den gespeicherten Vergleich erneut öffnen.",
+    "es": "Esta comparación no tiene una referencia de origen en el servidor. Abra de nuevo la comparación guardada."
+  },
+  "workspace.exportPortableTask.condition_b14319": {
+    "zh-CN": "当前条件",
+    "en": "Current condition",
+    "ja": "現在の条件",
+    "fr": "Condition actuelle",
+    "de": "Aktuelle Bedingung",
+    "es": "Condición actual"
+  },
+  "workspace.exportPortableTask.open_run_comparison_3187b0": {
+    "zh-CN": "先打开或运行一个比较结果",
+    "en": "Open or run a comparison first",
+    "ja": "先に比較を開くか実行してください",
+    "fr": "Ouvrez ou exécutez d’abord une comparaison",
+    "de": "Öffnen oder starten Sie zuerst einen Vergleich",
+    "es": "Abra o ejecute primero una comparación"
+  },
+  "workspace.exportPortableTask.select_analysisplan_240be0": {
+    "zh-CN": "先选择一个已评价的分析方案",
+    "en": "Select an evaluated analysis plan first",
+    "ja": "先に評価済みの分析案を選択してください",
+    "fr": "Sélectionnez d’abord un plan d’analyse évalué",
+    "de": "Wählen Sie zuerst einen ausgewerteten Analyseplan",
+    "es": "Seleccione primero un plan de análisis evaluado"
+  },
+  "workspace.exportPortableTask.task_definition_198075": {
+    "zh-CN": "任务定义已导出 · 不含数据或结果轨迹",
+    "en": "Task definition exported · Data and trajectories are not included",
+    "ja": "タスク定義をエクスポートしました · データと軌跡は含まれません",
+    "fr": "Définition de tâche exportée · Données et trajectoires non incluses",
+    "de": "Aufgabendefinition exportiert · Daten und Verläufe sind nicht enthalten",
+    "es": "Definición de tarea exportada · No incluye datos ni trayectorias"
+  },
+  "workspace.openPortableScope.scope_open_conditionnot_run_11b10b": {
+    "zh-CN": "任务范围已打开 · 条件尚未运行",
+    "en": "Task scope opened · Conditions have not run",
+    "ja": "タスク範囲を開きました · 条件は未実行です",
+    "fr": "Périmètre de la tâche ouvert · Conditions non exécutées",
+    "de": "Aufgabenbereich geöffnet · Bedingungen noch nicht ausgeführt",
+    "es": "Ámbito de la tarea abierto · Condiciones sin ejecutar"
+  },
+  "workspace.pollPortableTask.complete_cd7f9e": {
+    "zh-CN": " / 完成 ",
+    "en": " / completed ",
+    "ja": " / 完了 ",
+    "fr": " / terminé ",
+    "de": " / abgeschlossen ",
+    "es": " / completado "
+  },
+  "workspace.pollPortableTask.complete_e71fef": {
+    "zh-CN": "任务未完成。",
+    "en": "The task is incomplete.",
+    "ja": "タスクは未完了です。",
+    "fr": "La tâche est incomplète.",
+    "de": "Die Aufgabe ist unvollständig.",
+    "es": "La tarea está incompleta."
+  },
+  "workspace.pollPortableTask.condition_e5893f": {
+    "zh-CN": "已计算结果 · {p0} · {p1} / {p2} 个完整条件{p3}",
+    "en": "Calculated result · {p0} · Conditions complete {p1}/{p2}{p3}",
+    "ja": "計算結果 · {p0} · 完了条件 {p1}/{p2}{p3}",
+    "fr": "Résultat calculé · {p0} · Conditions terminées {p1}/{p2}{p3}",
+    "de": "Berechnetes Ergebnis · {p0} · Bedingungen abgeschlossen {p1}/{p2}{p3}",
+    "es": "Resultado calculado · {p0} · Condiciones completadas {p1}/{p2}{p3}"
+  },
+  "workspace.pollPortableTask.run_task_27289d": {
+    "zh-CN": "运行任务",
+    "en": "Run task",
+    "ja": "タスクを実行",
+    "fr": "Exécuter la tâche",
+    "de": "Aufgabe ausführen",
+    "es": "Ejecutar tarea"
+  },
+  "workspace.pollPortableTask.scope_20f655": {
+    "zh-CN": "范围已准备 · 尚未传播",
+    "en": "Scope prepared · Simulation has not started",
+    "ja": "範囲を準備しました · シミュレーションは未開始です",
+    "fr": "Périmètre préparé · Simulation non démarrée",
+    "de": "Bereich vorbereitet · Simulation noch nicht gestartet",
+    "es": "Ámbito preparado · Simulación sin iniciar"
+  },
+  "workspace.pollPortableTask.scope_complete_8c4856": {
+    "zh-CN": "范围准备未完成 · {p0}{p1}",
+    "en": "Scope preparation is incomplete · {p0}{p1}",
+    "ja": "範囲の準備は未完了です · {p0}{p1}",
+    "fr": "La préparation du périmètre est incomplète · {p0}{p1}",
+    "de": "Die Bereichsvorbereitung ist unvollständig · {p0}{p1}",
+    "es": "La preparación del ámbito está incompleta · {p0}{p1}"
+  },
+  "workspace.pollPortableTask.scope_daa5a4": {
+    "zh-CN": "准备范围",
+    "en": "Prepare scope",
+    "ja": "範囲を準備",
+    "fr": "Préparer le périmètre",
+    "de": "Bereich vorbereiten",
+    "es": "Preparar el ámbito"
+  },
+  "workspace.pollPortableTask.start_9e3e4e": {
+    "zh-CN": " · 传播启动 ",
+    "en": " · Simulations started: ",
+    "ja": " · 開始した計算数：",
+    "fr": " · Simulations lancées : ",
+    "de": " · Gestartete Simulationen: ",
+    "es": " · Simulaciones iniciadas: "
+  },
+  "workspace.portableConstraintText.allsatisfied_c3dc37": {
+    "zh-CN": "全部满足",
+    "en": "All requirements satisfied",
+    "ja": "全条件を満たす",
+    "fr": "Toutes les exigences sont satisfaites",
+    "de": "Alle Anforderungen erfüllt",
+    "es": "Se cumplen todos los requisitos"
+  },
+  "workspace.portableConstraintText.condition_b7cc94": {
+    "zh-CN": "决策条件",
+    "en": "Decision condition",
+    "ja": "判定条件",
+    "fr": "Condition de décision",
+    "de": "Entscheidungsbedingung",
+    "es": "Condición de decisión"
+  },
+  "workspace.portableConstraintText.message_1b9624": {
+    "zh-CN": "额外评价",
+    "en": "Additional evaluation",
+    "ja": "追加評価",
+    "fr": "Évaluation supplémentaire",
+    "de": "Zusätzliche Auswertung",
+    "es": "Evaluación adicional"
+  },
+  "workspace.portableConstraintText.no_constraints_035d9c": {
+    "zh-CN": "未设约束",
+    "en": "No constraints",
+    "ja": "制約なし",
+    "fr": "Sans contraintes",
+    "de": "Keine Bedingungen",
+    "es": "Sin restricciones"
+  },
+  "workspace.portableConstraintText.not_satisfied_3b34e0": {
+    "zh-CN": "未达标",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "workspace.portableConstraintText.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "workspace.portableConstraintText.undefined_2c744a": {
+    "zh-CN": "无定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "workspace.previewPortableTask.check_requesttask_definition_b02152": {
+    "zh-CN": "正在预检任务定义…",
+    "en": "Checking task definition…",
+    "ja": "タスク定義を確認中…",
+    "fr": "Vérification de la définition de tâche…",
+    "de": "Aufgabendefinition wird geprüft…",
+    "es": "Comprobando la definición de tarea…"
+  },
+  "workspace.renderTaskPreview.an_exact_matching_scope_exists_open_it_directly_c4a367": {
+    "zh-CN": "已有完全匹配范围，可直接打开。",
+    "en": "An exact matching scope exists; open it directly.",
+    "ja": "完全一致する範囲があります。直接開けます。",
+    "fr": "Un périmètre identique existe ; ouvrez-le.",
+    "de": "Exakter Bereich vorhanden; direkt öffnen.",
+    "es": "Existe un ámbito idéntico; ábralo directamente."
+  },
+  "workspace.renderTaskPreview.baseline_intervention_51329e": {
+    "zh-CN": "预计传播 {p0} 次 · 基线 {p1} / 干预 {p2} · 记录 {p3} 字节",
+    "en": "Estimated simulations {p0} · Baseline {p1} / intervention {p2} · Recording size {p3} bytes",
+    "ja": "推定計算回数 {p0} · 基線 {p1} / 介入 {p2} · 記録サイズ {p3} バイト",
+    "fr": "Simulations estimées {p0} · Référence {p1} / intervention {p2} · Enregistrement {p3} octets",
+    "de": "Geschätzte Simulationen {p0} · Referenz {p1} / Eingriff {p2} · Aufzeichnungsgröße {p3} Bytes",
+    "es": "Simulaciones estimadas {p0} · Referencia {p1} / intervención {p2} · Grabación de {p3} bytes"
+  },
+  "workspace.renderTaskPreview.definition_check_request_19fc8f": {
+    "zh-CN": "定义未通过预检",
+    "en": "Definition failed validation",
+    "ja": "定義の検証に失敗しました",
+    "fr": "La définition a échoué à la validation",
+    "de": "Definition hat die Prüfung nicht bestanden",
+    "es": "La definición no superó la validación"
+  },
+  "workspace.renderTaskPreview.definition_check_request_not_run_1434bb": {
+    "zh-CN": "定义已预检 · 尚未运行",
+    "en": "Definition checked · Not run",
+    "ja": "定義を確認済み · 未実行",
+    "fr": "Définition vérifiée · Non exécutée",
+    "de": "Definition geprüft · Nicht ausgeführt",
+    "es": "Definición comprobada · Sin ejecutar"
+  },
+  "workspace.renderTaskPreview.different_index_instance_verify_compatibility_before_run_662dbd": {
+    "zh-CN": "来源索引与本地实例不同，核对通过后才能执行。",
+    "en": "Different index instance; verify compatibility before running.",
+    "ja": "異なるインデックス・互換性確認後に実行可能です。",
+    "fr": "Index différent ; vérifiez la compatibilité avant exécution.",
+    "de": "Anderer Index; vor Ausführung Kompatibilität prüfen.",
+    "es": "Índice diferente; verifique compatibilidad antes de ejecutar."
+  },
+  "workspace.renderTaskPreview.internal_edges_5b2d5b": {
+    "zh-CN": " 条内部边",
+    "en": " internal edges",
+    "ja": " 本の内部エッジ",
+    "fr": " arêtes internes",
+    "de": " interne Kanten",
+    "es": " aristas internas"
+  },
+  "workspace.renderTaskPreview.legacy_task_has_no_content_fingerprint_original_index_in_61504e": {
+    "zh-CN": "旧任务无内容指纹，仅适用于原索引实例。",
+    "en": "Legacy task has no content fingerprint; original index instance required.",
+    "ja": "旧タスクに内容指紋なし・元インデックス専用です。",
+    "fr": "Tâche ancienne sans empreinte ; index original requis.",
+    "de": "Alte Aufgabe ohne Inhaltsabdruck; ursprünglicher Index erforderlich.",
+    "es": "Tarea antigua sin huella; requiere índice original."
+  },
+  "workspace.renderTaskPreview.members_28283e": {
+    "zh-CN": "计算成员：{p0}",
+    "en": "Calculation members: {p0}",
+    "ja": "計算メンバー: {p0}",
+    "fr": "Membres du calcul : {p0}",
+    "de": "Berechnungsmitglieder: {p0}",
+    "es": "Miembros del cálculo: {p0}"
+  },
+  "workspace.renderTaskPreview.prepare_scope_da7238": {
+    "zh-CN": "准备计算范围",
+    "en": "Prepare scope",
+    "ja": "計算範囲を準備",
+    "fr": "Préparer le périmètre",
+    "de": "Umfang vorbereiten",
+    "es": "Preparar alcance"
+  },
+  "workspace.renderTaskPreview.resource_estimate_8f22fc": {
+    "zh-CN": "资源预估",
+    "en": "Resource estimate",
+    "ja": "リソース見積",
+    "fr": "Estimation des ressources",
+    "de": "Ressourcenschätzung",
+    "es": "Estimación de recursos"
+  },
+  "workspace.renderTaskPreview.scope_4ef273": {
+    "zh-CN": "不同索引实例 · 需要核对任务范围",
+    "en": "Different index instance · Verify the task scope",
+    "ja": "異なる索引インスタンス · タスク範囲を確認してください",
+    "fr": "Instance d’index différente · Vérifiez le périmètre de la tâche",
+    "de": "Andere Indexinstanz · Aufgabenbereich prüfen",
+    "es": "Instancia de índice distinta · Verifique el ámbito de la tarea"
+  },
+  "workspace.renderTaskPreview.task_definition_scope_node_condition_ea1c6d": {
+    "zh-CN": "任务定义 · {p0} · 确切范围 {p1} 节点 · {p2} 个条件{p3}",
+    "en": "Task definition · {p0} · Scope nodes {p1} · Conditions {p2}{p3}",
+    "ja": "タスク定義 · {p0} · 範囲内ノード {p1} · 条件 {p2}{p3}",
+    "fr": "Définition de tâche · {p0} · Nœuds du périmètre {p1} · Conditions {p2}{p3}",
+    "de": "Aufgabendefinition · {p0} · Bereichsknoten {p1} · Bedingungen {p2}{p3}",
+    "es": "Definición de tarea · {p0} · Nodos del ámbito {p1} · Condiciones {p2}{p3}"
+  },
+  "workspace.renderTaskPreview.verify_prepare_scope_db2e0b": {
+    "zh-CN": "核对并准备计算范围",
+    "en": "Verify & prepare scope",
+    "ja": "照合して範囲を準備",
+    "fr": "Vérifier et préparer",
+    "de": "Prüfen und vorbereiten",
+    "es": "Verificar y preparar"
+  },
+  "workspace.reportRequest.open_comparison_selectall_conditions_5eb77a": {
+    "zh-CN": "当前曲线属于另一结果，请重新打开此比较或选择全部条件",
+    "en": "The current curves belong to another result. Reopen this comparison or select all conditions.",
+    "ja": "現在の曲線は別の結果に属しています。この比較を開き直すか、全条件を選択してください。",
+    "fr": "Les courbes actuelles appartiennent à un autre résultat. Rouvrez cette comparaison ou sélectionnez toutes les conditions.",
+    "de": "Die aktuellen Kurven gehören zu einem anderen Ergebnis. Diesen Vergleich erneut öffnen oder alle Bedingungen auswählen.",
+    "es": "Las curvas actuales pertenecen a otro resultado. Abra de nuevo esta comparación o seleccione todas las condiciones."
+  },
+  "workspace.reportRequest.open_save_pincomparison_0646b5": {
+    "zh-CN": "先打开已保存的固定比较结果",
+    "en": "Open a saved fixed comparison first",
+    "ja": "保存済みの固定比較を先に開いてください",
+    "fr": "Ouvrez d’abord une comparaison fixe enregistrée",
+    "de": "Zuerst einen gespeicherten festen Vergleich öffnen",
+    "es": "Abra primero una comparación fija guardada"
+  },
+  "workspace.reportRequest.select_completecondition_40f0bb": {
+    "zh-CN": "至少选择一个已完成条件曲线",
+    "en": "Select at least one completed condition’s curve",
+    "ja": "完了した条件の曲線を1つ以上選択してください",
+    "fr": "Sélectionnez au moins une courbe de condition terminée",
+    "de": "Wählen Sie mindestens eine Kurve einer abgeschlossenen Bedingung",
+    "es": "Seleccione al menos una curva de una condición completada"
+  },
+  "workspace.shell.controls.compute_scope_overview_24d756": {
+    "zh-CN": "计算范围概览",
+    "en": "Compute scope overview",
+    "ja": "計算範囲の概要",
+    "fr": "Vue du périmètre de calcul",
+    "de": "Übersicht des Rechenbereichs",
+    "es": "Vista del ámbito de cálculo"
+  },
+  "workspace.shell.controls.message_77710a": {
+    "zh-CN": "日本語",
+    "en": "Japanese",
+    "ja": "日本語",
+    "fr": "japonais",
+    "de": "Japanisch",
+    "es": "japonés"
+  },
+  "workspace.shell.controls.message_9937e3": {
+    "zh-CN": "简体中文",
+    "en": "Simplified Chinese",
+    "ja": "簡体字中国語",
+    "fr": "chinois simplifié",
+    "de": "vereinfachtes Chinesisch",
+    "es": "chino simplificado"
+  },
+  "workspace.startPortableTask.open_scope_6b7c66": {
+    "zh-CN": "先准备并打开任务范围",
+    "en": "Prepare and open the task scope first",
+    "ja": "先にタスク範囲を準備して開いてください",
+    "fr": "Préparez et ouvrez d’abord le périmètre de la tâche",
+    "de": "Bereiten Sie zuerst den Aufgabenbereich vor und öffnen Sie ihn",
+    "es": "Prepare y abra primero el ámbito de la tarea"
+  },
+  "workspace.startPortableTask.runpincondition_fac8bc": {
+    "zh-CN": "正在运行固定条件…",
+    "en": "Running fixed conditions…",
+    "ja": "固定条件を実行中…",
+    "fr": "Exécution des conditions fixes…",
+    "de": "Feste Bedingungen werden ausgeführt…",
+    "es": "Ejecutando condiciones fijas…"
+  },
+  "workspace.startPortableTask.scope_1dc4bb": {
+    "zh-CN": "正在准备范围…",
+    "en": "Preparing scope…",
+    "ja": "範囲を準備中…",
+    "fr": "Préparation du périmètre…",
+    "de": "Bereich wird vorbereitet…",
+    "es": "Preparando el ámbito…"
+  },
+  "workspace.taskConditionText.condition_b7cc94": {
+    "zh-CN": "决策条件",
+    "en": "Decision condition",
+    "ja": "判定条件",
+    "fr": "Condition de décision",
+    "de": "Entscheidungsbedingung",
+    "es": "Condición de decisión"
+  },
+  "workspace.taskConditionText.intervention_61d833": {
+    "zh-CN": "干预计划 {p0} 事件",
+    "en": "Intervention plan: {p0} events",
+    "ja": "介入計画：{p0} イベント",
+    "fr": "Plan d’intervention : {p0} événements",
+    "de": "Eingriffsplan: {p0} Ereignisse",
+    "es": "Plan de intervención: {p0} eventos"
+  },
+  "workspace.taskConditionText.intervention_node_gain_e5afb3": {
+    "zh-CN": "干预 {p0} 节点 / gain {p1} / [{p2}, {p3})",
+    "en": "Intervention nodes {p0} · Gain {p1} · [{p2}, {p3})",
+    "ja": "介入ノード {p0} · ゲイン {p1} · [{p2}, {p3})",
+    "fr": "Nœuds d’intervention {p0} · Gain {p1} · [{p2}, {p3})",
+    "de": "Eingriffsknoten {p0} · Verstärkung {p1} · [{p2}, {p3})",
+    "es": "Nodos de intervención {p0} · Ganancia {p1} · [{p2}, {p3})"
+  },
+  "workspace.taskConditionText.message_1b9624": {
+    "zh-CN": "额外评价",
+    "en": "Additional evaluation",
+    "ja": "追加評価",
+    "fr": "Évaluation supplémentaire",
+    "de": "Zusätzliche Auswertung",
+    "es": "Evaluación adicional"
+  },
+  "workspace.taskConditionText.updates_input_events_observation_sets_9aa004": {
+    "zh-CN": "{p0} · {p1} · {p2} 更新步 · {p3} 输入事件 · {p4} 观察集合 · {p5}",
+    "en": "{p0} · {p1} · Update steps {p2} · Input events {p3} · Observation sets {p4} · {p5}",
+    "ja": "{p0} · {p1} · 更新ステップ {p2} · 入力イベント {p3} · 観測集合 {p4} · {p5}",
+    "fr": "{p0} · {p1} · Pas de mise à jour {p2} · Événements d’entrée {p3} · Ensembles d’observation {p4} · {p5}",
+    "de": "{p0} · {p1} · Aktualisierungsschritte {p2} · Eingabeereignisse {p3} · Beobachtungsmengen {p4} · {p5}",
+    "es": "{p0} · {p1} · Pasos de actualización {p2} · Eventos de entrada {p3} · Conjuntos de observación {p4} · {p5}"
+  },
+  "workspace.workspaceSummary.message_391cdf": {
+    "zh-CN": "索引：",
+    "en": "Index: ",
+    "ja": "索引: ",
+    "fr": "Index : ",
+    "de": "Index: ",
+    "es": "Índice:"
+  },
+  "workspace.workspaceSummary.message_778460": {
+    "zh-CN": "缺少兼容的已处理索引",
+    "en": "No compatible processed index found",
+    "ja": "互換性のある処理済み索引がありません",
+    "fr": "Aucun index traité compatible trouvé",
+    "de": "Kein kompatibler aufbereiteter Index gefunden",
+    "es": "No se encontró un índice procesado compatible"
+  },
+  "workspace.workspaceSummary.message_b386a5": {
+    "zh-CN": "索引不可用：",
+    "en": "Index unavailable: ",
+    "ja": "索引を利用できません: ",
+    "fr": "Index indisponible : ",
+    "de": "Index nicht verfügbar: ",
+    "es": "Índice no disponible:"
+  },
+  "workspace.workspaceSummary.message_d104f6": {
+    "zh-CN": "结果：",
+    "en": "Results: ",
+    "ja": "結果: ",
+    "fr": "Résultats : ",
+    "de": "Ergebnisse: ",
+    "es": "Resultados:"
+  },
+  "workspace.workspaceSummary.no_scope_selected_01d49f": {
+    "zh-CN": "尚未选择计算范围",
+    "en": "No scope selected",
+    "ja": "計算範囲が未選択",
+    "fr": "Aucun périmètre sélectionné",
+    "de": "Kein Umfang ausgewählt",
+    "es": "Sin alcance seleccionado"
+  },
+  "workspace.workspaceSummary.scope_bdac4e": {
+    "zh-CN": "范围：",
+    "en": "Scope: ",
+    "ja": "範囲: ",
+    "fr": "Périmètre : ",
+    "de": "Bereich: ",
+    "es": "Ámbito:"
+  },
+  "workspace.workspaceSummary.workspace_index_0d6fb0": {
+    "zh-CN": " · 请在数据设置中选择已有索引目录",
+    "en": " · Choose an existing index in Data settings",
+    "ja": " · データ設定で既存の索引を選択してください",
+    "fr": " · Choisissez un index existant dans les paramètres des données",
+    "de": " · Wählen Sie einen vorhandenen Index in den Dateneinstellungen",
+    "es": " · Seleccione un índice existente en la configuración de datos"
+  }
+}

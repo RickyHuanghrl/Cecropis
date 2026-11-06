@@ -9,7 +9,7 @@ data/
 runs/
 workspaces/
 backups/
-workspace.json
+/workspace.json
 *.log
 AGENTS.md
 
