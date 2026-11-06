@@ -1,0 +1,634 @@
+{
+  "intervention.controls.analysis_selectnode_7e73db": {
+    "zh-CN": "先在分析图或排名选择节点",
+    "en": "Select nodes in the analysis graph or ranking first",
+    "ja": "先に分析グラフまたは順位表でノードを選択してください",
+    "fr": "Sélectionnez d’abord des nœuds dans le graphe d’analyse ou le classement",
+    "de": "Wählen Sie zuerst Knoten im Analysegraphen oder in der Rangliste",
+    "es": "Seleccione primero nodos en el grafo de análisis o la clasificación"
+  },
+  "intervention.controls.cancel_0a8b91": {
+    "zh-CN": "已请求取消",
+    "en": "Cancellation requested",
+    "ja": "キャンセル要求済み",
+    "fr": "Annulation demandée",
+    "de": "Abbruch angefordert",
+    "es": "Cancelación solicitada"
+  },
+  "intervention.controls.cancel_2cd0f3": {
+    "zh-CN": "取消",
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "fr": "Annuler",
+    "de": "Abbrechen",
+    "es": "Cancelar"
+  },
+  "intervention.controls.complete_c0b3fb": {
+    "zh-CN": "完成",
+    "en": "Complete",
+    "ja": "完了",
+    "fr": "Terminé",
+    "de": "Abgeschlossen",
+    "es": "Completado"
+  },
+  "intervention.controls.connections_ef84e5": {
+    "zh-CN": " 连接须为有向端点对",
+    "en": ": connections must be directed endpoint pairs",
+    "ja": "：接続は有向の端点対で指定してください",
+    "fr": " : les connexions doivent être des paires d’extrémités orientées",
+    "de": ": Verbindungen müssen gerichtete Endpunktpaare sein",
+    "es": ": las conexiones deben ser pares de extremos dirigidos"
+  },
+  "intervention.controls.connectionsselectbudget_9937bd": {
+    "zh-CN": " 超出连接选择预算",
+    "en": " exceeds Connections selection budget",
+    "ja": " 超過接続選択予算",
+    "fr": " dépasse Connexions sélection budget",
+    "de": " überschreitet Verbindungen Auswahl Budget",
+    "es": " supera Conexiones selección presupuesto"
+  },
+  "intervention.controls.connectionstarget_pre_post_c520c0": {
+    "zh-CN": "连接目标使用 pre → post，每行一条",
+    "en": "Enter one directed edge per line as pre → post.",
+    "ja": "有向エッジを pre → post の形式で 1 行に 1 本ずつ入力してください。",
+    "fr": "Saisissez une arête orientée par ligne sous la forme pre → post.",
+    "de": "Pro Zeile eine gerichtete Kante im Format pre → post eingeben.",
+    "es": "Introduzca una arista dirigida por línea como pre → post."
+  },
+  "intervention.controls.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "intervention.controls.intervention_07e076": {
+    "zh-CN": "事件计划与旧干预字段冲突：",
+    "en": "Event plan conflicts with legacy intervention field: ",
+    "ja": "イベント計画が従来の介入フィールドと競合しています: ",
+    "fr": "Le plan d’événements entre en conflit avec le champ d’intervention hérité : ",
+    "de": "Ereignisplan steht im Konflikt mit dem bisherigen Interventionsfeld: ",
+    "es": "El plan de eventos entra en conflicto con el campo de intervención anterior:"
+  },
+  "intervention.controls.intervention_128_656c9a": {
+    "zh-CN": "干预事件最多 128 个",
+    "en": "At most 128 intervention events are allowed",
+    "ja": "介入イベントは最大 128 件です",
+    "fr": "Un maximum de 128 événements d’intervention est autorisé",
+    "de": "Höchstens 128 Interventionsereignisse sind zulässig",
+    "es": "Se permiten como máximo 128 eventos de intervención"
+  },
+  "intervention.controls.intervention_1_ab52c2": {
+    "zh-CN": "干预计划须为事件列表并使用语义版本 1",
+    "en": "An intervention plan must be an event list using semantics version 1",
+    "ja": "介入計画は意味論バージョン 1 のイベントリストで指定してください",
+    "fr": "Un plan d’intervention doit être une liste d’événements utilisant la version sémantique 1",
+    "de": "Ein Interventionsplan muss eine Ereignisliste mit Semantikversion 1 sein",
+    "es": "Un plan de intervención debe ser una lista de eventos con la versión semántica 1"
+  },
+  "intervention.controls.intervention_1_ea654f": {
+    "zh-CN": "干预语义版本必须为 1",
+    "en": "Intervention semantics version must be 1",
+    "ja": "介入の意味論バージョンは 1 である必要があります",
+    "fr": "La version sémantique d’intervention doit être 1",
+    "de": "Die Interventionssemantikversion muss 1 sein",
+    "es": "La versión semántica de intervención debe ser 1"
+  },
+  "intervention.controls.intervention_6a13d8": {
+    "zh-CN": " 干预事件 ",
+    "en": " Intervention event ",
+    "ja": " 介入イベント ",
+    "fr": " Interventionévénement ",
+    "de": " Eingriff Ereignis ",
+    "es": " Intervención evento "
+  },
+  "intervention.controls.intervention_cf138e": {
+    "zh-CN": "干预事件须为对象",
+    "en": "An intervention event must be an object",
+    "ja": "介入イベントはオブジェクトである必要があります",
+    "fr": "Un événement d’intervention doit être un objet",
+    "de": "Ein Interventionsereignis muss ein Objekt sein",
+    "es": "Un evento de intervención debe ser un objeto"
+  },
+  "intervention.controls.interventionnode_intervention_6c988d": {
+    "zh-CN": "计算 {p0} · 干预节点 {p1} · 干预边 {p2} · {p3} 启用事件",
+    "en": "Calculation: {p0} · intervened nodes {p1} / edges {p2} · {p3} enabled events",
+    "ja": "計算 {p0} · 介入ノード {p1} / エッジ {p2} · 有効イベント {p3} 件",
+    "fr": "Calcul : {p0} · nœuds ciblés {p1} / arêtes ciblées {p2} · {p3} événements activés",
+    "de": "Berechnung: {p0} · beeinflusste Knoten {p1} / Kanten {p2} · {p3} aktivierte Ereignisse",
+    "es": "Cálculo: {p0} · nodos intervenidos {p1} / aristas {p2} · {p3} eventos habilitados"
+  },
+  "intervention.controls.message_0352a9": {
+    "zh-CN": "事件 ",
+    "en": "event ",
+    "ja": "イベント ",
+    "fr": "événement ",
+    "de": "Ereignis ",
+    "es": "evento "
+  },
+  "intervention.controls.message_099db3": {
+    "zh-CN": "边",
+    "en": "edge",
+    "ja": "辺",
+    "fr": "arête",
+    "de": "Kante",
+    "es": "arista"
+  },
+  "intervention.controls.message_29f0e4": {
+    "zh-CN": " 字段不完整或含未知字段",
+    "en": " incomplete or unknown fields",
+    "ja": " 不足または不明な項目",
+    "fr": " champs incomplets ou inconnus",
+    "de": " unvollständige oder unbekannte Felder",
+    "es": " campos incompletos o desconocidos"
+  },
+  "intervention.controls.message_4e6fd0": {
+    "zh-CN": "停用",
+    "en": "Disabled",
+    "ja": "無効",
+    "fr": "Désactivé",
+    "de": "Deaktiviert",
+    "es": "Deshabilitado"
+  },
+  "intervention.controls.message_5eb3e5": {
+    "zh-CN": "所选真实边",
+    "en": "selected actual edge",
+    "ja": "選択済み実際辺",
+    "fr": "sélectionnéréel arête",
+    "de": "ausgewählt tatsächlich Kante",
+    "es": "seleccionado real arista"
+  },
+  "intervention.controls.message_6f2f01": {
+    "zh-CN": "更新[{p0}, {p1}) · {p2}",
+    "en": "update[{p0}, {p1}) · {p2}",
+    "ja": "更新[{p0}, {p1}) · {p2}",
+    "fr": "mise à jour[{p0}, {p1}) · {p2}",
+    "de": "Aktualisierung[{p0}, {p1}) · {p2}",
+    "es": "actualización[{p0}, {p1}) · {p2}"
+  },
+  "intervention.controls.message_d32ec4": {
+    "zh-CN": "边 ",
+    "en": "edge ",
+    "ja": "辺 ",
+    "fr": "arête ",
+    "de": "Kante ",
+    "es": "arista "
+  },
+  "intervention.controls.message_e1382c": {
+    "zh-CN": " 的区间或增益无效",
+    "en": ": invalid interval or gain",
+    "ja": "：区間またはゲインが無効です",
+    "fr": " : intervalle ou gain invalide",
+    "de": ": ungültiges Intervall oder ungültige Verstärkung",
+    "es": ": intervalo o ganancia no válido"
+  },
+  "intervention.controls.message_f4f0ea": {
+    "zh-CN": "启用",
+    "en": "enabled",
+    "ja": "有効",
+    "fr": "activé",
+    "de": "aktiviert",
+    "es": "habilitado"
+  },
+  "intervention.controls.name_1499ed": {
+    "zh-CN": " 名称须非空且唯一",
+    "en": ": the name must be nonempty and unique",
+    "ja": "：名前は空にせず、一意にしてください",
+    "fr": " : le nom doit être non vide et unique",
+    "de": ": Der Name muss eindeutig und nicht leer sein",
+    "es": ": el nombre debe ser único y no estar vacío"
+  },
+  "intervention.controls.node_123f0a": {
+    "zh-CN": "所选节点",
+    "en": "selected Node",
+    "ja": "選択済みノード",
+    "fr": "sélectionnéNœud",
+    "de": "ausgewählt Knoten",
+    "es": "seleccionado Nodo"
+  },
+  "intervention.controls.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "intervention.controls.node_d0df5c": {
+    "zh-CN": "节点 ",
+    "en": "Node ",
+    "ja": "ノード ",
+    "fr": "Nœud ",
+    "de": "Knoten ",
+    "es": "Nodo "
+  },
+  "intervention.controls.nodeactions_remove_7c7eff": {
+    "zh-CN": "请先移除事件，再使用单节点集合操作。",
+    "en": "Remove the events before using a single node set.",
+    "ja": "単一ノード集合を使用する前にイベントを削除してください。",
+    "fr": "Supprimez les événements avant d’utiliser un ensemble unique de nœuds.",
+    "de": "Vor der Verwendung einer einzelnen Knotenmenge die Ereignisse entfernen.",
+    "es": "Quite los eventos antes de utilizar un único conjunto de nodos."
+  },
+  "intervention.controls.open_scope_f4819d": {
+    "zh-CN": "先打开分组结果与计算范围",
+    "en": "Open a group result and a calculation scope first",
+    "ja": "先にグループ結果と計算範囲を開いてください",
+    "fr": "Ouvrez d’abord un résultat de groupe et un périmètre de calcul",
+    "de": "Öffnen Sie zuerst ein Gruppenergebnis und einen Berechnungsbereich",
+    "es": "Abra primero un resultado de grupo y un ámbito de cálculo"
+  },
+  "intervention.controls.openpaths_4d7003": {
+    "zh-CN": "先打开通路结果",
+    "en": "Open a path result first",
+    "ja": "先に通路結果を開いてください",
+    "fr": "Ouvrez d’abord un résultat de chemins",
+    "de": "Öffnen Sie zuerst ein Pfadergebnis",
+    "es": "Abra primero un resultado de rutas"
+  },
+  "intervention.controls.paths_daaf4f": {
+    "zh-CN": "通路明细边",
+    "en": "Paths details edge",
+    "ja": "経路明細辺",
+    "fr": "Chemins détails arête",
+    "de": "Pfade Details Kante",
+    "es": "Rutas detalles arista"
+  },
+  "intervention.controls.paths_paths_fca241": {
+    "zh-CN": "冻结当前通路明细 {p0} 条真实边 / 通路报告 {p1} 条 · 未自动取诱导边",
+    "en": "Frozen path details: {p0} measured edges / {p1} in the path report · induced edges not added automatically",
+    "ja": "通路明細を固定：実測エッジ {p0} / 通路報告内 {p1} · 誘導エッジの自動追加なし",
+    "fr": "Détails du chemin figés : {p0} arêtes mesurées / {p1} dans le rapport · arêtes induites non ajoutées automatiquement",
+    "de": "Eingefrorene Pfaddetails: {p0} gemessene Kanten / {p1} im Pfadbericht · induzierte Kanten nicht automatisch hinzugefügt",
+    "es": "Detalles de ruta fijados: {p0} aristas medidas / {p1} en el informe · aristas inducidas no añadidas automáticamente"
+  },
+  "intervention.controls.replay_2d2193": {
+    "zh-CN": "回放所选边",
+    "en": "Replay selected edge",
+    "ja": "再生選択済み辺",
+    "fr": "Lecture sélectionnéarête",
+    "de": "Wiedergabe ausgewählt Kante",
+    "es": "Reproducción seleccionado arista"
+  },
+  "intervention.controls.replay_cea817": {
+    "zh-CN": "先在回放中选中一条真实边",
+    "en": "Select a measured edge in replay first",
+    "ja": "先に再生で実測エッジを選択してください",
+    "fr": "Sélectionnez d’abord une arête mesurée dans la relecture",
+    "de": "Wählen Sie zuerst eine gemessene Kante in der Wiedergabe",
+    "es": "Seleccione primero una arista medida en la reproducción"
+  },
+  "intervention.controls.run_62cdc8": {
+    "zh-CN": "未运行",
+    "en": "Not run",
+    "ja": "未実行",
+    "fr": "Non exécuté",
+    "de": "Nicht ausgeführt",
+    "es": "Sin ejecutar"
+  },
+  "intervention.controls.scope_members_5c2c65": {
+    "zh-CN": " 含范围外成员：",
+    "en": " contains members outside the scope: ",
+    "ja": " に範囲外のメンバーが含まれています: ",
+    "fr": " contient des membres hors du périmètre : ",
+    "de": " enthält Mitglieder außerhalb des Bereichs: ",
+    "es": " contiene miembros fuera del ámbito:"
+  },
+  "intervention.controls.select_2c0f1b": {
+    "zh-CN": "组或计划已改，请重新选择",
+    "en": "The group or plan changed. Select again.",
+    "ja": "グループまたは計画が変更されました。再度選択してください。",
+    "fr": "Le groupe ou le plan a changé. Sélectionnez à nouveau.",
+    "de": "Gruppe oder Plan geändert. Erneut auswählen.",
+    "es": "El grupo o el plan ha cambiado. Seleccione de nuevo."
+  },
+  "intervention.controls.target_beaec7": {
+    "zh-CN": " 缺少确切目标",
+    "en": " missing exact target",
+    "ja": " 不足確定目標",
+    "fr": " manquant exact cible",
+    "de": " fehlend exakt Ziel",
+    "es": " faltante exacto objetivo"
+  },
+  "intervention.controls.type_status_b91e2c": {
+    "zh-CN": "事件类型或启用状态无效",
+    "en": "Invalid event type or enabled state",
+    "ja": "イベント種別または有効状態が無効です",
+    "fr": "Type d’événement ou état d’activation invalide",
+    "de": "Ungültiger Ereignistyp oder Aktivierungszustand",
+    "es": "Tipo de evento o estado de activación no válido"
+  },
+  "intervention.interventionAdd.128_2beb52": {
+    "zh-CN": "最多 128 个事件",
+    "en": "At most 128 events are allowed",
+    "ja": "イベントは最大 128 件です",
+    "fr": "Un maximum de 128 événements est autorisé",
+    "de": "Höchstens 128 Ereignisse sind zulässig",
+    "es": "Se permiten como máximo 128 eventos"
+  },
+  "intervention.interventionAdd.connections_55c001": {
+    "zh-CN": "连接事件",
+    "en": "Connections event",
+    "ja": "接続イベント",
+    "fr": "Connexionsévénement",
+    "de": "Verbindungen Ereignis",
+    "es": "Conexiones evento"
+  },
+  "intervention.interventionAdd.node_5625d6": {
+    "zh-CN": "节点事件",
+    "en": "Node event",
+    "ja": "ノードイベント",
+    "fr": "Nœudévénement",
+    "de": "Knoten Ereignis",
+    "es": "Nodo evento"
+  },
+  "intervention.interventionAdd.open_a_calculation_scope_first_59b2f9": {
+    "zh-CN": "先打开计算范围",
+    "en": "Open a calculation scope first",
+    "ja": "先に計算範囲を開いてください",
+    "fr": "Ouvrez d’abord un périmètre de calcul",
+    "de": "Zuerst Rechenbereich öffnen",
+    "es": "Abra primero un ámbito de cálculo"
+  },
+  "intervention.interventionAdd.wait_for_the_current_task_to_stop_2a5566": {
+    "zh-CN": "请等待当前任务结束",
+    "en": "Wait for the current task to stop",
+    "ja": "現在のタスク終了を待ってください",
+    "fr": "Attendez la fin de la tâche courante",
+    "de": "Auf das Ende der aktuellen Aufgabe warten",
+    "es": "Espere al fin de la tarea actual"
+  },
+  "intervention.interventionEventRow.edge_transmission_gain_24cd33": {
+    "zh-CN": "连接传递增益",
+    "en": "Edge transmission gain",
+    "ja": "接続伝達ゲイン",
+    "fr": "Gain de transmission des arêtes",
+    "de": "Kantenübertragungsverstärkung",
+    "es": "Ganancia de transmisión de aristas"
+  },
+  "intervention.interventionEventRow.message_72c2a7": {
+    "zh-CN": "事件 {p0} 启用",
+    "en": "event {p0} enabled",
+    "ja": "イベント {p0} 有効",
+    "fr": "événement {p0} activé",
+    "de": "Ereignis {p0} aktiviert",
+    "es": "evento {p0} habilitado"
+  },
+  "intervention.interventionEventRow.name_a47936": {
+    "zh-CN": "事件 {p0} 名称",
+    "en": "event {p0} Name",
+    "ja": "イベント {p0} 名前",
+    "fr": "événement {p0} Nom",
+    "de": "Ereignis {p0} Name",
+    "es": "evento {p0} Nombre"
+  },
+  "intervention.interventionEventRow.node_activity_gain_e89790": {
+    "zh-CN": "节点活动增益",
+    "en": "Node activity gain",
+    "ja": "ノード活動ゲイン",
+    "fr": "Gain d’activité des nœuds",
+    "de": "Knotenaktivitätsverstärkung",
+    "es": "Ganancia de actividad de nodos"
+  },
+  "intervention.interventionEventRow.remove_6135d4": {
+    "zh-CN": "移除",
+    "en": "Remove",
+    "ja": "削除",
+    "fr": "Retirer",
+    "de": "Entfernen",
+    "es": "Quitar"
+  },
+  "intervention.interventionEventRow.retained_gain_925b12": {
+    "zh-CN": "事件 {p0} 保留增益",
+    "en": "event {p0} Retained gain",
+    "ja": "イベント {p0} 残存ゲイン",
+    "fr": "événement {p0} Gain conservé",
+    "de": "Ereignis {p0} Verbleibende Verstärkung",
+    "es": "evento {p0} Ganancia conservada"
+  },
+  "intervention.interventionEventRow.start_update_993a3c": {
+    "zh-CN": "事件 {p0} 起始步",
+    "en": "event {p0} Start update",
+    "ja": "イベント {p0} 開始更新ステップ",
+    "fr": "événement {p0} Mise à jour initiale",
+    "de": "Ereignis {p0} Erster Updateschritt",
+    "es": "evento {p0} Actualización inicial"
+  },
+  "intervention.interventionEventRow.stop_5da8c9": {
+    "zh-CN": "事件 {p0} 结束步",
+    "en": "event {p0} Stop updates",
+    "ja": "イベント {p0} 終了更新ステップ",
+    "fr": "événement {p0} Fin mises à jour",
+    "de": "Ereignis {p0} Ende Schritte",
+    "es": "evento {p0} Fin pasos"
+  },
+  "intervention.interventionEventRow.target_cf1cc3": {
+    "zh-CN": "事件 {p0} 确切目标",
+    "en": "event {p0} exact target",
+    "ja": "イベント {p0} 確定目標",
+    "fr": "événement {p0} exact cible",
+    "de": "Ereignis {p0} exakt Ziel",
+    "es": "evento {p0} exacto objetivo"
+  },
+  "intervention.interventionEventRow.type_d15a03": {
+    "zh-CN": "事件 {p0} 类型",
+    "en": "event {p0} Type",
+    "ja": "イベント {p0} 種類",
+    "fr": "événement {p0} Type",
+    "de": "Ereignis {p0} Typ",
+    "es": "evento {p0} Tipo"
+  },
+  "intervention.interventionGetEvents.nodeintervention_ac8dcd": {
+    "zh-CN": "节点干预",
+    "en": "Node Intervention",
+    "ja": "ノード介入",
+    "fr": "Nœud Intervention",
+    "de": "Knoten Eingriff",
+    "es": "Nodo Intervención"
+  },
+  "intervention.interventionModeVisibility.no_intervention_a00c0e": {
+    "zh-CN": "无干预 · 清空事件",
+    "en": "No intervention · clear event",
+    "ja": "無介入 · クリアイベント",
+    "fr": "Sans intervention · effacerévénement",
+    "de": "Ohne Eingriff · leeren Ereignis",
+    "es": "Sin intervención · borrar evento"
+  },
+  "intervention.interventionModeVisibility.reset_gain_to_1_74aae2": {
+    "zh-CN": "恢复基线 · 增益设为 1",
+    "en": "Reset gain to 1",
+    "ja": "ゲインを1に戻す",
+    "fr": "Rétablir le gain à 1",
+    "de": "Gain auf 1 zurücksetzen",
+    "es": "Restablecer ganancia a 1"
+  },
+  "intervention.interventionPreview.node_a7ab70": {
+    "zh-CN": "计划已检查 · {p0} 节点 / {p1} 边 · 重叠增益相乘",
+    "en": "Plan checked · {p0} nodes / {p1} edges · overlapping gains are multiplied",
+    "ja": "計画確認済み · {p0} ノード / {p1} エッジ · 重なるゲインは乗算",
+    "fr": "Plan vérifié · {p0} nœuds / {p1} arêtes · les gains superposés sont multipliés",
+    "de": "Plan geprüft · {p0} Knoten / {p1} Kanten · überlappende Verstärkungen werden multipliziert",
+    "es": "Plan comprobado · {p0} nodos / {p1} aristas · las ganancias superpuestas se multiplican"
+  },
+  "intervention.interventionPreview.target_02cae1": {
+    "zh-CN": "正在检查确切目标与重叠区间…",
+    "en": "Checking exact targets and overlapping intervals…",
+    "ja": "正確な対象と重複区間を確認中…",
+    "fr": "Vérification des cibles exactes et des intervalles superposés…",
+    "de": "Exakte Ziele und überlappende Intervalle werden geprüft…",
+    "es": "Comprobando los destinos exactos y los intervalos superpuestos…"
+  },
+  "intervention.interventionSelectEdges.node_connection_count_4a00e6": {
+    "zh-CN": "真实 {p0} 条边 · {p1} 涉及节点 · 连接计数 {p2}",
+    "en": "{p0} measured edges · {p1} involved nodes · {p2} contacts",
+    "ja": "実測エッジ {p0} · 関連ノード {p1} · 接触数 {p2}",
+    "fr": "{p0} arêtes mesurées · {p1} nœuds concernés · {p2} contacts",
+    "de": "{p0} gemessene Kanten · {p1} beteiligte Knoten · {p2} Kontakte",
+    "es": "{p0} aristas medidas · {p1} nodos implicados · {p2} contactos"
+  },
+  "intervention.interventionSelectEdges.open_a_calculation_scope_first_scope_members_scope_2f18d2": {
+    "zh-CN": "先打开计算范围，范围外成员须先建立新范围",
+    "en": "Open a calculation scope first. Members outside it require a new scope.",
+    "ja": "まず計算範囲を開いてください。範囲外のメンバーには新しい範囲が必要です。",
+    "fr": "Ouvrez d’abord un périmètre de calcul. Les membres extérieurs nécessitent un nouveau périmètre.",
+    "de": "Zuerst einen Berechnungsbereich öffnen. Für Mitglieder außerhalb ist ein neuer Bereich erforderlich.",
+    "es": "Abra primero un ámbito de cálculo. Los miembros externos necesitan un ámbito nuevo."
+  },
+  "intervention.interventionSelectEdges.select_scope_select_8afb86": {
+    "zh-CN": "选择期间范围或计划已改，请重新选择",
+    "en": "The scope or plan changed during selection. Select again.",
+    "ja": "選択中に範囲または計画が変更されました。再度選択してください。",
+    "fr": "Le périmètre ou le plan a changé pendant la sélection. Sélectionnez à nouveau.",
+    "de": "Bereich oder Plan während der Auswahl geändert. Erneut auswählen.",
+    "es": "El ámbito o el plan cambió durante la selección. Seleccione de nuevo."
+  },
+  "intervention.interventionSelectEdges.target_internal_edges_94b192": {
+    "zh-CN": "指定来源 → 目标之间没有真实内部边",
+    "en": "No measured internal edges connect the specified sources → targets",
+    "ja": "指定した送信元 → 送信先間に実測の内部エッジはありません",
+    "fr": "Aucune arête interne mesurée ne relie les sources → cibles spécifiées",
+    "de": "Keine gemessenen internen Kanten verbinden die angegebenen Quellen → Ziele",
+    "es": "No hay aristas internas medidas entre los orígenes → destinos especificados"
+  },
+  "intervention.interventionTimeline.empty_plan_no_intervention_4d4e84": {
+    "zh-CN": "空计划 · 无干预",
+    "en": "Empty plan · no intervention",
+    "ja": "空計画・無介入",
+    "fr": "Plan vide · sans intervention",
+    "de": "Leerer Plan · ohne Eingriff",
+    "es": "Plan vacío · sin intervención"
+  },
+  "intervention.interventionTimeline.interventionupdates_801f2e": {
+    "zh-CN": "干预更新步区间",
+    "en": "Intervention Updates interval",
+    "ja": "介入更新ステップ区間",
+    "fr": "Intervention Mises à jour intervalle",
+    "de": "Eingriff Updates Intervall",
+    "es": "Intervención Actualizaciones intervalo"
+  },
+  "intervention.operationsCompare.compare_0_a_b_a_b_9eb7de": {
+    "zh-CN": "正在比较 0 / A / B / A+B",
+    "en": "Comparing 0 / A / B / A+B",
+    "ja": "0 / A / B / A+B を比較中",
+    "fr": "Comparaison de 0 / A / B / A+B",
+    "de": "Vergleich von 0 / A / B / A+B",
+    "es": "Comparando 0 / A / B / A+B"
+  },
+  "intervention.operationsSets.a_b_3cc11e": {
+    "zh-CN": "分别勾选 A 与 B 的事件集合",
+    "en": "Select the event sets for A and B separately",
+    "ja": "A と B のイベント集合を別々に選択してください",
+    "fr": "Sélectionnez séparément les ensembles d’événements pour A et B",
+    "de": "Wählen Sie die Ereignismengen für A und B getrennt aus",
+    "es": "Seleccione por separado los conjuntos de eventos de A y B"
+  },
+  "intervention.pollOperations.cancelled_keepcompletecondition_835b4a": {
+    "zh-CN": "已取消 · 保留完成条件",
+    "en": "Cancelled · completed conditions retained",
+    "ja": "キャンセル済み · 完了した条件は保持",
+    "fr": "Annulé · conditions terminées conservées",
+    "de": "Abgebrochen · abgeschlossene Bedingungen beibehalten",
+    "es": "Cancelado · condiciones completadas conservadas"
+  },
+  "intervention.pollOperations.comparisoncomplete_c991f9": {
+    "zh-CN": "联合比较完成",
+    "en": "joint Comparison completed",
+    "ja": "共同比較完了",
+    "fr": "conjoint Comparaison terminé",
+    "de": "gemeinsam Vergleich abgeschlossen",
+    "es": "conjunto Comparación completado"
+  },
+  "intervention.pollOperations.failed_keepcompletecondition_540eb5": {
+    "zh-CN": "执行失败 · 保留完成条件",
+    "en": "Execution failed · completed conditions retained",
+    "ja": "実行失敗 · 完了した条件は保持",
+    "fr": "Échec de l’exécution · conditions terminées conservées",
+    "de": "Ausführung fehlgeschlagen · abgeschlossene Bedingungen beibehalten",
+    "es": "Error de ejecución · condiciones completadas conservadas"
+  },
+  "intervention.pollOperations.message_c12d8e": {
+    "zh-CN": " · 实际传播 ",
+    "en": " · actual simulation ",
+    "ja": " · 実際シミュレーション ",
+    "fr": " · réel simulation ",
+    "de": " · tatsächlich Simulation ",
+    "es": " · real simulación "
+  },
+  "intervention.renderOperationInteraction.a_absolute_change_af95bd": {
+    "zh-CN": "A 绝对变化",
+    "en": "A absolute change",
+    "ja": "A絶対変化",
+    "fr": "Variation absolue A",
+    "de": "Absolute Änderung A",
+    "es": "Cambio absoluto A"
+  },
+  "intervention.renderOperationInteraction.a_b_absolute_change_c79798": {
+    "zh-CN": "A+B 绝对变化",
+    "en": "A+B absolute change",
+    "ja": "A+B絶対変化",
+    "fr": "Variation absolue A+B",
+    "de": "Absolute Änderung A+B",
+    "es": "Cambio absoluto A+B"
+  },
+  "intervention.renderOperationInteraction.b_absolute_change_0d0bf2": {
+    "zh-CN": "B 绝对变化",
+    "en": "B absolute change",
+    "ja": "B絶対変化",
+    "fr": "Variation absolue B",
+    "de": "Absolute Änderung B",
+    "es": "Cambio absoluto B"
+  },
+  "intervention.renderOperationInteraction.evaluation_window_a8bc11": {
+    "zh-CN": "评价窗口",
+    "en": "Evaluation window",
+    "ja": "評価ウィンドウ",
+    "fr": "Fenêtre d’évaluation",
+    "de": "Bewertungsfenster",
+    "es": "Ventana de evaluación"
+  },
+  "intervention.renderOperationInteraction.non_additive_difference_f4b59e": {
+    "zh-CN": "非加和差异",
+    "en": "Non-additive difference",
+    "ja": "非加算差分",
+    "fr": "Différence non additive",
+    "de": "Nichtadditive Differenz",
+    "es": "Diferencia no aditiva"
+  },
+  "intervention.renderOperationInteraction.non_additive_model_response_r_a_b_r_a_r_b_r_0_783691": {
+    "zh-CN": "模型累计响应非加和差异 · R(A+B) − R(A) − R(B) + R(0)",
+    "en": "Non-additive model response · R(A+B) − R(A) − R(B) + R(0)",
+    "ja": "モデル累計応答の非加算差分・R(A+B)−R(A)−R(B)+R(0)",
+    "fr": "Réponse non additive du modèle · R(A+B) − R(A) − R(B) + R(0)",
+    "de": "Nichtadditive Modellantwort · R(A+B) − R(A) − R(B) + R(0)",
+    "es": "Respuesta no aditiva del modelo · R(A+B) − R(A) − R(B) + R(0)"
+  },
+  "intervention.renderOperationInteraction.observation_sets_376101": {
+    "zh-CN": "观察集合",
+    "en": "Observation sets",
+    "ja": "観測集合",
+    "fr": "Ensembles observés",
+    "de": "Beobachtungsmengen",
+    "es": "Conjuntos observados"
+  }
+}

@@ -1,0 +1,794 @@
+{
+  "replay.activeState": {
+    "zh-CN": "{state} · 生效 {events}",
+    "en": "{state} · active: {events}",
+    "ja": "{state}・有効：{events}",
+    "fr": "{state} · actifs : {events}",
+    "de": "{state} · aktiv: {events}",
+    "es": "{state} · activos: {events}"
+  },
+  "replay.controls.cancel_preparation_06122b": {
+    "zh-CN": "已请求取消准备",
+    "en": "Replay preparation cancellation requested",
+    "ja": "再生準備のキャンセルを要求しました",
+    "fr": "Annulation de la préparation de la relecture demandée",
+    "de": "Abbruch der Wiedergabevorbereitung angefordert",
+    "es": "Cancelación de la preparación de reproducción solicitada"
+  },
+  "replay.controls.choose_an_existing_result_condition_0aa62a": {
+    "zh-CN": "选择已有结果及条件",
+    "en": "Choose an existing result and condition",
+    "ja": "既存の結果と条件を選択してください",
+    "fr": "Choisissez un résultat existant et une condition",
+    "de": "Wählen Sie ein vorhandenes Ergebnis und eine Bedingung",
+    "es": "Elija un resultado existente y una condición"
+  },
+  "replay.controls.compute_nodes_d8bfe4": {
+    "zh-CN": "计算节点",
+    "en": "Compute nodes",
+    "ja": "計算ノード",
+    "fr": "Nœuds de calcul",
+    "de": "Rechenknoten",
+    "es": "Nodos de cálculo"
+  },
+  "replay.controls.find_paths_selectnode_f04879": {
+    "zh-CN": "先查找通路并选择节点",
+    "en": "Find paths and select nodes first",
+    "ja": "先に通路を検索し、ノードを選択してください",
+    "fr": "Recherchez d’abord des chemins et sélectionnez des nœuds",
+    "de": "Suchen Sie zuerst Pfade und wählen Sie Knoten aus",
+    "es": "Busque primero rutas y seleccione nodos"
+  },
+  "replay.controls.internal_edges_f1ee85": {
+    "zh-CN": "未绘制内部边",
+    "en": "Internal edges not drawn",
+    "ja": "内部エッジは非表示",
+    "fr": "Arêtes internes non dessinées",
+    "de": "Interne Kanten nicht gezeichnet",
+    "es": "Aristas internas no dibujadas"
+  },
+  "replay.controls.intervention_a17006": {
+    "zh-CN": "干预边",
+    "en": "Intervention edge",
+    "ja": "介入辺",
+    "fr": "Intervention arête",
+    "de": "Eingriff Kante",
+    "es": "Intervención arista"
+  },
+  "replay.controls.interventionnode_7d73b2": {
+    "zh-CN": "干预节点",
+    "en": "Intervention Node",
+    "ja": "介入ノード",
+    "fr": "Intervention Nœud",
+    "de": "Eingriff Knoten",
+    "es": "Intervención Nodo"
+  },
+  "replay.controls.message_bac628": {
+    "zh-CN": "显示边",
+    "en": "display edge",
+    "ja": "表示辺",
+    "fr": "affichage arête",
+    "de": "Anzeige Kante",
+    "es": "visualización arista"
+  },
+  "replay.controls.node_6c7394": {
+    "zh-CN": "省略节点",
+    "en": "omitted Node",
+    "ja": "省略ノード",
+    "fr": "omis Nœud",
+    "de": "ausgelassen Knoten",
+    "es": "omitido Nodo"
+  },
+  "replay.controls.node_83ca12": {
+    "zh-CN": "显示节点",
+    "en": "display Node",
+    "ja": "表示ノード",
+    "fr": "affichage Nœud",
+    "de": "Anzeige Knoten",
+    "es": "visualización Nodo"
+  },
+  "replay.controls.node_bf2da6": {
+    "zh-CN": "上下文节点",
+    "en": "context Node",
+    "ja": "文脈ノード",
+    "fr": "contexte Nœud",
+    "de": "Kontext Knoten",
+    "es": "contexto Nodo"
+  },
+  "replay.controls.pause_8d12fc": {
+    "zh-CN": "暂停",
+    "en": "Pause",
+    "ja": "一時停止",
+    "fr": "Pause",
+    "de": "Pausieren",
+    "es": "Pausar"
+  },
+  "replay.controls.recorded_nodes_53b10d": {
+    "zh-CN": "记录节点",
+    "en": "Recorded nodes",
+    "ja": "記録ノード",
+    "fr": "Nœuds enregistrés",
+    "de": "Aufgezeichnete Knoten",
+    "es": "Nodos registrados"
+  },
+  "replay.controls.replay_c23049": {
+    "zh-CN": "没有完整回放记录",
+    "en": "No complete replay recording",
+    "ja": "完全な再生記録はありません",
+    "fr": "Aucun enregistrement complet de relecture",
+    "de": "Keine vollständige Wiedergabeaufzeichnung",
+    "es": "No hay un registro de reproducción completo"
+  },
+  "replay.controls.replay_save_1f3711": {
+    "zh-CN": "回放已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "replay.controls.result_analysis_6e6a12": {
+    "zh-CN": "结果分析",
+    "en": "Result analysis",
+    "ja": "結果分析",
+    "fr": "Analyse des résultats",
+    "de": "Ergebnisanalyse",
+    "es": "Análisis de resultados"
+  },
+  "replay.controls.run_save_479b4b": {
+    "zh-CN": "没有可用结果 · 先运行或重开保存内容",
+    "en": "No result available · run an experiment or open a saved result",
+    "ja": "利用可能な結果はありません · 実行するか保存済みの結果を開いてください",
+    "fr": "Aucun résultat disponible · lancez une expérience ou ouvrez un résultat enregistré",
+    "de": "Kein Ergebnis verfügbar · Experiment ausführen oder gespeichertes Ergebnis öffnen",
+    "es": "No hay resultados disponibles · ejecute un experimento o abra un resultado guardado"
+  },
+  "replay.controls.select_an_existing_result_f83e28": {
+    "zh-CN": "请选择已有结果",
+    "en": "Select an existing result",
+    "ja": "既存の結果を選択",
+    "fr": "Choisir un résultat existant",
+    "de": "Vorhandenes Ergebnis auswählen",
+    "es": "Elegir resultado existente"
+  },
+  "replay.controls.specified_nodes_1972ed": {
+    "zh-CN": "指定节点",
+    "en": "Specified nodes",
+    "ja": "指定ノード",
+    "fr": "Nœuds spécifiés",
+    "de": "Angegebene Knoten",
+    "es": "Nodos especificados"
+  },
+  "replay.controls.type_fb8761": {
+    "zh-CN": "未知类型",
+    "en": "Unknown type",
+    "ja": "不明な種類",
+    "fr": "Type inconnu",
+    "de": "Unbekannter Typ",
+    "es": "Tipo desconocido"
+  },
+  "replay.controls.window_3f03a5": {
+    "zh-CN": "窗口已改 · 点击汇总",
+    "en": "Window changed · update the summary",
+    "ja": "窓を変更しました · 集計を更新してください",
+    "fr": "Fenêtre modifiée · actualisez le résumé",
+    "de": "Fenster geändert · Zusammenfassung aktualisieren",
+    "es": "Ventana modificada · actualice el resumen"
+  },
+  "replay.edgeUpdate": {
+    "zh-CN": "边更新 {step}",
+    "en": "edge update {step}",
+    "ja": "辺更新{step}",
+    "fr": "mise à jour des arêtes {step}",
+    "de": "Kantenschritt {step}",
+    "es": "paso de aristas {step}"
+  },
+  "replay.enterReplay.select_complete_save_84c577": {
+    "zh-CN": "先选择一个已完成或已保存的结果",
+    "en": "Select a completed or saved result first",
+    "ja": "先に完了済みまたは保存済みの結果を選択してください",
+    "fr": "Sélectionnez d’abord un résultat terminé ou enregistré",
+    "de": "Wählen Sie zuerst ein abgeschlossenes oder gespeichertes Ergebnis",
+    "es": "Seleccione primero un resultado completado o guardado"
+  },
+  "replay.finalState": {
+    "zh-CN": "x({step}) · 无下一次连接更新",
+    "en": "x({step}) · no subsequent connection update",
+    "ja": "x({step})・次の接続更新なし",
+    "fr": "x({step}) · pas de mise à jour suivante",
+    "de": "x({step}) · kein weiterer Verbindungsschritt",
+    "es": "x({step}) · sin siguiente paso de conexión"
+  },
+  "replay.invalidateReplayRequest.replay_select_4bb42f": {
+    "zh-CN": "已显示的回放保持原结果 · 新选择须重新检查",
+    "en": "Showing the original replay · check the new selection before preparing it",
+    "ja": "元の再生を表示中 · 新しい選択を準備する前に確認してください",
+    "fr": "Relecture d’origine affichée · vérifiez la nouvelle sélection avant de la préparer",
+    "de": "Ursprüngliche Wiedergabe angezeigt · neue Auswahl vor der Vorbereitung prüfen",
+    "es": "Se muestra la reproducción original · compruebe la nueva selección antes de prepararla"
+  },
+  "replay.namedEvent": {
+    "zh-CN": "{name} · {update}",
+    "en": "{name} · {update}",
+    "ja": "{name}・{update}",
+    "fr": "{name} · {update}",
+    "de": "{name} · {update}",
+    "es": "{name} · {update}"
+  },
+  "replay.nodeUpdate": {
+    "zh-CN": "节点更新 {step}",
+    "en": "node update {step}",
+    "ja": "ノード更新{step}",
+    "fr": "mise à jour des nœuds {step}",
+    "de": "Knotenschritt {step}",
+    "es": "paso de nodos {step}"
+  },
+  "replay.openReplay.complete_7a3adc": {
+    "zh-CN": "准备完成",
+    "en": "Preparation complete",
+    "ja": "準備完了",
+    "fr": "Préparation terminée",
+    "de": "Vorbereitung abgeschlossen",
+    "es": "Preparación completada"
+  },
+  "replay.openReplay.open_76ef4b": {
+    "zh-CN": "已打开",
+    "en": "Opened",
+    "ja": "開きました",
+    "fr": "Ouvert",
+    "de": "Geöffnet",
+    "es": "Abierto"
+  },
+  "replay.openReplay.play_recorded_state_steps_b2aab4": {
+    "zh-CN": "{p0} · 仅播放 {p1} 个记录状态步",
+    "en": "{p0} · replaying only the {p1} recorded states",
+    "ja": "{p0} · 記録済みの {p1} 状態のみ再生",
+    "fr": "{p0} · relecture des {p1} états enregistrés uniquement",
+    "de": "{p0} · Wiedergabe nur der {p1} aufgezeichneten Zustände",
+    "es": "{p0} · se reproducen solo los {p1} estados registrados"
+  },
+  "replay.openReplay.prepare_replay_76b7f7": {
+    "zh-CN": "已准备回放",
+    "en": "Replay prepared",
+    "ja": "再生準備完了",
+    "fr": "Relecture préparée",
+    "de": "Wiedergabe vorbereitet",
+    "es": "Reproducción preparada"
+  },
+  "replay.openReplay.save_330fb0": {
+    "zh-CN": "按保存协议",
+    "en": "Using the saved protocol",
+    "ja": "保存済みプロトコルを使用",
+    "fr": "Selon le protocole enregistré",
+    "de": "Gemäß gespeichertem Protokoll",
+    "es": "Con el protocolo guardado"
+  },
+  "replay.openReplay.save_replay_c8ef39": {
+    "zh-CN": "已保存回放",
+    "en": "saved Replay",
+    "ja": "保存済み再生",
+    "fr": "enregistréLecture",
+    "de": "gespeichert Wiedergabe",
+    "es": "guardado Reproducción"
+  },
+  "replay.openReplay.save_select_node_1c7e6a": {
+    "zh-CN": "保存的选择有不存在的节点：",
+    "en": "The saved selection contains unavailable nodes: ",
+    "ja": "保存済み選択に利用できないノードが含まれています: ",
+    "fr": "La sélection enregistrée contient des nœuds indisponibles : ",
+    "de": "Die gespeicherte Auswahl enthält nicht verfügbare Knoten: ",
+    "es": "La selección guardada contiene nodos no disponibles:"
+  },
+  "replay.openReplay.scope_intervention_8597f0": {
+    "zh-CN": "{p0} · 范围 {p1} · 干预 {p2}",
+    "en": "{p0} · Scope {p1} · Intervention {p2}",
+    "ja": "{p0} · 範囲 {p1} · 介入 {p2}",
+    "fr": "{p0} · Périmètre {p1} · Intervention {p2}",
+    "de": "{p0} · Umfang {p1} · Eingriff {p2}",
+    "es": "{p0} · Alcance {p1} · Intervención {p2}"
+  },
+  "replay.pauseReplay.play_c33961": {
+    "zh-CN": "播放",
+    "en": "Play",
+    "ja": "再生",
+    "fr": "Lire",
+    "de": "Abspielen",
+    "es": "Reproducir"
+  },
+  "replay.pollReplay.baseline_b7692b": {
+    "zh-CN": "基线开始",
+    "en": "Baseline started",
+    "ja": "ベースライン計算開始",
+    "fr": "Calcul de référence démarré",
+    "de": "Referenzberechnung gestartet",
+    "es": "Cálculo de referencia iniciado"
+  },
+  "replay.pollReplay.baseline_intervention_c0be57": {
+    "zh-CN": "{p0} · 基线 {p1}/{p2} / 干预 {p3}/{p4}",
+    "en": "{p0} · Baseline {p1}/{p2} / Intervention {p3}/{p4}",
+    "ja": "{p0} · 基準 {p1}/{p2} / 介入 {p3}/{p4}",
+    "fr": "{p0} · Référence {p1}/{p2} / Intervention {p3}/{p4}",
+    "de": "{p0} · Referenz {p1}/{p2} / Eingriff {p3}/{p4}",
+    "es": "{p0} · Referencia {p1}/{p2} / Intervención {p3}/{p4}"
+  },
+  "replay.pollReplay.baselinecomplete_ae2fc4": {
+    "zh-CN": "基线完成",
+    "en": "Baseline complete",
+    "ja": "ベースライン計算完了",
+    "fr": "Calcul de référence terminé",
+    "de": "Referenzberechnung abgeschlossen",
+    "es": "Cálculo de referencia completado"
+  },
+  "replay.pollReplay.cancelled_7743d6": {
+    "zh-CN": "准备已取消",
+    "en": "Preparation cancelled",
+    "ja": "準備をキャンセルしました",
+    "fr": "Préparation annulée",
+    "de": "Vorbereitung abgebrochen",
+    "es": "Preparación cancelada"
+  },
+  "replay.pollReplay.complete_7a3adc": {
+    "zh-CN": "准备完成",
+    "en": "Preparation complete",
+    "ja": "準備完了",
+    "fr": "Préparation terminée",
+    "de": "Vorbereitung abgeschlossen",
+    "es": "Preparación completada"
+  },
+  "replay.pollReplay.completereplay_1f7dd1": {
+    "zh-CN": "回放记录未完成。",
+    "en": "Replay recording is incomplete.",
+    "ja": "再生用の記録が完了していません。",
+    "fr": "L’enregistrement pour la relecture est incomplet.",
+    "de": "Die Aufzeichnung für die Wiedergabe ist unvollständig.",
+    "es": "La grabación para la reproducción está incompleta."
+  },
+  "replay.pollReplay.failed_a1e35e": {
+    "zh-CN": "准备失败",
+    "en": "Preparation failed",
+    "ja": "準備に失敗しました",
+    "fr": "Échec de la préparation",
+    "de": "Vorbereitung fehlgeschlagen",
+    "es": "Error de preparación"
+  },
+  "replay.pollReplay.intervention_ec21cc": {
+    "zh-CN": "干预开始",
+    "en": "Intervention started",
+    "ja": "介入計算開始",
+    "fr": "Calcul avec intervention démarré",
+    "de": "Interventionsberechnung gestartet",
+    "es": "Cálculo con intervención iniciado"
+  },
+  "replay.pollReplay.interventioncomplete_451011": {
+    "zh-CN": "干预完成",
+    "en": "Intervention complete",
+    "ja": "介入計算完了",
+    "fr": "Calcul avec intervention terminé",
+    "de": "Interventionsberechnung abgeschlossen",
+    "es": "Cálculo con intervención completado"
+  },
+  "replay.pollReplay.message_871748": {
+    "zh-CN": "准备记录",
+    "en": "Preparing recording",
+    "ja": "記録を準備中",
+    "fr": "Préparation de l’enregistrement",
+    "de": "Aufzeichnung wird vorbereitet",
+    "es": "Preparando el registro"
+  },
+  "replay.prepareReplay.replayscope_72b807": {
+    "zh-CN": "请先检查当前回放范围",
+    "en": "Check the current replay scope first",
+    "ja": "先に現在の再生範囲を確認してください",
+    "fr": "Vérifiez d’abord le périmètre de relecture actuel",
+    "de": "Prüfen Sie zuerst den aktuellen Wiedergabebereich",
+    "es": "Compruebe primero el ámbito de reproducción actual"
+  },
+  "replay.previewReplay.budget_c07e5f": {
+    "zh-CN": "正在检查记录与预算…",
+    "en": "Checking recordings and budget…",
+    "ja": "記録と予算を確認中…",
+    "fr": "Vérification des enregistrements et du budget…",
+    "de": "Aufzeichnungen und Budget werden geprüft…",
+    "es": "Comprobando los registros y el presupuesto…"
+  },
+  "replay.previewReplay.message_7d42a2": {
+    "zh-CN": "已有记录可复用 · 准备不会新增传播",
+    "en": "Existing recordings can be reused · no additional propagation needed",
+    "ja": "既存の記録を再利用可能 · 追加伝播は不要",
+    "fr": "Enregistrements existants réutilisables · aucune propagation supplémentaire nécessaire",
+    "de": "Vorhandene Aufzeichnungen wiederverwendbar · kein zusätzlicher Ausbreitungslauf erforderlich",
+    "es": "Se pueden reutilizar los registros existentes · no se requieren propagaciones adicionales"
+  },
+  "replay.previewReplay.not_recorded_prepare_replay_node_59725e": {
+    "zh-CN": "未记录，需准备回放 · 缺少 {p0} 节点 / {p1} 时刻 · 需新增 {p2} 次传播",
+    "en": "Replay preparation required. Missing: {p0} nodes / {p1} state steps. Additional propagations: {p2}.",
+    "ja": "再生準備が必要です。不足: {p0} ノード / {p1} 状態ステップ。追加伝播回数: {p2}。",
+    "fr": "Préparation de la relecture nécessaire. Manquent : {p0} nœuds / {p1} pas d’état. Propagations supplémentaires : {p2}.",
+    "de": "Wiedergabevorbereitung erforderlich. Fehlend: {p0} Knoten / {p1} Zustandsschritte. Zusätzliche Propagationen: {p2}.",
+    "es": "Es necesario preparar la reproducción. Faltan: {p0} nodos / {p1} pasos de estado. Propagaciones adicionales: {p2}."
+  },
+  "replay.refreshReplaySources.select_an_existing_result_f83e28": {
+    "zh-CN": "请选择已有结果",
+    "en": "Select an existing result",
+    "ja": "既存の結果を選択",
+    "fr": "Choisir un résultat existant",
+    "de": "Vorhandenes Ergebnis auswählen",
+    "es": "Elegir resultado existente"
+  },
+  "replay.renderReplayGraph.fixed_node_color_domain_edges_76df93": {
+    "zh-CN": "节点固定色域 {p0} … {p1} · 边 {p2} … {p3}",
+    "en": "Fixed node color domain {p0} … {p1} · edges {p2} … {p3}",
+    "ja": "固定色範囲：ノード {p0} … {p1}・辺 {p2} … {p3}",
+    "fr": "Couleurs fixes : nœuds {p0} … {p1} · arêtes {p2} … {p3}",
+    "de": "Feste Farbwerte: Knoten {p0} … {p1} · Kanten {p2} … {p3}",
+    "es": "Dominio fijo: nodos {p0} … {p1} · aristas {p2} … {p3}"
+  },
+  "replay.renderReplayGraph.message_a59e7a": {
+    "zh-CN": " · 当前传递增益 {p0}",
+    "en": " · current transmission gain {p0}",
+    "ja": " · 現在伝達ゲイン {p0}",
+    "fr": " · actuel transmission gain {p0}",
+    "de": " · aktuellÜbertragung Verstärkung {p0}",
+    "es": " · actual transmisión ganancia {p0}"
+  },
+  "replay.renderReplayGraph.nodeactions_7fbf02": {
+    "zh-CN": " · 当前节点操作增益 {p0}",
+    "en": " · current node gain {p0}",
+    "ja": " · 現在のノードゲイン {p0}",
+    "fr": " · gain actuel du nœud {p0}",
+    "de": " · aktuelle Knotenverstärkung {p0}",
+    "es": " · ganancia actual del nodo {p0}"
+  },
+  "replay.renderReplayGraph.replay_4cba62": {
+    "zh-CN": "回放真实有向拓扑",
+    "en": "Replay actual directed topology",
+    "ja": "再生実際有向トポロジー",
+    "fr": "Lecture réel dirigétopologie",
+    "de": "Wiedergabe tatsächlich gerichtet Topologie",
+    "es": "Reproducción real dirigido topología"
+  },
+  "replay.renderReplayOutput.baseline_a7ac58": {
+    "zh-CN": "基线",
+    "en": "Baseline",
+    "ja": "ベースライン",
+    "fr": "Référence",
+    "de": "Referenz",
+    "es": "Referencia"
+  },
+  "replay.renderReplayOutput.observation_not_recorded_039161": {
+    "zh-CN": "观察曲线未记录",
+    "en": "Observation curve not recorded",
+    "ja": "観測曲線は未記録",
+    "fr": "Courbe d’observation non enregistrée",
+    "de": "Beobachtungskurve nicht aufgezeichnet",
+    "es": "Curva de observación no registrada"
+  },
+  "replay.renderReplayOutput.observation_replay_8dcdc7": {
+    "zh-CN": "观察响应与回放时间",
+    "en": "Observed response and replay time",
+    "ja": "観測応答と再生時刻",
+    "fr": "Réponse observée et temps de relecture",
+    "de": "Beobachtete Antwort und Wiedergabezeit",
+    "es": "Respuesta observada y tiempo de reproducción"
+  },
+  "replay.renderReplayOutput.replay_0d9477": {
+    "zh-CN": "回放结果",
+    "en": "Replay result",
+    "ja": "再生結果",
+    "fr": "Lecture résultat",
+    "de": "Wiedergabe Ergebnis",
+    "es": "Reproducción resultado"
+  },
+  "replay.replayBuildSources.comparison_7cb4ed": {
+    "zh-CN": "当前比较 · ",
+    "en": "current Comparison · ",
+    "ja": "現在比較 · ",
+    "fr": "actuel Comparaison · ",
+    "de": "aktuell Vergleich · ",
+    "es": "actual Comparación · "
+  },
+  "replay.replayBuildSources.message_67b8cd": {
+    "zh-CN": "时段[{p0}, {p1}) · {p2}",
+    "en": "interval[{p0}, {p1}) · {p2}",
+    "ja": "期間[{p0}, {p1}) · {p2}",
+    "fr": "intervalle[{p0}, {p1}) · {p2}",
+    "de": "Intervall[{p0}, {p1}) · {p2}",
+    "es": "intervalo[{p0}, {p1}) · {p2}"
+  },
+  "replay.replayBuildSources.plan_25ec24": {
+    "zh-CN": "共同方案 · ",
+    "en": "joint Plan · ",
+    "ja": "共同計画 · ",
+    "fr": "commun Plan · ",
+    "de": "gemeinsam Plan · ",
+    "es": "conjunto Plan · "
+  },
+  "replay.replayBuildSources.replay_fixed_plan_9ea230": {
+    "zh-CN": "当前回放 · 原固定方案",
+    "en": "current Replay · original Fixed plan",
+    "ja": "現在再生 · 元の固定案",
+    "fr": "actuel Lecture · original Plan fixe",
+    "de": "aktuell Wiedergabe · ursprünglich Fester Plan",
+    "es": "actual Reproducción · original Plan fijo"
+  },
+  "replay.replayBuildSources.run_7e7936": {
+    "zh-CN": "当前运行",
+    "en": "current Run",
+    "ja": "現在実行",
+    "fr": "actuel Exécution",
+    "de": "aktuell Lauf",
+    "es": "actual Ejecución"
+  },
+  "replay.replayBuildSources.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "replay.replayBuildSources.saverun_33d98f": {
+    "zh-CN": "已保存运行",
+    "en": "saved Run",
+    "ja": "保存済み実行",
+    "fr": "enregistréExécution",
+    "de": "gespeichert Lauf",
+    "es": "guardado Ejecución"
+  },
+  "replay.replayCounts.mib_mib_mib_5e794b": {
+    "zh-CN": " · 记录 {p0} MiB / 峰值 {p1} MiB / 限额 {p2} MiB · 新增传播 {p3}/{p4}",
+    "en": " · recording {p0} MiB / peak {p1} MiB / limit {p2} MiB · additional propagations {p3}/{p4}",
+    "ja": " · 記録 {p0} MiB / ピーク {p1} MiB / 上限 {p2} MiB · 追加伝播 {p3}/{p4}",
+    "fr": " · enregistrement {p0} MiB / pic {p1} MiB / limite {p2} MiB · propagations supplémentaires {p3}/{p4}",
+    "de": " · Aufzeichnung {p0} MiB / Spitze {p1} MiB / Grenze {p2} MiB · zusätzliche Ausbreitungsläufe {p3}/{p4}",
+    "es": " · registro {p0} MiB / pico {p1} MiB / límite {p2} MiB · propagaciones adicionales {p3}/{p4}"
+  },
+  "replay.replayNodeCurve.node_e155a6": {
+    "zh-CN": "节点实际记录活动",
+    "en": "Recorded node activity",
+    "ja": "記録済みのノード活動",
+    "fr": "Activité des nœuds enregistrée",
+    "de": "Aufgezeichnete Knotenaktivität",
+    "es": "Actividad registrada de los nodos"
+  },
+  "replay.replayNodeCurve.recorded_states_baseline_dashed_intervention_solid_spars_50ccf6": {
+    "zh-CN": "记录状态步 · 基线实线 / 干预虚线；稀疏记录为采样点",
+    "en": "Recorded states · baseline solid / intervention dashed; sparse samples shown as points",
+    "ja": "記録状態 · 基準は実線／介入は破線。疎な記録は点で表示",
+    "fr": "États enregistrés · référence continue / intervention pointillée ; échantillons clairsemés en points",
+    "de": "Aufgezeichnete Zustände · Referenz durchgezogen / Eingriff gestrichelt; spärliche Stichproben als Punkte",
+    "es": "Estados registrados · base continua / intervención discontinua; muestras dispersas como puntos"
+  },
+  "replay.replayPayload.select_save_07a218": {
+    "zh-CN": "先选择一个已计算或保存的结果",
+    "en": "Select a computed or saved result first",
+    "ja": "先に計算済みまたは保存済みの結果を選択してください",
+    "fr": "Sélectionnez d’abord un résultat calculé ou enregistré",
+    "de": "Wählen Sie zuerst ein berechnetes oder gespeichertes Ergebnis",
+    "es": "Seleccione primero un resultado calculado o guardado"
+  },
+  "replay.replayRequest.replaynode_budget_3e3fd5": {
+    "zh-CN": "回放节点、边与记录预算无效",
+    "en": "Invalid replay node, edge or recording budget",
+    "ja": "再生ノード・エッジ・記録の予算が無効です",
+    "fr": "Budget de nœuds, d’arêtes ou d’enregistrement invalide",
+    "de": "Ungültiges Knoten-, Kanten- oder Aufzeichnungsbudget",
+    "es": "Presupuesto de nodos, aristas o registro no válido"
+  },
+  "replay.replayWindow.select_an_item_replaywindow_4015d3": {
+    "zh-CN": "请选择有效回放窗口",
+    "en": "Select a valid replay window",
+    "ja": "有効な再生窓を選択してください",
+    "fr": "Sélectionnez une fenêtre de relecture valide",
+    "de": "Wählen Sie ein gültiges Wiedergabefenster",
+    "es": "Seleccione una ventana de reproducción válida"
+  },
+  "replay.restoreReplayDisplay.window_ab348a": {
+    "zh-CN": "现场窗口 [{p0}, {p1})",
+    "en": "session Window [{p0}, {p1})",
+    "ja": "セッション評価区間 [{p0}, {p1})",
+    "fr": "session Fenêtre [{p0}, {p1})",
+    "de": "Sitzung Zeitfenster [{p0}, {p1})",
+    "es": "sesión Ventana [{p0}, {p1})"
+  },
+  "replay.selectReplayEdge.create_edge_event_f1e789": {
+    "zh-CN": "建立边事件",
+    "en": "Create edge event",
+    "ja": "辺イベントを作成",
+    "fr": "Créer un événement d’arête",
+    "de": "Kantenereignis erstellen",
+    "es": "Crear evento de arista"
+  },
+  "replay.selectReplayEdge.message_5b384f": {
+    "zh-CN": "正在读取边…",
+    "en": "Loading edges…",
+    "ja": "エッジを読み込み中…",
+    "fr": "Chargement des arêtes…",
+    "de": "Kanten werden geladen…",
+    "es": "Cargando aristas…"
+  },
+  "replay.selectReplayEdge.normalized_weight_a1d806": {
+    "zh-CN": " · 接触 {p0} · 归一化权重 {p1}",
+    "en": " · contacts {p0} · Normalized weight {p1}",
+    "ja": " · 接続数 {p0} · 正規化重み {p1}",
+    "fr": " · contacts {p0} · Poids normalisé {p1}",
+    "de": " · Kontakte {p0} · Normiertes Gewicht {p1}",
+    "es": " · contactos {p0} · Peso normalizado {p1}"
+  },
+  "replay.selectReplayEdge.recursive_input_this_update_before_tanh_f10ac2": {
+    "zh-CN": "当步递归传入 · tanh 前",
+    "en": "Recursive input this update · before tanh",
+    "ja": "当ステップの再帰流入・tanh前",
+    "fr": "Entrée récurrente de cette mise à jour · avant tanh",
+    "de": "Rekurrenter Eingang dieses Schritts · vor tanh",
+    "es": "Entrada recurrente de este paso · antes de tanh"
+  },
+  "replay.selectReplayNode.message_484d55": {
+    "zh-CN": "无",
+    "en": "none",
+    "ja": "なし",
+    "fr": "aucun",
+    "de": "keine",
+    "es": "ninguno"
+  },
+  "replay.selectReplayNode.node_e4eb14": {
+    "zh-CN": "正在读取节点…",
+    "en": "Loading nodes…",
+    "ja": "ノードを読み込み中…",
+    "fr": "Chargement des nœuds…",
+    "de": "Knoten werden geladen…",
+    "es": "Cargando nodos…"
+  },
+  "replay.selectReplayNode.upstream_downstream_4b7193": {
+    "zh-CN": "上游 {p0} · 下游 {p1}",
+    "en": "Upstream {p0} · Downstream {p1}",
+    "ja": "上流 {p0} · 下流 {p1}",
+    "fr": "Amont {p0} · Aval {p1}",
+    "de": "Vorgelagert {p0} · Nachgelagert {p1}",
+    "es": "Aguas arriba {p0} · Aguas abajo {p1}"
+  },
+  "replay.selectReplaySource.node_2cd24a": {
+    "zh-CN": "结果已绑定 · 检查需要记录的节点与时刻",
+    "en": "Result selected · check the nodes and states to record",
+    "ja": "結果を選択しました · 記録対象のノードと状態を確認してください",
+    "fr": "Résultat sélectionné · vérifiez les nœuds et états à enregistrer",
+    "de": "Ergebnis ausgewählt · aufzuzeichnende Knoten und Zustände prüfen",
+    "es": "Resultado seleccionado · compruebe los nodos y estados que se registrarán"
+  },
+  "replay.sendReplaySelection.current_intervention_set_10f656": {
+    "zh-CN": "已加入当前干预集合 · ",
+    "en": "Added to the current intervention set · ",
+    "ja": "現在の介入集合に追加しました · ",
+    "fr": "Ajouté à l’ensemble d’intervention actuel · ",
+    "de": "Zur aktuellen Interventionsmenge hinzugefügt · ",
+    "es": "Añadido al conjunto de intervención actual · "
+  },
+  "replay.sendReplaySelection.node_intervention_d9962a": {
+    "zh-CN": "这些确切节点不在当前干预候选中：",
+    "en": "These nodes are outside the current intervention candidates. No nodes were added: ",
+    "ja": "現在の介入候補に含まれないノードがあります。ノードは追加されていません: ",
+    "fr": "Ces nœuds ne font pas partie des candidats actuels à l’intervention. Aucun nœud n’a été ajouté : ",
+    "de": "Diese Knoten gehören nicht zu den aktuellen Interventionskandidaten. Es wurden keine Knoten hinzugefügt: ",
+    "es": "Estos nodos no forman parte de los candidatos actuales a la intervención. No se añadió ningún nodo: "
+  },
+  "replay.sendReplaySelection.not_run_b1872f": {
+    "zh-CN": " · 尚未运行",
+    "en": " · Not run",
+    "ja": " · 未実行",
+    "fr": " · Non exécuté",
+    "de": " · Nicht ausgeführt",
+    "es": " · No ejecutado"
+  },
+  "replay.sendReplaySelection.replaynode_9a683d": {
+    "zh-CN": "先选回放节点",
+    "en": "Select replay nodes first",
+    "ja": "先に再生するノードを選択してください",
+    "fr": "Sélectionnez d’abord les nœuds à rejouer",
+    "de": "Wählen Sie zuerst die Knoten für die Wiedergabe",
+    "es": "Seleccione primero los nodos de reproducción"
+  },
+  "replay.sendReplaySelection.stop_b3daa7": {
+    "zh-CN": "请等待当前计算结束",
+    "en": "Wait for the current calculation to finish",
+    "ja": "現在の計算が完了するまでお待ちください",
+    "fr": "Attendez la fin du calcul en cours",
+    "de": "Warten Sie, bis die aktuelle Berechnung abgeschlossen ist",
+    "es": "Espere a que termine el cálculo actual"
+  },
+  "replay.setReplayWindows.full_run_2d6445": {
+    "zh-CN": "全程",
+    "en": "Full run",
+    "ja": "全期間",
+    "fr": "Exécution complète",
+    "de": "Gesamter Lauf",
+    "es": "Ejecución completa"
+  },
+  "replay.setReplayWindows.savewindow_7895fd": {
+    "zh-CN": "保存窗口 · [{p0}, {p1})",
+    "en": "Saved window · [{p0}, {p1})",
+    "ja": "保存済みの窓 · [{p0}, {p1})",
+    "fr": "Fenêtre enregistrée · [{p0}, {p1})",
+    "de": "Gespeichertes Fenster · [{p0}, {p1})",
+    "es": "Ventana guardada · [{p0}, {p1})"
+  },
+  "replay.state": {
+    "zh-CN": "x({step}) · 更新 {update}",
+    "en": "x({step}) · update {update}",
+    "ja": "x({step})・更新{update}",
+    "fr": "x({step}) · mise à jour {update}",
+    "de": "x({step}) · Schritt {update}",
+    "es": "x({step}) · paso {update}"
+  },
+  "replay.summarizeReplay.nodestatus_5bcc4c": {
+    "zh-CN": " · 缺节点状态 ",
+    "en": " · missing node states ",
+    "ja": " · 未記録のノード状態 ",
+    "fr": " · états de nœuds manquants ",
+    "de": " · fehlende Knotenzustände ",
+    "es": " · estados de nodos ausentes "
+  },
+  "replay.summarizeReplay.nodestatus_status_node_505d03": {
+    "zh-CN": "更新[{p0}, {p1}) · 节点状态 {p2}…{p3} / 边状态 {p4}…{p5}{p6}{p7}{p8} · 节点显示 {p9}/{p10} · 边显示 {p11}/{p12}",
+    "en": "Updates [{p0}, {p1}) · node states {p2}…{p3} / edge states {p4}…{p5}{p6}{p7}{p8} · nodes shown {p9}/{p10} · edges shown {p11}/{p12}",
+    "ja": "更新 [{p0}, {p1}) · ノード状態 {p2}…{p3} / エッジ状態 {p4}…{p5}{p6}{p7}{p8} · 表示ノード {p9}/{p10} · 表示エッジ {p11}/{p12}",
+    "fr": "Mises à jour [{p0}, {p1}) · états des nœuds {p2}…{p3} / des arêtes {p4}…{p5}{p6}{p7}{p8} · nœuds affichés {p9}/{p10} · arêtes affichées {p11}/{p12}",
+    "de": "Aktualisierungen [{p0}, {p1}) · Knotenzustände {p2}…{p3} / Kantenzustände {p4}…{p5}{p6}{p7}{p8} · angezeigte Knoten {p9}/{p10} · Kanten {p11}/{p12}",
+    "es": "Actualizaciones [{p0}, {p1}) · estados de nodos {p2}…{p3} / de aristas {p4}…{p5}{p6}{p7}{p8} · nodos mostrados {p9}/{p10} · aristas mostradas {p11}/{p12}"
+  },
+  "replay.summarizeReplay.status_8a4322": {
+    "zh-CN": " · 缺边状态 ",
+    "en": " · missing edge states ",
+    "ja": " · 未記録のエッジ状態 ",
+    "fr": " · états d’arêtes manquants ",
+    "de": " · fehlende Kantenzustände ",
+    "es": " · estados de aristas ausentes "
+  },
+  "replay.summarizeReplay.window_046b47": {
+    "zh-CN": "正在读取窗口汇总…",
+    "en": "Loading window summary…",
+    "ja": "窓の集計を読み込み中…",
+    "fr": "Chargement du résumé de la fenêtre…",
+    "de": "Fensterzusammenfassung wird geladen…",
+    "es": "Cargando el resumen de la ventana…"
+  },
+  "replay.summarizeReplay.window_definition_946f2e": {
+    "zh-CN": " · 缺记录，窗口汇总未定义",
+    "en": " · Missing records; window summary is undefined",
+    "ja": " · 記録不足のため、窓内集計は未定義です",
+    "fr": " · Enregistrements manquants ; résumé de la fenêtre indéfini",
+    "de": " · Fehlende Aufzeichnungen; Fensterzusammenfassung nicht definiert",
+    "es": " · Faltan registros; el resumen de la ventana no está definido"
+  },
+  "replay.updateReplayDetailValues.baseline_intervention_difference_210298": {
+    "zh-CN": "更新 {p0} · 基线 {p1} / 干预 {p2} / 差值 {p3} · 当前边增益 {p4} · 有效权重 {p5}",
+    "en": "Update {p0} · baseline {p1} / intervention {p2} / difference {p3} · current edge gain {p4} · effective weight {p5}",
+    "ja": "更新 {p0} · ベースライン {p1} / 介入 {p2} / 差分 {p3} · 現在のエッジゲイン {p4} · 有効重み {p5}",
+    "fr": "Mise à jour {p0} · référence {p1} / intervention {p2} / différence {p3} · gain actuel de l’arête {p4} · poids effectif {p5}",
+    "de": "Aktualisierung {p0} · Referenz {p1} / Intervention {p2} / Differenz {p3} · aktuelle Kantenverstärkung {p4} · effektives Gewicht {p5}",
+    "es": "Actualización {p0} · referencia {p1} / intervención {p2} / diferencia {p3} · ganancia actual de la arista {p4} · peso efectivo {p5}"
+  },
+  "replay.updateReplayDetailValues.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "replay.updateReplayDetailValues.status_connections_c4823b": {
+    "zh-CN": "此状态没有已经执行的下一次连接更新",
+    "en": "No subsequent connection update was executed for this state",
+    "ja": "この状態では次の接続更新は実行されていません",
+    "fr": "Aucune mise à jour de connexion suivante n’a été exécutée pour cet état",
+    "de": "Für diesen Zustand wurde keine nachfolgende Verbindungsaktualisierung ausgeführt",
+    "es": "No se ejecutó ninguna actualización de conexión posterior para este estado"
+  },
+  "replay.updateReplayDetailValues.statusx_baseline_intervention_difference_node_b38f0f": {
+    "zh-CN": "状态x({p0}) · 基线 {p1} / 干预 {p2} / 差值 {p3} · 节点更新 {p4} 增益 {p5}",
+    "en": "State x({p0}) · baseline {p1} / intervention {p2} / difference {p3} · node update {p4}, gain {p5}",
+    "ja": "状態 x({p0}) · ベースライン {p1} / 介入 {p2} / 差分 {p3} · ノード更新 {p4}、ゲイン {p5}",
+    "fr": "État x({p0}) · référence {p1} / intervention {p2} / différence {p3} · mise à jour du nœud {p4}, gain {p5}",
+    "de": "Zustand x({p0}) · Referenz {p1} / Intervention {p2} / Differenz {p3} · Knotenaktualisierung {p4}, Verstärkung {p5}",
+    "es": "Estado x({p0}) · referencia {p1} / intervención {p2} / diferencia {p3} · actualización del nodo {p4}, ganancia {p5}"
+  }
+}

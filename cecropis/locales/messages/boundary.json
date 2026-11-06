@@ -1,0 +1,866 @@
+{
+  "boundary.boundaryAdoptFixed.no_intervention_269771": {
+    "zh-CN": "无干预",
+    "en": "No intervention",
+    "ja": "介入なし",
+    "fr": "Sans intervention",
+    "de": "Ohne Eingriff",
+    "es": "Sin intervención"
+  },
+  "boundary.boundaryAdoptFixed.open_fixed_plan_c6d806": {
+    "zh-CN": "先打开已评价固定方案",
+    "en": "Open an evaluated fixed plan first",
+    "ja": "先に評価済みの固定案を開いてください",
+    "fr": "Ouvrez d’abord un plan fixe évalué",
+    "de": "Öffnen Sie zuerst einen ausgewerteten festen Plan",
+    "es": "Abra primero un plan fijo evaluado"
+  },
+  "boundary.boundaryAdoptFixed.pin_intervention_gain_ba0eb9": {
+    "zh-CN": "固定来源 {p0} · 确切干预 {p1} · gain {p2} / [{p3}, {p4})",
+    "en": "Source {p0} · Intervention {p1} · Gain {p2} · [{p3}, {p4})",
+    "ja": "参照元 {p0} · 介入 {p1} · ゲイン {p2} · [{p3}, {p4})",
+    "fr": "Source {p0} · Intervention {p1} · Gain {p2} · [{p3}, {p4})",
+    "de": "Quelle {p0} · Eingriff {p1} · Verstärkung {p2} · [{p3}, {p4})",
+    "es": "Origen {p0} · Intervención {p1} · Ganancia {p2} · [{p3}, {p4})"
+  },
+  "boundary.boundaryAnalyze.open_dc85c4": {
+    "zh-CN": "仅可打开完整评价结果",
+    "en": "Only completed evaluations can be opened",
+    "ja": "完了した評価のみ開けます",
+    "fr": "Seules les évaluations terminées peuvent être ouvertes",
+    "de": "Nur abgeschlossene Auswertungen können geöffnet werden",
+    "es": "Solo se pueden abrir evaluaciones completadas"
+  },
+  "boundary.boundaryAnalyze.stop_43ed5c": {
+    "zh-CN": "先结束当前任务",
+    "en": "Finish or cancel the current task first",
+    "ja": "先に現在のタスクを完了またはキャンセルしてください",
+    "fr": "Terminez ou annulez d’abord la tâche en cours",
+    "de": "Beenden oder stoppen Sie zuerst die aktuelle Aufgabe",
+    "es": "Termine o cancele primero la tarea actual"
+  },
+  "boundary.boundaryComparePayload.fixed_plan_9c42bd": {
+    "zh-CN": "先采用来源固定方案",
+    "en": "Apply the source’s fixed plan first",
+    "ja": "先に参照元の固定案を適用してください",
+    "fr": "Appliquez d’abord le plan fixe de la source",
+    "de": "Übernehmen Sie zuerst den festen Plan der Quelle",
+    "es": "Aplique primero el plan fijo de origen"
+  },
+  "boundary.boundaryComparePayload.select_a_calculation_scope_first_e2a6ce": {
+    "zh-CN": "先选择计算范围",
+    "en": "Select a calculation scope first",
+    "ja": "先に計算範囲を選択してください",
+    "fr": "Sélectionnez d’abord un périmètre de calcul",
+    "de": "Wählen Sie zuerst einen Berechnungsbereich",
+    "es": "Seleccione primero un ámbito de cálculo"
+  },
+  "boundary.boundaryConstraints.constraints_not_recorded_6955ce": {
+    "zh-CN": "约束未记录",
+    "en": "Constraints not recorded",
+    "ja": "制約が未記録",
+    "fr": "Contraintes non enregistrées",
+    "de": "Bedingungen nicht aufgezeichnet",
+    "es": "Restricciones sin registrar"
+  },
+  "boundary.boundaryConstraints.node_count_exceeded_730c06": {
+    "zh-CN": "节点数量超限",
+    "en": "Node limit exceeded",
+    "ja": "ノード数の上限超過",
+    "fr": "Limite de nœuds dépassée",
+    "de": "Knotenlimit überschritten",
+    "es": "Límite de nodos superado"
+  },
+  "boundary.boundaryConstraints.protection_exceeded_aefea8": {
+    "zh-CN": "保护下降超限",
+    "en": "Protected response loss exceeds the limit",
+    "ja": "保護対象の応答低下が上限を超過",
+    "fr": "Baisse de réponse protégée au-delà de la limite",
+    "de": "Verlust der geschützten Antwort überschreitet den Grenzwert",
+    "es": "La pérdida de respuesta protegida supera el límite"
+  },
+  "boundary.boundaryConstraints.target_decrease_c52d3b": {
+    "zh-CN": "目标下降不足",
+    "en": "Target reduction not reached",
+    "ja": "目標低下量に未達",
+    "fr": "Réduction cible non atteinte",
+    "de": "Zielreduktion nicht erreicht",
+    "es": "No se alcanzó la reducción objetivo"
+  },
+  "boundary.boundaryConstraints.target_metric_definition_d98e2e": {
+    "zh-CN": "目标相对指标未定义",
+    "en": "Relative target metric is undefined",
+    "ja": "目標の相対指標が未定義",
+    "fr": "Métrique cible relative non définie",
+    "de": "Relatives Zielmaß nicht definiert",
+    "es": "Métrica relativa del objetivo sin definir"
+  },
+  "boundary.boundaryCount.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "boundary.boundaryCoverage.contact_count_coverage_1342e1": {
+    "zh-CN": "内部 {p0} / 完整 {p1} / 省略 {p2} · 连接计数覆盖 {p3}",
+    "en": "Internal {p0} / total {p1} / omitted {p2} · Contact coverage {p3}",
+    "ja": "内部 {p0} / 全体 {p1} / 除外 {p2} · 接続数の網羅率 {p3}",
+    "fr": "Internes {p0} / total {p1} / omis {p2} · Couverture des contacts {p3}",
+    "de": "Intern {p0} / gesamt {p1} / ausgelassen {p2} · Kontaktabdeckung {p3}",
+    "es": "Internos {p0} / total {p1} / omitidos {p2} · Cobertura de contactos {p3}"
+  },
+  "boundary.boundaryExpansionConfig.nodebudget_10134f": {
+    "zh-CN": "节点预算必须是递增正整数",
+    "en": "Node budgets must be increasing positive integers",
+    "ja": "ノード数の上限は昇順の正の整数にしてください",
+    "fr": "Les limites de nœuds doivent être des entiers positifs croissants",
+    "de": "Knotenbudgets müssen aufsteigende positive Ganzzahlen sein",
+    "es": "Los límites de nodos deben ser enteros positivos crecientes"
+  },
+  "boundary.boundaryExpansionConfig.savescope_9aef30": {
+    "zh-CN": "先检查一个已保存范围",
+    "en": "Check a saved scope first",
+    "ja": "先に保存済み範囲を確認してください",
+    "fr": "Vérifiez d’abord un périmètre enregistré",
+    "de": "Prüfen Sie zuerst einen gespeicherten Bereich",
+    "es": "Compruebe primero un ámbito guardado"
+  },
+  "boundary.boundaryExternal.all_categories_33f222": {
+    "zh-CN": "全部类别",
+    "en": "All categories",
+    "ja": "全分類",
+    "fr": "Toutes les catégories",
+    "de": "Alle Kategorien",
+    "es": "Todas las categorías"
+  },
+  "boundary.boundaryExternal.connection_countsort_1ba996": {
+    "zh-CN": "完整扫描，按连接计数排序",
+    "en": "Complete scan, sorted by contact count",
+    "ja": "スキャン完了。接続数順",
+    "fr": "Parcours complet, trié par nombre de contacts",
+    "de": "Vollständige Durchsuchung, nach Kontaktzahl sortiert",
+    "es": "Recorrido completo, ordenado por número de contactos"
+  },
+  "boundary.boundaryExternal.members_0da47b": {
+    "zh-CN": "当前集合没有成员",
+    "en": "The current set has no members",
+    "ja": "現在の集合にはメンバーがありません",
+    "fr": "L’ensemble actuel ne contient aucun membre",
+    "de": "Die aktuelle Menge enthält keine Mitglieder",
+    "es": "El conjunto actual no tiene miembros"
+  },
+  "boundary.boundaryExternal.members_category_7787ca": {
+    "zh-CN": "扫描 {p0} / {p1} 入边 · {p2} · 匹配外部成员 {p3} · 显示 {p4} · 类别 {p5}",
+    "en": "Incoming edges scanned {p0}/{p1} · {p2} · External matches {p3} · Shown {p4} · Category {p5}",
+    "ja": "入力エッジ走査 {p0}/{p1} · {p2} · 範囲外の一致 {p3} · 表示 {p4} · カテゴリ {p5}",
+    "fr": "Arêtes entrantes parcourues {p0}/{p1} · {p2} · Correspondances externes {p3} · Affichées {p4} · Catégorie {p5}",
+    "de": "Eingehende Kanten geprüft {p0}/{p1} · {p2} · Externe Treffer {p3} · Angezeigt {p4} · Kategorie {p5}",
+    "es": "Aristas entrantes examinadas {p0}/{p1} · {p2} · Coincidencias externas {p3} · Mostradas {p4} · Categoría {p5}"
+  },
+  "boundary.boundaryExternal.scope_boundary_66c4af": {
+    "zh-CN": "先检查范围边界",
+    "en": "Check the scope boundary first",
+    "ja": "先に範囲の境界を確認してください",
+    "fr": "Vérifiez d’abord la frontière du périmètre",
+    "de": "Prüfen Sie zuerst die Bereichsgrenze",
+    "es": "Compruebe primero el límite del ámbito"
+  },
+  "boundary.boundaryExternal.sort_f4072d": {
+    "zh-CN": "扫描截断，仅为已扫描部分的排序",
+    "en": "Scan truncated. Ranking covers only scanned entries.",
+    "ja": "スキャン打ち切り。順位は確認済みの項目のみです。",
+    "fr": "Parcours tronqué. Le classement couvre uniquement les entrées parcourues.",
+    "de": "Durchsuchung gekürzt. Die Rangfolge umfasst nur geprüfte Einträge.",
+    "es": "Recorrido truncado. La clasificación incluye solo las entradas recorridas."
+  },
+  "boundary.boundaryLoad.connections_e3bf2e": {
+    "zh-CN": "正在读取连接边界…",
+    "en": "Loading boundary connections…",
+    "ja": "境界の接続を読み込み中…",
+    "fr": "Chargement des connexions à la frontière…",
+    "de": "Grenzverbindungen werden geladen…",
+    "es": "Cargando conexiones del límite…"
+  },
+  "boundary.boundaryLoad.contact_count_coverage_scope_members_796854": {
+    "zh-CN": "连接计数覆盖 · 范围外成员不参与当前模拟",
+    "en": "Contact coverage · Nodes outside the scope do not participate in this simulation",
+    "ja": "接続数の網羅率 · 範囲外ノードはこのシミュレーションに参加しません",
+    "fr": "Couverture des contacts · Les nœuds hors périmètre ne participent pas à cette simulation",
+    "de": "Kontaktabdeckung · Knoten außerhalb des Bereichs nehmen nicht an dieser Simulation teil",
+    "es": "Cobertura de contactos · Los nodos externos al ámbito no participan en esta simulación"
+  },
+  "boundary.boundaryLoad.open_a_source_result_first_692119": {
+    "zh-CN": "先打开来源结果",
+    "en": "Open a source result first",
+    "ja": "先に元の結果を開いてください",
+    "fr": "Ouvrez d’abord un résultat source",
+    "de": "Öffnen Sie zuerst ein Quellergebnis",
+    "es": "Abra primero un resultado de origen"
+  },
+  "boundary.boundaryLoad.stop_43ed5c": {
+    "zh-CN": "先结束当前任务",
+    "en": "Finish or cancel the current task first",
+    "ja": "先に現在のタスクを完了またはキャンセルしてください",
+    "fr": "Terminez ou annulez d’abord la tâche en cours",
+    "de": "Beenden oder stoppen Sie zuerst die aktuelle Aufgabe",
+    "es": "Termine o cancele primero la tarea actual"
+  },
+  "boundary.boundaryPercent.definition_0_8bcf5a": {
+    "zh-CN": "未定义（总输入为0）",
+    "en": "Undefined (total input is zero)",
+    "ja": "未定義（総入力がゼロ）",
+    "fr": "Non défini (entrée totale nulle)",
+    "de": "Nicht definiert (Gesamteingang ist null)",
+    "es": "Sin definir (entrada total nula)"
+  },
+  "boundary.boundaryPoll.complete_942918": {
+    "zh-CN": "{p0} · 完成 {p1}/{p2} · {p3}",
+    "en": "{p0} · completed {p1}/{p2} · {p3}",
+    "ja": "{p0} · 完了 {p1}/{p2} · {p3}",
+    "fr": "{p0} · terminé {p1}/{p2} · {p3}",
+    "de": "{p0} · abgeschlossen {p1}/{p2} · {p3}",
+    "es": "{p0} · completado {p1}/{p2} · {p3}"
+  },
+  "boundary.boundaryPoll.message_29e1b0": {
+    "zh-CN": "未产生完整结果",
+    "en": "No complete result was produced",
+    "ja": "完了した結果はありません",
+    "fr": "Aucun résultat complet n’a été produit",
+    "de": "Es wurde kein vollständiges Ergebnis erzeugt",
+    "es": "No se produjo un resultado completo"
+  },
+  "boundary.boundaryPoll.message_32c8d3": {
+    "zh-CN": "执行",
+    "en": "Running",
+    "ja": "実行中",
+    "fr": "En cours",
+    "de": "Wird ausgeführt",
+    "es": "En ejecución"
+  },
+  "boundary.boundaryPreviewComparison.budget_baseline_intervention_18ea13": {
+    "zh-CN": "逻辑任务 {p0} / 预算 {p1} · 预计基线传播 {p2} / 干预传播 {p3} · 记录峰值 {p4}\n",
+    "en": "Tasks {p0} / budget {p1} · Estimated simulations: baseline {p2}, intervention {p3} · Peak recording size {p4}",
+    "ja": "タスク {p0} / 上限 {p1} · 推定計算回数：基線 {p2}、介入 {p3} · 記録の最大サイズ {p4}",
+    "fr": "Tâches {p0} / budget {p1} · Simulations estimées : référence {p2}, intervention {p3} · Taille maximale d’enregistrement {p4}",
+    "de": "Aufgaben {p0} / Budget {p1} · Geschätzte Simulationen: Referenz {p2}, Eingriff {p3} · Maximale Aufzeichnungsgröße {p4}",
+    "es": "Tareas {p0} / presupuesto {p1} · Simulaciones estimadas: referencia {p2}, intervención {p3} · Tamaño máximo de grabación {p4}"
+  },
+  "boundary.boundaryPreviewComparison.members_scope_no_interventionbaseline_b224be": {
+    "zh-CN": "成员与版本已检查 · 各范围使用自己的无干预基线",
+    "en": "Members and versions checked · Each scope uses its own baseline without intervention",
+    "ja": "メンバーとバージョンを確認済み · 各範囲で介入なしの基線を使用します",
+    "fr": "Membres et versions vérifiés · Chaque périmètre utilise sa propre référence sans intervention",
+    "de": "Mitglieder und Versionen geprüft · Jeder Bereich verwendet seine eigene Referenz ohne Eingriff",
+    "es": "Miembros y versiones comprobados · Cada ámbito usa su propia referencia sin intervención"
+  },
+  "boundary.boundaryPreviewComparison.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "boundary.boundaryPreviewExpansion.complete_save_scope_fcc09e": {
+    "zh-CN": "预览完成 · 创建后依次构建并保存，不覆盖原范围",
+    "en": "Preview complete. New scopes will be built and saved in sequence; the original is retained.",
+    "ja": "プレビュー完了。新しい範囲を順番に構築・保存し、元の範囲は保持します。",
+    "fr": "Aperçu terminé. Les nouveaux périmètres seront construits et enregistrés dans l’ordre ; l’original est conservé.",
+    "de": "Vorschau abgeschlossen. Neue Bereiche werden nacheinander erstellt und gespeichert; das Original bleibt erhalten.",
+    "es": "Vista previa completada. Los ámbitos nuevos se crearán y guardarán en orden; se conserva el original."
+  },
+  "boundary.boundaryPreviewExpansion.members_3d8273": {
+    "zh-CN": "正在预览嵌套成员与资源…",
+    "en": "Previewing nested members and resource needs…",
+    "ja": "入れ子のメンバーと必要リソースを確認中…",
+    "fr": "Aperçu des membres imbriqués et des ressources nécessaires…",
+    "de": "Verschachtelte Mitglieder und Ressourcenbedarf werden geprüft…",
+    "es": "Preparando vista previa de miembros anidados y recursos…"
+  },
+  "boundary.boundaryRenderComparison.baseline_intervention_770687": {
+    "zh-CN": "{p0} · 完整任务 {p1}/{p2} · 基线传播 {p3}/{p4} · 干预 {p5}/{p6} · 复用 {p7}",
+    "en": "{p0} · Tasks complete {p1}/{p2} · Baseline simulations {p3}/{p4} · Intervention simulations {p5}/{p6} · Reused {p7}",
+    "ja": "{p0} · 完了タスク {p1}/{p2} · 基線計算 {p3}/{p4} · 介入計算 {p5}/{p6} · 再利用 {p7}",
+    "fr": "{p0} · Tâches terminées {p1}/{p2} · Simulations de référence {p3}/{p4} · Simulations avec intervention {p5}/{p6} · Réutilisées {p7}",
+    "de": "{p0} · Aufgaben abgeschlossen {p1}/{p2} · Referenzsimulationen {p3}/{p4} · Eingriffssimulationen {p5}/{p6} · Wiederverwendet {p7}",
+    "es": "{p0} · Tareas completadas {p1}/{p2} · Simulaciones de referencia {p3}/{p4} · Simulaciones con intervención {p5}/{p6} · Reutilizadas {p7}"
+  },
+  "boundary.boundaryRenderCurves.baseline_a7ac58": {
+    "zh-CN": "基线",
+    "en": "Baseline",
+    "ja": "ベースライン",
+    "fr": "Référence",
+    "de": "Referenz",
+    "es": "Referencia"
+  },
+  "boundary.boundaryRenderCurves.baseline_intervention_cf88f3": {
+    "zh-CN": "{p0} · {p1} · {p2} · 基线虚线／干预实线",
+    "en": "{p0} · {p1} · {p2} · Dashed: baseline; solid: intervention",
+    "ja": "{p0} · {p1} · {p2} · 破線：基線、実線：介入",
+    "fr": "{p0} · {p1} · {p2} · Pointillés : référence ; trait plein : intervention",
+    "de": "{p0} · {p1} · {p2} · Gestrichelt: Referenz; durchgezogen: Eingriff",
+    "es": "{p0} · {p1} · {p2} · Discontinua: referencia; continua: intervención"
+  },
+  "boundary.boundaryRenderCurves.cancel_2cd0f3": {
+    "zh-CN": "取消",
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "fr": "Annuler",
+    "de": "Abbrechen",
+    "es": "Cancelar"
+  },
+  "boundary.boundaryRenderCurves.complete_c0b3fb": {
+    "zh-CN": "完成",
+    "en": "Complete",
+    "ja": "完了",
+    "fr": "Terminé",
+    "de": "Abgeschlossen",
+    "es": "Completado"
+  },
+  "boundary.boundaryRenderCurves.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "boundary.boundaryRenderCurves.fixed_plan_scope_5f7004": {
+    "zh-CN": "固定方案跨范围响应",
+    "en": "Fixed-plan responses across scopes",
+    "ja": "固定案の範囲間応答比較",
+    "fr": "Réponses au plan fixe entre périmètres",
+    "de": "Antworten auf den festen Plan über mehrere Bereiche",
+    "es": "Respuestas al plan fijo entre ámbitos"
+  },
+  "boundary.boundaryRenderCurves.run_62cdc8": {
+    "zh-CN": "未运行",
+    "en": "Not run",
+    "ja": "未実行",
+    "fr": "Non exécuté",
+    "de": "Nicht ausgeführt",
+    "es": "Sin ejecutar"
+  },
+  "boundary.boundaryRenderCurves.scope_plan_4a6631": {
+    "zh-CN": "所选范围／方案没有完整曲线",
+    "en": "No complete curves for the selected scope and plan",
+    "ja": "選択した範囲と案には完全な曲線がありません",
+    "fr": "Aucune courbe complète pour le périmètre et le plan sélectionnés",
+    "de": "Keine vollständigen Kurven für den gewählten Bereich und Plan",
+    "es": "No hay curvas completas para el ámbito y el plan seleccionados"
+  },
+  "boundary.boundaryRenderCurves.set_mean_activity_model_units_state_step0_95b502": {
+    "zh-CN": "集合平均活动 / 模型单位 · 状态步0–{p0}",
+    "en": "Mean set activity (model units) · State steps 0–{p0}",
+    "ja": "集合の平均活動（モデル単位）· 状態ステップ 0–{p0}",
+    "fr": "Activité moyenne de l’ensemble (unités du modèle) · Pas d’état 0–{p0}",
+    "de": "Mittlere Mengenaktivität (Modelleinheiten) · Zustandsschritte 0–{p0}",
+    "es": "Actividad media del conjunto (unidades del modelo) · Pasos de estado 0–{p0}"
+  },
+  "boundary.boundarySave.save_2b1f79": {
+    "zh-CN": "没有可保存任务",
+    "en": "No task available to save",
+    "ja": "保存できるタスクがありません",
+    "fr": "Aucune tâche à enregistrer",
+    "de": "Keine Aufgabe zum Speichern vorhanden",
+    "es": "No hay tareas para guardar"
+  },
+  "boundary.boundaryStart.definition_check_request_4dd56b": {
+    "zh-CN": "定义已变化，请重新预检",
+    "en": "The definition changed. Preview it again.",
+    "ja": "定義が変更されました。再度プレビューしてください。",
+    "fr": "La définition a changé. Prévisualisez-la à nouveau.",
+    "de": "Die Definition wurde geändert. Erneut in der Vorschau prüfen.",
+    "es": "La definición ha cambiado. Vuelva a previsualizarla."
+  },
+  "boundary.controls.absolute_baseline_mean_4600de": {
+    "zh-CN": "基线绝对均值",
+    "en": "Absolute baseline mean",
+    "ja": "基準の絶対平均",
+    "fr": "Moyenne absolue de référence",
+    "de": "Absoluter Referenzmittelwert",
+    "es": "Media absoluta base"
+  },
+  "boundary.controls.absolute_change_8ab166": {
+    "zh-CN": "绝对变化",
+    "en": "Absolute change",
+    "ja": "絶対変化",
+    "fr": "Variation absolue",
+    "de": "Absolute Änderung",
+    "es": "Cambio absoluto"
+  },
+  "boundary.controls.absolute_intervention_mean_d3b8b3": {
+    "zh-CN": "干预绝对均值",
+    "en": "Absolute intervention mean",
+    "ja": "介入の絶対平均",
+    "fr": "Moyenne absolue avec intervention",
+    "de": "Absoluter Eingriffsmittelwert",
+    "es": "Media absoluta intervenida"
+  },
+  "boundary.controls.assessment_5c46a3": {
+    "zh-CN": "未评价，不显示活动或达标判断",
+    "en": "Not evaluated. Activity and constraint assessments are unavailable.",
+    "ja": "未評価。活動値と制約の判定は利用できません。",
+    "fr": "Non évalué. Activité et évaluations des contraintes indisponibles.",
+    "de": "Nicht ausgewertet. Aktivität und Bedingungsbewertungen sind nicht verfügbar.",
+    "es": "Sin evaluar. No hay actividad ni evaluaciones de restricciones disponibles."
+  },
+  "boundary.controls.body_id_type_category_d26bac": {
+    "zh-CN": "body ID／类型／类别",
+    "en": "body ID / type / category",
+    "ja": "body ID／タイプ／分類",
+    "fr": "body ID / type / catégorie",
+    "de": "Body-ID / Typ / Kategorie",
+    "es": "body ID / tipo / categoría"
+  },
+  "boundary.controls.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "boundary.controls.category_c8d0ff": {
+    "zh-CN": "类别排除",
+    "en": "Category excluded",
+    "ja": "分類除外",
+    "fr": "Catégorie exclu",
+    "de": "Kategorie ausgeschlossen",
+    "es": "Categoría excluido"
+  },
+  "boundary.controls.complete_input_fecafe": {
+    "zh-CN": "完整输入",
+    "en": "Complete input",
+    "ja": "完全入力",
+    "fr": "Entrée complète",
+    "de": "Vollständiger Eingang",
+    "es": "Entrada completa"
+  },
+  "boundary.controls.compute_nodes_internal_edges_omitted_inputs_omitted_outp_be33e7": {
+    "zh-CN": "{p0}计算节点 / {p1}内部边 · 省略输入 {p2} / 省略输出 {p3} / 完整输入 {p4} · 干预 {p5}",
+    "en": "Calculation nodes {p0} / internal edges {p1} · Omitted inputs {p2} / outputs {p3} / total input {p4} · Intervention {p5}",
+    "ja": "計算ノード {p0} / 内部エッジ {p1} · 除外入力 {p2} / 出力 {p3} / 総入力 {p4} · 介入 {p5}",
+    "fr": "Nœuds calculés {p0} / arêtes internes {p1} · Entrées omises {p2} / sorties omises {p3} / entrée totale {p4} · Intervention {p5}",
+    "de": "Berechnungsknoten {p0} / interne Kanten {p1} · Ausgelassene Eingänge {p2} / Ausgänge {p3} / Gesamteingang {p4} · Eingriff {p5}",
+    "es": "Nodos calculados {p0} / aristas internas {p1} · Entradas omitidas {p2} / salidas omitidas {p3} / entrada total {p4} · Intervención {p5}"
+  },
+  "boundary.controls.constraints_14c6f0": {
+    "zh-CN": "约束 ",
+    "en": "Constraints ",
+    "ja": "制約 ",
+    "fr": "Contraintes ",
+    "de": "Nebenbedingungen ",
+    "es": "Restricciones "
+  },
+  "boundary.controls.constraints_satisfied_1fd22e": {
+    "zh-CN": "约束未满足",
+    "en": "Constraints not satisfied",
+    "ja": "制約未満足",
+    "fr": "Contraintes non satisfait",
+    "de": "Nebenbedingungen nicht erfüllt",
+    "es": "Restricciones no satisfecho"
+  },
+  "boundary.controls.contact_count_coverage_10ab5d": {
+    "zh-CN": "连接计数覆盖",
+    "en": "Contact count coverage",
+    "ja": "接続数被覆",
+    "fr": "Couverture des contacts",
+    "de": "Kontaktzahlabdeckung",
+    "es": "Cobertura de contactos"
+  },
+  "boundary.controls.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "boundary.controls.eligible_for_inclusion_de6a80": {
+    "zh-CN": "可纳入",
+    "en": "Eligible for inclusion",
+    "ja": "組込可能",
+    "fr": "Admissible",
+    "de": "Aufnehmbar",
+    "es": "Admisible"
+  },
+  "boundary.controls.exact_members_and_rules_b494dd": {
+    "zh-CN": "确切成员与规则",
+    "en": "Exact members and rules",
+    "ja": "確定メンバーと規則",
+    "fr": "Membres et règles exacts",
+    "de": "Exakte Mitglieder und Regeln",
+    "es": "Miembros y reglas exactos"
+  },
+  "boundary.controls.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "boundary.controls.fixed_observation_input_coverage_ea7266": {
+    "zh-CN": "固定观察输入覆盖",
+    "en": "Fixed observation input coverage",
+    "ja": "固定観測の入力被覆",
+    "fr": "Couverture des entrées observées fixes",
+    "de": "Eingangsabdeckung fester Beobachtungen",
+    "es": "Cobertura de entrada observada fija"
+  },
+  "boundary.controls.fixed_plan_completecomparisonkeep_4c916a": {
+    "zh-CN": "来源已切换 · 重新采用固定方案；已完成比较保留",
+    "en": "Source changed. Adopt the fixed plan again; completed comparisons are retained.",
+    "ja": "ソースが変更されました。固定計画を再度採用してください。完了した比較は保持されます。",
+    "fr": "La source a changé. Adoptez à nouveau le plan fixe ; les comparaisons terminées sont conservées.",
+    "de": "Quelle geändert. Den festen Plan erneut übernehmen; abgeschlossene Vergleiche bleiben erhalten.",
+    "es": "La fuente ha cambiado. Adopte de nuevo el plan fijo; se conservan las comparaciones completadas."
+  },
+  "boundary.controls.internal_edges_366984": {
+    "zh-CN": "内部边 {p0} {p1} · 估算内存 {p2} · 估算磁盘 {p3}",
+    "en": "Internal edges {p0} {p1} · Estimated memory {p2} · Estimated disk space {p3}",
+    "ja": "内部エッジ {p0} {p1} · 推定メモリ {p2} · 推定ディスク容量 {p3}",
+    "fr": "Arêtes internes {p0} {p1} · Mémoire estimée {p2} · Espace disque estimé {p3}",
+    "de": "Interne Kanten {p0} {p1} · Geschätzter Speicherbedarf {p2} · Geschätzter Plattenbedarf {p3}",
+    "es": "Aristas internas {p0} {p1} · Memoria estimada {p2} · Espacio en disco estimado {p3}"
+  },
+  "boundary.controls.internal_inputs_b062ed": {
+    "zh-CN": "内部输入",
+    "en": "Internal inputs",
+    "ja": "内部入力",
+    "fr": "Entrées internes",
+    "de": "Interne Eingaben",
+    "es": "Entradas internas"
+  },
+  "boundary.controls.keep_nodebudget_679ff7": {
+    "zh-CN": "保留 {p0} / 新增 {p1} / 总计 {p2} · 节点预算 {p3} · {p4}",
+    "en": "Retained {p0} / added {p1} / total {p2} · Node budget {p3} · {p4}",
+    "ja": "保持 {p0} / 追加 {p1} / 合計 {p2} · ノード上限 {p3} · {p4}",
+    "fr": "Conservés {p0} / ajoutés {p1} / total {p2} · Limite de nœuds {p3} · {p4}",
+    "de": "Beibehalten {p0} / hinzugefügt {p1} / gesamt {p2} · Knotenbudget {p3} · {p4}",
+    "es": "Conservados {p0} / añadidos {p1} / total {p2} · Límite de nodos {p3} · {p4}"
+  },
+  "boundary.controls.members_407cb2": {
+    "zh-CN": "{p0} · {p1}成员 · {p2}",
+    "en": "{p0} · Members: {p1} · {p2}",
+    "ja": "{p0} · メンバー数：{p1} · {p2}",
+    "fr": "{p0} · Membres : {p1} · {p2}",
+    "de": "{p0} · Mitglieder: {p1} · {p2}",
+    "es": "{p0} · Miembros: {p1} · {p2}"
+  },
+  "boundary.controls.message_13d61f": {
+    "zh-CN": "预览",
+    "en": "Preview",
+    "ja": "プレビュー",
+    "fr": "Aperçu",
+    "de": "Vorschau",
+    "es": "Vista previa"
+  },
+  "boundary.controls.message_195803": {
+    "zh-CN": "未构建",
+    "en": "Not built",
+    "ja": "未構築",
+    "fr": "Non construit",
+    "de": "Nicht erstellt",
+    "es": "Sin construir"
+  },
+  "boundary.controls.message_4ae9eb": {
+    "zh-CN": "不兼容",
+    "en": "Incompatible",
+    "ja": "互換性なし",
+    "fr": "Incompatible",
+    "de": "Inkompatibel",
+    "es": "Incompatible"
+  },
+  "boundary.controls.message_60545b": {
+    "zh-CN": "第{p0}级 · {p1}",
+    "en": "Level {p0} · {p1}",
+    "ja": "レベル {p0} · {p1}",
+    "fr": "Niveau {p0} · {p1}",
+    "de": "Stufe {p0} · {p1}",
+    "es": "Nivel {p0} · {p1}"
+  },
+  "boundary.controls.message_62aa43": {
+    "zh-CN": "扩展种子 {p0}已纳入 · 待预览",
+    "en": "Expansion seeds added: {p0} · Preview required",
+    "ja": "拡張シード追加：{p0} · プレビューが必要です",
+    "fr": "Graines d’extension ajoutées : {p0} · Aperçu requis",
+    "de": "Erweiterungsstartknoten hinzugefügt: {p0} · Vorschau erforderlich",
+    "es": "Semillas de expansión añadidas: {p0} · Se requiere vista previa"
+  },
+  "boundary.controls.message_7bcb04": {
+    "zh-CN": "扩展种子 {p0}",
+    "en": "Expansion seeds: {p0}",
+    "ja": "拡張シード：{p0}",
+    "fr": "Graines d’extension : {p0}",
+    "de": "Erweiterungsstartknoten: {p0}",
+    "es": "Semillas de expansión: {p0}"
+  },
+  "boundary.controls.message_9a1828": {
+    "zh-CN": "未截断",
+    "en": "Not truncated",
+    "ja": "切り詰めなし",
+    "fr": "Non tronqué",
+    "de": "Nicht abgeschnitten",
+    "es": "Sin truncar"
+  },
+  "boundary.controls.message_d1c1ea": {
+    "zh-CN": "（精确计数）",
+    "en": "(exact count)",
+    "ja": "（正確な件数）",
+    "fr": "(comptage exact)",
+    "de": "(exakte Anzahl)",
+    "es": "(recuento exacto)"
+  },
+  "boundary.controls.message_dc26ee": {
+    "zh-CN": "截断",
+    "en": "Truncated",
+    "ja": "切り詰め",
+    "fr": "Tronqué",
+    "de": "Abgeschnitten",
+    "es": "Truncado"
+  },
+  "boundary.controls.message_e1ba81": {
+    "zh-CN": "兼容",
+    "en": "Compatible",
+    "ja": "互換性あり",
+    "fr": "Compatible",
+    "de": "Kompatibel",
+    "es": "Compatible"
+  },
+  "boundary.controls.message_f874b9": {
+    "zh-CN": "（未完整扫描）",
+    "en": "(scan incomplete)",
+    "ja": "（走査未完了）",
+    "fr": "(balayage incomplet)",
+    "de": "(Scan unvollständig)",
+    "es": "(escaneo incompleto)"
+  },
+  "boundary.controls.no_intervention_269771": {
+    "zh-CN": "无干预",
+    "en": "No intervention",
+    "ja": "介入なし",
+    "fr": "Sans intervention",
+    "de": "Ohne Eingriff",
+    "es": "Sin intervención"
+  },
+  "boundary.controls.node_106f60": {
+    "zh-CN": "{p0} · {p1}节点 / {p2}边 · {p3} {p4} {p5}",
+    "en": "{p0} · Nodes {p1} / edges {p2} · {p3} {p4} {p5}",
+    "ja": "{p0} · ノード {p1} / エッジ {p2} · {p3} {p4} {p5}",
+    "fr": "{p0} · Nœuds {p1} / arêtes {p2} · {p3} {p4} {p5}",
+    "de": "{p0} · Knoten {p1} / Kanten {p2} · {p3} {p4} {p5}",
+    "es": "{p0} · Nodos {p1} / aristas {p2} · {p3} {p4} {p5}"
+  },
+  "boundary.controls.node_b31582": {
+    "zh-CN": "{p0} · {p1}节点",
+    "en": "{p0} · Nodes: {p1}",
+    "ja": "{p0} · ノード数：{p1}",
+    "fr": "{p0} · Nœuds : {p1}",
+    "de": "{p0} · Knoten: {p1}",
+    "es": "{p0} · Nodos: {p1}"
+  },
+  "boundary.controls.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "boundary.controls.not_recorded_c44900": {
+    "zh-CN": "（精度未记录）",
+    "en": "(precision not recorded)",
+    "ja": "（精度が未記録）",
+    "fr": "(précision non enregistrée)",
+    "de": "(Genauigkeit nicht aufgezeichnet)",
+    "es": "(precisión sin registrar)"
+  },
+  "boundary.controls.observation_f262ba": {
+    "zh-CN": "观察",
+    "en": "Observation",
+    "ja": "観測",
+    "fr": "Observation",
+    "de": "Beobachtung",
+    "es": "Observación"
+  },
+  "boundary.controls.omitted_inputs_620a7a": {
+    "zh-CN": "省略输入",
+    "en": "Omitted inputs",
+    "ja": "省略入力",
+    "fr": "Entrées omises",
+    "de": "Ausgelassene Eingänge",
+    "es": "Entradas omitidas"
+  },
+  "boundary.controls.protection_7fbdf3": {
+    "zh-CN": "保护 {p0} {p1} / 最多 {p2} · {p3}",
+    "en": "Protection {p0}: {p1} / maximum {p2} · {p3}",
+    "ja": "保護 {p0}：{p1} / 上限 {p2} · {p3}",
+    "fr": "Protection {p0} : {p1} / maximum {p2} · {p3}",
+    "de": "Schutz {p0}: {p1} / maximal {p2} · {p3}",
+    "es": "Protección {p0}: {p1} / máximo {p2} · {p3}"
+  },
+  "boundary.controls.relative_change_d26b48": {
+    "zh-CN": "相对变化",
+    "en": "Relative change",
+    "ja": "相対変化",
+    "fr": "Variation relative",
+    "de": "Relative Änderung",
+    "es": "Cambio relativo"
+  },
+  "boundary.controls.result_analysis_6e6a12": {
+    "zh-CN": "结果分析",
+    "en": "Result analysis",
+    "ja": "結果分析",
+    "fr": "Analyse des résultats",
+    "de": "Ergebnisanalyse",
+    "es": "Análisis de resultados"
+  },
+  "boundary.controls.run_897b61": {
+    "zh-CN": "可运行",
+    "en": "Ready to run",
+    "ja": "実行可能",
+    "fr": "Prêt à exécuter",
+    "de": "Ausführbar",
+    "es": "Listo para ejecutar"
+  },
+  "boundary.controls.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "boundary.controls.satisfied_ec9205": {
+    "zh-CN": "未满足",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "boundary.controls.save_cfe6f5": {
+    "zh-CN": "已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "boundary.controls.save_scope_sequence_602207": {
+    "zh-CN": "已保存范围序列 · ",
+    "en": "Scope sequence saved · ",
+    "ja": "範囲シーケンスを保存しました · ",
+    "fr": "Séquence de périmètres enregistrée · ",
+    "de": "Bereichsfolge gespeichert · ",
+    "es": "Secuencia de ámbitos guardada · "
+  },
+  "boundary.controls.savescope_78e73b": {
+    "zh-CN": "复用已保存范围",
+    "en": "Reusing the saved scope",
+    "ja": "保存済み範囲を再利用",
+    "fr": "Réutilisation du périmètre enregistré",
+    "de": "Gespeicherten Bereich wiederverwenden",
+    "es": "Reutilizando el ámbito guardado"
+  },
+  "boundary.controls.target_d8cc5a": {
+    "zh-CN": "目标 {p0} {p1} / 至少 {p2} · {p3}",
+    "en": "Target {p0}: {p1} / minimum {p2} · {p3}",
+    "ja": "目標 {p0}：{p1} / 最低 {p2} · {p3}",
+    "fr": "Cible {p0} : {p1} / minimum {p2} · {p3}",
+    "de": "Ziel {p0}: {p1} / mindestens {p2} · {p3}",
+    "es": "Objetivo {p0}: {p1} / mínimo {p2} · {p3}"
+  },
+  "boundary.controls.targetnot_recorded_be2b66": {
+    "zh-CN": "目标未记录",
+    "en": "Target not recorded",
+    "ja": "目標が未記録",
+    "fr": "Cible non enregistrée",
+    "de": "Ziel nicht aufgezeichnet",
+    "es": "Objetivo sin registrar"
+  },
+  "boundary.controls.unannotated_endpoints_0aeb6e": {
+    "zh-CN": "未注释端点",
+    "en": "Unannotated endpoints",
+    "ja": "未注釈の端点",
+    "fr": "Extrémités non annotées",
+    "de": "Nicht annotierte Endpunkte",
+    "es": "Extremos sin anotación"
+  },
+  "boundary.renderBoundary.bidirectional_52904a": {
+    "zh-CN": "双向",
+    "en": "Bidirectional",
+    "ja": "双方向",
+    "fr": "Bidirectionnel",
+    "de": "Bidirektional",
+    "es": "Bidireccional"
+  },
+  "boundary.renderBoundary.downstream_fde36e": {
+    "zh-CN": "下游",
+    "en": "Downstream",
+    "ja": "下流",
+    "fr": "Aval",
+    "de": "Nachgelagert",
+    "es": "Aguas abajo"
+  },
+  "boundary.renderBoundary.keepall_scopemembers_category_adjacency_layers_4fa501": {
+    "zh-CN": "保留全部原范围成员 · {p0} · 类别 {p1} · 邻接层 {p2} / {p3} · 上限 {p4}",
+    "en": "Retain all original members · {p0} · Category {p1} · Adjacency layers {p2}/{p3} · Limit {p4}",
+    "ja": "元の全メンバーを保持 · {p0} · カテゴリ {p1} · 隣接層 {p2}/{p3} · 上限 {p4}",
+    "fr": "Conserver tous les membres initiaux · {p0} · Catégorie {p1} · Couches adjacentes {p2}/{p3} · Limite {p4}",
+    "de": "Alle ursprünglichen Mitglieder behalten · {p0} · Kategorie {p1} · Nachbarschaftsschichten {p2}/{p3} · Limit {p4}",
+    "es": "Conservar todos los miembros originales · {p0} · Categoría {p1} · Capas adyacentes {p2}/{p3} · Límite {p4}"
+  },
+  "boundary.renderBoundary.message_4fb9aa": {
+    "zh-CN": "已截断",
+    "en": "Truncated",
+    "ja": "切り詰め済み",
+    "fr": "Tronqué",
+    "de": "Abgeschnitten",
+    "es": "Truncado"
+  },
+  "boundary.renderBoundary.message_9a1828": {
+    "zh-CN": "未截断",
+    "en": "Not truncated",
+    "ja": "切り詰めなし",
+    "fr": "Non tronqué",
+    "de": "Nicht abgeschnitten",
+    "es": "Sin truncar"
+  },
+  "boundary.renderBoundary.node_internal_edges_internal_input_contacts_omitted_inpu_6a6f7f": {
+    "zh-CN": "计算 {p0}节点 · 内部边 {p1} · 内部输入计数 {p2} / 省略输入 {p3} / 完整输入 {p4} · {p5}",
+    "en": "Calculation nodes {p0} · Internal edges {p1} · Internal input contacts {p2} / omitted inputs {p3} / total input {p4} · {p5}",
+    "ja": "計算ノード {p0} · 内部エッジ {p1} · 内部入力接続数 {p2} / 除外入力 {p3} / 総入力 {p4} · {p5}",
+    "fr": "Nœuds calculés {p0} · Arêtes internes {p1} · Contacts entrants internes {p2} / entrées omises {p3} / entrée totale {p4} · {p5}",
+    "de": "Berechnungsknoten {p0} · Interne Kanten {p1} · Interne Eingangskontakte {p2} / ausgelassene Eingänge {p3} / Gesamteingang {p4} · {p5}",
+    "es": "Nodos calculados {p0} · Aristas internas {p1} · Contactos de entrada internos {p2} / entradas omitidas {p3} / entrada total {p4} · {p5}"
+  },
+  "boundary.renderBoundary.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "boundary.renderBoundary.original_scope_extraction_definition_f29c78": {
+    "zh-CN": "原范围抽取定义",
+    "en": "Original scope extraction definition",
+    "ja": "元範囲の抽出定義",
+    "fr": "Définition d’extraction initiale",
+    "de": "Ursprüngliche Bereichsauswahl",
+    "es": "Definición de extracción original"
+  },
+  "boundary.renderBoundary.upstream_a9ab29": {
+    "zh-CN": "上游",
+    "en": "Upstream",
+    "ja": "上流",
+    "fr": "Amont",
+    "de": "Vorgelagert",
+    "es": "Aguas arriba"
+  }
+}

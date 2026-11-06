@@ -1,0 +1,62 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  python:
+    name: Python ${{ matrix.python }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Check authored and compiled messages agree
+        run: python scripts/compile_ui_languages.py --check
+      - name: Build sdist and wheel
+        run: |
+          python -m pip install build
+          python -m build
+      - name: Install the wheel
+        shell: python
+        run: |
+          from pathlib import Path
+          import subprocess, sys
+          wheels = list(Path('dist').glob('*.whl'))
+          assert len(wheels) == 1, wheels
+          subprocess.run([sys.executable, '-m', 'pip', 'install', str(wheels[0])], check=True)
+      - name: Check installed API, CLI and bundled resources
+        run: python scripts/check_installation.py --source-root . --check-command
+      - name: Check core, HTTP and platform behavior with small fixtures
+        run: python -B -m unittest discover -s tests -p "test_*.py"
+
+  browser-code:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Check display behavior without a browser
+        run: |
+          node tests/js/check_default_language.cjs
+          node tests/js/check_display_boundaries.cjs

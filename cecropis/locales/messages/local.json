@@ -1,0 +1,370 @@
+{
+  "local.tasks.controls.cancel_immediately_3740f7": {
+    "zh-CN": "立即取消",
+    "en": "Cancel immediately",
+    "ja": "即時取消",
+    "fr": "Annuler immédiatement",
+    "de": "Sofort abbrechen",
+    "es": "Cancelar inmediatamente"
+  },
+  "local.tasks.controls.check_the_current_definition_first_675d86": {
+    "zh-CN": "先预检当前定义",
+    "en": "Check the current definition first",
+    "ja": "先に現在の定義を確認してください",
+    "fr": "Vérifiez d’abord la définition courante",
+    "de": "Aktuelle Definition zuerst prüfen",
+    "es": "Verifique primero la definición actual"
+  },
+  "local.tasks.controls.check_the_definition_first_0d5767": {
+    "zh-CN": "先预检",
+    "en": "Check the definition first",
+    "ja": "先に定義を確認してください",
+    "fr": "Vérifiez d’abord la définition",
+    "de": "Zuerst Definition prüfen",
+    "es": "Verifique primero la definición"
+  },
+  "local.tasks.controls.continue_7c9691": {
+    "zh-CN": "继续",
+    "en": "Continue",
+    "ja": "続行",
+    "fr": "Continuer",
+    "de": "Fortsetzen",
+    "es": "Continuar"
+  },
+  "local.tasks.controls.continueedit_open_c409b1": {
+    "zh-CN": "任务已提交；可继续编辑，结果从本地任务打开",
+    "en": "Task submitted. You may keep editing; open results from Local tasks.",
+    "ja": "タスクを送信しました。編集は続けられます。結果はローカルタスクから開いてください。",
+    "fr": "Tâche soumise. Vous pouvez continuer à modifier ; ouvrez les résultats depuis les tâches locales.",
+    "de": "Aufgabe übermittelt. Weitere Bearbeitung ist möglich; Ergebnisse unter Lokale Aufgaben öffnen.",
+    "es": "Tarea enviada. Puede seguir editando; abra los resultados desde Tareas locales."
+  },
+  "local.tasks.controls.copy_as_new_task_9b577e": {
+    "zh-CN": "复制新任务",
+    "en": "Copy as new task",
+    "ja": "新タスクとして複製",
+    "fr": "Copier en nouvelle tâche",
+    "de": "Als neue Aufgabe kopieren",
+    "es": "Copiar como tarea nueva"
+  },
+  "local.tasks.controls.definition_b4d7d4": {
+    "zh-CN": "定义",
+    "en": "Definition",
+    "ja": "定義",
+    "fr": "Définition",
+    "de": "Definition",
+    "es": "Definición"
+  },
+  "local.tasks.controls.edit_0b7089": {
+    "zh-CN": "任务已提交；候选编辑只影响新任务",
+    "en": "Task submitted. Candidate edits affect only new tasks.",
+    "ja": "タスクを送信しました。候補の編集は新しいタスクにのみ反映されます。",
+    "fr": "Tâche soumise. Les modifications des candidats n’affectent que les nouvelles tâches.",
+    "de": "Aufgabe übermittelt. Kandidatenänderungen wirken nur auf neue Aufgaben.",
+    "es": "Tarea enviada. Los cambios en los candidatos solo afectan a tareas nuevas."
+  },
+  "local.tasks.controls.message_565087": {
+    "zh-CN": "已提交复用 {p0} · 重试 {p1}",
+    "en": "Reused {p0} committed units · retried {p1}",
+    "ja": "確定済み {p0} 単位を再利用 · 再試行 {p1}",
+    "fr": "{p0} unités validées réutilisées · {p1} réessayées",
+    "de": "{p0} festgeschriebene Einheiten wiederverwendet · {p1} erneut versucht",
+    "es": "{p0} unidades confirmadas reutilizadas · {p1} reintentadas"
+  },
+  "local.tasks.controls.open_result_89597b": {
+    "zh-CN": "打开结果",
+    "en": "Open result",
+    "ja": "結果を開く",
+    "fr": "Ouvrir le résultat",
+    "de": "Ergebnis öffnen",
+    "es": "Abrir resultado"
+  },
+  "local.tasks.controls.pause_8d12fc": {
+    "zh-CN": "暂停",
+    "en": "Pause",
+    "ja": "一時停止",
+    "fr": "Pause",
+    "de": "Pausieren",
+    "es": "Pausar"
+  },
+  "local.tasks.controls.save_588001": {
+    "zh-CN": "任务数值与显示已保存",
+    "en": "task value and display saved",
+    "ja": "タスク数値と表示保存済み",
+    "fr": "tâche valeur et affichage enregistré",
+    "de": "Aufgabe Wert und Anzeige gespeichert",
+    "es": "tarea valor y visualización guardado"
+  },
+  "local.tasks.controls.select_8ca62b": {
+    "zh-CN": "选择任务",
+    "en": "selection task",
+    "ja": "選択タスク",
+    "fr": "sélection tâche",
+    "de": "Auswahl Aufgabe",
+    "es": "selección tarea"
+  },
+  "local.tasks.controls.select_order_cf04fc": {
+    "zh-CN": "选择待执行任务，按列表顺序执行",
+    "en": "Select pending tasks to run in list order.",
+    "ja": "待機中のタスクを選択し、一覧の順序で実行します。",
+    "fr": "Sélectionnez les tâches en attente à exécuter dans l’ordre de la liste.",
+    "de": "Ausstehende Aufgaben zur Ausführung in Listenreihenfolge auswählen.",
+    "es": "Seleccione las tareas pendientes para ejecutarlas en el orden de la lista."
+  },
+  "local.tasks.controls.start_56410f": {
+    "zh-CN": "启动",
+    "en": "Start",
+    "ja": "開始",
+    "fr": "Démarrer",
+    "de": "Starten",
+    "es": "Iniciar"
+  },
+  "local.tasks.labels.actions_ed31fb": {
+    "zh-CN": "操作",
+    "en": "Actions",
+    "ja": "操作",
+    "fr": "Actions",
+    "de": "Aktionen",
+    "es": "Acciones"
+  },
+  "local.tasks.labels.all_statuses_0a379c": {
+    "zh-CN": "全部状态",
+    "en": "All statuses",
+    "ja": "全状態",
+    "fr": "Tous les états",
+    "de": "Alle Status",
+    "es": "Todos los estados"
+  },
+  "local.tasks.labels.budget_exhausted_d9e9de": {
+    "zh-CN": "预算耗尽",
+    "en": "Budget exhausted",
+    "ja": "予算を消費",
+    "fr": "Budget épuisé",
+    "de": "Budget ausgeschöpft",
+    "es": "Presupuesto agotado"
+  },
+  "local.tasks.labels.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "local.tasks.labels.committed_budget_6c6692": {
+    "zh-CN": "已提交／预算",
+    "en": "Committed / budget",
+    "ja": "確定済み／予算",
+    "fr": "Validé / budget",
+    "de": "Gespeichert / Budget",
+    "es": "Confirmado / presupuesto"
+  },
+  "local.tasks.labels.complete_c0b3fb": {
+    "zh-CN": "完成",
+    "en": "Complete",
+    "ja": "完了",
+    "fr": "Terminé",
+    "de": "Abgeschlossen",
+    "es": "Completado"
+  },
+  "local.tasks.labels.definition_stop_details_26f314": {
+    "zh-CN": "任务定义与停止信息",
+    "en": "Definition & stop details",
+    "ja": "定義と停止情報",
+    "fr": "Définition et arrêt",
+    "de": "Definition und Stoppdetails",
+    "es": "Definición y detención"
+  },
+  "local.tasks.labels.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "local.tasks.labels.interrupted_88cf2d": {
+    "zh-CN": "已中断",
+    "en": "Interrupted",
+    "ja": "中断",
+    "fr": "Interrompu",
+    "de": "Unterbrochen",
+    "es": "Interrumpido"
+  },
+  "local.tasks.labels.local_compute_tasks_4710d8": {
+    "zh-CN": "本地计算任务",
+    "en": "Local compute tasks",
+    "ja": "ローカル計算タスク",
+    "fr": "Tâches de calcul locales",
+    "de": "Lokale Rechenaufgaben",
+    "es": "Tareas de cálculo locales"
+  },
+  "local.tasks.labels.name_scope_580ab0": {
+    "zh-CN": "名称／范围",
+    "en": "Name / scope",
+    "ja": "名前／範囲",
+    "fr": "Nom / périmètre",
+    "de": "Name / Umfang",
+    "es": "Nombre / alcance"
+  },
+  "local.tasks.labels.order_9249ca": {
+    "zh-CN": "顺序",
+    "en": "Order",
+    "ja": "順序",
+    "fr": "Ordre",
+    "de": "Reihenfolge",
+    "es": "Orden"
+  },
+  "local.tasks.labels.pause_requested_3e246f": {
+    "zh-CN": "暂停请求",
+    "en": "Pause requested",
+    "ja": "一時停止要求",
+    "fr": "Pause demandée",
+    "de": "Pause angefordert",
+    "es": "Pausa solicitada"
+  },
+  "local.tasks.labels.paused_eb0c32": {
+    "zh-CN": "已暂停",
+    "en": "Paused",
+    "ja": "一時停止中",
+    "fr": "En pause",
+    "de": "Pausiert",
+    "es": "En pausa"
+  },
+  "local.tasks.labels.pending_a92ef9": {
+    "zh-CN": "待运行",
+    "en": "Pending",
+    "ja": "待機",
+    "fr": "En attente",
+    "de": "Ausstehend",
+    "es": "Pendiente"
+  },
+  "local.tasks.labels.propagations_reuse_e0ff81": {
+    "zh-CN": "传播／复用",
+    "en": "Propagations / reuse",
+    "ja": "伝播／再利用",
+    "fr": "Propagations / réutilisation",
+    "de": "Ausbreitungen / Wiederverwendung",
+    "es": "Propagaciones / reutilización"
+  },
+  "local.tasks.labels.refresh_tasks_e4c954": {
+    "zh-CN": "刷新任务",
+    "en": "Refresh tasks",
+    "ja": "タスクを更新",
+    "fr": "Actualiser les tâches",
+    "de": "Aufgaben aktualisieren",
+    "es": "Actualizar tareas"
+  },
+  "local.tasks.labels.run_selected_in_order_d604d5": {
+    "zh-CN": "顺序启动所选任务",
+    "en": "Run selected in order",
+    "ja": "選択タスクを順次実行",
+    "fr": "Exécuter la sélection dans l’ordre",
+    "de": "Auswahl nacheinander starten",
+    "es": "Ejecutar selección en orden"
+  },
+  "local.tasks.labels.running_1f0eb9": {
+    "zh-CN": "运行中",
+    "en": "Running",
+    "ja": "実行中",
+    "fr": "En cours",
+    "de": "Läuft",
+    "es": "En ejecución"
+  },
+  "local.tasks.labels.status_6320b4": {
+    "zh-CN": "状态",
+    "en": "Status",
+    "ja": "状態",
+    "fr": "État",
+    "de": "Status",
+    "es": "Estado"
+  },
+  "local.tasks.labels.submit_only_201079": {
+    "zh-CN": "仅提交",
+    "en": "Submit only",
+    "ja": "登録のみ",
+    "fr": "Soumettre uniquement",
+    "de": "Nur einreichen",
+    "es": "Solo enviar"
+  },
+  "local.tasks.labels.submit_start_1725cd": {
+    "zh-CN": "提交并启动",
+    "en": "Submit & start",
+    "ja": "登録して開始",
+    "fr": "Soumettre et démarrer",
+    "de": "Einreichen und starten",
+    "es": "Enviar e iniciar"
+  },
+  "local.tasks.labels.task_status_f850d9": {
+    "zh-CN": "任务状态",
+    "en": "Task status",
+    "ja": "タスク状態",
+    "fr": "État de tâche",
+    "de": "Aufgabenstatus",
+    "es": "Estado de tarea"
+  },
+  "local.tasks.localOpen.input_responses_d8cbcf": {
+    "zh-CN": "输入响应 · ",
+    "en": "Input responses · ",
+    "ja": "入力応答 · ",
+    "fr": "Réponses aux entrées · ",
+    "de": "Eingabeantworten · ",
+    "es": "Respuestas a entradas · "
+  },
+  "local.tasks.localOpen.open_9017d9": {
+    "zh-CN": "已打开已提交部分 · ",
+    "en": "Completed portion opened · ",
+    "ja": "完了部分を開きました · ",
+    "fr": "Partie terminée ouverte · ",
+    "de": "Abgeschlossener Teil geöffnet · ",
+    "es": "Parte completada abierta · "
+  },
+  "local.tasks.localOpen.viewactionsstop_00412c": {
+    "zh-CN": "请等待当前查看操作结束",
+    "en": "wait for current View operation Stop",
+    "ja": "現在の処理をお待ちください表示操作終了",
+    "fr": "attendez l’opération actuelle Voir opération Fin",
+    "de": "aktuelle Operation abwarten Anzeigen Operation Ende",
+    "es": "espere la operación actual Ver operación Fin"
+  },
+  "local.tasks.localRefresh.compute_slot_available_d602bc": {
+    "zh-CN": "计算槽空闲",
+    "en": "Compute slot available",
+    "ja": "計算スロットは空き",
+    "fr": "Créneau de calcul libre",
+    "de": "Rechenplatz verfügbar",
+    "es": "Espacio de cálculo libre"
+  },
+  "local.tasks.localRefresh.compute_slot_occupied_4d254d": {
+    "zh-CN": "计算槽已占用",
+    "en": "Compute slot occupied",
+    "ja": "計算スロットは使用中",
+    "fr": "Créneau de calcul occupé",
+    "de": "Rechenplatz belegt",
+    "es": "Espacio de cálculo ocupado"
+  },
+  "local.tasks.localRender.no_tasks_yet_da9688": {
+    "zh-CN": "暂无任务",
+    "en": "No tasks yet",
+    "ja": "タスクなし",
+    "fr": "Aucune tâche",
+    "de": "Noch keine Aufgaben",
+    "es": "Sin tareas aún"
+  },
+  "local.tasks.localRender.submit_a_task_from_input_responses_or_operation_search_63a710": {
+    "zh-CN": "在输入响应或操作搜索中提交任务。",
+    "en": "Submit a task from input responses or operation search.",
+    "ja": "入力応答または操作探索でタスクを送信してください。",
+    "fr": "Soumettez une tâche depuis les réponses d’entrée ou la recherche d’opérations.",
+    "de": "Aufgabe unter Eingabeantworten oder Operationssuche einreichen.",
+    "es": "Envíe una tarea desde respuestas de entrada o búsqueda de operaciones."
+  },
+  "local.tasks.localSubmit.message_5a8cdd": {
+    "zh-CN": "已提交 ",
+    "en": "Committed: ",
+    "ja": "確定済み：",
+    "fr": "Validé : ",
+    "de": "Festgeschrieben: ",
+    "es": "Confirmado:"
+  }
+}

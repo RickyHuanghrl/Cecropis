@@ -1,0 +1,26 @@
+{
+  "context.result": {
+    "zh-CN": "来源结果",
+    "en": "Result source",
+    "ja": "結果ソース",
+    "fr": "Résultat source",
+    "de": "Ergebnisquelle",
+    "es": "Resultado de origen"
+  },
+  "context.scope": {
+    "zh-CN": "计算范围",
+    "en": "Scope",
+    "ja": "計算範囲",
+    "fr": "Périmètre",
+    "de": "Umfang",
+    "es": "Alcance"
+  },
+  "context.selection": {
+    "zh-CN": "当前选择",
+    "en": "Selection",
+    "ja": "選択",
+    "fr": "Sélection",
+    "de": "Auswahl",
+    "es": "Selección"
+  }
+}

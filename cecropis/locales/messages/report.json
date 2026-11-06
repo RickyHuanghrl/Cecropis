@@ -1,0 +1,402 @@
+{
+  "report.absolute": {
+    "zh-CN": "绝对下降",
+    "en": "Absolute decrease",
+    "ja": "絶対減少量",
+    "fr": "Diminution absolue",
+    "de": "Absolute Abnahme",
+    "es": "Disminución absoluta"
+  },
+  "report.atLeast": {
+    "zh-CN": "至少",
+    "en": "At least",
+    "ja": "以上",
+    "fr": "Au moins",
+    "de": "Mindestens",
+    "es": "Como mínimo"
+  },
+  "report.atMost": {
+    "zh-CN": "至多",
+    "en": "At most",
+    "ja": "以下",
+    "fr": "Au plus",
+    "de": "Höchstens",
+    "es": "Como máximo"
+  },
+  "report.axis": {
+    "zh-CN": "状态步 x(t) · 活动为模型单位",
+    "en": "State step x(t) · Activity in model units",
+    "ja": "状態ステップ x(t) · 活動値はモデル単位",
+    "fr": "Pas d’état x(t) · Activité en unités du modèle",
+    "de": "Zustandsschritt x(t) · Aktivität in Modelleinheiten",
+    "es": "Paso de estado x(t) · Actividad en unidades del modelo"
+  },
+  "report.baseline_mean": {
+    "zh-CN": "基线均值",
+    "en": "Baseline mean",
+    "ja": "ベースライン平均",
+    "fr": "Moyenne de référence",
+    "de": "Mittelwert der Referenz",
+    "es": "Media de referencia"
+  },
+  "report.baseline_near_zero": {
+    "zh-CN": "近零基线",
+    "en": "Near-zero baseline",
+    "ja": "ゼロに近いベースライン",
+    "fr": "Référence proche de zéro",
+    "de": "Referenz nahe null",
+    "es": "Referencia cercana a cero"
+  },
+  "report.baseline_sum": {
+    "zh-CN": "基线累计",
+    "en": "Baseline sum",
+    "ja": "ベースラインの累積値",
+    "fr": "Somme de référence",
+    "de": "Summe der Referenz",
+    "es": "Suma de referencia"
+  },
+  "report.conditionStatus": {
+    "zh-CN": "状态：{status} · 角色：{role}",
+    "en": "Status: {status} · Role: {role}",
+    "ja": "状態: {status} · 役割: {role}",
+    "fr": "État : {status} · Rôle : {role}",
+    "de": "Status: {status} · Rolle: {role}",
+    "es": "Estado: {status} · Rol: {role}"
+  },
+  "report.configuration": {
+    "zh-CN": "输入、观察、固定干预与模型参数",
+    "en": "Inputs, observations, fixed interventions and model parameters",
+    "ja": "入力・観測・固定介入・モデルパラメータ",
+    "fr": "Entrées, observations, interventions fixes et paramètres du modèle",
+    "de": "Eingaben, Beobachtungen, feste Interventionen und Modellparameter",
+    "es": "Entradas, observaciones, intervenciones fijas y parámetros del modelo"
+  },
+  "report.constraints": {
+    "zh-CN": "约束定义及已保存判断",
+    "en": "Constraint definitions and saved assessments",
+    "ja": "制約定義と保存済み評価",
+    "fr": "Définitions des contraintes et évaluations enregistrées",
+    "de": "Bedingungsdefinitionen und gespeicherte Bewertungen",
+    "es": "Definiciones de restricciones y evaluaciones guardadas"
+  },
+  "report.curveLabel": {
+    "zh-CN": "{observation} · 基线与干预曲线",
+    "en": "{observation} · Baseline and intervention curves",
+    "ja": "{observation} · ベースラインと介入の曲線",
+    "fr": "{observation} · Courbes de référence et d’intervention",
+    "de": "{observation} · Referenz- und Interventionskurven",
+    "es": "{observation} · Curvas de referencia e intervención"
+  },
+  "report.exported": {
+    "zh-CN": "已导出 · {language}",
+    "en": "Exported · {language}",
+    "ja": "エクスポート済み · {language}",
+    "fr": "Exporté · {language}",
+    "de": "Exportiert · {language}",
+    "es": "Exportado · {language}"
+  },
+  "report.failedDetails": {
+    "zh-CN": "错误详情",
+    "en": "Error details",
+    "ja": "エラーの詳細",
+    "fr": "Détails de l’erreur",
+    "de": "Fehlerdetails",
+    "es": "Detalles del error"
+  },
+  "report.identity": {
+    "zh-CN": "实际范围与模型／数据身份",
+    "en": "Actual scope and model / data identity",
+    "ja": "実際の計算範囲とモデル・データの識別情報",
+    "fr": "Périmètre réel et identité du modèle et des données",
+    "de": "Tatsächlicher Bereich und Modell-/Datenidentität",
+    "es": "Ámbito real e identidad del modelo y los datos"
+  },
+  "report.interactions": {
+    "zh-CN": "联合操作累计响应的非加和差异",
+    "en": "Non-additive differences in cumulative responses to joint operations",
+    "ja": "複合操作に対する累積応答の非加算的差分",
+    "fr": "Différences non additives des réponses cumulées aux opérations combinées",
+    "de": "Nichtadditive Unterschiede der kumulierten Antworten auf kombinierte Operationen",
+    "es": "Diferencias no aditivas de las respuestas acumuladas a operaciones conjuntas"
+  },
+  "report.intervention_mean": {
+    "zh-CN": "干预均值",
+    "en": "Intervention mean",
+    "ja": "介入時の平均",
+    "fr": "Moyenne avec intervention",
+    "de": "Mittelwert mit Intervention",
+    "es": "Media con intervención"
+  },
+  "report.intervention_sum": {
+    "zh-CN": "干预累计",
+    "en": "Intervention sum",
+    "ja": "介入時の累積値",
+    "fr": "Somme avec intervention",
+    "de": "Summe mit Intervention",
+    "es": "Suma con intervención"
+  },
+  "report.judgment": {
+    "zh-CN": "{role} · {metric} · {direction} {bound} · 实际下降 {loss} · 满足要求：{satisfied} · 有定义：{defined}",
+    "en": "{role} · {metric} · {direction} {bound} · Actual decrease: {loss} · Satisfied: {satisfied} · Defined: {defined}",
+    "ja": "{role} · {metric} · {direction} {bound} · 実際の減少量: {loss} · 条件を満たす: {satisfied} · 定義済み: {defined}",
+    "fr": "{role} · {metric} · {direction} {bound} · Diminution réelle : {loss} · Respecté : {satisfied} · Défini : {defined}",
+    "de": "{role} · {metric} · {direction} {bound} · Tatsächliche Abnahme: {loss} · Erfüllt: {satisfied} · Definiert: {defined}",
+    "es": "{role} · {metric} · {direction} {bound} · Disminución real: {loss} · Se cumple: {satisfied} · Definido: {defined}"
+  },
+  "report.legend": {
+    "zh-CN": "蓝实线：基线；红虚线：干预。区间：蓝色输入、绿色节点干预、紫色连接干预、黄色评价窗口。横轴为状态步，区间按更新步标记。活动为人工模型输出。",
+    "en": "Solid blue: baseline; dashed red: intervention. Intervals: blue inputs, green node interventions, purple edge interventions, yellow evaluation windows. The horizontal axis shows state steps; intervals use update steps. Activity is output from the artificial model.",
+    "ja": "青の実線: ベースライン、赤の破線: 介入。区間: 青は入力、緑はノード介入、紫はエッジ介入、黄は評価窓。横軸は状態ステップ、区間は更新ステップで表示します。活動値は人工モデルの出力です。",
+    "fr": "Trait bleu continu : référence ; trait rouge pointillé : intervention. Intervalles : entrées en bleu, interventions sur les nœuds en vert, sur les arêtes en violet, fenêtres d’évaluation en jaune. L’axe horizontal indique les pas d’état ; les intervalles utilisent les pas de mise à jour. L’activité provient du modèle artificiel.",
+    "de": "Blaue durchgezogene Linie: Referenz; rote gestrichelte Linie: Intervention. Intervalle: Eingaben blau, Knoteninterventionen grün, Kanteninterventionen violett, Auswertungsfenster gelb. Die horizontale Achse zeigt Zustandsschritte; Intervalle verwenden Aktualisierungsschritte. Die Aktivität stammt aus dem künstlichen Modell.",
+    "es": "Línea azul continua: referencia; roja discontinua: intervención. Intervalos: entradas en azul, intervenciones en nodos en verde, en aristas en morado y ventanas de evaluación en amarillo. El eje horizontal muestra pasos de estado; los intervalos usan pasos de actualización. La actividad procede del modelo artificial."
+  },
+  "report.mean_delta": {
+    "zh-CN": "均值变化（干预−基线）",
+    "en": "Mean change (intervention − baseline)",
+    "ja": "平均の変化（介入 − ベースライン）",
+    "fr": "Variation moyenne (intervention − référence)",
+    "de": "Mittelwertänderung (Intervention − Referenz)",
+    "es": "Cambio medio (intervención − referencia)"
+  },
+  "report.no": {
+    "zh-CN": "否",
+    "en": "No",
+    "ja": "いいえ",
+    "fr": "Non",
+    "de": "Nein",
+    "es": "No"
+  },
+  "report.noCurves": {
+    "zh-CN": "曲线未记录",
+    "en": "Curves were not recorded",
+    "ja": "曲線は記録されていません",
+    "fr": "Les courbes n’ont pas été enregistrées",
+    "de": "Keine Kurven aufgezeichnet",
+    "es": "No se registraron curvas"
+  },
+  "report.noMetrics": {
+    "zh-CN": "观察指标和曲线未记录",
+    "en": "Observation metrics and curves were not recorded",
+    "ja": "観測指標と曲線は記録されていません",
+    "fr": "Les mesures d’observation et les courbes n’ont pas été enregistrées",
+    "de": "Keine Beobachtungsmetriken oder Kurven aufgezeichnet",
+    "es": "No se registraron métricas de observación ni curvas"
+  },
+  "report.preview": {
+    "zh-CN": "报告预览 · {language} · {size} 字节",
+    "en": "Report preview · {language} · {size} bytes",
+    "ja": "レポートのプレビュー · {language} · {size} バイト",
+    "fr": "Aperçu du rapport · {language} · {size} octets",
+    "de": "Berichtsvorschau · {language} · {size} Bytes",
+    "es": "Vista previa del informe · {language} · {size} bytes"
+  },
+  "report.previewRequired": {
+    "zh-CN": "显示语言或条件已更改，请重新预览报告。",
+    "en": "The display language or conditions changed. Preview the report again.",
+    "ja": "表示言語または条件が変更されました。レポートを再度プレビューしてください。",
+    "fr": "La langue d’affichage ou les conditions ont changé. Prévisualisez à nouveau le rapport.",
+    "de": "Anzeigesprache oder Bedingungen geändert. Bericht erneut in der Vorschau öffnen.",
+    "es": "El idioma o las condiciones han cambiado. Vuelva a previsualizar el informe."
+  },
+  "report.protection": {
+    "zh-CN": "保护",
+    "en": "Protection",
+    "ja": "保護",
+    "fr": "Protection",
+    "de": "Schutz",
+    "es": "Protección"
+  },
+  "report.relative": {
+    "zh-CN": "相对下降",
+    "en": "Relative decrease",
+    "ja": "相対減少",
+    "fr": "Diminution relative",
+    "de": "Relative Abnahme",
+    "es": "Disminución relativa"
+  },
+  "report.relative_sum_delta": {
+    "zh-CN": "相对累计变化（干预−基线）／基线",
+    "en": "Relative sum change (intervention − baseline) / baseline",
+    "ja": "累積値の相対変化（介入 − ベースライン）/ ベースライン",
+    "fr": "Variation relative de la somme (intervention − référence) / référence",
+    "de": "Relative Summenänderung (Intervention − Referenz) / Referenz",
+    "es": "Cambio relativo de la suma (intervención − referencia) / referencia"
+  },
+  "report.role.decision": {
+    "zh-CN": "决策条件",
+    "en": "Decision condition",
+    "ja": "判定条件",
+    "fr": "Condition de décision",
+    "de": "Entscheidungsbedingung",
+    "es": "Condición de decisión"
+  },
+  "report.role.extra": {
+    "zh-CN": "额外评价",
+    "en": "Additional evaluation",
+    "ja": "追加評価",
+    "fr": "Évaluation supplémentaire",
+    "de": "Zusätzliche Auswertung",
+    "es": "Evaluación adicional"
+  },
+  "report.role.training": {
+    "zh-CN": "搜索条件",
+    "en": "Search conditions",
+    "ja": "検索条件",
+    "fr": "Conditions de recherche",
+    "de": "Suchbedingungen",
+    "es": "Condiciones de búsqueda"
+  },
+  "report.sample_count": {
+    "zh-CN": "窗口样本数",
+    "en": "Window sample count",
+    "ja": "評価窓内のサンプル数",
+    "fr": "Nombre d’échantillons dans la fenêtre",
+    "de": "Stichproben im Fenster",
+    "es": "Muestras en la ventana"
+  },
+  "report.status.budget_exceeded": {
+    "zh-CN": "达到预算",
+    "en": "Budget reached",
+    "ja": "予算上限に到達",
+    "fr": "Budget atteint",
+    "de": "Budget erreicht",
+    "es": "Presupuesto alcanzado"
+  },
+  "report.status.cancelled": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "report.status.completed": {
+    "zh-CN": "已完成",
+    "en": "Completed",
+    "ja": "完了",
+    "fr": "Terminé",
+    "de": "Abgeschlossen",
+    "es": "Completado"
+  },
+  "report.status.failed": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "report.status.interrupted": {
+    "zh-CN": "已中断",
+    "en": "Interrupted",
+    "ja": "中断",
+    "fr": "Interrompu",
+    "de": "Unterbrochen",
+    "es": "Interrumpido"
+  },
+  "report.status.not_run": {
+    "zh-CN": "未运行",
+    "en": "Not run",
+    "ja": "未実行",
+    "fr": "Non exécuté",
+    "de": "Nicht ausgeführt",
+    "es": "Sin ejecutar"
+  },
+  "report.status.paused": {
+    "zh-CN": "已暂停",
+    "en": "Paused",
+    "ja": "一時停止中",
+    "fr": "En pause",
+    "de": "Pausiert",
+    "es": "En pausa"
+  },
+  "report.status.pending": {
+    "zh-CN": "等待中",
+    "en": "Pending",
+    "ja": "待機中",
+    "fr": "En attente",
+    "de": "Ausstehend",
+    "es": "Pendiente"
+  },
+  "report.status.running": {
+    "zh-CN": "运行中",
+    "en": "Running",
+    "ja": "実行中",
+    "fr": "En cours",
+    "de": "Wird ausgeführt",
+    "es": "En curso"
+  },
+  "report.sum_delta": {
+    "zh-CN": "累计变化（干预−基线）",
+    "en": "Sum change (intervention − baseline)",
+    "ja": "累積値の変化（介入 − ベースライン）",
+    "fr": "Variation de la somme (intervention − référence)",
+    "de": "Summenänderung (Intervention − Referenz)",
+    "es": "Cambio de la suma (intervención − referencia)"
+  },
+  "report.summary": {
+    "zh-CN": "结果状态：{status} · 计算节点：{nodes} · 条件数：{conditions}",
+    "en": "Result status: {status} · Computation nodes: {nodes} · Conditions: {conditions}",
+    "ja": "結果の状態: {status} · 計算ノード数: {nodes} · 条件数: {conditions}",
+    "fr": "État du résultat : {status} · Nœuds de calcul : {nodes} · Conditions : {conditions}",
+    "de": "Ergebnisstatus: {status} · Berechnungsknoten: {nodes} · Bedingungen: {conditions}",
+    "es": "Estado del resultado: {status} · Nodos de cálculo: {nodes} · Condiciones: {conditions}"
+  },
+  "report.target": {
+    "zh-CN": "目标",
+    "en": "Target",
+    "ja": "目標",
+    "fr": "Objectif",
+    "de": "Ziel",
+    "es": "Objetivo"
+  },
+  "report.title": {
+    "zh-CN": "结果报告",
+    "en": "Result report",
+    "ja": "結果レポート",
+    "fr": "Rapport de résultats",
+    "de": "Ergebnisbericht",
+    "es": "Informe de resultados"
+  },
+  "report.undefined": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "report.unrecorded": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "report.versions": {
+    "zh-CN": "模型版本：{model} · 数据版本：{dataset}",
+    "en": "Model version: {model} · Dataset version: {dataset}",
+    "ja": "モデルバージョン: {model} · データセットバージョン: {dataset}",
+    "fr": "Version du modèle : {model} · Version des données : {dataset}",
+    "de": "Modellversion: {model} · Datensatzversion: {dataset}",
+    "es": "Versión del modelo: {model} · Versión de los datos: {dataset}"
+  },
+  "report.window": {
+    "zh-CN": "评价更新步 [{start}, {stop}) · 状态 x(start+1) 到 x(stop)",
+    "en": "Evaluation updates [{start}, {stop}) · States x(start+1) through x(stop)",
+    "ja": "評価の更新ステップ [{start}, {stop}) · 状態 x(start+1) から x(stop)",
+    "fr": "Mises à jour évaluées [{start}, {stop}) · États de x(start+1) à x(stop)",
+    "de": "Ausgewertete Aktualisierungen [{start}, {stop}) · Zustände x(start+1) bis x(stop)",
+    "es": "Actualizaciones evaluadas [{start}, {stop}) · Estados de x(start+1) a x(stop)"
+  },
+  "report.yes": {
+    "zh-CN": "是",
+    "en": "Yes",
+    "ja": "はい",
+    "fr": "Oui",
+    "de": "Ja",
+    "es": "Sí"
+  }
+}

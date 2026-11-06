@@ -1,0 +1,146 @@
+{
+  "nav.analysis": {
+    "zh-CN": "结果分析与回放",
+    "en": "Analysis & replay",
+    "ja": "結果分析と再生",
+    "fr": "Analyse et lecture",
+    "de": "Analyse und Wiedergabe",
+    "es": "Análisis y reproducción"
+  },
+  "nav.analyze": {
+    "zh-CN": "分析与继续",
+    "en": "Analyze & continue",
+    "ja": "分析を続ける",
+    "fr": "Analyser et poursuivre",
+    "de": "Analysieren und fortsetzen",
+    "es": "Analizar y continuar"
+  },
+  "nav.browse": {
+    "zh-CN": "浏览与选回路",
+    "en": "Explore circuits",
+    "ja": "回路を探索",
+    "fr": "Explorer les circuits",
+    "de": "Schaltkreise erkunden",
+    "es": "Explorar circuitos"
+  },
+  "nav.compare": {
+    "zh-CN": "条件比较",
+    "en": "Compare conditions",
+    "ja": "条件を比較",
+    "fr": "Comparer les conditions",
+    "de": "Bedingungen vergleichen",
+    "es": "Comparar condiciones"
+  },
+  "nav.compute": {
+    "zh-CN": "配置与计算",
+    "en": "Configure & compute",
+    "ja": "設定と計算",
+    "fr": "Configurer et calculer",
+    "de": "Konfigurieren und berechnen",
+    "es": "Configurar y calcular"
+  },
+  "nav.groups": {
+    "zh-CN": "分组连接探索",
+    "en": "Explore groups",
+    "ja": "グループ接続",
+    "fr": "Explorer les groupes",
+    "de": "Gruppen erkunden",
+    "es": "Explorar grupos"
+  },
+  "nav.library": {
+    "zh-CN": "工作区与历史",
+    "en": "Workspace & history",
+    "ja": "履歴とワークスペース",
+    "fr": "Espace et historique",
+    "de": "Arbeitsbereich und Verlauf",
+    "es": "Espacio e historial"
+  },
+  "nav.navigation": {
+    "zh-CN": "工作区导航",
+    "en": "Workspace navigation",
+    "ja": "ナビゲーション",
+    "fr": "Navigation",
+    "de": "Navigation",
+    "es": "Navegación"
+  },
+  "nav.protocol": {
+    "zh-CN": "输入、观察与干预",
+    "en": "Inputs & interventions",
+    "ja": "入力・観測・介入",
+    "fr": "Entrées et interventions",
+    "de": "Eingaben und Eingriffe",
+    "es": "Entradas e intervenciones"
+  },
+  "nav.query": {
+    "zh-CN": "全局节点查询",
+    "en": "Find nodes",
+    "ja": "ノードを検索",
+    "fr": "Rechercher des nœuds",
+    "de": "Knoten suchen",
+    "es": "Buscar nodos"
+  },
+  "nav.ranges": {
+    "zh-CN": "计算范围比较",
+    "en": "Compare scopes",
+    "ja": "計算範囲を比較",
+    "fr": "Comparer les périmètres",
+    "de": "Umfänge vergleichen",
+    "es": "Comparar alcances"
+  },
+  "nav.responses": {
+    "zh-CN": "批量输入响应",
+    "en": "Explore input responses",
+    "ja": "入力応答を探索",
+    "fr": "Explorer les réponses",
+    "de": "Eingabeantworten erkunden",
+    "es": "Explorar respuestas"
+  },
+  "nav.scope": {
+    "zh-CN": "通路与计算范围",
+    "en": "Paths & scope",
+    "ja": "経路と計算範囲",
+    "fr": "Chemins et périmètre",
+    "de": "Pfade und Umfang",
+    "es": "Rutas y alcance"
+  },
+  "nav.search": {
+    "zh-CN": "方案搜索",
+    "en": "Find intervention plans",
+    "ja": "介入計画を探索",
+    "fr": "Rechercher des plans",
+    "de": "Eingriffspläne suchen",
+    "es": "Buscar planes"
+  },
+  "nav.signals": {
+    "zh-CN": "传入信号",
+    "en": "Incoming signals",
+    "ja": "入力信号",
+    "fr": "Signaux entrants",
+    "de": "Eingehende Signale",
+    "es": "Señales entrantes"
+  },
+  "nav.space": {
+    "zh-CN": "空间浏览",
+    "en": "Spatial browser",
+    "ja": "空間ビュー",
+    "fr": "Vue spatiale",
+    "de": "Raumansicht",
+    "es": "Vista espacial"
+  },
+  "nav.tasks": {
+    "zh-CN": "计算任务",
+    "en": "Compute tasks",
+    "ja": "計算タスク",
+    "fr": "Tâches de calcul",
+    "de": "Rechenaufgaben",
+    "es": "Tareas de cálculo"
+  },
+  "nav.workspace": {
+    "zh-CN": "工作区",
+    "en": "Workspace",
+    "ja": "ワークスペース",
+    "fr": "Espace de travail",
+    "de": "Arbeitsbereich",
+    "es": "Espacio de trabajo"
+  }
+}

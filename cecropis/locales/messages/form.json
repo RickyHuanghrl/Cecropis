@@ -1,0 +1,98 @@
+{
+  "form.bodyIds": {
+    "zh-CN": "所选确切 body ID",
+    "en": "Exact selected body IDs",
+    "ja": "選択済み確定body ID",
+    "fr": "Body ID exacts sélectionnés",
+    "de": "Exakte ausgewählte Body IDs",
+    "es": "Body ID exactos seleccionados"
+  },
+  "form.boundaryNodes": {
+    "zh-CN": "边界检查指定节点",
+    "en": "Nodes for boundary inspection",
+    "ja": "境界確認の対象ノード",
+    "fr": "Nœuds à vérifier en frontière",
+    "de": "Knoten für Grenzprüfung",
+    "es": "Nodos para comprobar límites"
+  },
+  "form.direction": {
+    "zh-CN": "连接方向",
+    "en": "Connection direction",
+    "ja": "接続方向",
+    "fr": "Direction des connexions",
+    "de": "Verbindungsrichtung",
+    "es": "Dirección de conexión"
+  },
+  "form.drive": {
+    "zh-CN": "外部输入目标集合",
+    "en": "External input targets",
+    "ja": "外部入力の対象",
+    "fr": "Cibles de l’entrée externe",
+    "de": "Externe Eingabeziele",
+    "es": "Objetivos de entrada externa"
+  },
+  "form.expansionBudgets": {
+    "zh-CN": "扩展节点预算序列",
+    "en": "Expansion node budgets",
+    "ja": "拡張ノード予算列",
+    "fr": "Budgets de nœuds d’extension",
+    "de": "Erweiterungsknotenbudgets",
+    "es": "Presupuestos de nodos de expansión"
+  },
+  "form.expansionCategory": {
+    "zh-CN": "扩展记录类别",
+    "en": "Expansion record category",
+    "ja": "拡張記録の分類",
+    "fr": "Catégorie des enregistrements ajoutés",
+    "de": "Kategorie erweiterter Datensätze",
+    "es": "Categoría de registros añadidos"
+  },
+  "form.manualExpansion": {
+    "zh-CN": "手选扩展节点",
+    "en": "Manually selected expansion nodes",
+    "ja": "手動選択した拡張ノード",
+    "fr": "Nœuds d’extension sélectionnés",
+    "de": "Manuell gewählte Erweiterungsknoten",
+    "es": "Nodos de expansión seleccionados"
+  },
+  "form.protocol": {
+    "zh-CN": "分析协议",
+    "en": "Analysis protocol",
+    "ja": "分析プロトコル",
+    "fr": "Protocole d’analyse",
+    "de": "Analyseprotokoll",
+    "es": "Protocolo de análisis"
+  },
+  "form.showObservations": {
+    "zh-CN": "显示观察集合",
+    "en": "Show observation sets",
+    "ja": "観測集合を表示",
+    "fr": "Afficher les ensembles observés",
+    "de": "Beobachtungsmengen anzeigen",
+    "es": "Mostrar conjuntos observados"
+  },
+  "form.showPlan": {
+    "zh-CN": "显示固定方案",
+    "en": "Show fixed plan",
+    "ja": "固定計画を表示",
+    "fr": "Afficher le plan fixe",
+    "de": "Festen Plan anzeigen",
+    "es": "Mostrar plan fijo"
+  },
+  "form.showScopes": {
+    "zh-CN": "显示比较范围",
+    "en": "Show compared scopes",
+    "ja": "比較範囲を表示",
+    "fr": "Afficher les périmètres comparés",
+    "de": "Vergleichsbereiche anzeigen",
+    "es": "Mostrar alcances comparados"
+  },
+  "form.skeletonCanvas": {
+    "zh-CN": "可旋转 MaleCNS 三维骨架；拖动旋转，滚轮缩放，点击选择节点",
+    "en": "Local 3D skeletons: drag to rotate, scroll to zoom, click to select",
+    "ja": "ローカル3D骨格：ドラッグで回転、ホイールでズーム、クリックで選択",
+    "fr": "Squelettes 3D locaux : glisser pour tourner, défiler pour zoomer, cliquer pour sélectionner",
+    "de": "Lokale 3D-Skelette: ziehen zum Drehen, scrollen zum Zoomen, klicken zum Auswählen",
+    "es": "Esqueletos 3D locales: arrastrar para girar, desplazar para acercar, pulsar para seleccionar"
+  }
+}

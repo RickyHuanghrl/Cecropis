@@ -1,0 +1,354 @@
+{
+  "prep.boundGeometry": {
+    "zh-CN": "已绑定骨架",
+    "en": "Skeletons linked",
+    "ja": "骨格を指定済み",
+    "fr": "Squelettes liés",
+    "de": "Skelette verknüpft",
+    "es": "Esqueletos vinculados"
+  },
+  "prep.build": {
+    "zh-CN": "索引尚未建立",
+    "en": "Index not prepared",
+    "ja": "索引未作成",
+    "fr": "Index non préparé",
+    "de": "Index noch nicht erstellt",
+    "es": "Índice no preparado"
+  },
+  "prep.check": {
+    "zh-CN": "检查本地状态",
+    "en": "Check local status",
+    "ja": "ローカル状態を確認",
+    "fr": "Vérifier l’état local",
+    "de": "Lokalen Status prüfen",
+    "es": "Comprobar estado local"
+  },
+  "prep.dependenciesMissing": {
+    "zh-CN": "先补齐当前解释器的依赖，再重新检查",
+    "en": "Provide dependencies for this interpreter, then check again",
+    "ja": "このPythonの依存関係を用意し再確認してください",
+    "fr": "Préparez les dépendances de cet interpréteur puis revérifiez",
+    "de": "Abhängigkeiten dieses Interpreters bereitstellen und erneut prüfen",
+    "es": "Prepare las dependencias de este intérprete y vuelva a comprobar"
+  },
+  "prep.directoryConflict": {
+    "zh-CN": "{field} 与只读数据／索引目录冲突，请使用独立位置",
+    "en": "Use a separate location for {field}; it conflicts with data or index storage",
+    "ja": "{field} は元データ・索引と別の場所にしてください",
+    "fr": "Utilisez un emplacement séparé pour {field}",
+    "de": "Separaten Ort für {field} wählen; Konflikt mit Daten oder Index",
+    "es": "Use una ubicación separada para {field}; hay conflicto con datos o índice"
+  },
+  "prep.edited": {
+    "zh-CN": "路径已修改，请重新检查；原配置未改写",
+    "en": "Paths changed; check again. Existing configuration is unchanged",
+    "ja": "パス変更後は再確認。元の設定は未変更",
+    "fr": "Chemins modifiés ; revérifiez. Configuration intacte",
+    "de": "Pfade geändert; erneut prüfen. Bestehende Konfiguration unverändert",
+    "es": "Rutas modificadas; compruebe de nuevo. La configuración no cambió"
+  },
+  "prep.fix": {
+    "zh-CN": "数据尚未就绪",
+    "en": "Data not ready",
+    "ja": "データ未準備",
+    "fr": "Données non prêtes",
+    "de": "Daten noch nicht bereit",
+    "es": "Datos no preparados"
+  },
+  "prep.freeDisk": {
+    "zh-CN": "目标盘可用空间",
+    "en": "Free space on target disk",
+    "ja": "保存先の空き容量",
+    "fr": "Espace libre du disque cible",
+    "de": "Freier Speicher auf dem Zielmedium",
+    "es": "Espacio libre en el disco destino"
+  },
+  "prep.index": {
+    "zh-CN": "连接索引",
+    "en": "Connection index",
+    "ja": "接続索引",
+    "fr": "Index des connexions",
+    "de": "Verbindungsindex",
+    "es": "Índice de conexiones"
+  },
+  "prep.indexInvalid": {
+    "zh-CN": "索引未通过轻量格式检查；保留目录并绑定兼容完整索引",
+    "en": "Index failed lightweight checks; retain it and bind a compatible complete index",
+    "ja": "索引の軽量確認に失敗。保持し互換索引を指定してください",
+    "fr": "Index invalide ; conservez-le et liez un index complet compatible",
+    "de": "Leichte Indexprüfung fehlgeschlagen; Verzeichnis behalten und kompatiblen Index wählen",
+    "es": "Falló la comprobación del índice; consérvelo y vincule uno compatible"
+  },
+  "prep.missingPackages": {
+    "zh-CN": "不可用依赖：{names}；请由用户配置当前 venv",
+    "en": "Unavailable dependencies: {names}; configure your venv yourself",
+    "ja": "不足する依存関係：{names}。venvを設定してください",
+    "fr": "Dépendances indisponibles : {names} ; configurez votre venv",
+    "de": "Nicht verfügbare Abhängigkeiten: {names}; venv selbst konfigurieren",
+    "es": "Dependencias no disponibles: {names}; configure su venv"
+  },
+  "prep.noGeometry": {
+    "zh-CN": "未准备骨架；连接分析仍可使用",
+    "en": "Skeletons absent; connection analysis remains available",
+    "ja": "骨格なし。接続解析は利用できます",
+    "fr": "Squelettes absents ; analyse des connexions disponible",
+    "de": "Keine Skelette; Verbindungsanalyse bleibt verfügbar",
+    "es": "Sin esqueletos; el análisis de conexiones sigue disponible"
+  },
+  "prep.notDirectory": {
+    "zh-CN": "该路径不是目录：{path}",
+    "en": "Not a directory: {path}",
+    "ja": "ディレクトリではありません：{path}",
+    "fr": "Ce n’est pas un dossier : {path}",
+    "de": "Kein Verzeichnis: {path}",
+    "es": "No es un directorio: {path}"
+  },
+  "prep.openFailed": {
+    "zh-CN": "工作台尚未响应，请刷新页面；若仍不可用，请查看服务错误",
+    "en": "The workbench is not responding. Refresh the page; if this persists, inspect the service error.",
+    "ja": "ワークベンチが応答していません。ページを更新し、改善しない場合はサービスのエラーを確認してください。",
+    "fr": "L’atelier ne répond pas. Actualisez la page ; si le problème persiste, consultez l’erreur du service.",
+    "de": "Die Arbeitsoberfläche antwortet nicht. Seite aktualisieren; bei anhaltendem Problem den Dienstfehler prüfen.",
+    "es": "El entorno de trabajo no responde. Actualice la página; si el problema persiste, consulte el error del servicio."
+  },
+  "prep.opening": {
+    "zh-CN": "正在打开工作台",
+    "en": "Opening workspace",
+    "ja": "作業領域を開いています",
+    "fr": "Ouverture de l’espace de travail",
+    "de": "Arbeitsbereich wird geöffnet",
+    "es": "Abriendo espacio de trabajo"
+  },
+  "prep.operationFailed": {
+    "zh-CN": "操作未完成；查看具体详情并修正路径或数据",
+    "en": "Operation not completed; inspect details and correct paths or data",
+    "ja": "未完了。詳細を確認しパス・データを修正",
+    "fr": "Opération inachevée ; vérifiez les détails et corrigez les données",
+    "de": "Vorgang nicht abgeschlossen; Details prüfen und Pfade oder Daten korrigieren",
+    "es": "Operación incompleta; revise detalles y corrija rutas o datos"
+  },
+  "prep.optionalGeometry": {
+    "zh-CN": "可选骨架与缓存",
+    "en": "Optional skeletons and cache",
+    "ja": "任意の骨格とキャッシュ",
+    "fr": "Squelettes et cache facultatifs",
+    "de": "Optionale Skelette und Cache",
+    "es": "Esqueletos y caché opcionales"
+  },
+  "prep.partialNotResumable": {
+    "zh-CN": "扫描未完成，现有文件已保留",
+    "en": "Scan incomplete; existing files retained",
+    "ja": "走査未完了。既存ファイルは保持されています",
+    "fr": "Scan incomplet ; fichiers existants conservés",
+    "de": "Scan unvollständig; vorhandene Dateien bleiben erhalten",
+    "es": "Escaneo incompleto; archivos existentes conservados"
+  },
+  "prep.path.cases": {
+    "zh-CN": "计算范围目录",
+    "en": "Scope directory",
+    "ja": "計算範囲のディレクトリ",
+    "fr": "Dossier des périmètres",
+    "de": "Bereichsverzeichnis",
+    "es": "Directorio de ámbitos"
+  },
+  "prep.path.index": {
+    "zh-CN": "索引目录",
+    "en": "Index directory",
+    "ja": "索引ディレクトリ",
+    "fr": "Dossier de l’index",
+    "de": "Indexverzeichnis",
+    "es": "Directorio del índice"
+  },
+  "prep.path.raw": {
+    "zh-CN": "原始数据目录",
+    "en": "Raw data directory",
+    "ja": "元データのディレクトリ",
+    "fr": "Dossier des sources",
+    "de": "Rohdatenverzeichnis",
+    "es": "Directorio de datos originales"
+  },
+  "prep.path.runs": {
+    "zh-CN": "结果与任务目录",
+    "en": "Results and tasks directory",
+    "ja": "結果・タスクのディレクトリ",
+    "fr": "Dossier des résultats et tâches",
+    "de": "Ergebnis- und Aufgabenverzeichnis",
+    "es": "Directorio de resultados y tareas"
+  },
+  "prep.path.skeleton_cache": {
+    "zh-CN": "独立几何缓存目录",
+    "en": "Separate geometry cache directory",
+    "ja": "独立した形状キャッシュ",
+    "fr": "Dossier séparé du cache géométrique",
+    "de": "Separates Geometrie-Cache-Verzeichnis",
+    "es": "Directorio separado de caché geométrica"
+  },
+  "prep.path.skeletons": {
+    "zh-CN": "二进制骨架源目录",
+    "en": "Binary skeleton source directory",
+    "ja": "バイナリ骨格の元ディレクトリ",
+    "fr": "Dossier source des squelettes binaires",
+    "de": "Quellverzeichnis binärer Skelette",
+    "es": "Directorio de esqueletos binarios"
+  },
+  "prep.pathRequired": {
+    "zh-CN": "请指定 {field} 目录",
+    "en": "Specify the {field} directory",
+    "ja": "{field} ディレクトリを指定してください",
+    "fr": "Indiquez le dossier {field}",
+    "de": "Verzeichnis {field} angeben",
+    "es": "Indique el directorio {field}"
+  },
+  "prep.paths": {
+    "zh-CN": "数据位置详情",
+    "en": "Data location details",
+    "ja": "データの場所",
+    "fr": "Emplacements des données",
+    "de": "Details zu Datenorten",
+    "es": "Ubicaciones de los datos"
+  },
+  "prep.peakDisk": {
+    "zh-CN": "处理峰值空间",
+    "en": "Peak processing storage",
+    "ja": "処理時の最大使用容量",
+    "fr": "Stockage maximal du traitement",
+    "de": "Maximaler Speicherbedarf bei Verarbeitung",
+    "es": "Almacenamiento máximo del proceso"
+  },
+  "prep.raw": {
+    "zh-CN": "原始连接与注释",
+    "en": "Raw connections and annotations",
+    "ja": "元の接続と注釈",
+    "fr": "Connexions et annotations sources",
+    "de": "Originalverbindungen und Annotationen",
+    "es": "Conexiones y anotaciones originales"
+  },
+  "prep.rawMissing": {
+    "zh-CN": "缺少正式文件：{path}；完成下载后再检查",
+    "en": "Missing completed file: {path}; finish downloading, then check",
+    "ja": "完了ファイルなし：{path}。ダウンロード完了後に再確認",
+    "fr": "Fichier complet absent : {path} ; terminez le téléchargement",
+    "de": "Fertige Datei fehlt: {path}; Download abschließen und erneut prüfen",
+    "es": "Falta el archivo completo: {path}; termine la descarga y compruebe"
+  },
+  "prep.rawOptional": {
+    "zh-CN": "已有索引不要求原始文件",
+    "en": "Existing index does not require raw files",
+    "ja": "既存索引に元ファイルは不要です",
+    "fr": "L’index existant ne nécessite pas les fichiers sources",
+    "de": "Vorhandener Index benötigt keine Rohdateien",
+    "es": "El índice existente no requiere archivos originales"
+  },
+  "prep.rawSchema": {
+    "zh-CN": "文件格式不适用于当前构建器：{path}；请使用对应版本的源文件",
+    "en": "Unsupported schema: {path}; use the matching source version",
+    "ja": "形式非対応：{path}。対応する元ファイルを使用してください",
+    "fr": "Schéma non pris en charge : {path} ; utilisez la bonne version",
+    "de": "Schema nicht unterstützt: {path}; passende Quelldatei verwenden",
+    "es": "Esquema no admitido: {path}; use la versión correspondiente"
+  },
+  "prep.ready": {
+    "zh-CN": "数据可用",
+    "en": "Data available",
+    "ja": "データ利用可能",
+    "fr": "Données disponibles",
+    "de": "Daten verfügbar",
+    "es": "Datos disponibles"
+  },
+  "prep.resume": {
+    "zh-CN": "索引整理尚未完成",
+    "en": "Index finalization incomplete",
+    "ja": "索引の整理が未完了",
+    "fr": "Finalisation de l’index inachevée",
+    "de": "Index-Fertigstellung unvollständig",
+    "es": "Finalización del índice incompleta"
+  },
+  "prep.status.incompatible": {
+    "zh-CN": "格式或版本不兼容",
+    "en": "Format or version incompatible",
+    "ja": "形式・バージョン非互換",
+    "fr": "Format ou version incompatible",
+    "de": "Format oder Version inkompatibel",
+    "es": "Formato o versión incompatible"
+  },
+  "prep.status.missing": {
+    "zh-CN": "缺少或尚未建立",
+    "en": "Missing or not built yet",
+    "ja": "未存在／未構築",
+    "fr": "Absent ou non construit",
+    "de": "Fehlt oder noch nicht erstellt",
+    "es": "Ausente o aún no creado"
+  },
+  "prep.status.partial": {
+    "zh-CN": "未完成目录，未发布就绪索引",
+    "en": "Incomplete directory; index not published",
+    "ja": "未完了。索引は未公開です",
+    "fr": "Dossier incomplet ; index non publié",
+    "de": "Unvollständiges Verzeichnis; Index nicht veröffentlicht",
+    "es": "Directorio incompleto; índice no publicado"
+  },
+  "prep.status.ready": {
+    "zh-CN": "完整索引／格式可读",
+    "en": "Complete or format-readable",
+    "ja": "完了／形式を読み取り可能",
+    "fr": "Complet ou format lisible",
+    "de": "Vollständig oder Format lesbar",
+    "es": "Completo o formato legible"
+  },
+  "prep.status.unchecked": {
+    "zh-CN": "依赖缺失，尚未核对",
+    "en": "Dependencies missing; unchecked",
+    "ja": "依存関係が不足し未確認",
+    "fr": "Dépendances absentes ; non vérifié",
+    "de": "Abhängigkeiten fehlen; ungeprüft",
+    "es": "Faltan dependencias; sin comprobar"
+  },
+  "prep.storageSettings": {
+    "zh-CN": "存储设置",
+    "en": "Storage settings",
+    "ja": "保存先設定",
+    "fr": "Paramètres de stockage",
+    "de": "Speichereinstellungen",
+    "es": "Configuración de almacenamiento"
+  },
+  "prep.technical": {
+    "zh-CN": "具体错误详情",
+    "en": "Technical details",
+    "ja": "詳細エラー",
+    "fr": "Détails techniques",
+    "de": "Technische Details",
+    "es": "Detalles técnicos"
+  },
+  "prep.title": {
+    "zh-CN": "数据设置",
+    "en": "Data settings",
+    "ja": "データ設定",
+    "fr": "Paramètres des données",
+    "de": "Dateneinstellungen",
+    "es": "Configuración de datos"
+  },
+  "prep.unknown": {
+    "zh-CN": "未知",
+    "en": "Unknown",
+    "ja": "不明",
+    "fr": "Inconnu",
+    "de": "Unbekannt",
+    "es": "Desconocido"
+  },
+  "prep.unreachable": {
+    "zh-CN": "本地服务连接失败：{detail}",
+    "en": "Local service unreachable: {detail}",
+    "ja": "ローカル接続失敗：{detail}",
+    "fr": "Service local inaccessible : {detail}",
+    "de": "Lokaler Dienst nicht erreichbar: {detail}",
+    "es": "Servicio local inaccesible: {detail}"
+  },
+  "prep.useData": {
+    "zh-CN": "使用此数据",
+    "en": "Use this data",
+    "ja": "このデータを使用",
+    "fr": "Utiliser ces données",
+    "de": "Diese Daten verwenden",
+    "es": "Usar estos datos"
+  }
+}

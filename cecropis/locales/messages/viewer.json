@@ -1,0 +1,26 @@
+{
+  "viewer.controls.0_9c4fe2": {
+    "zh-CN": "下降量 0 → ",
+    "en": "decrease amount 0 → ",
+    "ja": "低下量 0 → ",
+    "fr": "baisse quantité 0 → ",
+    "de": "Abnahme Menge 0 → ",
+    "es": "disminución cantidad 0 → "
+  },
+  "viewer.controls.0_d548ad": {
+    "zh-CN": "活动 0 → ",
+    "en": "activity 0 → ",
+    "ja": "活動 0 → ",
+    "fr": "activité 0 → ",
+    "de": "Aktivität 0 → ",
+    "es": "actividad 0 → "
+  },
+  "viewer.controls.message_082fac": {
+    "zh-CN": "尚无本地骨架",
+    "en": "still no local skeleton",
+    "ja": "まだローカル骨格なし",
+    "fr": "encore aucun squelette local",
+    "de": "noch kein lokales Skelett",
+    "es": "todavía sin esqueleto local"
+  }
+}

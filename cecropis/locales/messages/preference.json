@@ -1,0 +1,18 @@
+{
+  "preference.language": {
+    "zh-CN": "语言",
+    "en": "Language",
+    "ja": "言語",
+    "fr": "Langue",
+    "de": "Sprache",
+    "es": "Idioma"
+  },
+  "preference.theme": {
+    "zh-CN": "主题",
+    "en": "Theme",
+    "ja": "テーマ",
+    "fr": "Thème",
+    "de": "Design",
+    "es": "Tema"
+  }
+}

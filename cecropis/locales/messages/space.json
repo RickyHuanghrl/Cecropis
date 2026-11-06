@@ -1,0 +1,74 @@
+{
+  "space.coverage": {
+    "zh-CN": "覆盖与显示规模",
+    "en": "Coverage and display counts",
+    "ja": "カバー範囲と表示数",
+    "fr": "Couverture et affichage",
+    "de": "Abdeckung und Anzeige",
+    "es": "Cobertura y visualización"
+  },
+  "space.expand": {
+    "zh-CN": "展开视图",
+    "en": "Expand view",
+    "ja": "ビューを展開",
+    "fr": "Agrandir la vue",
+    "de": "Ansicht vergrößern",
+    "es": "Ampliar vista"
+  },
+  "space.fitView": {
+    "zh-CN": "适配当前视角",
+    "en": "Fit current view",
+    "ja": "現在の視角に合わせる",
+    "fr": "Adapter la vue actuelle",
+    "de": "Aktuelle Ansicht einpassen",
+    "es": "Ajustar vista actual"
+  },
+  "space.home": {
+    "zh-CN": "回到全局",
+    "en": "Return to global",
+    "ja": "全体に戻る",
+    "fr": "Vue globale",
+    "de": "Zur Gesamtansicht",
+    "es": "Volver a la vista global"
+  },
+  "space.layers": {
+    "zh-CN": "图层与详情",
+    "en": "Layers and details",
+    "ja": "レイヤーと詳細",
+    "fr": "Couches et détails",
+    "de": "Ebenen und Details",
+    "es": "Capas y detalles"
+  },
+  "space.links": {
+    "zh-CN": "示意连接",
+    "en": "Abstract connections",
+    "ja": "接続の模式表示",
+    "fr": "Connexions schématiques",
+    "de": "Schematische Verbindungen",
+    "es": "Conexiones esquemáticas"
+  },
+  "space.loadingOverview": {
+    "zh-CN": "正在载入 {segments} 段概览",
+    "en": "Loading {segments} overview segments",
+    "ja": "概観 {segments} 区間を読込中",
+    "fr": "Chargement de {segments} segments",
+    "de": "{segments} Übersichtssegmente werden geladen",
+    "es": "Cargando {segments} segmentos"
+  },
+  "space.points": {
+    "zh-CN": "胞体与端点",
+    "en": "Somas and cut ends",
+    "ja": "細胞体と切断端",
+    "fr": "Somas et extrémités",
+    "de": "Somas und Schnittenden",
+    "es": "Somas y extremos cortados"
+  },
+  "space.standardView": {
+    "zh-CN": "XYZ标准视图",
+    "en": "XYZ standard views",
+    "ja": "XYZ標準ビュー",
+    "fr": "Vues standard XYZ",
+    "de": "XYZ-Standardansichten",
+    "es": "Vistas estándar XYZ"
+  }
+}

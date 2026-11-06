@@ -1,0 +1,538 @@
+{
+  "difference.bindDifferenceSource.check_difference_statistics_budget_fc02c7": {
+    "zh-CN": "先检查差异统计与预算",
+    "en": "Check the difference statistics and budget first",
+    "ja": "先に差分統計と予算を確認してください",
+    "fr": "Vérifiez d’abord les statistiques de différences et le budget",
+    "de": "Prüfen Sie zuerst die Differenzstatistik und das Budget",
+    "es": "Compruebe primero las estadísticas de diferencias y el presupuesto"
+  },
+  "difference.bindDifferenceSource.complete_analysis_00cbc9": {
+    "zh-CN": "已绑定新来源 · 下方仍为此前完成的分析",
+    "en": "New source selected · showing the previous completed analysis",
+    "ja": "新しい元データを選択 · 前回の完了済み分析を表示中",
+    "fr": "Nouvelle source sélectionnée · affichage de l’analyse précédente",
+    "de": "Neue Quelle ausgewählt · die vorherige abgeschlossene Analyse wird angezeigt",
+    "es": "Nuevo origen seleccionado · se muestra el análisis anterior completado"
+  },
+  "difference.bindDifferenceSource.fixed_plan_ae406b": {
+    "zh-CN": "已有固定方案",
+    "en": "existing Fixed plan",
+    "ja": "既存固定案",
+    "fr": "existant Plan fixe",
+    "de": "vorhanden Fester Plan",
+    "es": "existente Plan fijo"
+  },
+  "difference.bindDifferenceSource.message_e5d34a": {
+    "zh-CN": " · 来源只读",
+    "en": " · read-only source",
+    "ja": " · 読取専用ソース",
+    "fr": " · source en lecture seule",
+    "de": " · schreibgeschützte Quelle",
+    "es": " · origen de solo lectura"
+  },
+  "difference.controls.analysis_save_0002bf": {
+    "zh-CN": "差异分析已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "difference.controls.cancel_complete_analysis_keep_87aa15": {
+    "zh-CN": "已请求取消 · 已完成的分析仍保留",
+    "en": "Cancellation requested · completed analyses retained",
+    "ja": "キャンセルを要求しました · 完了済みの分析は保持されます",
+    "fr": "Annulation demandée · analyses terminées conservées",
+    "de": "Abbruch angefordert · abgeschlossene Analysen bleiben erhalten",
+    "es": "Cancelación solicitada · se conservan los análisis completados"
+  },
+  "difference.controls.complete_74d35b": {
+    "zh-CN": "没有完成的差异统计",
+    "en": "No completed difference statistics",
+    "ja": "完了済みの差分統計はありません",
+    "fr": "Aucune statistique de différences terminée",
+    "de": "Keine abgeschlossene Differenzstatistik",
+    "es": "No hay estadísticas de diferencias completadas"
+  },
+  "difference.controls.observation_ddf5ff": {
+    "zh-CN": "观察 ",
+    "en": "Observation ",
+    "ja": "観測 ",
+    "fr": "Observation ",
+    "de": "Beobachtung ",
+    "es": "Observación "
+  },
+  "difference.controls.paths_analysis_scope_83f268": {
+    "zh-CN": "通路不属于当前分析范围",
+    "en": "The path is outside the current analysis scope",
+    "ja": "この通路は現在の分析範囲外です",
+    "fr": "Le chemin est hors du périmètre d’analyse actuel",
+    "de": "Der Pfad liegt außerhalb des aktuellen Analysebereichs",
+    "es": "La ruta está fuera del ámbito de análisis actual"
+  },
+  "difference.controls.remove_912bb1": {
+    "zh-CN": "移除 {p0}",
+    "en": "Remove {p0}",
+    "ja": "{p0}を除外",
+    "fr": "Retirer {p0}",
+    "de": "{p0} entfernen",
+    "es": "Quitar {p0}"
+  },
+  "difference.controls.select_913910": {
+    "zh-CN": "选择邻居 {p0}",
+    "en": "Select neighbors of {p0}",
+    "ja": "{p0} の隣接ノードを選択",
+    "fr": "Sélectionner les voisins de {p0}",
+    "de": "Nachbarn von {p0} auswählen",
+    "es": "Seleccionar los vecinos de {p0}"
+  },
+  "difference.controls.select_f0f5c3": {
+    "zh-CN": "选择 {p0}",
+    "en": "Select {p0}",
+    "ja": "{p0} を選択",
+    "fr": "Sélectionner {p0}",
+    "de": "{p0} auswählen",
+    "es": "Seleccionar {p0}"
+  },
+  "difference.controls.select_paths_node_6681ac": {
+    "zh-CN": "先选择当前通路表中的节点",
+    "en": "Select nodes in the current path table first",
+    "ja": "先に現在の通路表からノードを選択してください",
+    "fr": "Sélectionnez d’abord des nœuds dans la table des chemins actuelle",
+    "de": "Wählen Sie zuerst Knoten in der aktuellen Pfadtabelle",
+    "es": "Seleccione primero nodos en la tabla de rutas actual"
+  },
+  "difference.controls.type_fb8761": {
+    "zh-CN": "未知类型",
+    "en": "Unknown type",
+    "ja": "不明な種類",
+    "fr": "Type inconnu",
+    "de": "Unbekannter Typ",
+    "es": "Tipo desconocido"
+  },
+  "difference.differenceCounts.node_node_mib_mib_complete_start_d1cb1b": {
+    "zh-CN": "计算 {p0} 节点 · 完整统计 {p1} 节点 · 新增分配预估 {p2} MiB / 限额 {p3} MiB · 已完成/已启动传播 {p4}/{p5}",
+    "en": "Computing {p0} nodes · full statistics for {p1} nodes · estimated additional memory {p2} MiB / limit {p3} MiB · propagations completed/started {p4}/{p5}",
+    "ja": "計算対象 {p0} ノード · 全統計 {p1} ノード · 追加メモリ推定 {p2} MiB / 上限 {p3} MiB · 伝播の完了/開始 {p4}/{p5}",
+    "fr": "Calcul sur {p0} nœuds · statistiques complètes pour {p1} nœuds · mémoire supplémentaire estimée {p2} MiB / limite {p3} MiB · propagations terminées/démarrées {p4}/{p5}",
+    "de": "Berechnung für {p0} Knoten · vollständige Statistik für {p1} Knoten · geschätzter zusätzlicher Speicher {p2} MiB / Grenze {p3} MiB · Ausbreitungsläufe abgeschlossen/gestartet {p4}/{p5}",
+    "es": "Cálculo de {p0} nodos · estadísticas completas de {p1} nodos · memoria adicional estimada {p2} MiB / límite {p3} MiB · propagaciones completadas/iniciadas {p4}/{p5}"
+  },
+  "difference.differenceLabel.type_fb8761": {
+    "zh-CN": "未知类型",
+    "en": "Unknown type",
+    "ja": "不明な種類",
+    "fr": "Type inconnu",
+    "de": "Unbekannter Typ",
+    "es": "Tipo desconocido"
+  },
+  "difference.differenceMetricCells.baseline_definition_079637": {
+    "zh-CN": "基线近零 · 未定义",
+    "en": "Baseline near zero · undefined",
+    "ja": "ベースラインがほぼゼロ · 未定義",
+    "fr": "Référence proche de zéro · indéfini",
+    "de": "Referenz nahe null · undefiniert",
+    "es": "Referencia cercana a cero · indefinido"
+  },
+  "difference.differencePayload.select_an_existing_result_first_d13a87": {
+    "zh-CN": "先选择一个已有结果",
+    "en": "Select an existing result first",
+    "ja": "先に既存結果を選択してください",
+    "fr": "Choisissez d’abord un résultat",
+    "de": "Zuerst vorhandenes Ergebnis wählen",
+    "es": "Seleccione primero un resultado"
+  },
+  "difference.differenceReplayPayload.complete_scope_differences_df0717": {
+    "zh-CN": "没有完成的范围差异",
+    "en": "No completed scope differences",
+    "ja": "完了済みの範囲差分はありません",
+    "fr": "Aucune comparaison de périmètres terminée",
+    "de": "Keine abgeschlossenen Bereichsdifferenzen",
+    "es": "No hay diferencias de ámbitos completadas"
+  },
+  "difference.differenceReplayPayload.selectreplaynode_64d7e1": {
+    "zh-CN": "先选择回放节点",
+    "en": "Select replay nodes first",
+    "ja": "先に再生するノードを選択してください",
+    "fr": "Sélectionnez d’abord les nœuds à rejouer",
+    "de": "Wählen Sie zuerst die Knoten für die Wiedergabe",
+    "es": "Seleccione primero los nodos de reproducción"
+  },
+  "difference.differenceRequest.message_36b793": {
+    "zh-CN": "新增内存限额无效",
+    "en": "Invalid additional memory limit",
+    "ja": "追加メモリ上限が無効です",
+    "fr": "Limite de mémoire supplémentaire invalide",
+    "de": "Ungültige Grenze für zusätzlichen Speicher",
+    "es": "Límite de memoria adicional no válido"
+  },
+  "difference.differenceRoles.intervention_54b347": {
+    "zh-CN": "直接干预",
+    "en": "direct Intervention",
+    "ja": "直接介入",
+    "fr": "direct Intervention",
+    "de": "direkt Eingriff",
+    "es": "directo Intervención"
+  },
+  "difference.differenceRoles.node_9fefe7": {
+    "zh-CN": "中间节点",
+    "en": "intermediate Node",
+    "ja": "中間ノード",
+    "fr": "intermédiaire Nœud",
+    "de": "Zwischenknoten Knoten",
+    "es": "intermedio Nodo"
+  },
+  "difference.differenceWindow.analysiswindow_satisfied_0_start_update_stop_e54ec9": {
+    "zh-CN": "分析窗口须为整数且满足 0 ≤ 起始步 < 结束步 ≤ {p0}",
+    "en": "Analysis window bounds must be integers: 0 ≤ start < end ≤ {p0}",
+    "ja": "分析窓の境界は整数で、0 ≤ 開始 < 終了 ≤ {p0} を満たす必要があります",
+    "fr": "Les bornes de la fenêtre d’analyse doivent être entières : 0 ≤ début < fin ≤ {p0}",
+    "de": "Die Grenzen des Analysefensters müssen ganzzahlig sein: 0 ≤ Start < Ende ≤ {p0}",
+    "es": "Los límites de la ventana de análisis deben ser enteros: 0 ≤ inicio < fin ≤ {p0}"
+  },
+  "difference.differenceWindow.select_an_existing_result_first_d13a87": {
+    "zh-CN": "先选择一个已有结果",
+    "en": "Select an existing result first",
+    "ja": "先に既存結果を選択してください",
+    "fr": "Choisissez d’abord un résultat",
+    "de": "Zuerst vorhandenes Ergebnis wählen",
+    "es": "Seleccione primero un resultado"
+  },
+  "difference.exploreDifferencePathways.scope_paths_starting_nodes_target_node_5228ac": {
+    "zh-CN": "原范围结构通路 · 起点 {p0} / 目标 {p1} · {p2} 节点 / {p3} 边",
+    "en": "Structural paths in the original scope · {p0} sources / {p1} targets · {p2} nodes / {p3} edges",
+    "ja": "元の範囲の構造通路 · 始点 {p0} / 終点 {p1} · {p2} ノード / {p3} エッジ",
+    "fr": "Chemins structurels du périmètre d’origine · {p0} sources / {p1} cibles · {p2} nœuds / {p3} arêtes",
+    "de": "Strukturelle Pfade im ursprünglichen Bereich · {p0} Startpunkte / {p1} Ziele · {p2} Knoten / {p3} Kanten",
+    "es": "Rutas estructurales del ámbito original · {p0} orígenes / {p1} destinos · {p2} nodos / {p3} aristas"
+  },
+  "difference.exploreDifferencePathways.select1_2_observation_sets_217d3b": {
+    "zh-CN": "请选择原实验中的 1–2 个观察集合。",
+    "en": "Select one or two observation sets from the original experiment.",
+    "ja": "元の実験から観測集合を1〜2個選択してください。",
+    "fr": "Sélectionnez un ou deux ensembles d’observation de l’expérience initiale.",
+    "de": "Wählen Sie ein oder zwei Beobachtungsmengen aus dem ursprünglichen Experiment.",
+    "es": "Seleccione uno o dos conjuntos de observación del experimento original."
+  },
+  "difference.exploreDifferencePathways.selectpathsstarting_nodes_79d725": {
+    "zh-CN": "先选择通路起点",
+    "en": "Select path starting nodes first",
+    "ja": "先に通路の始点ノードを選択してください",
+    "fr": "Sélectionnez d’abord les nœuds de départ des chemins",
+    "de": "Wählen Sie zuerst die Startknoten des Pfads",
+    "es": "Seleccione primero los nodos de inicio de la ruta"
+  },
+  "difference.invalidateDifferenceRequest.analysis_window_cf55ad": {
+    "zh-CN": "分析设置已改 · 下方仍为原窗口结果",
+    "en": "Analysis settings changed · showing the original window results",
+    "ja": "分析設定を変更 · 元の窓の結果を表示中",
+    "fr": "Paramètres modifiés · affichage des résultats de la fenêtre d’origine",
+    "de": "Analyseeinstellungen geändert · Ergebnisse des ursprünglichen Fensters werden angezeigt",
+    "es": "Configuración modificada · se muestran los resultados de la ventana original"
+  },
+  "difference.labels.absolute_sum_difference_d268a6": {
+    "zh-CN": "累计差绝对值降序",
+    "en": "Absolute sum difference descending",
+    "ja": "累積差の絶対値降順",
+    "fr": "Différence absolue des sommes décroissant",
+    "de": "Absolute Summendifferenz absteigend",
+    "es": "Diferencia absoluta de sumas descendente"
+  },
+  "difference.labels.message_4df672": {
+    "zh-CN": "累计下降量降序",
+    "en": "cumulative decrease amount descending",
+    "ja": "累積低下量降順",
+    "fr": "cumulébaisse quantitédécroissant",
+    "de": "kumulativ Abnahme Menge absteigend",
+    "es": "acumulado disminución cantidad descendente"
+  },
+  "difference.labels.message_5ef095": {
+    "zh-CN": "累计增加量降序",
+    "en": "cumulative increase amount descending",
+    "ja": "累積増加量降順",
+    "fr": "cumuléaugmentation quantitédécroissant",
+    "de": "kumulativ Zunahme Menge absteigend",
+    "es": "acumulado aumento cantidad descendente"
+  },
+  "difference.openDifferences.completeanalysis_e48646": {
+    "zh-CN": "已完成分析",
+    "en": "Completed analysis",
+    "ja": "完了済みの分析",
+    "fr": "Analyse terminée",
+    "de": "Abgeschlossene Analyse",
+    "es": "Análisis completado"
+  },
+  "difference.openDifferences.fixed_plan_ab707a": {
+    "zh-CN": "原固定方案 · 来源只读",
+    "en": "original Fixed plan · read-only source",
+    "ja": "元の固定案 · 読取専用ソース",
+    "fr": "original Plan fixe · source en lecture seule",
+    "de": "ursprünglich Fester Plan · schreibgeschützte Quelle",
+    "es": "original Plan fijo · origen de solo lectura"
+  },
+  "difference.openDifferences.intervention_9c72a3": {
+    "zh-CN": "{p0} 干预事件 · {p1}",
+    "en": "{p0} intervention events · {p1}",
+    "ja": "介入イベント {p0} 件 · {p1}",
+    "fr": "{p0} événements d’intervention · {p1}",
+    "de": "{p0} Interventionsereignisse · {p1}",
+    "es": "{p0} eventos de intervención · {p1}"
+  },
+  "difference.openDifferences.intervention_node_35359d": {
+    "zh-CN": "干预 {p0} 节点 / 增益 {p1} / [{p2}, {p3})",
+    "en": "Intervention: {p0} nodes / gain {p1} / [{p2}, {p3})",
+    "ja": "介入：{p0} ノード / ゲイン {p1} / [{p2}, {p3})",
+    "fr": "Intervention : {p0} nœuds / gain {p1} / [{p2}, {p3})",
+    "de": "Intervention: {p0} Knoten / Verstärkung {p1} / [{p2}, {p3})",
+    "es": "Intervención: {p0} nodos / ganancia {p1} / [{p2}, {p3})"
+  },
+  "difference.openDifferences.node_open_sort_filter_select_955afe": {
+    "zh-CN": "完整节点统计已打开 · 排序、筛选与选择不新增传播",
+    "en": "Full node statistics opened · sorting, filtering and selection require no new propagation",
+    "ja": "全ノード統計を開きました · 並べ替え・絞り込み・選択による追加伝播はありません",
+    "fr": "Statistiques complètes ouvertes · aucun nouveau calcul de propagation pour trier, filtrer ou sélectionner",
+    "de": "Vollständige Knotenstatistik geöffnet · Sortieren, Filtern und Auswählen benötigen keinen neuen Ausbreitungslauf",
+    "es": "Estadísticas completas abiertas · ordenar, filtrar y seleccionar no requiere nuevas propagaciones"
+  },
+  "difference.openDifferences.saveanalysis_2c23f9": {
+    "zh-CN": "已保存分析",
+    "en": "saved Analysis",
+    "ja": "保存済み分析",
+    "fr": "enregistréAnalyse",
+    "de": "gespeichert Analyse",
+    "es": "guardado Análisis"
+  },
+  "difference.openDifferences.scope_differences_fixed_plan_524b92": {
+    "zh-CN": "范围差异 · 原固定方案",
+    "en": "Scope differences · original Fixed plan",
+    "ja": "範囲内の差分 · 元の固定案",
+    "fr": "Différences dans le périmètre · original Plan fixe",
+    "de": "Umfangsdifferenzen · ursprünglich Fester Plan",
+    "es": "Diferencias de alcance · original Plan fijo"
+  },
+  "difference.openDifferences.scope_status_observation_2b5066": {
+    "zh-CN": "{p0} · 范围 {p1} · 更新[{p2}, {p3}) / 状态 {p4}…{p5} · 输入 {p6} / 观察 {p7} 集合 · {p8}",
+    "en": "{p0} · scope {p1} · updates [{p2}, {p3}) / states {p4}…{p5} · {p6} input / {p7} observation sets · {p8}",
+    "ja": "{p0} · 範囲 {p1} · 更新 [{p2}, {p3}) / 状態 {p4}…{p5} · 入力 {p6} / 観測 {p7} 集合 · {p8}",
+    "fr": "{p0} · périmètre {p1} · mises à jour [{p2}, {p3}) / états {p4}…{p5} · {p6} ensembles d’entrée / {p7} d’observation · {p8}",
+    "de": "{p0} · Bereich {p1} · Aktualisierungen [{p2}, {p3}) / Zustände {p4}…{p5} · {p6} Eingabe- / {p7} Beobachtungsmengen · {p8}",
+    "es": "{p0} · ámbito {p1} · actualizaciones [{p2}, {p3}) / estados {p4}…{p5} · {p6} conjuntos de entrada / {p7} de observación · {p8}"
+  },
+  "difference.pollDifferences.baseline_b7692b": {
+    "zh-CN": "基线开始",
+    "en": "Baseline started",
+    "ja": "ベースライン計算開始",
+    "fr": "Calcul de référence démarré",
+    "de": "Referenzberechnung gestartet",
+    "es": "Cálculo de referencia iniciado"
+  },
+  "difference.pollDifferences.baseline_intervention_c0be57": {
+    "zh-CN": "{p0} · 基线 {p1}/{p2} / 干预 {p3}/{p4}",
+    "en": "{p0} · Baseline {p1}/{p2} / Intervention {p3}/{p4}",
+    "ja": "{p0} · 基準 {p1}/{p2} / 介入 {p3}/{p4}",
+    "fr": "{p0} · Référence {p1}/{p2} / Intervention {p3}/{p4}",
+    "de": "{p0} · Referenz {p1}/{p2} / Eingriff {p3}/{p4}",
+    "es": "{p0} · Referencia {p1}/{p2} / Intervención {p3}/{p4}"
+  },
+  "difference.pollDifferences.baselinecomplete_ae2fc4": {
+    "zh-CN": "基线完成",
+    "en": "Baseline complete",
+    "ja": "ベースライン計算完了",
+    "fr": "Calcul de référence terminé",
+    "de": "Referenzberechnung abgeschlossen",
+    "es": "Cálculo de referencia completado"
+  },
+  "difference.pollDifferences.cancelled_a8aa2a": {
+    "zh-CN": "准备已取消，未生成完整排名",
+    "en": "Preparation cancelled. No complete ranking was produced.",
+    "ja": "準備がキャンセルされました。完全な順位は生成されていません。",
+    "fr": "Préparation annulée. Aucun classement complet n’a été produit.",
+    "de": "Vorbereitung abgebrochen. Keine vollständige Rangfolge erstellt.",
+    "es": "Preparación cancelada. No se generó una clasificación completa."
+  },
+  "difference.pollDifferences.complete_99cc11": {
+    "zh-CN": "统计未完成。",
+    "en": "Statistics are incomplete.",
+    "ja": "集計が完了していません。",
+    "fr": "Les statistiques sont incomplètes.",
+    "de": "Die Statistiken sind unvollständig.",
+    "es": "Las estadísticas están incompletas."
+  },
+  "difference.pollDifferences.failed_b5d444": {
+    "zh-CN": "准备失败，未生成完整排名",
+    "en": "Preparation failed. No complete ranking was produced.",
+    "ja": "準備に失敗しました。完全な順位は生成されていません。",
+    "fr": "Échec de la préparation. Aucun classement complet n’a été produit.",
+    "de": "Vorbereitung fehlgeschlagen. Keine vollständige Rangfolge erstellt.",
+    "es": "La preparación falló. No se generó una clasificación completa."
+  },
+  "difference.pollDifferences.intervention_ec21cc": {
+    "zh-CN": "干预开始",
+    "en": "Intervention started",
+    "ja": "介入計算開始",
+    "fr": "Calcul avec intervention démarré",
+    "de": "Interventionsberechnung gestartet",
+    "es": "Cálculo con intervención iniciado"
+  },
+  "difference.pollDifferences.interventioncomplete_451011": {
+    "zh-CN": "干预完成",
+    "en": "Intervention complete",
+    "ja": "介入計算完了",
+    "fr": "Calcul avec intervention terminé",
+    "de": "Interventionsberechnung abgeschlossen",
+    "es": "Cálculo con intervención completado"
+  },
+  "difference.pollDifferences.message_afa5aa": {
+    "zh-CN": "准备完整统计",
+    "en": "Preparing full statistics",
+    "ja": "全統計を準備中",
+    "fr": "Préparation des statistiques complètes",
+    "de": "Vollständige Statistik wird vorbereitet",
+    "es": "Preparando estadísticas completas"
+  },
+  "difference.prepareDifferenceReplay.circuit_budget_6f4c90": {
+    "zh-CN": "请先检查当前所选回路与记录预算",
+    "en": "Check the selected circuit and recording budget first",
+    "ja": "先に選択した回路と記録予算を確認してください",
+    "fr": "Vérifiez d’abord le circuit sélectionné et le budget d’enregistrement",
+    "de": "Prüfen Sie zuerst den ausgewählten Schaltkreis und das Aufzeichnungsbudget",
+    "es": "Compruebe primero el circuito seleccionado y el presupuesto de registro"
+  },
+  "difference.prepareDifferences.window_budget_de5c4f": {
+    "zh-CN": "请先检查当前窗口与预算",
+    "en": "Check the current window and budget first",
+    "ja": "先に現在の窓と予算を確認してください",
+    "fr": "Vérifiez d’abord la fenêtre actuelle et le budget",
+    "de": "Prüfen Sie zuerst das aktuelle Fenster und das Budget",
+    "es": "Compruebe primero la ventana actual y el presupuesto"
+  },
+  "difference.previewDifferenceReplay.node_members_node_node_4640ce": {
+    "zh-CN": "指定 {p0} 节点 · 合并协议成员后 {p1} 节点 / {p2} 真实边 · 缺记录 {p3} 节点 / {p4} 时刻 · 新增传播 {p5}",
+    "en": "{p0} selected nodes · after including protocol members: {p1} nodes / {p2} measured edges · missing records: {p3} nodes / {p4} states · {p5} additional propagations",
+    "ja": "指定 {p0} ノード · プロトコルのメンバーを含めて {p1} ノード / 実測エッジ {p2} · 未記録 {p3} ノード / {p4} 状態 · 追加伝播 {p5} 回",
+    "fr": "{p0} nœuds sélectionnés · avec les membres du protocole : {p1} nœuds / {p2} arêtes mesurées · enregistrements manquants : {p3} nœuds / {p4} états · {p5} propagations supplémentaires",
+    "de": "{p0} ausgewählte Knoten · mit Protokollmitgliedern: {p1} Knoten / {p2} gemessene Kanten · fehlende Aufzeichnungen: {p3} Knoten / {p4} Zustände · {p5} zusätzliche Ausbreitungsläufe",
+    "es": "{p0} nodos seleccionados · incluidos los miembros del protocolo: {p1} nodos / {p2} aristas medidas · faltan registros: {p3} nodos / {p4} estados · {p5} propagaciones adicionales"
+  },
+  "difference.previewDifferences.budget_50525b": {
+    "zh-CN": "正在检查完整统计与预算…",
+    "en": "Checking full statistics and budget…",
+    "ja": "全統計と予算を確認中…",
+    "fr": "Vérification des statistiques complètes et du budget…",
+    "de": "Vollständige Statistik und Budget werden geprüft…",
+    "es": "Comprobando las estadísticas completas y el presupuesto…"
+  },
+  "difference.previewDifferences.window_0_968213": {
+    "zh-CN": "完整窗口统计可复用 · 新增传播 0",
+    "en": "Full window statistics can be reused · no additional propagation",
+    "ja": "窓全体の統計を再利用可能 · 追加伝播なし",
+    "fr": "Statistiques complètes de la fenêtre réutilisables · aucune propagation supplémentaire",
+    "de": "Vollständige Fensterstatistik wiederverwendbar · kein zusätzlicher Ausbreitungslauf",
+    "es": "Se pueden reutilizar las estadísticas completas de la ventana · sin propagaciones adicionales"
+  },
+  "difference.previewDifferences.window_86ffd1": {
+    "zh-CN": "需准备完整窗口统计 · 新增传播 {p0}",
+    "en": "Full window statistics required · {p0} additional propagations",
+    "ja": "窓全体の統計の準備が必要 · 追加伝播 {p0} 回",
+    "fr": "Statistiques complètes de la fenêtre nécessaires · {p0} propagations supplémentaires",
+    "de": "Vollständige Fensterstatistik erforderlich · {p0} zusätzliche Ausbreitungsläufe",
+    "es": "Se requieren estadísticas completas de la ventana · {p0} propagaciones adicionales"
+  },
+  "difference.readDifferenceNeighbors.current_scope_connections_back_28d285": {
+    "zh-CN": "{p0} · 当前计算范围真实连接 {p1} 条 · 返回 {p2} · {p3}–{p4}",
+    "en": "{p0} · {p1} measured connections in this scope · {p2} returned · {p3}–{p4}",
+    "ja": "{p0} · 現在の範囲の実測接続 {p1} 件 · 取得 {p2} 件 · {p3}–{p4}",
+    "fr": "{p0} · {p1} connexions mesurées dans ce périmètre · {p2} renvoyées · {p3}–{p4}",
+    "de": "{p0} · {p1} gemessene Verbindungen im Bereich · {p2} zurückgegeben · {p3}–{p4}",
+    "es": "{p0} · {p1} conexiones medidas en este ámbito · {p2} devueltas · {p3}–{p4}"
+  },
+  "difference.readDifferenceRows.node_back_3c1132": {
+    "zh-CN": "{p0} · 匹配 {p1} / 统计 {p2} 节点 · 返回 {p3} · {p4}–{p5}",
+    "en": "{p0} · {p1} matching / {p2} analyzed nodes · {p3} returned · {p4}–{p5}",
+    "ja": "{p0} · 一致 {p1} / 集計対象 {p2} ノード · 取得 {p3} 件 · {p4}–{p5}",
+    "fr": "{p0} · {p1} nœuds correspondants / {p2} analysés · {p3} renvoyés · {p4}–{p5}",
+    "de": "{p0} · {p1} passende / {p2} analysierte Knoten · {p3} zurückgegeben · {p4}–{p5}",
+    "es": "{p0} · {p1} nodos coincidentes / {p2} analizados · {p3} devueltos · {p4}–{p5}"
+  },
+  "difference.renderDifferenceSelection.node_c2d1d4": {
+    "zh-CN": "所选 {p0} 节点",
+    "en": "{p0} selected nodes",
+    "ja": "選択済み {p0} ノード",
+    "fr": "{p0} nœuds sélectionnés",
+    "de": "{p0} ausgewählte Knoten",
+    "es": "{p0} nodos seleccionados"
+  },
+  "difference.selectDifferenceNode.baseline_relative_change_definition_36f676": {
+    "zh-CN": "近零基线，相对变化未定义",
+    "en": "Relative change is undefined because the baseline is near zero.",
+    "ja": "ベースラインがゼロに近いため、相対変化は未定義です。",
+    "fr": "La variation relative est indéfinie car la référence est proche de zéro.",
+    "de": "Die relative Änderung ist wegen der Referenz nahe null nicht definiert.",
+    "es": "El cambio relativo no está definido porque la referencia es cercana a cero."
+  },
+  "difference.selectDifferenceNode.baseline_sum_intervention_sum_sum_difference_mean_differ_bec6c2": {
+    "zh-CN": "{p0} · 基线累计 {p1} / 干预累计 {p2} · 累计差 {p3} / 绝对值 {p4} / 平均差 {p5} · {p6}",
+    "en": "{p0} · baseline sum {p1} / intervention sum {p2} · sum difference {p3} / absolute difference {p4} / mean difference {p5} · {p6}",
+    "ja": "{p0} · ベースライン累計 {p1} / 介入累計 {p2} · 累計差 {p3} / 絶対差 {p4} / 平均差 {p5} · {p6}",
+    "fr": "{p0} · somme de référence {p1} / avec intervention {p2} · différence cumulée {p3} / absolue {p4} / moyenne {p5} · {p6}",
+    "de": "{p0} · Referenzsumme {p1} / Interventionssumme {p2} · Summendifferenz {p3} / absolut {p4} / mittlere Differenz {p5} · {p6}",
+    "es": "{p0} · suma de referencia {p1} / con intervención {p2} · diferencia acumulada {p3} / absoluta {p4} / media {p5} · {p6}"
+  },
+  "difference.selectDifferenceNode.node_e4eb14": {
+    "zh-CN": "正在读取节点…",
+    "en": "Loading nodes…",
+    "ja": "ノードを読み込み中…",
+    "fr": "Chargement des nœuds…",
+    "de": "Knoten werden geladen…",
+    "es": "Cargando nodos…"
+  },
+  "difference.selectDifferenceNode.relative_change_6c3b68": {
+    "zh-CN": "相对变化 ",
+    "en": "Relative change ",
+    "ja": "相対変化 ",
+    "fr": "Variation relative ",
+    "de": "Relative Änderung ",
+    "es": "Cambio relativo "
+  },
+  "difference.sendDifferenceSelection.intervention_not_run_result_source_plan_a7705e": {
+    "zh-CN": "所选已加入干预草稿 · 尚未运行；来源结果保持原方案",
+    "en": "Selection added to the intervention draft. Not run; the source result retains its original plan.",
+    "ja": "選択を介入下書きに追加しました。未実行です。ソース結果の元の計画は保持されます。",
+    "fr": "Sélection ajoutée au brouillon d’intervention. Non exécuté ; le résultat source conserve son plan initial.",
+    "de": "Auswahl zum Interventionsentwurf hinzugefügt. Nicht ausgeführt; das Quellergebnis behält seinen ursprünglichen Plan.",
+    "es": "Selección añadida al borrador de intervención. Sin ejecutar; el resultado de origen conserva su plan original."
+  },
+  "difference.sendDifferenceSelection.node_intervention_node_9e037c": {
+    "zh-CN": "以下节点不在当前干预候选中，未加入任何节点：",
+    "en": "These nodes are outside the current intervention candidates. No nodes were added: ",
+    "ja": "現在の介入候補に含まれないノードがあります。ノードは追加されていません: ",
+    "fr": "Ces nœuds ne font pas partie des candidats actuels à l’intervention. Aucun nœud n’a été ajouté : ",
+    "de": "Diese Knoten gehören nicht zu den aktuellen Interventionskandidaten. Es wurden keine Knoten hinzugefügt: ",
+    "es": "Estos nodos no forman parte de los candidatos actuales a la intervención. No se añadió ningún nodo: "
+  },
+  "difference.sendDifferenceSelection.select_nodes_first_24135a": {
+    "zh-CN": "先选择节点",
+    "en": "Select nodes first",
+    "ja": "先にノードを選択してください",
+    "fr": "Sélectionnez d’abord des nœuds",
+    "de": "Zuerst Knoten auswählen",
+    "es": "Seleccione primero nodos"
+  },
+  "difference.sendDifferenceSelection.stop_b3daa7": {
+    "zh-CN": "请等待当前计算结束",
+    "en": "Wait for the current calculation to finish",
+    "ja": "現在の計算が完了するまでお待ちください",
+    "fr": "Attendez la fin du calcul en cours",
+    "de": "Warten Sie, bis die aktuelle Berechnung abgeschlossen ist",
+    "es": "Espere a que termine el cálculo actual"
+  },
+  "difference.setDifferenceWindows.custom_window_55a653": {
+    "zh-CN": "指定窗口",
+    "en": "Custom window",
+    "ja": "指定ウィンドウ",
+    "fr": "Fenêtre personnalisée",
+    "de": "Eigenes Fenster",
+    "es": "Ventana personalizada"
+  }
+}

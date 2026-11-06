@@ -1,0 +1,27 @@
+# Local environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# User data, results and internal development material
+data/
+runs/
+workspaces/
+backups/
+workspace.json
+*.log
+AGENTS.md
+
+# Generated build and tool output
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+Thumbs.db
+
+# A user-filled copy of the example template
+lc4-selection.json

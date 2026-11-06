@@ -1,0 +1,778 @@
+{
+  "joint.checkJointSearchContext.conditionbaseline_f2fc94": {
+    "zh-CN": "正在计算各条件基线与共同预选…",
+    "en": "Calculating baselines and shared preselection…",
+    "ja": "各条件のベースラインと共通の事前選択を計算中…",
+    "fr": "Calcul des références et de la présélection commune…",
+    "de": "Referenzen und gemeinsame Vorauswahl werden berechnet…",
+    "es": "Calculando las referencias y la preselección común…"
+  },
+  "joint.controls.cancel_keep_plan_151196": {
+    "zh-CN": "正在取消，保留已完整评价的方案…",
+    "en": "Cancelling. Completed evaluations will be retained…",
+    "ja": "キャンセル中。完了した評価は保持されます…",
+    "fr": "Annulation en cours. Les évaluations terminées seront conservées…",
+    "de": "Abbruch läuft. Abgeschlossene Auswertungen bleiben erhalten…",
+    "es": "Cancelando. Se conservarán las evaluaciones completadas…"
+  },
+  "joint.controls.condition_fixed_plan_b2d5da": {
+    "zh-CN": "额外条件已改，固定方案待评价",
+    "en": "Additional conditions changed. Evaluate the fixed plan again.",
+    "ja": "追加条件が変更されました。固定計画を再度評価してください。",
+    "fr": "Les conditions supplémentaires ont changé. Réévaluez le plan fixe.",
+    "de": "Zusätzliche Bedingungen geändert. Den festen Plan erneut auswerten.",
+    "es": "Las condiciones adicionales han cambiado. Evalúe de nuevo el plan fijo."
+  },
+  "joint.controls.exceeded_314600": {
+    "zh-CN": "超限",
+    "en": "Exceeded",
+    "ja": "超過",
+    "fr": "Dépassé",
+    "de": "Überschritten",
+    "es": "Excedido"
+  },
+  "joint.controls.input_events_2ee982": {
+    "zh-CN": " {p0} · {p1} 输入事件",
+    "en": " {p0} · {p1} Input events",
+    "ja": " {p0} · {p1} 入力イベント",
+    "fr": " {p0} · {p1} Événements d’entrée",
+    "de": " {p0} · {p1} Eingabeereignisse",
+    "es": " {p0} · {p1} Eventos de entrada"
+  },
+  "joint.controls.joint_search_save_10faa0": {
+    "zh-CN": "共同搜索已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "joint.controls.message_1234ab": {
+    "zh-CN": "当前最好",
+    "en": "best evaluated",
+    "ja": "評価済み最良",
+    "fr": "meilleur évalué",
+    "de": "beste bewertet",
+    "es": "mejor evaluado"
+  },
+  "joint.controls.message_1b9624": {
+    "zh-CN": "额外评价",
+    "en": "Additional evaluation",
+    "ja": "追加評価",
+    "fr": "Évaluation supplémentaire",
+    "de": "Zusätzliche Auswertung",
+    "es": "Evaluación adicional"
+  },
+  "joint.controls.message_3d7752": {
+    "zh-CN": "取舍 ",
+    "en": "trade-off ",
+    "ja": "比較 ",
+    "fr": "compromis ",
+    "de": "Abwägung ",
+    "es": "compensación "
+  },
+  "joint.controls.message_4c5893": {
+    "zh-CN": "输入 {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "en": "input {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "ja": "入力 {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "fr": "entrée {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "de": "Eingabe {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "es": "entrada {p0} · [{p1}, {p2}) / {p3} · {p4}"
+  },
+  "joint.controls.message_76b164": {
+    "zh-CN": "相对下降",
+    "en": "Relative decrease",
+    "ja": "相対減少",
+    "fr": "Diminution relative",
+    "de": "Relative Abnahme",
+    "es": "Disminución relativa"
+  },
+  "joint.controls.message_cf6ba9": {
+    "zh-CN": "平均活动下降",
+    "en": "mean activity decrease",
+    "ja": "平均活動低下",
+    "fr": "moyenne activitébaisse",
+    "de": "Mittelwert Aktivität Abnahme",
+    "es": "media actividad disminución"
+  },
+  "joint.controls.message_dadcda": {
+    "zh-CN": "额外 · ",
+    "en": "additional · ",
+    "ja": "追加 · ",
+    "fr": "supplémentaire · ",
+    "de": "zusätzlich · ",
+    "es": "adicional · "
+  },
+  "joint.controls.metricundefined_d5fdbb": {
+    "zh-CN": "相对指标无定义",
+    "en": "Relative metric undefined",
+    "ja": "相対指標は未定義",
+    "fr": "Mesure relative indéfinie",
+    "de": "Relative Messgröße undefiniert",
+    "es": "Métrica relativa indefinida"
+  },
+  "joint.controls.metricundefined_edfd0e": {
+    "zh-CN": " · 相对指标无定义",
+    "en": " · relative Metric Undefined",
+    "ja": " · 相対指標未定義",
+    "fr": " · relatif Mesure Non défini",
+    "de": " · relativ Kennwert Undefiniert",
+    "es": " · relativo Métrica No definido"
+  },
+  "joint.controls.not_satisfied_3b34e0": {
+    "zh-CN": "未达标",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "joint.controls.observation_01868c": {
+    "zh-CN": "观察 {p0} · 评价[{p1}, {p2}) · {p3}",
+    "en": "Observation {p0} · evaluation[{p1}, {p2}) · {p3}",
+    "ja": "観測 {p0} · 評価[{p1}, {p2}) · {p3}",
+    "fr": "Observation {p0} · évaluation[{p1}, {p2}) · {p3}",
+    "de": "Beobachtung {p0} · Bewertung[{p1}, {p2}) · {p3}",
+    "es": "Observación {p0} · evaluación[{p1}, {p2}) · {p3}"
+  },
+  "joint.controls.protection_151e67": {
+    "zh-CN": "{p0} 下降与保护",
+    "en": "{p0} decrease and protection",
+    "ja": "{p0} 低下と保護",
+    "fr": "{p0} baisse et protection",
+    "de": "{p0} Abnahme und Schutz",
+    "es": "{p0} disminución y protección"
+  },
+  "joint.controls.protection_53d8fc": {
+    "zh-CN": "保护 {p0} · {p1} ≤ {p2}",
+    "en": "protection {p0} · {p1} ≤ {p2}",
+    "ja": "保護 {p0} · {p1} ≤ {p2}",
+    "fr": "protection {p0} · {p1} ≤ {p2}",
+    "de": "Schutz {p0} · {p1} ≤ {p2}",
+    "es": "protección {p0} · {p1} ≤ {p2}"
+  },
+  "joint.controls.protectionexceeded_4c253b": {
+    "zh-CN": "保护超限 ",
+    "en": "protection Exceeded ",
+    "ja": "保護超過 ",
+    "fr": "protection Dépassé ",
+    "de": "SchutzÜberschritten ",
+    "es": "protección Excedido "
+  },
+  "joint.controls.protectionexceeded_9a9e68": {
+    "zh-CN": "保护超限",
+    "en": "Protection limit exceeded",
+    "ja": "保護上限超過",
+    "fr": "Limite de protection dépassée",
+    "de": "Schutzgrenze überschritten",
+    "es": "Límite de protección superado"
+  },
+  "joint.controls.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "joint.controls.satisfied_ec9205": {
+    "zh-CN": "未满足",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "joint.controls.search_783a9e": {
+    "zh-CN": "搜索 · ",
+    "en": "Search · ",
+    "ja": "探索 · ",
+    "fr": "Recherche · ",
+    "de": "Suche · ",
+    "es": "Búsqueda · "
+  },
+  "joint.controls.searchcondition_a949f8": {
+    "zh-CN": "搜索条件",
+    "en": "Search conditions",
+    "ja": "検索条件",
+    "fr": "Conditions de recherche",
+    "de": "Suchbedingungen",
+    "es": "Condiciones de búsqueda"
+  },
+  "joint.controls.targetnot_satisfied_c17f5e": {
+    "zh-CN": "目标未满足",
+    "en": "Target not met",
+    "ja": "目標未達成",
+    "fr": "Objectif non atteint",
+    "de": "Ziel nicht erreicht",
+    "es": "Objetivo no alcanzado"
+  },
+  "joint.controls.updates_gain_intervention_65cc22": {
+    "zh-CN": " · {p0} 更新步 / gain {p1} / 干预 [{p2}, {p3}){p4}{p5}",
+    "en": " · {p0} Updates / gain {p1} / Intervention [{p2}, {p3}){p4}{p5}",
+    "ja": " · {p0} 更新ステップ / gain {p1} / 介入 [{p2}, {p3}){p4}{p5}",
+    "fr": " · {p0} Mises à jour / gain {p1} / Intervention [{p2}, {p3}){p4}{p5}",
+    "de": " · {p0} Updates / gain {p1} / Eingriff [{p2}, {p3}){p4}{p5}",
+    "es": " · {p0} Actualizaciones / gain {p1} / Intervención [{p2}, {p3}){p4}{p5}"
+  },
+  "joint.controls.view_conditions_f268bc": {
+    "zh-CN": "查看各条件",
+    "en": "View conditions",
+    "ja": "各条件を表示",
+    "fr": "Voir les conditions",
+    "de": "Bedingungen anzeigen",
+    "es": "Ver condiciones"
+  },
+  "joint.evaluateJointPlan.0_nodebaselineplan_pinintervention_eb9009": {
+    "zh-CN": "0 节点基线方案没有固定干预集合",
+    "en": "The zero-node baseline plan has no fixed intervention set",
+    "ja": "0 ノードのベースライン計画には固定介入集合がありません",
+    "fr": "Le plan de référence à zéro nœud n’a pas d’ensemble d’intervention fixe",
+    "de": "Der Referenzplan mit null Knoten hat keine feste Interventionsmenge",
+    "es": "El plan de referencia de cero nodos no tiene un conjunto fijo de intervención"
+  },
+  "joint.evaluateJointPlan.current_scope_plan_opensave_b60951": {
+    "zh-CN": "当前计算范围与方案不匹配，请重新打开保存结果",
+    "en": "The current scope does not match this plan. Reopen the saved result.",
+    "ja": "現在の範囲がこの計画と一致しません。保存済み結果を再度開いてください。",
+    "fr": "Le périmètre actuel ne correspond pas à ce plan. Rouvrez le résultat enregistré.",
+    "de": "Der aktuelle Bereich passt nicht zu diesem Plan. Das gespeicherte Ergebnis erneut öffnen.",
+    "es": "El ámbito actual no coincide con este plan. Abra de nuevo el resultado guardado."
+  },
+  "joint.evaluateJointPlan.open_save_joint_search_complete_a706ba": {
+    "zh-CN": "请重新打开已保存共同搜索，或完成当前任务",
+    "en": "Reopen the saved joint search or finish the current task.",
+    "ja": "保存済み共同探索を開き直すか、現在のタスクを完了してください。",
+    "fr": "Rouvrez la recherche conjointe enregistrée ou terminez la tâche actuelle.",
+    "de": "Die gespeicherte gemeinsame Suche erneut öffnen oder die aktuelle Aufgabe abschließen.",
+    "es": "Abra de nuevo la búsqueda conjunta guardada o termine la tarea actual."
+  },
+  "joint.evaluateJointPlan.pinnode_set_3fdf54": {
+    "zh-CN": "正在联合评价固定节点集合…",
+    "en": "Evaluating the fixed node set across conditions…",
+    "ja": "固定ノード集合を全条件で評価中…",
+    "fr": "Évaluation de l’ensemble de nœuds fixe pour les conditions…",
+    "de": "Feste Knotenmenge wird über die Bedingungen bewertet…",
+    "es": "Evaluando el conjunto fijo de nodos en las condiciones…"
+  },
+  "joint.evaluateJointPlan.searchcondition_condition_12_a217b2": {
+    "zh-CN": "搜索条件与额外条件合计最多 12 个",
+    "en": "Search and additional conditions may total at most 12",
+    "ja": "検索条件と追加条件の合計は最大 12 個です",
+    "fr": "Les conditions de recherche et supplémentaires sont limitées à 12 au total",
+    "de": "Suchbedingungen und zusätzliche Bedingungen dürfen insgesamt höchstens 12 sein",
+    "es": "Las condiciones de búsqueda y adicionales no pueden superar 12 en total"
+  },
+  "joint.invalidateJoint.condition_search_scope_2d5f2a": {
+    "zh-CN": "历史结果 · 选用条件、搜索设置或计算范围已改",
+    "en": "Previous result · selected conditions, search settings or scope have changed",
+    "ja": "以前の結果 · 選択条件・検索設定・範囲に変更があります",
+    "fr": "Résultat précédent · conditions sélectionnées, paramètres de recherche ou périmètre modifiés",
+    "de": "Früheres Ergebnis · ausgewählte Bedingungen, Sucheinstellungen oder Bereich geändert",
+    "es": "Resultado anterior · se han modificado las condiciones, la búsqueda o el ámbito"
+  },
+  "joint.invalidateJointSearchContext.search_baseline_16a806": {
+    "zh-CN": "协议或搜索设置已改 · 基线与预选待重新检查",
+    "en": "Protocol or search settings changed · recheck the baseline and preselection",
+    "ja": "プロトコルまたは検索設定を変更 · ベースラインと事前選択を再確認してください",
+    "fr": "Protocole ou paramètres de recherche modifiés · vérifiez à nouveau la référence et la présélection",
+    "de": "Protokoll oder Sucheinstellungen geändert · Referenz und Vorauswahl erneut prüfen",
+    "es": "Protocolo o búsqueda modificados · vuelva a comprobar la referencia y la preselección"
+  },
+  "joint.jointComparisonForPlan.search_783a9e": {
+    "zh-CN": "搜索 · ",
+    "en": "Search · ",
+    "ja": "探索 · ",
+    "fr": "Recherche · ",
+    "de": "Suche · ",
+    "es": "Búsqueda · "
+  },
+  "joint.jointConstraintLabel.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "joint.jointConstraintLabel.satisfied_ec9205": {
+    "zh-CN": "未满足",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "joint.jointPayload.joint_search_select_2_12_condition_b3aa7d": {
+    "zh-CN": "共同搜索需要选择 2–12 个条件",
+    "en": "Select 2–12 conditions for joint search",
+    "ja": "共同検索には 2–12 個の条件を選択してください",
+    "fr": "Sélectionnez 2 à 12 conditions pour la recherche conjointe",
+    "de": "Wählen Sie 2–12 Bedingungen für die gemeinsame Suche",
+    "es": "Seleccione entre 2 y 12 condiciones para la búsqueda conjunta"
+  },
+  "joint.pollJointSearch.baseline_1bea37": {
+    "zh-CN": "准备基线",
+    "en": "Preparing baseline",
+    "ja": "ベースラインを準備中",
+    "fr": "Préparation de la référence",
+    "de": "Referenz wird vorbereitet",
+    "es": "Preparando la referencia"
+  },
+  "joint.pollJointSearch.intervention_788763": {
+    "zh-CN": "{p0} · 集合评价 {p1}/{p2} · 干预传播 {p3}",
+    "en": "{p0} · set evaluations {p1}/{p2} · intervention propagations {p3}",
+    "ja": "{p0} · 集合評価 {p1}/{p2} · 介入伝播 {p3} 回",
+    "fr": "{p0} · évaluations d’ensembles {p1}/{p2} · propagations avec intervention {p3}",
+    "de": "{p0} · Mengenbewertungen {p1}/{p2} · Interventionsläufe {p3}",
+    "es": "{p0} · evaluaciones de conjuntos {p1}/{p2} · propagaciones con intervención {p3}"
+  },
+  "joint.pollJointSearch.joint_searchfailed_8e4e7f": {
+    "zh-CN": "共同搜索失败",
+    "en": "Joint search failed",
+    "ja": "共同探索失敗",
+    "fr": "Recherche conjointeéchec",
+    "de": "Gemeinsame Suche fehlgeschlagen",
+    "es": "Búsqueda conjunta fallido"
+  },
+  "joint.previewJointSearch.candidate_set_6038ce": {
+    "zh-CN": "调整候选集合或端点策略后重新检查",
+    "en": "Adjust the candidates or endpoint policy, then check again",
+    "ja": "候補集合または端点方針を調整して再確認してください",
+    "fr": "Ajustez les candidats ou la politique d’extrémités, puis vérifiez à nouveau",
+    "de": "Passen Sie Kandidaten oder Endpunktregel an und prüfen Sie erneut",
+    "es": "Ajuste los candidatos o la política de extremos y vuelva a comprobar"
+  },
+  "joint.previewJointSearch.check_joint_candidates_913aee": {
+    "zh-CN": "正在检查共同候选与协议…",
+    "en": "Checking shared candidates and protocols…",
+    "ja": "共通候補とプロトコルを確認中…",
+    "fr": "Vérification des candidats communs et des protocoles…",
+    "de": "Gemeinsame Kandidaten und Protokolle werden geprüft…",
+    "es": "Comprobando los candidatos comunes y los protocolos…"
+  },
+  "joint.previewJointSearch.message_310bc8": {
+    "zh-CN": "{p0} 协议 · 原候选 {p1} / 端点并集排除 {p2} / 实际候选 {p3}{p4}",
+    "en": "{p0} protocols · {p1} original candidates / {p2} excluded endpoints / {p3} effective candidates{p4}",
+    "ja": "プロトコル {p0} · 元候補 {p1} / 除外端点 {p2} / 実際の候補 {p3}{p4}",
+    "fr": "{p0} protocoles · {p1} candidats initiaux / {p2} extrémités exclues / {p3} candidats effectifs{p4}",
+    "de": "{p0} Protokolle · {p1} ursprüngliche Kandidaten / {p2} ausgeschlossene Endpunkte / {p3} tatsächliche Kandidaten{p4}",
+    "es": "{p0} protocolos · {p1} candidatos originales / {p2} extremos excluidos / {p3} candidatos efectivos{p4}"
+  },
+  "joint.previewJointSearch.message_448a59": {
+    "zh-CN": "共同候选已确认",
+    "en": "Shared candidates confirmed",
+    "ja": "共通候補を確認済み",
+    "fr": "Candidats communs confirmés",
+    "de": "Gemeinsame Kandidaten bestätigt",
+    "es": "Candidatos comunes confirmados"
+  },
+  "joint.previewJointSearch.searchnode_ed5f6e": {
+    "zh-CN": " · 没有可搜索节点",
+    "en": " · no eligible nodes to search",
+    "ja": " · 検索対象のノードがありません",
+    "fr": " · aucun nœud admissible à rechercher",
+    "de": " · keine geeigneten Knoten für die Suche",
+    "es": " · no hay nodos aptos para buscar"
+  },
+  "joint.refreshJointChoices.add_comparison_conditions_or_open_a_saved_comparison_45b611": {
+    "zh-CN": "先在多条件比较中加入条件，或打开已保存比较组。",
+    "en": "Add comparison conditions or open a saved comparison.",
+    "ja": "比較条件を追加するか保存済み比較を開いてください。",
+    "fr": "Ajoutez des conditions ou ouvrez une comparaison.",
+    "de": "Vergleichsbedingungen hinzufügen oder Vergleich öffnen.",
+    "es": "Añada condiciones o abra una comparación guardada."
+  },
+  "joint.refreshJointChoices.no_extra_conditions_add_conditions_to_the_comparison_fir_47b185": {
+    "zh-CN": "没有额外条件。可先在多条件比较中加入新的条件。",
+    "en": "No extra conditions; add conditions to the comparison first.",
+    "ja": "追加条件なし・先に比較に条件を追加してください。",
+    "fr": "Aucune condition supplémentaire ; ajoutez-en à la comparaison.",
+    "de": "Keine Zusatzbedingungen; zuerst zum Vergleich hinzufügen.",
+    "es": "Sin condiciones adicionales; añádalas primero a comparación."
+  },
+  "joint.renderJointEvaluation.condition_16bb1d": {
+    "zh-CN": "条件",
+    "en": "Condition",
+    "ja": "条件",
+    "fr": "Condition",
+    "de": "Bedingung",
+    "es": "Condición"
+  },
+  "joint.renderJointEvaluation.individual_constraints_9717f6": {
+    "zh-CN": "各项约束",
+    "en": "Individual constraints",
+    "ja": "各制約",
+    "fr": "Contraintes individuelles",
+    "de": "Einzelne Bedingungen",
+    "es": "Restricciones individuales"
+  },
+  "joint.renderJointEvaluation.openpin_search_dc71d0": {
+    "zh-CN": "已打开固定评价 · 原搜索预选未载入",
+    "en": "Fixed evaluation opened · original search preselection not loaded",
+    "ja": "固定評価を開きました · 元の検索の事前選択は未読込",
+    "fr": "Évaluation fixe ouverte · présélection de la recherche d’origine non chargée",
+    "de": "Feste Bewertung geöffnet · ursprüngliche Suchvorauswahl nicht geladen",
+    "es": "Evaluación fija abierta · preselección de la búsqueda original sin cargar"
+  },
+  "joint.renderJointEvaluation.pin_node_condition_plan_multi_condition_comparison_231978": {
+    "zh-CN": "{p0}固定 {p1} 个节点 · {p2} 个额外条件（未用于寻找方案） · 曲线见多条件比较",
+    "en": "{p0}{p1} fixed nodes · {p2} additional conditions excluded from search · curves in multi-condition comparison",
+    "ja": "{p0}固定ノード {p1} · 検索に不使用の追加条件 {p2} · 曲線は複数条件比較に表示",
+    "fr": "{p0}{p1} nœuds fixes · {p2} conditions supplémentaires exclues de la recherche · courbes dans la comparaison multi-condition",
+    "de": "{p0}{p1} feste Knoten · {p2} zusätzliche, von der Suche ausgeschlossene Bedingungen · Kurven im Mehrbedingungenvergleich",
+    "es": "{p0}{p1} nodos fijos · {p2} condiciones adicionales excluidas de la búsqueda · curvas en la comparación de múltiples condiciones"
+  },
+  "joint.renderJointEvaluation.role_05b366": {
+    "zh-CN": "用途",
+    "en": "Role",
+    "ja": "用途",
+    "fr": "Rôle",
+    "de": "Zweck",
+    "es": "Función"
+  },
+  "joint.renderJointEvaluation.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "joint.renderJointEvaluation.savepin_searchcondition_condition_keep_b7089c": {
+    "zh-CN": "已保存固定评价 · 搜索条件与额外条件分别保留",
+    "en": "Fixed evaluation saved · search and additional conditions retained separately",
+    "ja": "固定評価を保存済み · 検索条件と追加条件は別々に保持",
+    "fr": "Évaluation fixe enregistrée · conditions de recherche et supplémentaires conservées séparément",
+    "de": "Feste Bewertung gespeichert · Suchbedingungen und zusätzliche Bedingungen getrennt beibehalten",
+    "es": "Evaluación fija guardada · condiciones de búsqueda y adicionales conservadas por separado"
+  },
+  "joint.renderJointEvaluation.target_decrease_9eced2": {
+    "zh-CN": "目标下降",
+    "en": "Target decrease",
+    "ja": "目標減少",
+    "fr": "Diminution cible",
+    "de": "Zielabnahme",
+    "es": "Descenso objetivo"
+  },
+  "joint.renderJointSearch.all_conditions_75aceb": {
+    "zh-CN": "全部条件",
+    "en": "All conditions",
+    "ja": "全条件",
+    "fr": "Toutes les conditions",
+    "de": "Alle Bedingungen",
+    "es": "Todas las condiciones"
+  },
+  "joint.renderJointSearch.baseline_current_protocol_887410": {
+    "zh-CN": "历史结果 · 基线与预选和当前协议不匹配",
+    "en": "Previous result · baseline and preselection do not match the current protocol",
+    "ja": "以前の結果 · ベースラインと事前選択が現在のプロトコルと一致しません",
+    "fr": "Résultat précédent · référence et présélection incompatibles avec le protocole actuel",
+    "de": "Früheres Ergebnis · Referenz und Vorauswahl stimmen nicht mit dem aktuellen Protokoll überein",
+    "es": "Resultado anterior · la referencia y la preselección no coinciden con el protocolo actual"
+  },
+  "joint.renderJointSearch.budget_exhausted_d9e9de": {
+    "zh-CN": "预算耗尽",
+    "en": "Budget exhausted",
+    "ja": "予算を消費",
+    "fr": "Budget épuisé",
+    "de": "Budget ausgeschöpft",
+    "es": "Presupuesto agotado"
+  },
+  "joint.renderJointSearch.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "joint.renderJointSearch.details_979a33": {
+    "zh-CN": "详情",
+    "en": "Details",
+    "ja": "詳細",
+    "fr": "Détails",
+    "de": "Details",
+    "es": "Detalles"
+  },
+  "joint.renderJointSearch.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "joint.renderJointSearch.failed_conditions_a2c8b0": {
+    "zh-CN": "失败条件",
+    "en": "Failed conditions",
+    "ja": "不成立条件",
+    "fr": "Conditions non respectées",
+    "de": "Nicht erfüllte Bedingungen",
+    "es": "Condiciones incumplidas"
+  },
+  "joint.renderJointSearch.intervention_complete_baseline_e3b48e": {
+    "zh-CN": "{p0}{p1}{p2} · 协议 {p3} · 单点覆盖 {p4}/{p5} · 集合评价 {p6}/{p7} · 干预传播 {p8}（完成 {p9}） · 基线 {p10} / 结果传播 {p11}",
+    "en": "{p0}{p1}{p2} · {p3} protocols · single-node coverage {p4}/{p5} · set evaluations {p6}/{p7} · intervention propagations {p8} ({p9} completed) · baseline {p10} / result propagations {p11}",
+    "ja": "{p0}{p1}{p2} · プロトコル {p3} · 単一ノード評価 {p4}/{p5} · 集合評価 {p6}/{p7} · 介入伝播 {p8} 回（完了 {p9}） · ベースライン {p10} / 結果伝播 {p11}",
+    "fr": "{p0}{p1}{p2} · {p3} protocoles · couverture individuelle {p4}/{p5} · évaluations d’ensembles {p6}/{p7} · propagations avec intervention {p8} ({p9} terminées) · référence {p10} / propagations du résultat {p11}",
+    "de": "{p0}{p1}{p2} · {p3} Protokolle · Einzelknotenabdeckung {p4}/{p5} · Mengenbewertungen {p6}/{p7} · Interventionsläufe {p8} ({p9} abgeschlossen) · Referenz {p10} / Ergebnisläufe {p11}",
+    "es": "{p0}{p1}{p2} · {p3} protocolos · cobertura individual {p4}/{p5} · evaluaciones de conjuntos {p6}/{p7} · propagaciones con intervención {p8} ({p9} completadas) · referencia {p10} / propagaciones del resultado {p11}"
+  },
+  "joint.renderJointSearch.message_182d0c": {
+    "zh-CN": "原候选 {p0} / 全协议端点并集排除 {p1} / 实际候选 {p2}",
+    "en": "original candidates {p0} / exclude all protocol endpoints {p1} / effective candidates {p2}",
+    "ja": "元の候補 {p0} / 全プロトコルの端点を除外 {p1} / 有効候補 {p2}",
+    "fr": "candidats originaux {p0} / exclure les extrémités de tous les protocoles {p1} / candidats effectifs {p2}",
+    "de": "ursprüngliche Kandidaten {p0} / alle Protokollendpunkte ausschließen {p1} / effektive Kandidaten {p2}",
+    "es": "candidatos originales {p0} / excluir extremos de todos los protocolos {p1} / candidatos efectivos {p2}"
+  },
+  "joint.renderJointSearch.message_c35110": {
+    "zh-CN": "历史结果 · 当前设置不匹配 · ",
+    "en": "saved result · current settings mismatch · ",
+    "ja": "保存結果 · 現在の設定と不一致 · ",
+    "fr": "résultat enregistré · paramètres actuels incompatibles · ",
+    "de": "gespeichertes Ergebnis · aktuelle Einstellungen passen nicht · ",
+    "es": "resultado guardado · ajustes actuales incompatibles · "
+  },
+  "joint.renderJointSearch.plan_1e7edf": {
+    "zh-CN": "未生成完整评价方案",
+    "en": "No fully evaluated plan was produced",
+    "ja": "完全に評価された計画はありません",
+    "fr": "Aucun plan entièrement évalué n’a été produit",
+    "de": "Kein vollständig bewerteter Plan wurde erzeugt",
+    "es": "No se ha generado ningún plan completamente evaluado"
+  },
+  "joint.renderJointSearch.plan_6f949a": {
+    "zh-CN": "方案",
+    "en": "Plan",
+    "ja": "計画",
+    "fr": "Plan",
+    "de": "Plan",
+    "es": "Plan"
+  },
+  "joint.renderJointSearch.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "joint.renderJointSearch.searchstop_8728a6": {
+    "zh-CN": "搜索结束",
+    "en": "Search finished",
+    "ja": "検索終了",
+    "fr": "Recherche terminée",
+    "de": "Suche beendet",
+    "es": "Búsqueda finalizada"
+  },
+  "joint.renderJointSearch.shared_node_count_81cce7": {
+    "zh-CN": "共同节点数",
+    "en": "Shared node count",
+    "ja": "共通ノード数",
+    "fr": "Nombre de nœuds communs",
+    "de": "Gemeinsame Knotenzahl",
+    "es": "Cantidad de nodos comunes"
+  },
+  "joint.renderJointSearch.worst_target_decrease_32281b": {
+    "zh-CN": "最差目标下降",
+    "en": "Worst target decrease",
+    "ja": "最悪目標減少",
+    "fr": "Diminution cible minimale",
+    "de": "Schwächste Zielabnahme",
+    "es": "Peor descenso objetivo"
+  },
+  "joint.selectJointPlan.all_conditionssatisfiedconstraints_665d9d": {
+    "zh-CN": "全部条件满足约束",
+    "en": "Constraints met in all conditions",
+    "ja": "全条件で制約達成",
+    "fr": "Contraintes satisfaites dans toutes les conditions",
+    "de": "Nebenbedingungen in allen Bedingungen erfüllt",
+    "es": "Restricciones cumplidas en todas las condiciones"
+  },
+  "joint.selectJointPlan.condition_16bb1d": {
+    "zh-CN": "条件",
+    "en": "Condition",
+    "ja": "条件",
+    "fr": "Condition",
+    "de": "Bedingung",
+    "es": "Condición"
+  },
+  "joint.selectJointPlan.constraints_per_condition_5a5cf4": {
+    "zh-CN": "逐条件约束",
+    "en": "Constraints per condition",
+    "ja": "条件別制約",
+    "fr": "Contraintes par condition",
+    "de": "Bedingungen je Bedingung",
+    "es": "Restricciones por condición"
+  },
+  "joint.selectJointPlan.failed_conditions_8c2d9b": {
+    "zh-CN": "失败条件 ",
+    "en": "Failed conditions ",
+    "ja": "不成立条件 ",
+    "fr": "Conditions non respectées ",
+    "de": "Nicht erfüllte Bedingungen ",
+    "es": "Condiciones incumplidas "
+  },
+  "joint.selectJointPlan.message_b47241": {
+    "zh-CN": "未报告",
+    "en": "Not reported",
+    "ja": "報告なし",
+    "fr": "Non renseigné",
+    "de": "Nicht berichtet",
+    "es": "No informado"
+  },
+  "joint.selectJointPlan.node_worst_target_decrease_6ba6ee": {
+    "zh-CN": "{p0} 个共同节点 · 最差目标下降 {p1} · {p2} · {p3}",
+    "en": "{p0} shared nodes · worst target decrease {p1} · {p2} · {p3}",
+    "ja": "共通ノード {p0} · 最悪条件の目標減少 {p1} · {p2} · {p3}",
+    "fr": "{p0} nœuds communs · diminution cible la plus faible {p1} · {p2} · {p3}",
+    "de": "{p0} gemeinsame Knoten · geringste Zielabnahme {p1} · {p2} · {p3}",
+    "es": "{p0} nodos comunes · menor disminución del objetivo {p1} · {p2} · {p3}"
+  },
+  "joint.selectJointPlan.plan_searchcondition_94c621": {
+    "zh-CN": "共同方案 · 搜索条件曲线",
+    "en": "Shared plan · search-condition curves",
+    "ja": "共通計画 · 検索条件の曲線",
+    "fr": "Plan commun · courbes des conditions de recherche",
+    "de": "Gemeinsamer Plan · Kurven der Suchbedingungen",
+    "es": "Plan común · curvas de las condiciones de búsqueda"
+  },
+  "joint.selectJointPlan.plan_searchcondition_condition_f17860": {
+    "zh-CN": "显示本方案的搜索条件曲线；尚未评价额外条件",
+    "en": "Showing this plan’s search-condition curves. Additional conditions have not been evaluated.",
+    "ja": "この計画の探索条件の曲線を表示しています。追加条件は未評価です。",
+    "fr": "Affichage des courbes des conditions de recherche de ce plan. Les conditions supplémentaires n’ont pas été évaluées.",
+    "de": "Kurven der Suchbedingungen dieses Plans. Zusätzliche Bedingungen wurden nicht ausgewertet.",
+    "es": "Se muestran las curvas de las condiciones de búsqueda de este plan. Las condiciones adicionales no se han evaluado."
+  },
+  "joint.selectJointPlan.plankeep_conditionmetric_fixed_plan_5764a5": {
+    "zh-CN": "该方案保留逐条件指标，曲线需按固定方案重新评价",
+    "en": "Per-condition metrics are retained. Evaluate the fixed plan to obtain curves.",
+    "ja": "条件ごとの指標は保持されています。曲線を取得するには固定計画を評価してください。",
+    "fr": "Les mesures par condition sont conservées. Évaluez le plan fixe pour obtenir les courbes.",
+    "de": "Metriken je Bedingung bleiben erhalten. Für Kurven den festen Plan auswerten.",
+    "es": "Se conservan las métricas por condición. Evalúe el plan fijo para obtener las curvas."
+  },
+  "joint.selectJointPlan.plannot_recorded_e76059": {
+    "zh-CN": "所选共同方案未记录曲线",
+    "en": "No curves recorded for the selected shared plan",
+    "ja": "選択した共通計画の曲線は未記録です",
+    "fr": "Aucune courbe enregistrée pour le plan commun sélectionné",
+    "de": "Keine Kurven für den ausgewählten gemeinsamen Plan aufgezeichnet",
+    "es": "No hay curvas registradas para el plan común seleccionado"
+  },
+  "joint.selectJointPlan.plannot_recordedincoming_signals_34851a": {
+    "zh-CN": "所选共同方案未记录传入信号",
+    "en": "No incoming signals recorded for the selected shared plan",
+    "ja": "選択した共通計画の入力信号は未記録です",
+    "fr": "Aucun signal entrant enregistré pour le plan commun sélectionné",
+    "de": "Keine Eingangssignale für den ausgewählten gemeinsamen Plan aufgezeichnet",
+    "es": "No hay señales de entrada registradas para el plan común seleccionado"
+  },
+  "joint.selectJointPlan.target_decrease_9eced2": {
+    "zh-CN": "目标下降",
+    "en": "Target decrease",
+    "ja": "目標減少",
+    "fr": "Diminution cible",
+    "de": "Zielabnahme",
+    "es": "Descenso objetivo"
+  },
+  "joint.startJointSearch.message_d3c2f0": {
+    "zh-CN": "先检查当前共同候选与完整协议",
+    "en": "Check the shared candidates and full protocols first",
+    "ja": "先に共通候補と完全なプロトコルを確認してください",
+    "fr": "Vérifiez d’abord les candidats communs et les protocoles complets",
+    "de": "Prüfen Sie zuerst die gemeinsamen Kandidaten und vollständigen Protokolle",
+    "es": "Compruebe primero los candidatos comunes y los protocolos completos"
+  },
+  "joint.startJointSearch.startjoint_search_febb29": {
+    "zh-CN": "正在启动共同搜索…",
+    "en": "Starting joint search…",
+    "ja": "共同検索を開始中…",
+    "fr": "Démarrage de la recherche conjointe…",
+    "de": "Gemeinsame Suche wird gestartet…",
+    "es": "Iniciando la búsqueda conjunta…"
+  },
+  "joint.updateJointProtocolSummary.absolute_mean_activity_24d3f6": {
+    "zh-CN": "绝对平均活动",
+    "en": "Absolute mean activity",
+    "ja": "絶対平均活動",
+    "fr": "Activité moyenne absolue",
+    "de": "Absolute mittlere Aktivität",
+    "es": "Actividad media absoluta"
+  },
+  "joint.updateJointProtocolSummary.by_body_id_94e546": {
+    "zh-CN": "按 body ID",
+    "en": "By body ID",
+    "ja": "body ID順",
+    "fr": "Par body ID",
+    "de": "Nach Body-ID",
+    "es": "Por body ID"
+  },
+  "joint.updateJointProtocolSummary.compare_conditions_649fb9": {
+    "zh-CN": "当前比较条件",
+    "en": "current Compare conditions",
+    "ja": "現在条件を比較",
+    "fr": "actuel Comparer les conditions",
+    "de": "aktuell Bedingungen vergleichen",
+    "es": "actual Comparar condiciones"
+  },
+  "joint.updateJointProtocolSummary.message_7409a6": {
+    "zh-CN": "未指定",
+    "en": "Not specified",
+    "ja": "未指定",
+    "fr": "Non spécifié",
+    "de": "Nicht angegeben",
+    "es": "Sin especificar"
+  },
+  "joint.updateJointProtocolSummary.message_76b164": {
+    "zh-CN": "相对下降",
+    "en": "Relative decrease",
+    "ja": "相対減少",
+    "fr": "Diminution relative",
+    "de": "Relative Abnahme",
+    "es": "Disminución relativa"
+  },
+  "joint.updateJointProtocolSummary.save_condition_121c95": {
+    "zh-CN": "保存的条件",
+    "en": "Saved conditions",
+    "ja": "保存済みの条件",
+    "fr": "Conditions enregistrées",
+    "de": "Gespeicherte Bedingungen",
+    "es": "Condiciones guardadas"
+  },
+  "joint.updateJointProtocolSummary.save_constraints_1e1bcd": {
+    "zh-CN": "保存的约束",
+    "en": "Saved constraints",
+    "ja": "保存済み制約",
+    "fr": "Contraintes enregistrées",
+    "de": "Gespeicherte Nebenbedingungen",
+    "es": "Restricciones guardadas"
+  },
+  "joint.updateJointProtocolSummary.search_f5687a": {
+    "zh-CN": "当前搜索设置",
+    "en": "current Search settings",
+    "ja": "現在探索設定",
+    "fr": "actuel Recherche paramètres",
+    "de": "aktuell Suche Einstellungen",
+    "es": "actual Búsqueda ajustes"
+  },
+  "joint.updateJointProtocolSummary.target_node_9cd02f": {
+    "zh-CN": "{p0} · 选用 {p1}/{p2} 个协议 · {p3} · 目标 {p4} / {p5} · 最多 {p6} 节点 / {p7} 次集合评价 · {p8}",
+    "en": "{p0} · {p1}/{p2} protocols selected · {p3} · target {p4} / {p5} · limits: {p6} nodes / {p7} set evaluations · {p8}",
+    "ja": "{p0} · 選択プロトコル {p1}/{p2} · {p3} · 目標 {p4} / {p5} · 上限：{p6} ノード / 集合評価 {p7} 回 · {p8}",
+    "fr": "{p0} · {p1}/{p2} protocoles sélectionnés · {p3} · cible {p4} / {p5} · limites : {p6} nœuds / {p7} évaluations d’ensembles · {p8}",
+    "de": "{p0} · {p1}/{p2} Protokolle ausgewählt · {p3} · Ziel {p4} / {p5} · Grenzen: {p6} Knoten / {p7} Mengenbewertungen · {p8}",
+    "es": "{p0} · {p1}/{p2} protocolos seleccionados · {p3} · objetivo {p4} / {p5} · límites: {p6} nodos / {p7} evaluaciones de conjuntos · {p8}"
+  },
+  "joint.updateJointProtocolSummary.targetconnections_95dd3c": {
+    "zh-CN": "活动与目标连接预选",
+    "en": "activity and target Connections preselection",
+    "ja": "活動と目標接続事前選択",
+    "fr": "activitéet cible Connexions présélection",
+    "de": "Aktivität und Ziel Verbindungen Vorauswahl",
+    "es": "actividad y objetivo Conexiones preselección"
+  }
+}

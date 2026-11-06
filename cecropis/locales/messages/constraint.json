@@ -1,0 +1,10 @@
+{
+  "constraint.failures": {
+    "zh-CN": "未满足：",
+    "en": "Unmet: ",
+    "ja": "未達成：",
+    "fr": "Non respecté : ",
+    "de": "Nicht erfüllt: ",
+    "es": "Incumplido: "
+  }
+}

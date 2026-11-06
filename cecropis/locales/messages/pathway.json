@@ -1,0 +1,322 @@
+{
+  "pathway.controls.filter_node_search_c5cca6": {
+    "zh-CN": "筛选已改 · 图与节点为上次查询",
+    "en": "Filter modified · graph and Node from previous query",
+    "ja": "絞り込み変更済み · グラフとノード前回の検索",
+    "fr": "Filtrer modifié · graphe et Nœud de la dernière exécution requête",
+    "de": "Filtern geändert · Graph und Knoten aus vorherigem Lauf Abfrage",
+    "es": "Filtrar modificado · gráfico y Nodo de la ejecución anterior consulta"
+  },
+  "pathway.controls.node_mib_ee6a19": {
+    "zh-CN": "{p0} 节点 × {p1} 时刻 × {p2} 分支 · {p3} MiB",
+    "en": "{p0} nodes × {p1} states × {p2} branches · {p3} MiB",
+    "ja": "{p0} ノード × {p1} 状態 × {p2} 分岐 · {p3} MiB",
+    "fr": "{p0} nœuds × {p1} états × {p2} branches · {p3} MiB",
+    "de": "{p0} Knoten × {p1} Zustände × {p2} Zweige · {p3} MiB",
+    "es": "{p0} nodos × {p1} estados × {p2} ramas · {p3} MiB"
+  },
+  "pathway.controls.observation_sets_node_search_e7bdb2": {
+    "zh-CN": "输入或观察集合已改 · 图与节点为上次查询",
+    "en": "Inputs or observation sets changed · graph and nodes show the previous query",
+    "ja": "入力または観測集合を変更 · グラフとノードは前回の検索結果",
+    "fr": "Entrées ou ensembles d’observation modifiés · graphe et nœuds de la requête précédente",
+    "de": "Eingaben oder Beobachtungsmengen geändert · Graph und Knoten zeigen die vorherige Abfrage",
+    "es": "Entradas o conjuntos de observación modificados · el grafo y los nodos muestran la consulta anterior"
+  },
+  "pathway.controls.paths_19b3dd": {
+    "zh-CN": "通路 ",
+    "en": "Paths ",
+    "ja": "経路 ",
+    "fr": "Chemins ",
+    "de": "Pfade ",
+    "es": "Rutas "
+  },
+  "pathway.controls.paths_save_f023be": {
+    "zh-CN": "通路已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "pathway.controls.pathscomparison_select_observation_sets_1c9da9": {
+    "zh-CN": "通路比较需要选择两个观察集合",
+    "en": "Select two observation sets to compare paths",
+    "ja": "通路比較には 2 個の観測集合を選択してください",
+    "fr": "Sélectionnez deux ensembles d’observation pour comparer les chemins",
+    "de": "Wählen Sie zwei Beobachtungsmengen für den Pfadvergleich",
+    "es": "Seleccione dos conjuntos de observación para comparar rutas"
+  },
+  "pathway.controls.pathsscope_save_noderoleloaded_f801ee": {
+    "zh-CN": "通路计算范围已保存，节点角色已载入",
+    "en": "Path scope saved. Node roles loaded.",
+    "ja": "経路の計算範囲を保存しました。ノードの役割を読み込みました。",
+    "fr": "Périmètre des chemins enregistré. Rôles des nœuds chargés.",
+    "de": "Pfadbereich gespeichert. Knotenrollen geladen.",
+    "es": "Ámbito de rutas guardado. Roles de los nodos cargados."
+  },
+  "pathway.controls.search_save_paths_27a637": {
+    "zh-CN": "重新查询后才能保存通路",
+    "en": "again query after only then Save paths",
+    "ja": "再度検索後その後のみ経路を保存",
+    "fr": "à nouveau requête après seulement alors Enregistrer les chemins",
+    "de": "erneut Abfrage nach erst dann Pfade speichern",
+    "es": "de nuevo consulta después solo entonces Guardar rutas"
+  },
+  "pathway.controls.selectpathsnode_b1741b": {
+    "zh-CN": "选择通路节点 {p0}",
+    "en": "selection Paths Node {p0}",
+    "ja": "選択経路ノード {p0}",
+    "fr": "sélection Chemins Nœud {p0}",
+    "de": "Auswahl Pfade Knoten {p0}",
+    "es": "selección Rutas Nodo {p0}"
+  },
+  "pathway.controls.selectsearch_node_d1d9fc": {
+    "zh-CN": "先选择查询结果中的节点",
+    "en": "Select nodes from the query results first",
+    "ja": "先に検索結果からノードを選択してください",
+    "fr": "Sélectionnez d’abord des nœuds dans les résultats de la requête",
+    "de": "Wählen Sie zuerst Knoten aus den Abfrageergebnissen",
+    "es": "Seleccione primero nodos de los resultados de la consulta"
+  },
+  "pathway.createPathCase.scope_node_3cd287": {
+    "zh-CN": "计算范围需要两个输出和至少一个中间候选节点",
+    "en": "This scope needs two outputs and at least one intermediate candidate node",
+    "ja": "この範囲には 2 個の出力と 1 個以上の中間候補ノードが必要です",
+    "fr": "Ce périmètre nécessite deux sorties et au moins un nœud candidat intermédiaire",
+    "de": "Dieser Bereich benötigt zwei Ausgänge und mindestens einen intermediären Kandidatenknoten",
+    "es": "Este ámbito requiere dos salidas y al menos un nodo candidato intermedio"
+  },
+  "pathway.defaults.candidates": {
+    "zh-CN": "通路候选",
+    "en": "Path candidates",
+    "ja": "経路候補",
+    "fr": "Candidats du chemin",
+    "de": "Pfadkandidaten",
+    "es": "Candidatos de ruta"
+  },
+  "pathway.defaults.input": {
+    "zh-CN": "通路输入",
+    "en": "Path inputs",
+    "ja": "経路入力",
+    "fr": "Entrées du chemin",
+    "de": "Pfadeingaben",
+    "es": "Entradas de ruta"
+  },
+  "pathway.effectText.message_b00d5f": {
+    "zh-CN": "绝对 ",
+    "en": "absolute ",
+    "ja": "絶対 ",
+    "fr": "absolu ",
+    "de": "absolut ",
+    "es": "absoluto "
+  },
+  "pathway.effectText.message_e29a2e": {
+    "zh-CN": "未评价",
+    "en": "not evaluated",
+    "ja": "未評価",
+    "fr": "non évalué",
+    "de": "nicht bewertet",
+    "es": "sin evaluar"
+  },
+  "pathway.explorePathways.find_paths_47d4a5": {
+    "zh-CN": "正在查找通路…",
+    "en": "Finding paths…",
+    "ja": "通路を検索中…",
+    "fr": "Recherche de chemins…",
+    "de": "Pfade werden gesucht…",
+    "es": "Buscando rutas…"
+  },
+  "pathway.explorePathways.searchcondition_3e3c7d": {
+    "zh-CN": "查询条件已改，待重新查找",
+    "en": "Query settings changed. Search again.",
+    "ja": "検索設定が変更されました。再度検索してください。",
+    "fr": "Les paramètres ont changé. Relancez la recherche.",
+    "de": "Abfrageeinstellungen geändert. Erneut suchen.",
+    "es": "La configuración de consulta ha cambiado. Busque de nuevo."
+  },
+  "pathway.onEdge.message_710cd3": {
+    "zh-CN": " · 权重 ",
+    "en": " · weight ",
+    "ja": " · 重み ",
+    "fr": " · poids ",
+    "de": " · Gewicht ",
+    "es": " · peso "
+  },
+  "pathway.onEdge.message_b5f302": {
+    "zh-CN": "{p0} → {p1} · 接触 {p2}{p3}",
+    "en": "{p0} → {p1} · contacts {p2}{p3}",
+    "ja": "{p0} → {p1} · 接続数 {p2}{p3}",
+    "fr": "{p0} → {p1} · contacts {p2}{p3}",
+    "de": "{p0} → {p1} · Kontakte {p2}{p3}",
+    "es": "{p0} → {p1} · contactos {p2}{p3}"
+  },
+  "pathway.pathClassification.message_4d6a4b": {
+    "zh-CN": "共享",
+    "en": "shared",
+    "ja": "共有",
+    "fr": "partagé",
+    "de": "gemeinsam",
+    "es": "compartido"
+  },
+  "pathway.pathClassification.target_ad8c36": {
+    "zh-CN": "来源 / 目标",
+    "en": "source / target",
+    "ja": "ソース / 目標",
+    "fr": "source / cible",
+    "de": "Quelle / Ziel",
+    "es": "origen / objetivo"
+  },
+  "pathway.pathUseIds.add_to_selection_node_1073ea": {
+    "zh-CN": "已加入当前选择 · {p0} 个节点",
+    "en": "Added {p0} nodes to the current selection",
+    "ja": "現在の選択に {p0} ノードを追加",
+    "fr": "{p0} nœuds ajoutés à la sélection actuelle",
+    "de": "{p0} Knoten zur aktuellen Auswahl hinzugefügt",
+    "es": "Se añadieron {p0} nodos a la selección actual"
+  },
+  "pathway.pathUseIds.interventionnode_c2e68c": {
+    "zh-CN": "已选 {p0} 个干预节点",
+    "en": "{p0} intervention nodes selected",
+    "ja": "介入ノード {p0} 個を選択済み",
+    "fr": "{p0} nœuds d’intervention sélectionnés",
+    "de": "{p0} Interventionsknoten ausgewählt",
+    "es": "{p0} nodos de intervención seleccionados"
+  },
+  "pathway.pathUseIds.new_scope_seeds_node_010537": {
+    "zh-CN": "已加入新范围种子 · {p0} 个确切节点 · 待预览",
+    "en": "Added {p0} exact nodes as new scope seeds · preview required",
+    "ja": "正確な {p0} ノードを新しい範囲の種に追加 · プレビューが必要",
+    "fr": "{p0} nœuds exacts ajoutés comme germes du nouveau périmètre · aperçu nécessaire",
+    "de": "{p0} exakt bestimmte Knoten als Startmenge des neuen Bereichs hinzugefügt · Vorschau erforderlich",
+    "es": "Se añadieron {p0} nodos exactos como semillas del nuevo ámbito · requiere vista previa"
+  },
+  "pathway.pathUseIds.node_intervention_d9962a": {
+    "zh-CN": "这些确切节点不在当前干预候选中：",
+    "en": "These nodes are outside the current intervention candidates. No nodes were added: ",
+    "ja": "現在の介入候補に含まれないノードがあります。ノードは追加されていません: ",
+    "fr": "Ces nœuds ne font pas partie des candidats actuels à l’intervention. Aucun nœud n’a été ajouté : ",
+    "de": "Diese Knoten gehören nicht zu den aktuellen Interventionskandidaten. Es wurden keine Knoten hinzugefügt: ",
+    "es": "Estos nodos no forman parte de los candidatos actuales a la intervención. No se añadió ningún nodo: "
+  },
+  "pathway.pathUseIds.selectpathsnode_6c32e0": {
+    "zh-CN": "先选择通路节点",
+    "en": "Select path nodes first",
+    "ja": "先に通路ノードを選択してください",
+    "fr": "Sélectionnez d’abord les nœuds des chemins",
+    "de": "Wählen Sie zuerst Pfadknoten",
+    "es": "Seleccione primero nodos de rutas"
+  },
+  "pathway.pathUseIds.stop_b3daa7": {
+    "zh-CN": "请等待当前计算结束",
+    "en": "Wait for the current calculation to finish",
+    "ja": "現在の計算が完了するまでお待ちください",
+    "fr": "Attendez la fin du calcul en cours",
+    "de": "Warten Sie, bis die aktuelle Berechnung abgeschlossen ist",
+    "es": "Espere a que termine el cálculo actual"
+  },
+  "pathway.pathwayRequest.paths_targetname_abaf58": {
+    "zh-CN": "通路的两个目标名称须不同且非空",
+    "en": "Paths of two target names must differ and non-empty",
+    "ja": "経路の二つ目標名前は異なる必要がありますかつ非空",
+    "fr": "Chemins de deux cible les noms doivent différer et non-vide",
+    "de": "Pfade von zwei Ziel Namen müssen verschieden sein und nicht leer",
+    "es": "Rutas de dos objetivo los nombres deben ser diferentes y no vacío"
+  },
+  "pathway.recordingPolicy.recorded_state_steps_8f3b94": {
+    "zh-CN": "记录状态步不能重复。",
+    "en": "Recorded state steps must be unique.",
+    "ja": "記録する状態ステップに重複は指定できません。",
+    "fr": "Les pas d’état enregistrés doivent être uniques.",
+    "de": "Aufgezeichnete Zustandsschritte müssen eindeutig sein.",
+    "es": "Los pasos de estado registrados no deben repetirse."
+  },
+  "pathway.recordingPolicy.recorded_state_steps_9465fa": {
+    "zh-CN": "记录状态步须为不重复的非负整数",
+    "en": "Recorded state steps must be unique non-negative integers",
+    "ja": "記録する状態ステップは重複しない非負整数で指定してください",
+    "fr": "Les pas d’état à enregistrer doivent être des entiers non négatifs distincts",
+    "de": "Aufzuzeichnende Zustandsschritte müssen eindeutige nichtnegative ganze Zahlen sein",
+    "es": "Los pasos de estado que se registran deben ser enteros no negativos únicos"
+  },
+  "pathway.renderPathGraph.paths_432a15": {
+    "zh-CN": "真实有向通路拓扑",
+    "en": "actual directed Paths topology",
+    "ja": "実際有向経路トポロジー",
+    "fr": "réel dirigéChemins topologie",
+    "de": "tatsächlich gerichtet Pfade Topologie",
+    "es": "real dirigido Rutas topología"
+  },
+  "pathway.renderPathways.complete_bb88ba": {
+    "zh-CN": "探索完成",
+    "en": "Exploration complete",
+    "ja": "探索完了",
+    "fr": "Exploration terminée",
+    "de": "Erkundung abgeschlossen",
+    "es": "Exploración completada"
+  },
+  "pathway.renderPathways.connections_79db50": {
+    "zh-CN": "全局连接",
+    "en": "global Connections",
+    "ja": "全体接続",
+    "fr": "global Connexions",
+    "de": "global Verbindungen",
+    "es": "global Conexiones"
+  },
+  "pathway.renderPathways.current_scope_35ba27": {
+    "zh-CN": "当前计算范围",
+    "en": "Current scope",
+    "ja": "現在の計算範囲",
+    "fr": "Périmètre courant",
+    "de": "Aktueller Umfang",
+    "es": "Alcance actual"
+  },
+  "pathway.renderPathways.membership_3bc8a5": {
+    "zh-CN": "探索已截断，归属仅限已探索部分",
+    "en": "Exploration truncated. Membership applies only to the explored portion.",
+    "ja": "探索は打ち切られました。所属の判定は探索済み部分のみです。",
+    "fr": "Exploration tronquée. L’appartenance ne concerne que la partie explorée.",
+    "de": "Erkundung gekürzt. Zugehörigkeit gilt nur für den erkundeten Teil.",
+    "es": "Exploración truncada. La pertenencia solo se aplica a la parte explorada."
+  },
+  "pathway.renderPathways.message_41864c": {
+    "zh-CN": " · 未找到到 ",
+    "en": " · not found to ",
+    "ja": " · 未検出へ ",
+    "fr": " · introuvable vers ",
+    "de": " · nicht gefunden zu ",
+    "es": " · no encontrado a "
+  },
+  "pathway.renderPathways.paths_66815b": {
+    "zh-CN": " 的通路",
+    "en": " of Paths",
+    "ja": " の経路",
+    "fr": " de Chemins",
+    "de": " von Pfade",
+    "es": " de Rutas"
+  },
+  "pathway.renderPathways.paths_node_node_node_d79f14": {
+    "zh-CN": "{p0} · 通路 {p1} 节点 / {p2} 条边 · {p3} · 检查 {p4} / {p5} 邻接条目 · 访问 {p6} / {p7} 节点{p8} · 显示 {p9} 节点 / {p10} 条边",
+    "en": "{p0} · paths: {p1} nodes / {p2} edges · {p3} · adjacency entries checked {p4}/{p5} · nodes visited {p6}/{p7}{p8} · shown {p9} nodes / {p10} edges",
+    "ja": "{p0} · 通路：{p1} ノード / {p2} エッジ · {p3} · 隣接項目確認 {p4}/{p5} · 訪問ノード {p6}/{p7}{p8} · 表示 {p9} ノード / {p10} エッジ",
+    "fr": "{p0} · chemins : {p1} nœuds / {p2} arêtes · {p3} · adjacences vérifiées {p4}/{p5} · nœuds visités {p6}/{p7}{p8} · affichage {p9} nœuds / {p10} arêtes",
+    "de": "{p0} · Pfade: {p1} Knoten / {p2} Kanten · {p3} · geprüfte Adjazenzeinträge {p4}/{p5} · besuchte Knoten {p6}/{p7}{p8} · angezeigt {p9} Knoten / {p10} Kanten",
+    "es": "{p0} · rutas: {p1} nodos / {p2} aristas · {p3} · adyacencias comprobadas {p4}/{p5} · nodos visitados {p6}/{p7}{p8} · se muestran {p9} nodos / {p10} aristas"
+  },
+  "pathway.renderPathways.select_7e06c0": {
+    "zh-CN": "选择 {p0} 独有 · {p1}",
+    "en": "Select nodes exclusive to {p0} · {p1}",
+    "ja": "{p0} のみに属するノードを選択 · {p1}",
+    "fr": "Sélectionner les nœuds propres à {p0} · {p1}",
+    "de": "Nur zu {p0} gehörende Knoten auswählen · {p1}",
+    "es": "Seleccionar nodos exclusivos de {p0} · {p1}"
+  },
+  "pathway.renderPathways.select_shared_intermediate_nodes_d4c136": {
+    "zh-CN": "选择共享中间节点 · {p0}",
+    "en": "Select shared intermediate nodes · {p0}",
+    "ja": "共通の中間ノードを選択 · {p0}",
+    "fr": "Sélectionner les intermédiaires communs · {p0}",
+    "de": "Gemeinsame Zwischenknoten auswählen · {p0}",
+    "es": "Seleccionar nodos intermedios comunes · {p0}"
+  }
+}

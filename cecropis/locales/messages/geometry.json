@@ -1,0 +1,42 @@
+{
+  "geometry.error.background_length": {
+    "zh-CN": "骨架概览数据长度与记录不符，请检查几何缓存。",
+    "en": "The skeleton overview length does not match its header. Check the geometry cache.",
+    "ja": "骨格概観の長さがヘッダーと一致しません。幾何キャッシュを確認してください。",
+    "fr": "La longueur de l’aperçu des squelettes ne correspond pas à l’en-tête. Vérifiez le cache géométrique.",
+    "de": "Die Länge der Skelettübersicht stimmt nicht mit dem Header überein. Prüfen Sie den Geometrie-Cache.",
+    "es": "La longitud de la vista general no coincide con la cabecera. Revise la caché geométrica."
+  },
+  "geometry.error.decode": {
+    "zh-CN": "无法读取骨架显示数据，请查看详情。",
+    "en": "Skeleton display data could not be decoded. See details.",
+    "ja": "骨格表示データを読み取れません。詳細を確認してください。",
+    "fr": "Impossible de décoder les données d’affichage du squelette. Consultez les détails.",
+    "de": "Skelett-Anzeigedaten konnten nicht gelesen werden. Siehe Details.",
+    "es": "No se pudieron leer los datos de visualización del esqueleto. Consulte los detalles."
+  },
+  "geometry.error.edge_index": {
+    "zh-CN": "骨架包含越界连接，请检查几何缓存。",
+    "en": "The skeleton contains an out-of-range edge. Check the geometry cache.",
+    "ja": "骨格に範囲外の接続があります。幾何キャッシュを確認してください。",
+    "fr": "Le squelette contient une arête hors limites. Vérifiez le cache géométrique.",
+    "de": "Das Skelett enthält eine Kante außerhalb des gültigen Bereichs. Prüfen Sie den Geometrie-Cache.",
+    "es": "El esqueleto contiene una arista fuera de rango. Revise la caché geométrica."
+  },
+  "geometry.error.geometry_length": {
+    "zh-CN": "骨架细节数据长度或规模无效，请检查几何缓存与显示预算。",
+    "en": "The skeleton detail length or size is invalid. Check the geometry cache and display budget.",
+    "ja": "骨格詳細の長さまたは規模が無効です。幾何キャッシュと表示予算を確認してください。",
+    "fr": "La longueur ou la taille du détail de squelette est invalide. Vérifiez le cache et le budget d’affichage.",
+    "de": "Länge oder Größe der Skelettdetails ist ungültig. Prüfen Sie Cache und Anzeigebudget.",
+    "es": "La longitud o el tamaño del detalle de esqueleto no es válido. Revise la caché y el presupuesto de visualización."
+  },
+  "geometry.error.header": {
+    "zh-CN": "骨架缓存头不完整，请检查几何缓存。",
+    "en": "The skeleton cache header is incomplete. Check the geometry cache.",
+    "ja": "骨格キャッシュのヘッダーが不完全です。幾何キャッシュを確認してください。",
+    "fr": "L’en-tête du cache de squelettes est incomplet. Vérifiez le cache géométrique.",
+    "de": "Der Skelett-Cache-Header ist unvollständig. Prüfen Sie den Geometrie-Cache.",
+    "es": "La cabecera de la caché de esqueletos está incompleta. Revise la caché geométrica."
+  }
+}

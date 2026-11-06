@@ -1,0 +1,42 @@
+{
+  "view.numbers": {
+    "zh-CN": "详细数值",
+    "en": "Detailed values",
+    "ja": "詳細な数値",
+    "fr": "Valeurs détaillées",
+    "de": "Detaillierte Werte",
+    "es": "Valores detallados"
+  },
+  "view.readOnly": {
+    "zh-CN": "已计算结果 · 只读",
+    "en": "Calculated result · read-only",
+    "ja": "計算済み結果 · 読み取り専用",
+    "fr": "Résultat calculé · lecture seule",
+    "de": "Berechnetes Ergebnis · schreibgeschützt",
+    "es": "Resultado calculado · solo lectura"
+  },
+  "view.saved": {
+    "zh-CN": "已保存结果 · 只读",
+    "en": "Saved result · read-only",
+    "ja": "保存済み結果 · 読み取り専用",
+    "fr": "Résultat enregistré · lecture seule",
+    "de": "Gespeichertes Ergebnis · schreibgeschützt",
+    "es": "Resultado guardado · solo lectura"
+  },
+  "view.searchPreview": {
+    "zh-CN": "搜索方案预览 · 未另存为比较结果",
+    "en": "Search plan preview · not saved as a comparison",
+    "ja": "検索案のプレビュー · 比較結果として未保存",
+    "fr": "Aperçu du plan recherché · non enregistré comme comparaison",
+    "de": "Suchplan-Vorschau · nicht als Vergleich gespeichert",
+    "es": "Vista previa del plan · sin guardar como comparación"
+  },
+  "view.unsavedComparison": {
+    "zh-CN": "比较结果 · 尚未保存",
+    "en": "Comparison result · not saved",
+    "ja": "比較結果 · 未保存",
+    "fr": "Résultat de comparaison · non enregistré",
+    "de": "Vergleichsergebnis · nicht gespeichert",
+    "es": "Resultado de comparación · sin guardar"
+  }
+}

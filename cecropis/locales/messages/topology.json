@@ -1,0 +1,178 @@
+{
+  "topology.view.controls.actual_directed_connection_topology_c75589": {
+    "zh-CN": "真实有向连接拓扑",
+    "en": "Actual directed connection topology",
+    "ja": "実際の有向接続トポロジー",
+    "fr": "Topologie des connexions dirigées réelles",
+    "de": "Topologie tatsächlicher gerichteter Verbindungen",
+    "es": "Topología de conexiones dirigidas reales"
+  },
+  "topology.view.controls.back_572cf4": {
+    "zh-CN": "返回",
+    "en": "Back",
+    "ja": "戻る",
+    "fr": "Retour",
+    "de": "Zurück",
+    "es": "Volver"
+  },
+  "topology.view.controls.expand_00bd39": {
+    "zh-CN": "展开",
+    "en": "Expand",
+    "ja": "拡大",
+    "fr": "Agrandir",
+    "de": "Vergrößern",
+    "es": "Ampliar"
+  },
+  "topology.view.controls.fit_72891f": {
+    "zh-CN": "适配",
+    "en": "Fit",
+    "ja": "全体に合わせる",
+    "fr": "Ajuster",
+    "de": "Einpassen",
+    "es": "Ajustar"
+  },
+  "topology.view.controls.focus_selection_6302c3": {
+    "zh-CN": "定位选择",
+    "en": "Focus selection",
+    "ja": "選択にフォーカス",
+    "fr": "Centrer la sélection",
+    "de": "Auswahl fokussieren",
+    "es": "Centrar selección"
+  },
+  "topology.view.controls.intervention_node_connectionskeep_24a23a": {
+    "zh-CN": "撤销干预，节点与连接保留",
+    "en": "Intervention removed; nodes and connections retained.",
+    "ja": "介入を取り消しました。ノードと接続は保持されます。",
+    "fr": "Intervention retirée ; nœuds et connexions conservés.",
+    "de": "Intervention entfernt; Knoten und Verbindungen bleiben erhalten.",
+    "es": "Intervención retirada; se conservan nodos y conexiones."
+  },
+  "topology.view.controls.keepintervention_311d6f": {
+    "zh-CN": "保留干预",
+    "en": "Keep Intervention",
+    "ja": "保持介入",
+    "fr": "Conserver Intervention",
+    "de": "Behalten Eingriff",
+    "es": "Conservar Intervención"
+  },
+  "topology.view.controls.keepintervention_intervention_8dc5a0": {
+    "zh-CN": "实线圈：保留干预 / 虚线圈：撤销干预",
+    "en": "Solid ring: retained intervention / dashed ring: removed intervention",
+    "ja": "実線の輪: 保持する介入 / 破線の輪: 取り消した介入",
+    "fr": "Cercle continu : intervention conservée / pointillé : intervention retirée",
+    "de": "Durchgezogener Ring: beibehaltene Intervention / gestrichelt: entfernte Intervention",
+    "es": "Círculo continuo: intervención conservada / discontinuo: intervención retirada"
+  },
+  "topology.view.controls.labels_all_098dfc": {
+    "zh-CN": "标签：全部",
+    "en": "Labels: all",
+    "ja": "ラベル：すべて",
+    "fr": "Libellés : tous",
+    "de": "Beschriftung: alle",
+    "es": "Etiquetas: todas"
+  },
+  "topology.view.controls.labels_auto_9d5dbe": {
+    "zh-CN": "标签：自动",
+    "en": "Labels: auto",
+    "ja": "ラベル：自動",
+    "fr": "Libellés : auto",
+    "de": "Beschriftung: automatisch",
+    "es": "Etiquetas: auto"
+  },
+  "topology.view.controls.labels_selected_28aab5": {
+    "zh-CN": "标签：所选",
+    "en": "Labels: selected",
+    "ja": "ラベル：選択",
+    "fr": "Libellés : sélection",
+    "de": "Beschriftung: ausgewählte",
+    "es": "Etiquetas: selección"
+  },
+  "topology.view.controls.message_a6d0b0": {
+    "zh-CN": "{p0} → {p1} · 接触 {p2}",
+    "en": "{p0} → {p1} · contacts {p2}",
+    "ja": "{p0} → {p1} · 接続数 {p2}",
+    "fr": "{p0} → {p1} · contacts {p2}",
+    "de": "{p0} → {p1} · Kontakte {p2}",
+    "es": "{p0} → {p1} · contactos {p2}"
+  },
+  "topology.view.controls.message_aa1be3": {
+    "zh-CN": "拓扑标签",
+    "en": "topology labels",
+    "ja": "トポロジーラベル",
+    "fr": "étiquettes topologiques",
+    "de": "Topologiebeschriftungen",
+    "es": "etiquetas topológicas"
+  },
+  "topology.view.controls.message_c39acf": {
+    "zh-CN": "{p0} → {p1} · 接触 {p2} · 权重 {p3}{p4}",
+    "en": "{p0} → {p1} · contacts {p2} · weight {p3}{p4}",
+    "ja": "{p0} → {p1} · 接続数 {p2} · 重み {p3}{p4}",
+    "fr": "{p0} → {p1} · contacts {p2} · poids {p3}{p4}",
+    "de": "{p0} → {p1} · Kontakte {p2} · Gewicht {p3}{p4}",
+    "es": "{p0} → {p1} · contactos {p2} · peso {p3}{p4}"
+  },
+  "topology.view.controls.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "topology.view.controls.pin_d4b3f4": {
+    "zh-CN": "固定",
+    "en": "Pin",
+    "ja": "固定",
+    "fr": "Fixer",
+    "de": "Fixieren",
+    "es": "Fijar"
+  },
+  "topology.view.controls.reset_layout_b74829": {
+    "zh-CN": "重置布局",
+    "en": "Reset layout",
+    "ja": "配置をリセット",
+    "fr": "Réinitialiser la disposition",
+    "de": "Layout zurücksetzen",
+    "es": "Restablecer disposición"
+  },
+  "topology.view.controls.unpin_fa7dd2": {
+    "zh-CN": "解除固定",
+    "en": "Unpin",
+    "ja": "固定を解除",
+    "fr": "Libérer",
+    "de": "Lösen",
+    "es": "Liberar"
+  },
+  "topology.view.controls.zoom_in_80f8fb": {
+    "zh-CN": "放大",
+    "en": "Zoom in",
+    "ja": "拡大",
+    "fr": "Zoomer",
+    "de": "Vergrößern",
+    "es": "Acercar"
+  },
+  "topology.view.controls.zoom_out_290f68": {
+    "zh-CN": "缩小",
+    "en": "Zoom out",
+    "ja": "縮小",
+    "fr": "Dézoomer",
+    "de": "Verkleinern",
+    "es": "Alejar"
+  },
+  "topology.view.label.type_fb8761": {
+    "zh-CN": "未知类型",
+    "en": "Unknown type",
+    "ja": "不明な種類",
+    "fr": "Type inconnu",
+    "de": "Unbekannter Typ",
+    "es": "Tipo desconocido"
+  },
+  "topology.view.number.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  }
+}

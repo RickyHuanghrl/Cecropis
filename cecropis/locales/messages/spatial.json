@@ -1,0 +1,1410 @@
+{
+  "spatial.controls.20_e0a2c6": {
+    "zh-CN": "{p0} {p1} · 前20",
+    "en": "{p0} {p1} · top 20",
+    "ja": "{p0} {p1} · 上位 20 件",
+    "fr": "{p0} {p1} · les 20 premiers",
+    "de": "{p0} {p1} · die ersten 20",
+    "es": "{p0} {p1} · los primeros 20"
+  },
+  "spatial.controls.8_zoom_outselect_29c56b": {
+    "zh-CN": "骨架对象超过8，请先清空或缩小选择",
+    "en": "More than 8 skeletons selected. Clear or reduce the selection first.",
+    "ja": "選択した骨格が 8 個を超えています。選択を解除するか減らしてください。",
+    "fr": "Plus de 8 squelettes sélectionnés. Effacez ou réduisez la sélection.",
+    "de": "Mehr als 8 Skelette ausgewählt. Auswahl zuerst leeren oder verkleinern.",
+    "es": "Hay más de 8 esqueletos seleccionados. Borre o reduzca la selección primero."
+  },
+  "spatial.controls.back_572cf4": {
+    "zh-CN": "返回",
+    "en": "Back",
+    "ja": "戻る",
+    "fr": "Retour",
+    "de": "Zurück",
+    "es": "Volver"
+  },
+  "spatial.controls.current_scope_35ba27": {
+    "zh-CN": "当前计算范围",
+    "en": "Current scope",
+    "ja": "現在の計算範囲",
+    "fr": "Périmètre courant",
+    "de": "Aktueller Umfang",
+    "es": "Alcance actual"
+  },
+  "spatial.controls.downstream_fde36e": {
+    "zh-CN": "下游",
+    "en": "Downstream",
+    "ja": "下流",
+    "fr": "Aval",
+    "de": "Nachgelagert",
+    "es": "Aguas abajo"
+  },
+  "spatial.controls.expand_00bd39": {
+    "zh-CN": "展开",
+    "en": "Expand",
+    "ja": "拡大",
+    "fr": "Agrandir",
+    "de": "Vergrößern",
+    "es": "Ampliar"
+  },
+  "spatial.controls.filtered_members_positioned_e196e4": {
+    "zh-CN": "显示筛选 {p0}成员／{p1}有位置",
+    "en": "Filtered: {p0} members / {p1} positioned",
+    "ja": "絞り込み：{p0}メンバー／位置あり{p1}",
+    "fr": "Filtre : {p0} membres / {p1} positionnés",
+    "de": "Gefiltert: {p0} Mitglieder / {p1} mit Position",
+    "es": "Filtrado: {p0} miembros / {p1} con posición"
+  },
+  "spatial.controls.global_positions_loaded_c2abcc": {
+    "zh-CN": "全局点位已载入",
+    "en": "Global positions loaded",
+    "ja": "全体位置を読込済み",
+    "fr": "Positions globales chargées",
+    "de": "Globale Positionen geladen",
+    "es": "Posiciones globales cargadas"
+  },
+  "spatial.controls.highlight_all_group_members_17f9f0": {
+    "zh-CN": "分组完整成员高亮",
+    "en": "Highlight all group members",
+    "ja": "グループ全メンバーを強調",
+    "fr": "Surligner tous les membres",
+    "de": "Alle Gruppenmitglieder hervorheben",
+    "es": "Resaltar todos los miembros"
+  },
+  "spatial.controls.highlight_annotation_68eafa": {
+    "zh-CN": "注释高亮",
+    "en": "Highlight annotation",
+    "ja": "注釈を強調",
+    "fr": "Surligner l’annotation",
+    "de": "Annotation hervorheben",
+    "es": "Resaltar anotación"
+  },
+  "spatial.controls.loaded_emspace_m_ca8c86": {
+    "zh-CN": "全局位置已载入 · EM空间 · μm",
+    "en": "Global positions loaded · EM space · μm",
+    "ja": "全体位置を読み込み済み · EM 空間 · μm",
+    "fr": "Positions globales chargées · espace EM · μm",
+    "de": "Globale Positionen geladen · EM-Raum · μm",
+    "es": "Posiciones globales cargadas · espacio EM · μm"
+  },
+  "spatial.controls.message_50c2ad": {
+    "zh-CN": "先绑定已有结果",
+    "en": "Select an existing result first",
+    "ja": "先に既存の結果を選択してください",
+    "fr": "Sélectionnez d’abord un résultat existant",
+    "de": "Wählen Sie zuerst ein vorhandenes Ergebnis",
+    "es": "Seleccione primero un resultado existente"
+  },
+  "spatial.controls.message_7ccbfb": {
+    "zh-CN": "骨架层已清空",
+    "en": "Skeleton layer cleared",
+    "ja": "骨格レイヤーを消去しました",
+    "fr": "Couche des squelettes effacée",
+    "de": "Skelettebene geleert",
+    "es": "Capa de esqueletos vaciada"
+  },
+  "spatial.controls.message_8eadf2": {
+    "zh-CN": "无本地骨架",
+    "en": "No local skeletons",
+    "ja": "ローカル骨格なし",
+    "fr": "Aucun squelette local",
+    "de": "Keine lokalen Skelette",
+    "es": "Sin esqueletos locales"
+  },
+  "spatial.controls.message_953350": {
+    "zh-CN": " 条位置记录",
+    "en": " entries position record",
+    "ja": " 件位置記録",
+    "fr": " entrées position enregistrement",
+    "de": " Einträge Position Aufzeichnung",
+    "es": " entradas posición registro"
+  },
+  "spatial.controls.message_a0dd64": {
+    "zh-CN": "载入 ",
+    "en": "load ",
+    "ja": "読込 ",
+    "fr": "charger ",
+    "de": "laden ",
+    "es": "cargar "
+  },
+  "spatial.controls.node_11214f": {
+    "zh-CN": "先点击关注节点",
+    "en": "Click a node to focus it first",
+    "ja": "先にノードをクリックして注目対象にしてください",
+    "fr": "Cliquez d’abord sur un nœud pour le cibler",
+    "de": "Klicken Sie zuerst auf einen Knoten, um ihn zu fokussieren",
+    "es": "Haga clic primero en un nodo para enfocarlo"
+  },
+  "spatial.controls.node_7ede4a": {
+    "zh-CN": "先关注节点",
+    "en": "Focus a node first",
+    "ja": "先にノードを注目対象にしてください",
+    "fr": "Ciblez d’abord un nœud",
+    "de": "Fokussieren Sie zuerst einen Knoten",
+    "es": "Enfoque primero un nodo"
+  },
+  "spatial.controls.open_paths_f1de8d": {
+    "zh-CN": "先打开真实通路",
+    "en": "Open a measured path first",
+    "ja": "先に実測接続の通路を開いてください",
+    "fr": "Ouvrez d’abord un chemin de connexions mesurées",
+    "de": "Öffnen Sie zuerst einen Pfad gemessener Verbindungen",
+    "es": "Abra primero una ruta de conexiones medidas"
+  },
+  "spatial.controls.pause_8d12fc": {
+    "zh-CN": "暂停",
+    "en": "Pause",
+    "ja": "一時停止",
+    "fr": "Pause",
+    "de": "Pausieren",
+    "es": "Pausar"
+  },
+  "spatial.controls.replay_88b628": {
+    "zh-CN": "先绑定已有回放",
+    "en": "Select an existing replay first",
+    "ja": "先に既存の再生を選択してください",
+    "fr": "Sélectionnez d’abord une relecture existante",
+    "de": "Wählen Sie zuerst eine vorhandene Wiedergabe",
+    "es": "Seleccione primero una reproducción existente"
+  },
+  "spatial.controls.search_members_900124": {
+    "zh-CN": "查询完整成员高亮",
+    "en": "Highlight all query matches",
+    "ja": "検索に一致する全メンバーを強調",
+    "fr": "Mettre en évidence tous les résultats de la requête",
+    "de": "Alle Abfragetreffer hervorheben",
+    "es": "Resaltar todas las coincidencias de la consulta"
+  },
+  "spatial.controls.select_memberscondition_07981b": {
+    "zh-CN": "先选择当前分组及成员条件",
+    "en": "Select a group and member criteria first",
+    "ja": "先にグループとメンバー条件を選択してください",
+    "fr": "Sélectionnez d’abord un groupe et les critères de ses membres",
+    "de": "Wählen Sie zuerst eine Gruppe und Mitgliedskriterien",
+    "es": "Seleccione primero un grupo y criterios de miembros"
+  },
+  "spatial.controls.space_1ff8f1": {
+    "zh-CN": "空间数据分块长度错误",
+    "en": "Invalid spatial data chunk length",
+    "ja": "空間データブロックの長さが無効です",
+    "fr": "Longueur de bloc de données spatiales invalide",
+    "de": "Ungültige Länge eines räumlichen Datenblocks",
+    "es": "Longitud de bloque de datos espaciales no válida"
+  },
+  "spatial.controls.space_count_aa63ab": {
+    "zh-CN": "空间记录数量错误",
+    "en": "Incorrect spatial record count",
+    "ja": "空間レコード数が正しくありません",
+    "fr": "Nombre d’enregistrements spatiaux incorrect",
+    "de": "Falsche Anzahl räumlicher Datensätze",
+    "es": "Número de registros espaciales incorrecto"
+  },
+  "spatial.controls.spatial_position_662a1e": {
+    "zh-CN": "所选对象均没有空间位置",
+    "en": "None of the selected objects have spatial positions",
+    "ja": "選択したオブジェクトには位置情報がありません",
+    "fr": "Aucun objet sélectionné n’a de position spatiale",
+    "de": "Keines der ausgewählten Objekte besitzt eine räumliche Position",
+    "es": "Ninguno de los objetos seleccionados tiene posición espacial"
+  },
+  "spatial.controls.swc_b4538e": {
+    "zh-CN": "真实SWC点",
+    "en": "actual SWC vertices",
+    "ja": "実際SWC頂点",
+    "fr": "réel SWC sommets",
+    "de": "tatsächlich SWC Punkte",
+    "es": "real SWC vértices"
+  },
+  "spatial.controls.traced_249201": {
+    "zh-CN": "正在读取Traced注释位置…",
+    "en": "Loading annotated positions of Traced neurons…",
+    "ja": "Traced ニューロンの注釈付き位置を読み込み中…",
+    "fr": "Chargement des positions annotées des neurones Traced…",
+    "de": "Annotierte Positionen der Traced-Neuronen werden geladen…",
+    "es": "Cargando las posiciones anotadas de las neuronas Traced…"
+  },
+  "spatial.controls.unannotated_8f0a5a": {
+    "zh-CN": "未注释",
+    "en": "Unannotated",
+    "ja": "未注釈",
+    "fr": "Non annoté",
+    "de": "Nicht annotiert",
+    "es": "Sin anotación"
+  },
+  "spatial.controls.upstream_a9ab29": {
+    "zh-CN": "上游",
+    "en": "Upstream",
+    "ja": "上流",
+    "fr": "Amont",
+    "de": "Vorgelagert",
+    "es": "Aguas arriba"
+  },
+  "spatial.detail.baseline": {
+    "zh-CN": "基线",
+    "en": "Baseline",
+    "ja": "ベースライン",
+    "fr": "Référence",
+    "de": "Referenz",
+    "es": "Referencia"
+  },
+  "spatial.detail.copied": {
+    "zh-CN": "已复制",
+    "en": "Copied",
+    "ja": "コピー済み",
+    "fr": "Copié",
+    "de": "Kopiert",
+    "es": "Copiado"
+  },
+  "spatial.detail.copy": {
+    "zh-CN": "复制 ID",
+    "en": "Copy ID",
+    "ja": "ID をコピー",
+    "fr": "Copier l’ID",
+    "de": "ID kopieren",
+    "es": "Copiar ID"
+  },
+  "spatial.detail.delta": {
+    "zh-CN": "差异",
+    "en": "Difference",
+    "ja": "差分",
+    "fr": "Différence",
+    "de": "Differenz",
+    "es": "Diferencia"
+  },
+  "spatial.detail.gain": {
+    "zh-CN": "当前增益",
+    "en": "Current gain",
+    "ja": "現在のゲイン",
+    "fr": "Gain actuel",
+    "de": "Aktueller Verstärkungsfaktor",
+    "es": "Ganancia actual"
+  },
+  "spatial.detail.intervention": {
+    "zh-CN": "干预",
+    "en": "Intervention",
+    "ja": "介入",
+    "fr": "Intervention",
+    "de": "Eingriff",
+    "es": "Intervención"
+  },
+  "spatial.detail.position": {
+    "zh-CN": "位置",
+    "en": "Position",
+    "ja": "位置",
+    "fr": "Position",
+    "de": "Position",
+    "es": "Posición"
+  },
+  "spatial.detail.reference": {
+    "zh-CN": "位置来源",
+    "en": "Position reference",
+    "ja": "位置の基準",
+    "fr": "Référence de position",
+    "de": "Positionsbezug",
+    "es": "Referencia de posición"
+  },
+  "spatial.detail.state": {
+    "zh-CN": "状态步",
+    "en": "State step",
+    "ja": "状態ステップ",
+    "fr": "Pas d’état",
+    "de": "Zustandsschritt",
+    "es": "Paso de estado"
+  },
+  "spatial.detail.update": {
+    "zh-CN": "更新步",
+    "en": "Update step",
+    "ja": "更新ステップ",
+    "fr": "Pas de mise à jour",
+    "de": "Aktualisierungsschritt",
+    "es": "Paso de actualización"
+  },
+  "spatial.detail.window": {
+    "zh-CN": "评价窗口",
+    "en": "Evaluation window",
+    "ja": "評価窓",
+    "fr": "Fenêtre d’évaluation",
+    "de": "Auswertungsfenster",
+    "es": "Ventana de evaluación"
+  },
+  "spatial.labels.actions_762059": {
+    "zh-CN": "操作 ",
+    "en": "operation ",
+    "ja": "操作 ",
+    "fr": "opération ",
+    "de": "Operation ",
+    "es": "operación "
+  },
+  "spatial.labels.actual_direction_2970a5": {
+    "zh-CN": "真实方向",
+    "en": "Actual direction",
+    "ja": "実際の方向",
+    "fr": "Direction réelle",
+    "de": "Tatsächliche Richtung",
+    "es": "Dirección real"
+  },
+  "spatial.labels.add_focused_node_a03520": {
+    "zh-CN": "加入关注节点",
+    "en": "Add focused node",
+    "ja": "注目ノードを追加",
+    "fr": "Ajouter le nœud courant",
+    "de": "Fokussierten Knoten hinzufügen",
+    "es": "Añadir nodo actual"
+  },
+  "spatial.labels.append_selection_9be944": {
+    "zh-CN": "追加选择",
+    "en": "Append selection",
+    "ja": "選択を追加",
+    "fr": "Ajouter à la sélection",
+    "de": "Auswahl ergänzen",
+    "es": "Añadir a selección"
+  },
+  "spatial.labels.background_intensity_f6dd70": {
+    "zh-CN": "背景强度 ",
+    "en": "Background intensity ",
+    "ja": "背景強度 ",
+    "fr": "Intensité du fond ",
+    "de": "Hintergrundintensität ",
+    "es": "Intensidad del fondo "
+  },
+  "spatial.labels.balanced_2588b5": {
+    "zh-CN": "均衡",
+    "en": "Balanced",
+    "ja": "均衡",
+    "fr": "Équilibrée",
+    "de": "Ausgewogen",
+    "es": "Equilibrada"
+  },
+  "spatial.labels.base_weight_c4f4f2": {
+    "zh-CN": "基础权重",
+    "en": "Base weight",
+    "ja": "基礎重み",
+    "fr": "Poids de base",
+    "de": "Basisgewicht",
+    "es": "Peso base"
+  },
+  "spatial.labels.baseline_a7ac58": {
+    "zh-CN": "基线",
+    "en": "Baseline",
+    "ja": "ベースライン",
+    "fr": "Référence",
+    "de": "Referenz",
+    "es": "Referencia"
+  },
+  "spatial.labels.box_select_all_depths_868bb1": {
+    "zh-CN": "框选 · 包含区域内所有深度",
+    "en": "Box select · all depths",
+    "ja": "範囲選択・全深度を含む",
+    "fr": "Sélection rectangulaire · toutes profondeurs",
+    "de": "Rechteckauswahl · alle Tiefen",
+    "es": "Selección rectangular · todas las profundidades"
+  },
+  "spatial.labels.cache_limit_mib_373b5f": {
+    "zh-CN": "缓存上限 MiB ",
+    "en": "Cache limit (MiB) ",
+    "ja": "キャッシュ上限（MiB） ",
+    "fr": "Limite du cache (MiB) ",
+    "de": "Cachelimit (MiB) ",
+    "es": "Límite de caché (MiB) "
+  },
+  "spatial.labels.cancel_processing_8b69bc": {
+    "zh-CN": "取消处理",
+    "en": "Cancel processing",
+    "ja": "処理を中止",
+    "fr": "Annuler le traitement",
+    "de": "Verarbeitung abbrechen",
+    "es": "Cancelar procesamiento"
+  },
+  "spatial.labels.clear_abstract_connections_2604a5": {
+    "zh-CN": "清除示意连接",
+    "en": "Clear abstract connections",
+    "ja": "模式接続をクリア",
+    "fr": "Effacer les connexions schématiques",
+    "de": "Schematische Verbindungen löschen",
+    "es": "Borrar conexiones esquemáticas"
+  },
+  "spatial.labels.clear_display_filter_f507e3": {
+    "zh-CN": "清除显示筛选",
+    "en": "Clear display filter",
+    "ja": "表示フィルターを解除",
+    "fr": "Effacer le filtre d’affichage",
+    "de": "Anzeigefilter löschen",
+    "es": "Borrar filtro visual"
+  },
+  "spatial.labels.clear_highlight_5e2c0f": {
+    "zh-CN": "清空高亮",
+    "en": "Clear highlight",
+    "ja": "強調をクリア",
+    "fr": "Effacer la surbrillance",
+    "de": "Hervorhebung löschen",
+    "es": "Borrar resaltado"
+  },
+  "spatial.labels.clear_selection_a3c974": {
+    "zh-CN": "清空选择",
+    "en": "Clear selection",
+    "ja": "選択をクリア",
+    "fr": "Effacer la sélection",
+    "de": "Auswahl leeren",
+    "es": "Borrar selección"
+  },
+  "spatial.labels.clear_swc_layer_001df4": {
+    "zh-CN": "清空SWC层",
+    "en": "Clear SWC layer",
+    "ja": "SWCレイヤーをクリア",
+    "fr": "Effacer le calque SWC",
+    "de": "SWC-Ebene leeren",
+    "es": "Borrar capa SWC"
+  },
+  "spatial.labels.connection_count_93e376": {
+    "zh-CN": "连接计数",
+    "en": "Connection count",
+    "ja": "接続計数",
+    "fr": "Nombre de contacts",
+    "de": "Kontaktzahl",
+    "es": "Número de contactos"
+  },
+  "spatial.labels.detailed_c4191d": {
+    "zh-CN": "精细",
+    "en": "Detailed",
+    "ja": "詳細",
+    "fr": "Détaillée",
+    "de": "Detailliert",
+    "es": "Detallada"
+  },
+  "spatial.labels.display_diameter_m_993edb": {
+    "zh-CN": "显示管径 μm ",
+    "en": "Display diameter (μm) ",
+    "ja": "表示管径（μm） ",
+    "fr": "Diamètre d’affichage (μm) ",
+    "de": "Anzeigedurchmesser (μm) ",
+    "es": "Diámetro visual (μm) "
+  },
+  "spatial.labels.display_quality_5ad550": {
+    "zh-CN": "显示质量 ",
+    "en": "Display quality ",
+    "ja": "表示品質 ",
+    "fr": "Qualité d’affichage ",
+    "de": "Anzeigequalität ",
+    "es": "Calidad visual "
+  },
+  "spatial.labels.emspace_3d4d8a": {
+    "zh-CN": "全局EM空间注释点；胞体圆点、截断端点十字；旋转缩放、点击或框选",
+    "en": "Global EM annotation positions: circles for somata, crosses for cut ends. Rotate, zoom, click or box-select.",
+    "ja": "全体 EM 注釈位置: 円は細胞体、十字は切断端点。回転・拡大縮小・クリック・矩形選択が可能です。",
+    "fr": "Positions des annotations EM globales : cercles pour les somas, croix pour les extrémités coupées. Rotation, zoom, clic ou sélection rectangulaire.",
+    "de": "Globale EM-Annotationspositionen: Kreise für Somata, Kreuze für Schnittenden. Drehen, zoomen, klicken oder per Rechteck auswählen.",
+    "es": "Posiciones globales de anotaciones EM: círculos para somas y cruces para extremos cortados. Gire, amplíe, haga clic o seleccione por recuadro."
+  },
+  "spatial.labels.expand_00bd39": {
+    "zh-CN": "展开",
+    "en": "Expand",
+    "ja": "拡大",
+    "fr": "Agrandir",
+    "de": "Vergrößern",
+    "es": "Ampliar"
+  },
+  "spatial.labels.fit_global_view_116c08": {
+    "zh-CN": "适配全局",
+    "en": "Fit global view",
+    "ja": "全体を表示",
+    "fr": "Vue globale",
+    "de": "Globale Ansicht einpassen",
+    "es": "Ajustar vista global"
+  },
+  "spatial.labels.focus_selected_a5f3aa": {
+    "zh-CN": "定位所选",
+    "en": "Focus selected",
+    "ja": "選択を定位",
+    "fr": "Centrer la sélection",
+    "de": "Auswahl fokussieren",
+    "es": "Centrar selección"
+  },
+  "spatial.labels.focused_object_actual_connections_6f68df": {
+    "zh-CN": "关注对象与真实连接",
+    "en": "Focused object & actual connections",
+    "ja": "注目オブジェクトと実接続",
+    "fr": "Objet courant et connexions réelles",
+    "de": "Fokussiertes Objekt und echte Verbindungen",
+    "es": "Objeto actual y conexiones reales"
+  },
+  "spatial.labels.groups_selection_823163": {
+    "zh-CN": "群体与选择",
+    "en": "Groups & selection",
+    "ja": "グループと選択",
+    "fr": "Groupes et sélection",
+    "de": "Gruppen und Auswahl",
+    "es": "Grupos y selección"
+  },
+  "spatial.labels.highlight_all_group_members_17f9f0": {
+    "zh-CN": "分组完整成员高亮",
+    "en": "Highlight all group members",
+    "ja": "グループ全メンバーを強調",
+    "fr": "Surligner tous les membres",
+    "de": "Alle Gruppenmitglieder hervorheben",
+    "es": "Resaltar todos los miembros"
+  },
+  "spatial.labels.highlight_all_query_matches_580bc1": {
+    "zh-CN": "全局查询完整成员高亮",
+    "en": "Highlight all query matches",
+    "ja": "検索に一致する全メンバーを強調",
+    "fr": "Surligner tous les résultats",
+    "de": "Alle Suchtreffer hervorheben",
+    "es": "Resaltar todos los resultados"
+  },
+  "spatial.labels.highlight_annotation_68eafa": {
+    "zh-CN": "注释高亮",
+    "en": "Highlight annotation",
+    "ja": "注釈を強調",
+    "fr": "Surligner l’annotation",
+    "de": "Annotation hervorheben",
+    "es": "Resaltar anotación"
+  },
+  "spatial.labels.highlight_calculation_scope_c03609": {
+    "zh-CN": "当前计算范围高亮",
+    "en": "Highlight calculation scope",
+    "ja": "計算範囲を強調",
+    "fr": "Surligner le périmètre",
+    "de": "Berechnungsumfang hervorheben",
+    "es": "Resaltar alcance de cálculo"
+  },
+  "spatial.labels.input_budget_mib_df9d4b": {
+    "zh-CN": "本批输入 MiB ",
+    "en": "Input budget (MiB) ",
+    "ja": "入力予算（MiB） ",
+    "fr": "Budget d’entrée (MiB) ",
+    "de": "Eingabebudget (MiB) ",
+    "es": "Presupuesto de entrada (MiB) "
+  },
+  "spatial.labels.intervention_baseline_565398": {
+    "zh-CN": "干预 − 基线",
+    "en": "Intervention − baseline",
+    "ja": "介入 − 基準",
+    "fr": "Intervention − référence",
+    "de": "Eingriff − Referenz",
+    "es": "Intervención − referencia"
+  },
+  "spatial.labels.intervention_c74feb": {
+    "zh-CN": "干预",
+    "en": "Intervention",
+    "ja": "介入",
+    "fr": "Intervention",
+    "de": "Eingriff",
+    "es": "Intervención"
+  },
+  "spatial.labels.isolate_selection_highlight_299a03": {
+    "zh-CN": "隔离选择／高亮",
+    "en": "Isolate selection / highlight",
+    "ja": "選択／強調を分離",
+    "fr": "Isoler la sélection / surbrillance",
+    "de": "Auswahl / Hervorhebung isolieren",
+    "es": "Aislar selección / resaltado"
+  },
+  "spatial.labels.load_global_positions_ef31eb": {
+    "zh-CN": "载入全局点位",
+    "en": "Load global positions",
+    "ja": "全体の位置を読込",
+    "fr": "Charger les positions globales",
+    "de": "Globale Positionen laden",
+    "es": "Cargar posiciones globales"
+  },
+  "spatial.labels.load_local_swc_for_focused_object_6f221d": {
+    "zh-CN": "加载关注对象的本地SWC",
+    "en": "Load local SWC for focused object",
+    "ja": "注目オブジェクトのローカルSWCを読込",
+    "fr": "Charger le SWC local de l’objet",
+    "de": "Lokale SWC des Objekts laden",
+    "es": "Cargar SWC local del objeto"
+  },
+  "spatial.labels.load_processed_skeletons_49dac5": {
+    "zh-CN": "载入已处理骨架",
+    "en": "Load processed skeletons",
+    "ja": "処理済み骨格を読込",
+    "fr": "Charger les squelettes traités",
+    "de": "Verarbeitete Skelette laden",
+    "es": "Cargar esqueletos procesados"
+  },
+  "spatial.labels.local_swc_6a0c33": {
+    "zh-CN": "本地SWC",
+    "en": "Local SWC",
+    "ja": "ローカルSWC",
+    "fr": "SWC local",
+    "de": "Lokale SWC",
+    "es": "SWC local"
+  },
+  "spatial.labels.low_cost_ab6c44": {
+    "zh-CN": "低成本",
+    "en": "Low cost",
+    "ja": "軽量",
+    "fr": "Économique",
+    "de": "Sparsam",
+    "es": "Ligera"
+  },
+  "spatial.labels.new_input_event_draft_795a6b": {
+    "zh-CN": "新输入事件草稿",
+    "en": "New input event draft",
+    "ja": "新入力イベント草稿",
+    "fr": "Brouillon d’entrée",
+    "de": "Neuer Eingabeentwurf",
+    "es": "Borrador de entrada"
+  },
+  "spatial.labels.new_node_intervention_draft_2a1f0f": {
+    "zh-CN": "新节点干预草稿",
+    "en": "New node intervention draft",
+    "ja": "新ノード介入草稿",
+    "fr": "Brouillon d’intervention",
+    "de": "Neuer Knoteneingriffsentwurf",
+    "es": "Borrador de intervención"
+  },
+  "spatial.labels.new_observation_draft_63fb3b": {
+    "zh-CN": "新观察集合草稿",
+    "en": "New observation draft",
+    "ja": "新観測集合草稿",
+    "fr": "Brouillon d’observation",
+    "de": "Neuer Beobachtungsentwurf",
+    "es": "Borrador de observación"
+  },
+  "spatial.labels.new_scope_seeds_6f5a57": {
+    "zh-CN": "新范围种子",
+    "en": "New scope seeds",
+    "ja": "新範囲の種子",
+    "fr": "Graines du nouveau périmètre",
+    "de": "Startknoten für neuen Umfang",
+    "es": "Semillas de nuevo alcance"
+  },
+  "spatial.labels.open_2d_replay_node_curves_96268f": {
+    "zh-CN": "查看二维回放／节点曲线",
+    "en": "Open 2D replay / node curves",
+    "ja": "2D再生／ノード曲線を開く",
+    "fr": "Ouvrir la lecture 2D / les courbes",
+    "de": "2D-Wiedergabe / Knotenkurven öffnen",
+    "es": "Abrir reproducción 2D / curvas"
+  },
+  "spatial.labels.orbit_alt_right_drag_to_pan_78d337": {
+    "zh-CN": "旋转 · Alt／右键平移",
+    "en": "Orbit · Alt/right drag to pan",
+    "ja": "回転・Alt／右ドラッグで移動",
+    "fr": "Rotation · Alt/glisser droit pour déplacer",
+    "de": "Drehen · Alt/rechts ziehen zum Verschieben",
+    "es": "Rotar · Alt/arrastre derecho para mover"
+  },
+  "spatial.labels.path_sources_eb8ef8": {
+    "zh-CN": "通路来源",
+    "en": "Path sources",
+    "ja": "経路の出発点",
+    "fr": "Sources du chemin",
+    "de": "Pfadquellen",
+    "es": "Orígenes de ruta"
+  },
+  "spatial.labels.path_target_a_a32b57": {
+    "zh-CN": "通路目标 A",
+    "en": "Path target A",
+    "ja": "経路の目標A",
+    "fr": "Cible A du chemin",
+    "de": "Pfadziel A",
+    "es": "Destino A de ruta"
+  },
+  "spatial.labels.path_target_b_d99a64": {
+    "zh-CN": "通路目标 B",
+    "en": "Path target B",
+    "ja": "経路の目標B",
+    "fr": "Cible B du chemin",
+    "de": "Pfadziel B",
+    "es": "Destino B de ruta"
+  },
+  "spatial.labels.play_c33961": {
+    "zh-CN": "播放",
+    "en": "Play",
+    "ja": "再生",
+    "fr": "Lire",
+    "de": "Abspielen",
+    "es": "Reproducir"
+  },
+  "spatial.labels.processed_skeletons_not_loaded_be3b61": {
+    "zh-CN": "尚未加载已处理骨架",
+    "en": "Processed skeletons not loaded",
+    "ja": "処理済み骨格は未読込",
+    "fr": "Squelettes traités non chargés",
+    "de": "Verarbeitete Skelette nicht geladen",
+    "es": "Esqueletos procesados no cargados"
+  },
+  "spatial.labels.radius_scale_5886b0": {
+    "zh-CN": "有效半径倍率 ",
+    "en": "Radius scale ",
+    "ja": "有効半径の倍率 ",
+    "fr": "Facteur de rayon ",
+    "de": "Radiusfaktor ",
+    "es": "Escala de radio "
+  },
+  "spatial.labels.real_skeletons_d9e414": {
+    "zh-CN": "真实骨架",
+    "en": "Real skeletons",
+    "ja": "実骨格",
+    "fr": "Squelettes réels",
+    "de": "Echte Skelette",
+    "es": "Esqueletos reales"
+  },
+  "spatial.labels.recorded_state_step_c72cb8": {
+    "zh-CN": "已记录状态步 ",
+    "en": "Recorded state step ",
+    "ja": "記録された状態ステップ ",
+    "fr": "Étape enregistrée ",
+    "de": "Aufgezeichneter Zustandsschritt ",
+    "es": "Paso de estado registrado "
+  },
+  "spatial.labels.save_current_session_bad39e": {
+    "zh-CN": "保存当前分析现场",
+    "en": "Save current session",
+    "ja": "現在の分析状態を保存",
+    "fr": "Enregistrer la session courante",
+    "de": "Aktuelle Sitzung speichern",
+    "es": "Guardar sesión actual"
+  },
+  "spatial.labels.select_entire_highlighted_set_0324f3": {
+    "zh-CN": "选择完整高亮集合",
+    "en": "Select entire highlighted set",
+    "ja": "強調された全集合を選択",
+    "fr": "Sélectionner tout l’ensemble surligné",
+    "de": "Gesamte hervorgehobene Menge wählen",
+    "es": "Seleccionar conjunto resaltado completo"
+  },
+  "spatial.labels.selectionbody_id_00a96e": {
+    "zh-CN": "完整当前选择body ID",
+    "en": "All currently selected body IDs",
+    "ja": "現在選択中の全 body ID",
+    "fr": "Tous les body ID sélectionnés",
+    "de": "Alle aktuell ausgewählten body IDs",
+    "es": "Todos los body ID seleccionados"
+  },
+  "spatial.labels.send_to_editor_904d59": {
+    "zh-CN": "送入现有编辑器",
+    "en": "Send to editor",
+    "ja": "編集器に送る",
+    "fr": "Envoyer à l’éditeur",
+    "de": "An Editor senden",
+    "es": "Enviar al editor"
+  },
+  "spatial.labels.show_actual_neighbors_top_20_per_direction_49cf31": {
+    "zh-CN": "显示关注节点真实邻接 · 前20／方向",
+    "en": "Show actual neighbors · top 20 per direction",
+    "ja": "実隣接を表示・各方向上位20",
+    "fr": "Voisins réels · 20 par direction",
+    "de": "Echte Nachbarn · 20 je Richtung",
+    "es": "Vecinos reales · 20 por dirección"
+  },
+  "spatial.labels.show_bound_plan_edges_447b66": {
+    "zh-CN": "显示绑定计划的真实边",
+    "en": "Show bound plan edges",
+    "ja": "関連計画の実辺を表示",
+    "fr": "Afficher les arêtes du plan lié",
+    "de": "Kanten des verknüpften Plans anzeigen",
+    "es": "Mostrar aristas del plan asociado"
+  },
+  "spatial.labels.show_current_path_edges_21d4d2": {
+    "zh-CN": "显示当前通路的实际边",
+    "en": "Show current path edges",
+    "ja": "現在の経路の実辺を表示",
+    "fr": "Afficher les arêtes du chemin",
+    "de": "Aktuelle Pfadkanten anzeigen",
+    "es": "Mostrar aristas de ruta actual"
+  },
+  "spatial.labels.show_only_this_value_47d5ff": {
+    "zh-CN": "仅显示该注释值",
+    "en": "Show only this value",
+    "ja": "この注釈値だけを表示",
+    "fr": "Afficher cette valeur uniquement",
+    "de": "Nur diesen Wert anzeigen",
+    "es": "Mostrar solo este valor"
+  },
+  "spatial.labels.show_skeletons_438126": {
+    "zh-CN": "显示骨架",
+    "en": "Show skeletons",
+    "ja": "骨格を表示",
+    "fr": "Afficher les squelettes",
+    "de": "Skelette anzeigen",
+    "es": "Mostrar esqueletos"
+  },
+  "spatial.labels.soma_circles_cut_fiber_ends_crosses_selection_outlined_h_a86d53": {
+    "zh-CN": "胞体圆点 · 通向胞体端点十字 · 黄色选择／白环关注 · 青色高亮",
+    "en": "Soma: circles · cut fiber ends: crosses · selection: outlined · highlight: teal",
+    "ja": "胞体：円・切断端：十字・選択：枠線・強調：青緑",
+    "fr": "Soma : cercles · extrémités : croix · sélection : contour · surbrillance : turquoise",
+    "de": "Soma: Kreise · Faserenden: Kreuze · Auswahl: Umriss · Hervorhebung: Türkis",
+    "es": "Soma: círculos · extremos: cruces · selección: contorno · resaltado: turquesa"
+  },
+  "spatial.labels.space_09c8c0": {
+    "zh-CN": "在空间中高亮完整集合",
+    "en": "Highlight the full set in 3D",
+    "ja": "集合全体を三次元で強調",
+    "fr": "Mettre l’ensemble complet en évidence en 3D",
+    "de": "Gesamte Menge in 3D hervorheben",
+    "es": "Resaltar el conjunto completo en 3D"
+  },
+  "spatial.labels.space_3347e0": {
+    "zh-CN": "空间",
+    "en": "Space",
+    "ja": "空間",
+    "fr": "Espace",
+    "de": "Raum",
+    "es": "Espacio"
+  },
+  "spatial.labels.space_annotation_value_63f879": {
+    "zh-CN": "空间精确注释值",
+    "en": "Exact spatial annotation value",
+    "ja": "空間注釈の完全一致値",
+    "fr": "Valeur exacte d’annotation spatiale",
+    "de": "Exakter räumlicher Annotationswert",
+    "es": "Valor exacto de anotación espacial"
+  },
+  "spatial.labels.space_da439b": {
+    "zh-CN": "空间活动模式",
+    "en": "Spatial activity mode",
+    "ja": "空間活動表示モード",
+    "fr": "Mode d’activité spatiale",
+    "de": "Räumlicher Aktivitätsmodus",
+    "es": "Modo de actividad espacial"
+  },
+  "spatial.labels.spacefilter_039909": {
+    "zh-CN": "空间筛选字段",
+    "en": "Spatial filter field",
+    "ja": "空間フィルター項目",
+    "fr": "Champ de filtre spatial",
+    "de": "Räumliches Filterfeld",
+    "es": "Campo de filtro espacial"
+  },
+  "spatial.labels.spaceselectrole_7e0848": {
+    "zh-CN": "空间选择用途",
+    "en": "Spatial selection destination",
+    "ja": "空間選択の送信先",
+    "fr": "Destination de la sélection spatiale",
+    "de": "Ziel der räumlichen Auswahl",
+    "es": "Destino de la selección espacial"
+  },
+  "spatial.labels.structure_b9011a": {
+    "zh-CN": "结构位置",
+    "en": "Structure",
+    "ja": "構造",
+    "fr": "Structure",
+    "de": "Struktur",
+    "es": "Estructura"
+  },
+  "spatial.labels.update_geometry_3d88d6": {
+    "zh-CN": "更新几何",
+    "en": "Update geometry",
+    "ja": "形状を更新",
+    "fr": "Mettre à jour la géométrie",
+    "de": "Geometrie aktualisieren",
+    "es": "Actualizar geometría"
+  },
+  "spatial.labels.use_existing_replay_6cd158": {
+    "zh-CN": "使用已有回放记录",
+    "en": "Use existing replay",
+    "ja": "既存の再生記録を使用",
+    "fr": "Utiliser la lecture existante",
+    "de": "Vorhandene Wiedergabe verwenden",
+    "es": "Usar reproducción existente"
+  },
+  "spatial.spaceBind.existing_records_bound_c90dc7": {
+    "zh-CN": "已绑定已有记录 · 未运行传播",
+    "en": "Existing records bound",
+    "ja": "既存記録を連携済み",
+    "fr": "Enregistrements existants liés",
+    "de": "Vorhandene Aufzeichnungen verknüpft",
+    "es": "Registros existentes vinculados"
+  },
+  "spatial.spaceBind.open_replay_82befb": {
+    "zh-CN": "请先打开已有回放；尚无记录时，在分析页准备。",
+    "en": "Open an existing replay first, or prepare a recording in Analysis.",
+    "ja": "既存のリプレイを開くか、分析画面で記録を作成してください。",
+    "fr": "Ouvrez une lecture existante ou préparez un enregistrement dans Analyse.",
+    "de": "Öffnen Sie eine vorhandene Wiedergabe oder erstellen Sie eine Aufzeichnung unter Analyse.",
+    "es": "Abra una reproducción existente o prepare una grabación en Análisis."
+  },
+  "spatial.spaceBind.replay_b51c59": {
+    "zh-CN": "回放数据索引不匹配",
+    "en": "Replay data index mismatch",
+    "ja": "再生データ索引不一致",
+    "fr": "Lecture données index incompatibilité",
+    "de": "Wiedergabe Daten Index nicht passend",
+    "es": "Reproducción datosíndice incompatible"
+  },
+  "spatial.spaceFocus.display_diameter_no_radius_attribute_752fbb": {
+    "zh-CN": "显示管径，无半径属性",
+    "en": "Display diameter; no radius attribute",
+    "ja": "表示管径・半径属性なし",
+    "fr": "Diamètre d’affichage ; aucun rayon",
+    "de": "Anzeigedurchmesser; kein Radiusattribut",
+    "es": "Diámetro visual; sin atributo de radio"
+  },
+  "spatial.spaceFocus.downloaded_not_processed_4dcb49": {
+    "zh-CN": "已下载，尚未处理",
+    "en": "Downloaded, not processed",
+    "ja": "ダウンロード済み・未処理",
+    "fr": "Téléchargé, non traité",
+    "de": "Heruntergeladen, nicht verarbeitet",
+    "es": "Descargado, no procesado"
+  },
+  "spatial.spaceFocus.message_056922": {
+    "zh-CN": "骨架格式或长度无效",
+    "en": "Invalid skeleton format or length",
+    "ja": "骨格形式または長さが無効です",
+    "fr": "Format ou longueur de squelette invalide",
+    "de": "Ungültiges Skelettformat oder ungültige Länge",
+    "es": "Formato o longitud de esqueleto no válido"
+  },
+  "spatial.spaceFocus.message_1209bc": {
+    "zh-CN": "有效真实半径",
+    "en": "valid actual radius",
+    "ja": "有効実際半径",
+    "fr": "valide réel rayon",
+    "de": "gültig tatsächlich Radius",
+    "es": "válido real radio"
+  },
+  "spatial.spaceFocus.message_122631": {
+    "zh-CN": "点／",
+    "en": "vertices／",
+    "ja": "頂点／",
+    "fr": "sommets／",
+    "de": "Punkte／",
+    "es": "vértices／"
+  },
+  "spatial.spaceFocus.message_342100": {
+    "zh-CN": "几何尚未准备",
+    "en": "Geometry not prepared",
+    "ja": "形状データは未準備です",
+    "fr": "Géométrie non préparée",
+    "de": "Geometrie nicht vorbereitet",
+    "es": "Geometría sin preparar"
+  },
+  "spatial.spaceFocus.message_6a305f": {
+    "zh-CN": "本地下载清单无骨架",
+    "en": "No skeletons in the local download manifest",
+    "ja": "ローカルダウンロード一覧に骨格がありません",
+    "fr": "Aucun squelette dans le manifeste de téléchargement local",
+    "de": "Keine Skelette im lokalen Downloadmanifest",
+    "es": "No hay esqueletos en el manifiesto de descarga local"
+  },
+  "spatial.spaceFocus.message_8107a8": {
+    "zh-CN": "读取 ",
+    "en": "read ",
+    "ja": "読込 ",
+    "fr": "lire ",
+    "de": "lesen ",
+    "es": "leer "
+  },
+  "spatial.spaceFocus.message_d671e5": {
+    "zh-CN": "分支段 · ",
+    "en": "branch segments · ",
+    "ja": "分岐区間 · ",
+    "fr": "branche segments · ",
+    "de": "Zweig Segmente · ",
+    "es": "rama segmentos · "
+  },
+  "spatial.spaceFocus.no_position_842a82": {
+    "zh-CN": "缺位置",
+    "en": "No position",
+    "ja": "位置なし",
+    "fr": "Sans position",
+    "de": "Keine Position",
+    "es": "Sin posición"
+  },
+  "spatial.spaceFocus.no_spatial_position_b5530e": {
+    "zh-CN": "没有可用空间位置",
+    "en": "No spatial position",
+    "ja": "空間位置なし",
+    "fr": "Aucune position spatiale",
+    "de": "Keine räumliche Position",
+    "es": "Sin posición espacial"
+  },
+  "spatial.spaceFocus.not_downloaded_7176bc": {
+    "zh-CN": "尚未下载",
+    "en": "Not downloaded",
+    "ja": "未ダウンロード",
+    "fr": "Non téléchargé",
+    "de": "Nicht heruntergeladen",
+    "es": "No descargado"
+  },
+  "spatial.spaceFocus.real_skeleton_processed_665eef": {
+    "zh-CN": "真实骨架已处理",
+    "en": "Real skeleton processed",
+    "ja": "実骨格の処理済み",
+    "fr": "Squelette réel traité",
+    "de": "Echtes Skelett verarbeitet",
+    "es": "Esqueleto real procesado"
+  },
+  "spatial.spaceFocus.skeleton_bounding_box_center_navigation_6a1f91": {
+    "zh-CN": "骨架包围盒中心（定位）",
+    "en": "Skeleton bounding-box center (navigation)",
+    "ja": "骨格の包囲箱中心（定位用）",
+    "fr": "Centre de la boîte du squelette (navigation)",
+    "de": "Skelettbegrenzungszentrum (Navigation)",
+    "es": "Centro del límite de esqueleto (navegación)"
+  },
+  "spatial.spaceFocus.statusnot_recorded_0d5011": {
+    "zh-CN": "几何状态未记录",
+    "en": "Geometry status not recorded",
+    "ja": "形状データの状態は未記録です",
+    "fr": "État de la géométrie non enregistré",
+    "de": "Geometriestatus nicht aufgezeichnet",
+    "es": "Estado de la geometría no registrado"
+  },
+  "spatial.spaceFocus.unclassified_54b89f": {
+    "zh-CN": "未分类",
+    "en": "Unclassified",
+    "ja": "未分類",
+    "fr": "Non classé",
+    "de": "Nicht klassifiziert",
+    "es": "Sin clasificar"
+  },
+  "spatial.spaceGeometry.8_32mib_6cc93a": {
+    "zh-CN": " · {p0} / {p1} · 上限8对象／32MiB文件",
+    "en": " · {p0} / {p1} · limits: 8 objects / 32 MiB per file",
+    "ja": " · {p0} / {p1} · 上限：8 オブジェクト / ファイルあたり 32 MiB",
+    "fr": " · {p0} / {p1} · limites : 8 objets / 32 MiB par fichier",
+    "de": " · {p0} / {p1} · Grenzen: 8 Objekte / 32 MiB pro Datei",
+    "es": " · {p0} / {p1} · límites: 8 objetos / 32 MiB por archivo"
+  },
+  "spatial.spaceHighlight.members_555f62": {
+    "zh-CN": "{p0} · 完整 {p1}成员 · {p2}有位置／{p3}无位置",
+    "en": "{p0} · all {p1} members · {p2} positioned / {p3} without positions",
+    "ja": "{p0} · 全 {p1} メンバー · 位置あり {p2} / 位置なし {p3}",
+    "fr": "{p0} · les {p1} membres · {p2} avec position / {p3} sans position",
+    "de": "{p0} · alle {p1} Mitglieder · {p2} mit Position / {p3} ohne Position",
+    "es": "{p0} · los {p1} miembros · {p2} con posición / {p3} sin posición"
+  },
+  "spatial.spacePause.play_c33961": {
+    "zh-CN": "播放",
+    "en": "Play",
+    "ja": "再生",
+    "fr": "Lire",
+    "de": "Abspielen",
+    "es": "Reproducir"
+  },
+  "spatial.spaceRestore.message_106e68": {
+    "zh-CN": "尚未加载本地骨架",
+    "en": "Local skeletons not loaded",
+    "ja": "ローカル骨格は未読込です",
+    "fr": "Squelettes locaux non chargés",
+    "de": "Lokale Skelette nicht geladen",
+    "es": "Esqueletos locales sin cargar"
+  },
+  "spatial.spaceRestore.savestate_stepnot_recorded_fb7b18": {
+    "zh-CN": "保存状态步未记录，未插值",
+    "en": "The saved state step was not recorded. No interpolation was performed.",
+    "ja": "保存された状態ステップは未記録です。補間は行っていません。",
+    "fr": "Le pas d’état sauvegardé n’a pas été enregistré. Aucune interpolation effectuée.",
+    "de": "Der gespeicherte Zustandsschritt wurde nicht aufgezeichnet. Keine Interpolation durchgeführt.",
+    "es": "No se registró el paso de estado guardado. No se realizó interpolación."
+  },
+  "spatial.spaceRestore.space_9d5e1c": {
+    "zh-CN": "空间现场的数据身份或坐标规则不匹配",
+    "en": "Spatial session data identity or coordinate convention does not match",
+    "ja": "空間セッションのデータ識別情報または座標規則が一致しません",
+    "fr": "L’identité des données ou la convention de coordonnées de la session spatiale ne correspond pas",
+    "de": "Datenidentität oder Koordinatenkonvention der räumlichen Sitzung stimmt nicht überein",
+    "es": "La identidad de datos o la convención de coordenadas de la sesión espacial no coincide"
+  },
+  "spatial.spaceRestore.space_replay_b9bb16": {
+    "zh-CN": "空间现场已恢复 · 缺少绑定回放，未补算",
+    "en": "Spatial session restored without its missing replay. No additional calculation was run.",
+    "ja": "不足する再生記録を含めず空間現場を復元しました。追加計算は行っていません。",
+    "fr": "Session spatiale restaurée sans la relecture manquante. Aucun calcul supplémentaire lancé.",
+    "de": "Räumliche Sitzung ohne die fehlende Wiedergabe wiederhergestellt. Keine zusätzliche Berechnung ausgeführt.",
+    "es": "Sesión espacial restaurada sin la reproducción ausente. No se ejecutaron cálculos adicionales."
+  },
+  "spatial.spaceRestore.spatial_session_restored_0628fa": {
+    "zh-CN": "空间现场已恢复 · 未运行传播",
+    "en": "Spatial session restored",
+    "ja": "空間セッション復元済み",
+    "fr": "Session spatiale restaurée",
+    "de": "Räumliche Sitzung wiederhergestellt",
+    "es": "Sesión espacial restaurada"
+  },
+  "spatial.spaceSelect.message_131b13": {
+    "zh-CN": "替换",
+    "en": "replace",
+    "ja": "置換",
+    "fr": "remplacer",
+    "de": "ersetzen",
+    "es": "reemplazar"
+  },
+  "spatial.spaceSelect.message_d91017": {
+    "zh-CN": "追加",
+    "en": "append",
+    "ja": "追加",
+    "fr": "ajouter",
+    "de": "anhängen",
+    "es": "añadir"
+  },
+  "spatial.spaceSelect.selection_members_space_c604c9": {
+    "zh-CN": "当前选择已{p0} · {p1}成员 · {p2}无法空间定位",
+    "en": "Selection: {p0} · {p1} members · {p2} without spatial positions",
+    "ja": "選択：{p0} · {p1} メンバー · 位置なし {p2}",
+    "fr": "Sélection : {p0} · {p1} membres · {p2} sans position spatiale",
+    "de": "Auswahl: {p0} · {p1} Mitglieder · {p2} ohne räumliche Position",
+    "es": "Selección: {p0} · {p1} miembros · {p2} sin posición espacial"
+  },
+  "spatial.spaceSelectEdge.connection_count_base_weight_34ebdd": {
+    "zh-CN": "{p0} → {p1} · 连接计数 {p2} · 基础权重 {p3}{p4}",
+    "en": "{p0} → {p1} · Connection count {p2} · Base weight {p3}{p4}",
+    "ja": "{p0} → {p1} · 接続計数 {p2} · 基礎重み {p3}{p4}",
+    "fr": "{p0} → {p1} · Nombre de contacts {p2} · Poids de base {p3}{p4}",
+    "de": "{p0} → {p1} · Kontaktzahl {p2} · Basisgewicht {p3}{p4}",
+    "es": "{p0} → {p1} · Número de contactos {p2} · Peso base {p3}{p4}"
+  },
+  "spatial.spaceSelectEdge.message_121153": {
+    "zh-CN": " · 没有下一次已执行传入",
+    "en": " · no subsequent input update was executed",
+    "ja": " · 次の入力更新は未実行",
+    "fr": " · aucune mise à jour d’entrée suivante exécutée",
+    "de": " · keine nachfolgende Eingabeaktualisierung ausgeführt",
+    "es": " · no se ejecutó ninguna actualización de entrada posterior"
+  },
+  "spatial.spaceSelectEdge.message_d1e93f": {
+    "zh-CN": " · 更新 {p0} · 有效增益 {p1} · 有效传入 {p2}",
+    "en": " · update {p0} · effective gain {p1} · effective input {p2}",
+    "ja": " · 更新 {p0} · 有効ゲイン {p1} · 有効入力 {p2}",
+    "fr": " · mise à jour {p0} · gain effectif {p1} · entrée effective {p2}",
+    "de": " · Aktualisierung {p0} · effektive Verstärkung {p1} · effektiver Eingang {p2}",
+    "es": " · actualización {p0} · ganancia efectiva {p1} · entrada efectiva {p2}"
+  },
+  "spatial.spaceSelectEdge.not_recorded_4b5bcb": {
+    "zh-CN": " · 有效增益 {p0} · 传入未记录",
+    "en": " · effective gain {p0} · incoming Not recorded",
+    "ja": " · 有効ゲイン {p0} · 流入未記録",
+    "fr": " · gain effectif {p0} · entrant Non enregistré",
+    "de": " · effektive Verstärkung {p0} · eingehend Nicht aufgezeichnet",
+    "es": " · ganancia efectiva {p0} · entrante No registrado"
+  },
+  "spatial.spaceSelectionDisplay.full_selection_positioned_missing_81077b": {
+    "zh-CN": "完整选择 {p0} · 有位置 {p1} · 无位置 {p2}",
+    "en": "Full selection {p0} · positioned {p1} · missing {p2}",
+    "ja": "全選択 {p0}・位置あり {p1}・位置なし {p2}",
+    "fr": "Sélection complète {p0} · positionnés {p1} · absents {p2}",
+    "de": "Vollständige Auswahl {p0} · positioniert {p1} · fehlend {p2}",
+    "es": "Selección completa {p0} · con posición {p1} · faltantes {p2}"
+  },
+  "spatial.spaceSend.members_scope_scope_79c7ce": {
+    "zh-CN": "未修改草稿；以下成员不在当前范围，请先送入新范围预览：",
+    "en": "Draft unchanged. Preview a new scope containing these members first: ",
+    "ja": "下書きは変更されていません。まず次のメンバーを含む新しい範囲をプレビューしてください: ",
+    "fr": "Brouillon inchangé. Prévisualisez d’abord un nouveau périmètre contenant ces membres : ",
+    "de": "Entwurf unverändert. Zuerst einen neuen Bereich mit diesen Mitgliedern in der Vorschau prüfen: ",
+    "es": "Borrador sin cambios. Previsualice primero un ámbito nuevo que contenga estos miembros:"
+  },
+  "spatial.spaceSend.observation_sets_32_160b4e": {
+    "zh-CN": "观察集合已达32项上限",
+    "en": "The limit of 32 observation sets has been reached",
+    "ja": "観測集合の上限 32 件に達しています",
+    "fr": "La limite de 32 ensembles d’observation est atteinte",
+    "de": "Die Grenze von 32 Beobachtungsmengen ist erreicht",
+    "es": "Se ha alcanzado el límite de 32 conjuntos de observación"
+  },
+  "spatial.spaceSend.select_edit_run_679644": {
+    "zh-CN": "确切选择已送入编辑器 · 尚未构建或运行",
+    "en": "Exact selection sent to the editor · not built or run",
+    "ja": "正確な選択をエディターに送信 · 未構築・未実行",
+    "fr": "Sélection exacte transmise à l’éditeur · ni construite ni exécutée",
+    "de": "Exakte Auswahl an den Editor übergeben · nicht erstellt oder ausgeführt",
+    "es": "Selección exacta enviada al editor · sin construir ni ejecutar"
+  },
+  "spatial.spaceSend.select_nodes_first_24135a": {
+    "zh-CN": "先选择节点",
+    "en": "Select nodes first",
+    "ja": "先にノードを選択してください",
+    "fr": "Sélectionnez d’abord des nœuds",
+    "de": "Zuerst Knoten auswählen",
+    "es": "Seleccione primero nodos"
+  },
+  "spatial.spaceSend.select_scope_budget_45d8e3": {
+    "zh-CN": "选择超过现有范围接口预算",
+    "en": "The selection exceeds the scope interface budget",
+    "ja": "選択が範囲インターフェースの予算を超えています",
+    "fr": "La sélection dépasse le budget de l’interface de périmètre",
+    "de": "Die Auswahl überschreitet das Budget der Bereichsschnittstelle",
+    "es": "La selección supera el presupuesto de la interfaz de ámbitos"
+  },
+  "spatial.spaceSend.spaceselect_9508e8": {
+    "zh-CN": "空间选择",
+    "en": "Space selection",
+    "ja": "空間選択",
+    "fr": "Espace sélection",
+    "de": "Raum Auswahl",
+    "es": "Espacio selección"
+  },
+  "spatial.spaceShowEdges.actual_edges_drawable_missing_endpoints_straight_lines_i_1fa22a": {
+    "zh-CN": "真实 {p0}边 · 可画 {p1}／缺端点 {p2} · 直线为抽象连接，非轴突位置",
+    "en": "Actual edges {p0} · drawable {p1} / missing endpoints {p2} · straight lines indicate connectivity",
+    "ja": "実辺 {p0}・表示可能 {p1}／端点なし {p2}・直線は接続の概略",
+    "fr": "Arêtes réelles {p0} · traçables {p1} / extrémités absentes {p2} · lignes schématiques",
+    "de": "Echte Kanten {p0} · darstellbar {p1} / Endpunkte fehlen {p2} · schematische Linien",
+    "es": "Aristas reales {p0} · dibujables {p1} / extremos faltantes {p2} · líneas esquemáticas"
+  },
+  "spatial.spaceSyncReplay.baseline_a7ac58": {
+    "zh-CN": "基线",
+    "en": "Baseline",
+    "ja": "ベースライン",
+    "fr": "Référence",
+    "de": "Referenz",
+    "es": "Referencia"
+  },
+  "spatial.spaceSyncReplay.intervention_baseline_565398": {
+    "zh-CN": "干预 − 基线",
+    "en": "Intervention − baseline",
+    "ja": "介入 − 基準",
+    "fr": "Intervention − référence",
+    "de": "Eingriff − Referenz",
+    "es": "Intervención − referencia"
+  },
+  "spatial.spaceSyncReplay.message_242179": {
+    "zh-CN": " · 色域 ",
+    "en": " · color domain ",
+    "ja": " · 色範囲 ",
+    "fr": " · domaine de couleurs ",
+    "de": " · Farbbereich ",
+    "es": " · dominio de color "
+  },
+  "spatial.spaceSyncReplay.message_3b15fa": {
+    "zh-CN": "结构",
+    "en": "structure",
+    "ja": "構造",
+    "fr": "structure",
+    "de": "Struktur",
+    "es": "estructura"
+  },
+  "spatial.spaceSyncReplay.replayscope_8837ff": {
+    "zh-CN": "回放范围或索引不匹配，活动未套用",
+    "en": "Replay scope or index mismatch. Activity was not applied.",
+    "ja": "再生範囲または索引が一致しません。活動値は適用していません。",
+    "fr": "Périmètre ou index de relecture incompatible. Activité non appliquée.",
+    "de": "Wiedergabebereich oder Index stimmt nicht überein. Aktivität wurde nicht angewendet.",
+    "es": "No coincide el ámbito o índice de reproducción. No se aplicó la actividad."
+  },
+  "spatial.spaceSyncReplay.x_recorded_positioned_missing_recorded_zeros_color_domai_d31149": {
+    "zh-CN": "x({p0}) · {p1}实际记录（空间{p2}／缺位置{p3}） · {p4}记录值为0 · 色域 {p5}{p6} · 范围灰点未记录／背景暗点未计算 · 生效节点{p7}／边{p8}",
+    "en": "x({p0}) · {p1} recorded (positioned {p2} / missing {p3}) · {p4} recorded zeros · color domain {p5}{p6} · gray scope points unrecorded / dim background uncomputed · active nodes {p7} / edges {p8}",
+    "ja": "x({p0})・記録 {p1}（位置あり {p2}／なし {p3}）・0記録 {p4}・色範囲 {p5}{p6}・灰点は未記録／暗い背景は未計算・有効ノード {p7}／辺 {p8}",
+    "fr": "x({p0}) · {p1} enregistrés (positionnés {p2} / absents {p3}) · {p4} zéros · domaine {p5}{p6} · gris : non enregistré / fond sombre : non calculé · actifs : {p7} nœuds / {p8} arêtes",
+    "de": "x({p0}) · {p1} aufgezeichnet (positioniert {p2} / fehlend {p3}) · {p4} Nullwerte · Farbwerte {p5}{p6} · grau: unaufgezeichnet / dunkler Hintergrund: unberechnet · aktiv: {p7} Knoten / {p8} Kanten",
+    "es": "x({p0}) · {p1} registrados (con posición {p2} / faltantes {p3}) · {p4} ceros · dominio {p5}{p6} · gris: sin registro / fondo tenue: sin cálculo · activos: {p7} nodos / {p8} aristas"
+  },
+  "spatial.spaceUnbind.no_activity_record_bound_6bc37d": {
+    "zh-CN": "尚未绑定当前结果的活动记录",
+    "en": "No activity record bound",
+    "ja": "活動記録は未関連付け",
+    "fr": "Aucune activité liée",
+    "de": "Keine Aktivitätsaufzeichnung verknüpft",
+    "es": "Sin registro de actividad asociado"
+  },
+  "spatial.spaceUnbind.no_result_bound_f04856": {
+    "zh-CN": "未绑定当前结果",
+    "en": "No result bound",
+    "ja": "結果は未関連付け",
+    "fr": "Aucun résultat lié",
+    "de": "Kein Ergebnis verknüpft",
+    "es": "Sin resultado asociado"
+  },
+  "spatial.spaceUnbind.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "spatial.spaceUpdateFocusValue.baseline_intervention_e41779": {
+    "zh-CN": "{p0} · 基线 {p1}／干预 {p2}／差异 {p3}",
+    "en": "{p0} · Baseline {p1}／Intervention {p2}／difference {p3}",
+    "ja": "{p0} · 基準 {p1}／介入 {p2}／差分 {p3}",
+    "fr": "{p0} · Référence {p1}／Intervention {p2}／différence {p3}",
+    "de": "{p0} · Referenz {p1}／Eingriff {p2}／Differenz {p3}",
+    "es": "{p0} · Referencia {p1}／Intervención {p2}／diferencia {p3}"
+  },
+  "spatial.spaceUpdateFocusValue.message_556171": {
+    "zh-CN": " · 生效增益 ",
+    "en": " · active gain ",
+    "ja": " · 有効ゲイン ",
+    "fr": " · actif gain ",
+    "de": " · aktiv Verstärkung ",
+    "es": " · activo ganancia "
+  },
+  "spatial.spaceUpdateFocusValue.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "spatial.spaceUpdateFocusValue.node_7d2bd8": {
+    "zh-CN": " · 节点更新 {p0} 增益 {p1}",
+    "en": " · Node update {p0} gain {p1}",
+    "ja": " · ノード更新 {p0} ゲイン {p1}",
+    "fr": " · Nœud mise à jour {p0} gain {p1}",
+    "de": " · Knoten Aktualisierung {p0} Verstärkung {p1}",
+    "es": " · Nodo actualización {p0} ganancia {p1}"
+  },
+  "spatial.spaceUpdateFocusValue.outside_this_calculation_c5d1ba": {
+    "zh-CN": "未参与本次计算",
+    "en": "Outside this calculation",
+    "ja": "今回の計算範囲外",
+    "fr": "Hors de ce calcul",
+    "de": "Außerhalb dieser Berechnung",
+    "es": "Fuera de este cálculo"
+  },
+  "spatial.spaceUpdateFocusValue.scopemembers_not_recorded_97f5b3": {
+    "zh-CN": "本计算范围成员 · 此结果未记录{p0}",
+    "en": "Member of this scope · not recorded in this result{p0}",
+    "ja": "現在の範囲のメンバー · この結果では未記録{p0}",
+    "fr": "Membre de ce périmètre · non enregistré dans ce résultat{p0}",
+    "de": "Mitglied dieses Bereichs · in diesem Ergebnis nicht aufgezeichnet{p0}",
+    "es": "Miembro de este ámbito · no registrado en este resultado{p0}"
+  },
+  "spatial.spaceUpdateFocusValue.window_690210": {
+    "zh-CN": "窗口均值",
+    "en": "Window mean",
+    "ja": "評価区間平均",
+    "fr": "Fenêtre moyenne",
+    "de": "Zeitfenster Mittelwert",
+    "es": "Ventana media"
+  },
+  "spatial.spaceViewCounts.global_traced_positions_and_skeletons_compute_nodes_sele_fda40a": {
+    "zh-CN": "浏览全局Traced点位与真实骨架 · {p0}计算节点 · 当前选择 {p1}",
+    "en": "Global Traced positions and skeletons · {p0} compute nodes · {p1} selected",
+    "ja": "全体Traced位置と実骨格・計算ノード{p0}・選択{p1}",
+    "fr": "Positions et squelettes Traced globaux · {p0} nœuds de calcul · {p1} choisis",
+    "de": "Globale Traced-Positionen und Skelette · {p0} Rechenknoten · {p1} gewählt",
+    "es": "Posiciones y esqueletos Traced globales · {p0} nodos de cálculo · {p1} elegidos"
+  },
+  "spatial.spaceViewCounts.traced_soma_fiber_ends_missing_invalid_displayed_points__bc6245": {
+    "zh-CN": "Traced {p0} · 胞体 {p1} · 端点 {p2} · 缺位置 {p3} · 非法 {p4} · 显示成员点 {p5}／缺位置 {p6} · 二进制 {p7} MiB",
+    "en": "Traced {p0} · soma {p1} · fiber ends {p2} · missing {p3} · invalid {p4} · displayed points {p5} / missing {p6} · {p7} MiB",
+    "ja": "Traced {p0}・胞体 {p1}・端点 {p2}・位置なし {p3}・無効 {p4}・表示点 {p5}／位置なし {p6}・{p7} MiB",
+    "fr": "Traced {p0} · soma {p1} · extrémités {p2} · sans position {p3} · invalides {p4} · points affichés {p5} / absents {p6} · {p7} MiB",
+    "de": "Traced {p0} · Soma {p1} · Faserenden {p2} · ohne Position {p3} · ungültig {p4} · angezeigte Punkte {p5} / fehlend {p6} · {p7} MiB",
+    "es": "Traced {p0} · soma {p1} · extremos {p2} · sin posición {p3} · inválidos {p4} · puntos visibles {p5} / faltantes {p6} · {p7} MiB"
+  },
+  "spatial.view.controls.webgl_b804be": {
+    "zh-CN": "WebGL已恢复",
+    "en": "WebGL restored",
+    "ja": "WebGL が復旧しました",
+    "fr": "WebGL rétabli",
+    "de": "WebGL wiederhergestellt",
+    "es": "WebGL restablecido"
+  },
+  "spatial.view.controls.webgl_continue_analysis_4e45ba": {
+    "zh-CN": "WebGL不可用；可继续使用全局表格和二维分析",
+    "en": "WebGL is unavailable. Global tables and 2D analysis remain usable.",
+    "ja": "WebGL は利用できません。全体の表と 2D 解析は引き続き利用できます。",
+    "fr": "WebGL indisponible. Les tableaux globaux et l’analyse 2D restent utilisables.",
+    "de": "WebGL ist nicht verfügbar. Globale Tabellen und 2D-Analyse bleiben nutzbar.",
+    "es": "WebGL no está disponible. Las tablas globales y el análisis 2D siguen disponibles."
+  },
+  "spatial.view.controls.webgl_select_keep_de27fb": {
+    "zh-CN": "WebGL上下文丢失；选择与表格保留，等待恢复",
+    "en": "WebGL context lost. Selection and tables retained; waiting for recovery.",
+    "ja": "WebGL コンテキストが失われました。選択と表を保持し、復旧を待っています。",
+    "fr": "Contexte WebGL perdu. Sélection et tableaux conservés ; récupération en attente.",
+    "de": "WebGL-Kontext verloren. Auswahl und Tabellen bleiben erhalten; Wiederherstellung ausstehend.",
+    "es": "Se perdió el contexto de WebGL. Se conservan la selección y las tablas; esperando recuperación."
+  }
+}

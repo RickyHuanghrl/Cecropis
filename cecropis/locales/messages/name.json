@@ -1,0 +1,18 @@
+{
+  "name.extra": {
+    "zh-CN": "额外评价 · {name}",
+    "en": "Extra evaluation · {name}",
+    "ja": "追加評価 · {name}",
+    "fr": "Évaluation supplémentaire · {name}",
+    "de": "Zusätzliche Bewertung · {name}",
+    "es": "Evaluación adicional · {name}"
+  },
+  "name.search": {
+    "zh-CN": "搜索 · {name}",
+    "en": "Search · {name}",
+    "ja": "探索 · {name}",
+    "fr": "Recherche · {name}",
+    "de": "Suche · {name}",
+    "es": "Búsqueda · {name}"
+  }
+}

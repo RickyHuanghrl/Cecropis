@@ -1,0 +1,34 @@
+{
+  "unit.edge.one": {
+    "zh-CN": "{count} 边",
+    "en": "{count} edge",
+    "ja": "辺 {count}",
+    "fr": "{count} arête",
+    "de": "{count} Kante",
+    "es": "{count} arista"
+  },
+  "unit.edge.other": {
+    "zh-CN": "{count} 边",
+    "en": "{count} edges",
+    "ja": "辺 {count}",
+    "fr": "{count} arêtes",
+    "de": "{count} Kanten",
+    "es": "{count} aristas"
+  },
+  "unit.node.one": {
+    "zh-CN": "{count} 节点",
+    "en": "{count} node",
+    "ja": "ノード {count}",
+    "fr": "{count} nœud",
+    "de": "{count} Knoten",
+    "es": "{count} nodo"
+  },
+  "unit.node.other": {
+    "zh-CN": "{count} 节点",
+    "en": "{count} nodes",
+    "ja": "ノード {count}",
+    "fr": "{count} nœuds",
+    "de": "{count} Knoten",
+    "es": "{count} nodos"
+  }
+}

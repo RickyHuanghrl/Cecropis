@@ -1,0 +1,66 @@
+{
+  "binding.busy": {
+    "zh-CN": "计算正在进行；暂停或结束后再更改数据绑定",
+    "en": "Computation is active; pause or finish before changing data",
+    "ja": "計算中です。停止または完了後にデータを変更してください",
+    "fr": "Calcul actif ; mettez en pause ou terminez avant de changer les données",
+    "de": "Berechnung aktiv; vor Datenwechsel pausieren oder abschließen",
+    "es": "Cálculo activo; pause o termine antes de cambiar datos"
+  },
+  "binding.forget": {
+    "zh-CN": "忘记已记住的位置",
+    "en": "Forget remembered locations",
+    "ja": "記憶した場所を解除",
+    "fr": "Oublier les emplacements mémorisés",
+    "de": "Gespeicherte Orte vergessen",
+    "es": "Olvidar ubicaciones recordadas"
+  },
+  "binding.invalid": {
+    "zh-CN": "记忆位置无法读取，请重新绑定",
+    "en": "Remembered locations cannot be read; bind again",
+    "ja": "保存した場所を読めません。再指定してください",
+    "fr": "Emplacements mémorisés illisibles ; liez à nouveau",
+    "de": "Gespeicherte Orte nicht lesbar; erneut zuordnen",
+    "es": "No se pueden leer las ubicaciones; vuelva a vincular"
+  },
+  "binding.notRemembered": {
+    "zh-CN": "当前绑定未记住",
+    "en": "Current binding is not remembered",
+    "ja": "現在の場所は未保存",
+    "fr": "Liaison actuelle non mémorisée",
+    "de": "Aktuelle Zuordnung nicht gespeichert",
+    "es": "Vinculación actual no recordada"
+  },
+  "binding.remember": {
+    "zh-CN": "记住此位置",
+    "en": "Remember these locations",
+    "ja": "この場所を記憶",
+    "fr": "Mémoriser ces emplacements",
+    "de": "Diese Orte merken",
+    "es": "Recordar estas ubicaciones"
+  },
+  "binding.saveFailed": {
+    "zh-CN": "未能记住位置；可取消勾选后临时使用",
+    "en": "Locations were not remembered; uncheck to use temporarily",
+    "ja": "場所を保存できません。チェックを外すと一時使用できます",
+    "fr": "Échec de mémorisation ; décochez pour un usage temporaire",
+    "de": "Speichern fehlgeschlagen; für temporäre Nutzung abwählen",
+    "es": "No se guardaron las ubicaciones; desmarque para uso temporal"
+  },
+  "binding.saved": {
+    "zh-CN": "已记住当前位置",
+    "en": "Current locations remembered",
+    "ja": "現在の場所を記憶済み",
+    "fr": "Emplacements actuels mémorisés",
+    "de": "Aktuelle Orte gespeichert",
+    "es": "Ubicaciones actuales recordadas"
+  },
+  "binding.unsaved": {
+    "zh-CN": "当前草稿尚未保存。继续将离开工作台；取消可返回保存。",
+    "en": "The draft is unsaved. Cancel to return and save it before leaving.",
+    "ja": "下書きは未保存です。キャンセルして戻り、保存できます。",
+    "fr": "Le brouillon n’est pas enregistré. Annulez pour revenir et le sauvegarder.",
+    "de": "Entwurf nicht gespeichert. Abbrechen, um zurückzukehren und zu speichern.",
+    "es": "El borrador no está guardado. Cancele para volver y guardarlo."
+  }
+}

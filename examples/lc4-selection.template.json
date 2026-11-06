@@ -1,0 +1,30 @@
+{
+  "name": "LC4 neighborhood",
+  "scope": {
+    "body_ids": [
+      "INPUT_BODY_ID"
+    ],
+    "hops": 2,
+    "direction": "outgoing",
+    "max_nodes": 120,
+    "category": "neuron"
+  },
+  "groups": {
+    "input": {
+      "LC4 input": [
+        "INPUT_BODY_ID"
+      ]
+    },
+    "internal": {
+      "candidates": "__remaining__"
+    },
+    "output": {
+      "DNp04": [
+        "TARGET_BODY_ID"
+      ],
+      "DNp01": [
+        "PROTECTED_BODY_ID"
+      ]
+    }
+  }
+}

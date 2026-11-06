@@ -1,0 +1,738 @@
+{
+  "group.controls.a_117aff": {
+    "zh-CN": "仅 A",
+    "en": "A only",
+    "ja": "A のみ",
+    "fr": "A uniquement",
+    "de": "Nur A",
+    "es": "Solo A"
+  },
+  "group.controls.analysis_save_a067c9": {
+    "zh-CN": "分组分析已保存 · ",
+    "en": "Group analysis saved · ",
+    "ja": "グループ分析を保存しました · ",
+    "fr": "Analyse des groupes enregistrée · ",
+    "de": "Gruppenanalyse gespeichert · ",
+    "es": "Análisis de grupos guardado · "
+  },
+  "group.controls.b_664951": {
+    "zh-CN": "仅 B",
+    "en": "B only",
+    "ja": "B のみ",
+    "fr": "B uniquement",
+    "de": "Nur B",
+    "es": "Solo B"
+  },
+  "group.controls.cancel_keeptask_status_c0425b": {
+    "zh-CN": "已请求取消，正在保留任务状态…",
+    "en": "Cancellation requested. Retaining task state…",
+    "ja": "キャンセルを要求しました。タスクの状態を保持しています…",
+    "fr": "Annulation demandée. Conservation de l’état de la tâche…",
+    "de": "Abbruch angefordert. Aufgabenstatus wird gesichert…",
+    "es": "Cancelación solicitada. Conservando el estado de la tarea…"
+  },
+  "group.controls.compare_with_a_eca806": {
+    "zh-CN": "与 A 比较",
+    "en": "Compare with A",
+    "ja": "Aと比較",
+    "fr": "Comparer avec A",
+    "de": "Mit A vergleichen",
+    "es": "Comparar con A"
+  },
+  "group.controls.complete_9fab87": {
+    "zh-CN": "先完成统计",
+    "en": "Complete the aggregation first",
+    "ja": "先に集計を完了してください",
+    "fr": "Terminez d’abord l’agrégation",
+    "de": "Schließen Sie zuerst die Aggregation ab",
+    "es": "Complete primero la agregación"
+  },
+  "group.controls.create_edge_event_f1e789": {
+    "zh-CN": "建立边事件",
+    "en": "Create edge event",
+    "ja": "辺イベントを作成",
+    "fr": "Créer un événement d’arête",
+    "de": "Kantenereignis erstellen",
+    "es": "Crear evento de arista"
+  },
+  "group.controls.definition_623996": {
+    "zh-CN": "未定义（零向量）",
+    "en": "Undefined (zero vector)",
+    "ja": "未定義（ゼロベクトル）",
+    "fr": "Non défini (vecteur nul)",
+    "de": "Nicht definiert (Nullvektor)",
+    "es": "Sin definir (vector nulo)"
+  },
+  "group.controls.message_0416bb": {
+    "zh-CN": "未统计",
+    "en": "Not computed",
+    "ja": "未集計",
+    "fr": "Non calculé",
+    "de": "Nicht berechnet",
+    "es": "Sin calcular"
+  },
+  "group.controls.message_690b88": {
+    "zh-CN": "共同",
+    "en": "Shared",
+    "ja": "共通",
+    "fr": "Communs",
+    "de": "Gemeinsam",
+    "es": "Comunes"
+  },
+  "group.controls.scope_check_request_678cbe": {
+    "zh-CN": "计算范围已切换，待预检",
+    "en": "Scope changed. Preview the aggregation again.",
+    "ja": "範囲が変更されました。集計を再度プレビューしてください。",
+    "fr": "Le périmètre a changé. Prévisualisez à nouveau l’agrégation.",
+    "de": "Bereich geändert. Aggregation erneut in der Vorschau prüfen.",
+    "es": "El ámbito ha cambiado. Previsualice la agregación de nuevo."
+  },
+  "group.controls.select_get_exact_members_a3ce9e": {
+    "zh-CN": "选择已改，待取得确切集合",
+    "en": "Selection changed. Retrieve the exact members again.",
+    "ja": "選択が変更されました。正確なメンバーを再取得してください。",
+    "fr": "La sélection a changé. Récupérez à nouveau les membres exacts.",
+    "de": "Auswahl geändert. Die genauen Mitglieder erneut abrufen.",
+    "es": "La selección ha cambiado. Obtenga de nuevo los miembros exactos."
+  },
+  "group.controls.set_as_b_5838b7": {
+    "zh-CN": "设为 B",
+    "en": "Set as B",
+    "ja": "Bに設定",
+    "fr": "Définir comme B",
+    "de": "Als B festlegen",
+    "es": "Definir como B"
+  },
+  "group.groupApplyMembers.analysis_2988fc": {
+    "zh-CN": "先取得当前分析的确切集合",
+    "en": "Retrieve the exact set for the current analysis first",
+    "ja": "先に現在の分析の正確な集合を取得してください",
+    "fr": "Récupérez d’abord l’ensemble exact de l’analyse actuelle",
+    "de": "Rufen Sie zuerst die exakte Menge für die aktuelle Analyse ab",
+    "es": "Obtenga primero el conjunto exacto del análisis actual"
+  },
+  "group.groupApplyMembers.members_scope_membersfilter_9d8ff2": {
+    "zh-CN": "确切成员超过当前范围上限，请设置明确成员筛选",
+    "en": "The exact member set exceeds the scope limit. Specify a member filter.",
+    "ja": "正確なメンバー集合が範囲の上限を超えています。メンバーフィルターを指定してください。",
+    "fr": "L’ensemble exact dépasse la limite du périmètre. Définissez un filtre de membres.",
+    "de": "Die genaue Mitgliedermenge überschreitet die Bereichsgrenze. Einen Mitgliederfilter angeben.",
+    "es": "El conjunto exacto supera el límite del ámbito. Especifique un filtro de miembros."
+  },
+  "group.groupApplyMembers.node_run_439e08": {
+    "zh-CN": "已送入{p0} · {p1} 个确切节点 · 尚未构建或运行",
+    "en": "Sent to {p0} · {p1} exact nodes · not built or run",
+    "ja": "{p0} に送信 · 正確な {p1} ノード · 未構築・未実行",
+    "fr": "Transmis à {p0} · {p1} nœuds exacts · ni construit ni exécuté",
+    "de": "An {p0} übergeben · {p1} exakt bestimmte Knoten · noch nicht erstellt oder ausgeführt",
+    "es": "Enviado a {p0} · {p1} nodos exactos · sin construir ni ejecutar"
+  },
+  "group.groupApplyMembers.paths_a79327": {
+    "zh-CN": "全局通路端点",
+    "en": "Global path endpoints",
+    "ja": "全体通路の端点",
+    "fr": "Extrémités des chemins globaux",
+    "de": "Endpunkte globaler Pfade",
+    "es": "Extremos de rutas globales"
+  },
+  "group.groupApplyMembers.scope_role_5dcf44": {
+    "zh-CN": "新范围预览与角色",
+    "en": "New scope preview and roles",
+    "ja": "新しい範囲のプレビューと役割",
+    "fr": "Aperçu et rôles du nouveau périmètre",
+    "de": "Vorschau und Rollen des neuen Bereichs",
+    "es": "Vista previa y roles del nuevo ámbito"
+  },
+  "group.groupDefinition.open_saved_scopes_202515": {
+    "zh-CN": "先打开一个已保存计算范围",
+    "en": "Open a saved scope first",
+    "ja": "先に保存済みの計算範囲を開いてください",
+    "fr": "Ouvrez d’abord un périmètre enregistré",
+    "de": "Öffnen Sie zuerst einen gespeicherten Bereich",
+    "es": "Abra primero un ámbito guardado"
+  },
+  "group.groupDefinition.select_an_item_d6a96b": {
+    "zh-CN": "请选择分组字段",
+    "en": "Select a grouping field",
+    "ja": "グループ化する項目を選択してください",
+    "fr": "Sélectionnez un champ de regroupement",
+    "de": "Wählen Sie ein Gruppierungsfeld",
+    "es": "Seleccione un campo de agrupación"
+  },
+  "group.groupDefinitionChanged.definition_complete_analysis_0230a6": {
+    "zh-CN": "分组定义已改 · 当前显示为此前完成的分析",
+    "en": "Grouping changed · showing the previous completed analysis",
+    "ja": "グループ定義を変更しました · 前回の完了済み分析を表示中",
+    "fr": "Regroupement modifié · affichage de l’analyse précédente",
+    "de": "Gruppierung geändert · die vorherige abgeschlossene Analyse wird angezeigt",
+    "es": "Agrupación modificada · se muestra el análisis anterior completado"
+  },
+  "group.groupDrawMatrix.0_0_no_connection_definition_c27d43": {
+    "zh-CN": "色域：0–{p0} · 0 为无连接 · 灰色为未统计／未定义 · 当前显示不改变完整聚合及分母",
+    "en": "Color range: 0–{p0}. Zero means no connections; gray means missing or undefined. Display settings do not change aggregation or denominators.",
+    "ja": "色範囲: 0–{p0}。ゼロは接続なし、灰色は未集計または未定義です。表示設定は集計や分母を変更しません。",
+    "fr": "Plage de couleurs : 0–{p0}. Zéro indique l’absence de connexions ; le gris indique une valeur manquante ou indéfinie. L’affichage ne modifie ni l’agrégation ni les dénominateurs.",
+    "de": "Farbbereich: 0–{p0}. Null bedeutet keine Verbindungen; Grau steht für fehlende oder undefinierte Werte. Anzeigeeinstellungen ändern weder Aggregation noch Nenner.",
+    "es": "Rango de color: 0–{p0}. Cero indica ausencia de conexiones; gris indica datos ausentes o sin definir. La visualización no cambia la agregación ni los denominadores."
+  },
+  "group.groupDrawMatrix.complete_1a4773": {
+    "zh-CN": "统计未完成",
+    "en": "Aggregation incomplete",
+    "ja": "集計未完了",
+    "fr": "Agrégation incomplète",
+    "de": "Aggregation unvollständig",
+    "es": "Agregación incompleta"
+  },
+  "group.groupDrawMatrix.complete_95f568": {
+    "zh-CN": "已完成统计",
+    "en": "Aggregation complete",
+    "ja": "集計完了",
+    "fr": "Agrégation terminée",
+    "de": "Aggregation abgeschlossen",
+    "es": "Agregación completada"
+  },
+  "group.groupDrawMatrix.source_target_79dd73": {
+    "zh-CN": "来源 ↓ / 目标 →",
+    "en": "Source ↓ / target →",
+    "ja": "送信元 ↓／受信先 →",
+    "fr": "Source ↓ / cible →",
+    "de": "Quelle ↓ / Ziel →",
+    "es": "Origen ↓ / destino →"
+  },
+  "group.groupDrawMatrix.target_all_bee14d": {
+    "zh-CN": "来源行 × 目标列 · 展示 {p0} × {p1} / 全部 {p2} 组 · {p3}",
+    "en": "Source rows × target columns · showing {p0} × {p1} of {p2} groups · {p3}",
+    "ja": "行：送信元 × 列：送信先 · 全 {p2} グループ中 {p0} × {p1} を表示 · {p3}",
+    "fr": "Lignes sources × colonnes cibles · affichage {p0} × {p1} sur {p2} groupes · {p3}",
+    "de": "Quellzeilen × Zielspalten · angezeigt: {p0} × {p1} von {p2} Gruppen · {p3}",
+    "es": "Filas de origen × columnas de destino · se muestran {p0} × {p1} de {p2} grupos · {p3}"
+  },
+  "group.groupDrill.complete_cancel_23120a": {
+    "zh-CN": "请先完成或取消统计",
+    "en": "Complete or cancel the aggregation first",
+    "ja": "先に集計を完了またはキャンセルしてください",
+    "fr": "Terminez ou annulez d’abord l’agrégation",
+    "de": "Schließen Sie zuerst die Aggregation ab oder brechen Sie sie ab",
+    "es": "Complete o cancele primero la agregación"
+  },
+  "group.groupDrill.members_select_check_request_e6dab7": {
+    "zh-CN": "限定 {p0} 个确切成员 · 选择新的分组字段后预检",
+    "en": "Restricted to {p0} exact members · select a grouping field and check the request",
+    "ja": "正確な {p0} メンバーに限定 · グループ化項目を選択して事前確認してください",
+    "fr": "Limité à {p0} membres exacts · sélectionnez un champ de regroupement puis vérifiez la requête",
+    "de": "Auf {p0} exakt bestimmte Mitglieder beschränkt · Gruppierungsfeld auswählen und Anfrage prüfen",
+    "es": "Limitado a {p0} miembros exactos · seleccione un campo de agrupación y compruebe la solicitud"
+  },
+  "group.groupFeature.a_contacts_direction_share_d46f65": {
+    "zh-CN": "A 计数／方向内占比",
+    "en": "A contacts / direction share",
+    "ja": "A接続数／方向内比率",
+    "fr": "Contacts A / part directionnelle",
+    "de": "A-Kontakte / Richtungsanteil",
+    "es": "Contactos A / proporción direccional"
+  },
+  "group.groupFeature.a_scope_scope_b_scope_scope_4791dc": {
+    "zh-CN": "{p0} · A 范围内 {p1} / 范围外 {p2} / 完整 {p3} · B 范围内 {p4} / 范围外 {p5} / 完整 {p6}",
+    "en": "{p0} · A: {p1} inside / {p2} outside / {p3} total · B: {p4} inside / {p5} outside / {p6} total",
+    "ja": "{p0} · A：範囲内 {p1} / 範囲外 {p2} / 全体 {p3} · B：範囲内 {p4} / 範囲外 {p5} / 全体 {p6}",
+    "fr": "{p0} · A : {p1} internes / {p2} externes / {p3} au total · B : {p4} internes / {p5} externes / {p6} au total",
+    "de": "{p0} · A: {p1} innerhalb / {p2} außerhalb / {p3} gesamt · B: {p4} innerhalb / {p5} außerhalb / {p6} gesamt",
+    "es": "{p0} · A: {p1} dentro / {p2} fuera / {p3} en total · B: {p4} dentro / {p5} fuera / {p6} en total"
+  },
+  "group.groupFeature.actions_ed31fb": {
+    "zh-CN": "操作",
+    "en": "Actions",
+    "ja": "操作",
+    "fr": "Actions",
+    "de": "Aktionen",
+    "es": "Acciones"
+  },
+  "group.groupFeature.analysis_all_connections_f32dc7": {
+    "zh-CN": "使用当前分析的全部 {p0} 个伙伴维度 · {p1}结构连接特征 · 显示前 {p2} / {p3} 个相似组",
+    "en": "All {p0} partner dimensions · {p1} connection profiles · showing the top {p2} of {p3} similar groups",
+    "ja": "全 {p0} 接続相手次元 · {p1}接続プロファイル · 類似 {p3} グループ中上位 {p2} 件を表示",
+    "fr": "Les {p0} dimensions partenaires · profils de connexion {p1} · affichage des {p2} premiers groupes similaires sur {p3}",
+    "de": "Alle {p0} Partnerdimensionen · {p1} Verbindungsprofile · die ersten {p2} von {p3} ähnlichen Gruppen",
+    "es": "Las {p0} dimensiones de grupos asociados · perfiles de conexión {p1} · se muestran los primeros {p2} de {p3} grupos similares"
+  },
+  "group.groupFeature.b_contacts_direction_share_df024e": {
+    "zh-CN": "B 计数／方向内占比",
+    "en": "B contacts / direction share",
+    "ja": "B接続数／方向内比率",
+    "fr": "Contacts B / part directionnelle",
+    "de": "B-Kontakte / Richtungsanteil",
+    "es": "Contactos B / proporción direccional"
+  },
+  "group.groupFeature.connected_node_pairs_ba2c3a": {
+    "zh-CN": "节点对连接",
+    "en": "Connected node pairs",
+    "ja": "接続ノード対",
+    "fr": "Paires de nœuds connectées",
+    "de": "Verbundene Knotenpaare",
+    "es": "Pares de nodos conectados"
+  },
+  "group.groupFeature.connection_count_93e376": {
+    "zh-CN": "连接计数",
+    "en": "Connection count",
+    "ja": "接続計数",
+    "fr": "Nombre de contacts",
+    "de": "Kontaktzahl",
+    "es": "Número de contactos"
+  },
+  "group.groupFeature.connections_af44b1": {
+    "zh-CN": "正在读取连接特征…",
+    "en": "Loading connection profiles…",
+    "ja": "接続プロファイルを読み込み中…",
+    "fr": "Chargement des profils de connexion…",
+    "de": "Verbindungsprofile werden geladen…",
+    "es": "Cargando perfiles de conexión…"
+  },
+  "group.groupFeature.contacts_within_direction_a8e23d": {
+    "zh-CN": "方向内连接计数",
+    "en": "Contacts within direction",
+    "ja": "方向内接続数",
+    "fr": "Contacts dans cette direction",
+    "de": "Kontakte in dieser Richtung",
+    "es": "Contactos en esta dirección"
+  },
+  "group.groupFeature.downstream_fde36e": {
+    "zh-CN": "下游",
+    "en": "Downstream",
+    "ja": "下流",
+    "fr": "Aval",
+    "de": "Nachgelagert",
+    "es": "Aguas abajo"
+  },
+  "group.groupFeature.group_76acfb": {
+    "zh-CN": "组",
+    "en": "Group",
+    "ja": "グループ",
+    "fr": "Groupe",
+    "de": "Gruppe",
+    "es": "Grupo"
+  },
+  "group.groupFeature.members_6e6d6d": {
+    "zh-CN": "成员",
+    "en": "Members",
+    "ja": "メンバー",
+    "fr": "Membres",
+    "de": "Mitglieder",
+    "es": "Miembros"
+  },
+  "group.groupFeature.membership_1e9b3d": {
+    "zh-CN": "归属",
+    "en": "Membership",
+    "ja": "所属",
+    "fr": "Appartenance",
+    "de": "Zugehörigkeit",
+    "es": "Pertenencia"
+  },
+  "group.groupFeature.partner_group_cb985a": {
+    "zh-CN": "伙伴组",
+    "en": "Partner group",
+    "ja": "接続先グループ",
+    "fr": "Groupe partenaire",
+    "de": "Partnergruppe",
+    "es": "Grupo asociado"
+  },
+  "group.groupFeature.scope_788bf3": {
+    "zh-CN": "{p0} · {p1} · 显示前 {p2} / {p3} 个关系 · 范围外输入 {p4} / 输出 {p5}",
+    "en": "{p0} · {p1} · showing the top {p2} of {p3} relationships · external input {p4} / output {p5}",
+    "ja": "{p0} · {p1} · 全 {p3} 関係中上位 {p2} 件 · 範囲外からの入力 {p4} / 範囲外への出力 {p5}",
+    "fr": "{p0} · {p1} · affichage des {p2} premières relations sur {p3} · entrées externes {p4} / sorties externes {p5}",
+    "de": "{p0} · {p1} · die ersten {p2} von {p3} Beziehungen · externe Eingänge {p4} / Ausgänge {p5}",
+    "es": "{p0} · {p1} · se muestran las primeras {p2} de {p3} relaciones · entradas externas {p4} / salidas externas {p5}"
+  },
+  "group.groupFeature.share_of_full_target_input_e78ace": {
+    "zh-CN": "目标完整输入占比",
+    "en": "Share of full target input",
+    "ja": "対象の全入力に対する割合",
+    "fr": "Part de l’entrée totale cible",
+    "de": "Anteil am gesamten Zieleingang",
+    "es": "Fracción de entrada total"
+  },
+  "group.groupFeature.source_target_nodes_15afc4": {
+    "zh-CN": "发送／接收节点",
+    "en": "Source / target nodes",
+    "ja": "送信／受信ノード",
+    "fr": "Nœuds source / cible",
+    "de": "Quell- / Zielknoten",
+    "es": "Nodos de origen / destino"
+  },
+  "group.groupFeature.upstream_a9ab29": {
+    "zh-CN": "上游",
+    "en": "Upstream",
+    "ja": "上流",
+    "fr": "Amont",
+    "de": "Vorgelagert",
+    "es": "Aguas arriba"
+  },
+  "group.groupFeature.within_scope_structural_cosine_similarity_33a5ef": {
+    "zh-CN": "范围内结构余弦相似度",
+    "en": "Within-scope structural cosine similarity",
+    "ja": "範囲内の構造コサイン類似度",
+    "fr": "Similarité cosinus structurelle du périmètre",
+    "de": "Strukturelle Kosinusähnlichkeit im Bereich",
+    "es": "Similitud coseno estructural del ámbito"
+  },
+  "group.groupFeatureRows.back_08361a": {
+    "zh-CN": "显示 {p0}–{p1} / 返回 {p2} 项",
+    "en": "Showing {p0}–{p1} of {p2} returned items",
+    "ja": "取得した {p2} 件中 {p0}–{p1} を表示",
+    "fr": "Affichage de {p0}–{p1} sur {p2} éléments renvoyés",
+    "de": "Anzeige {p0}–{p1} von {p2} zurückgegebenen Einträgen",
+    "es": "Se muestran {p0}–{p1} de {p2} elementos devueltos"
+  },
+  "group.groupLoadPage.message_4970ad": {
+    "zh-CN": "展示 {p0}–{p1} / 匹配 {p2} 组",
+    "en": "Showing {p0}–{p1} of {p2} matching groups",
+    "ja": "一致する {p2} グループ中 {p0}–{p1} を表示",
+    "fr": "Affichage de {p0}–{p1} sur {p2} groupes correspondants",
+    "de": "Anzeige {p0}–{p1} von {p2} passenden Gruppen",
+    "es": "Se muestran {p0}–{p1} de {p2} grupos coincidentes"
+  },
+  "group.groupLoadPage.message_828ab4": {
+    "zh-CN": "正在读取所示组的矩阵…",
+    "en": "Loading the matrix for the displayed groups…",
+    "ja": "表示中のグループの行列を読み込み中…",
+    "fr": "Chargement de la matrice des groupes affichés…",
+    "de": "Matrix der angezeigten Gruppen wird geladen…",
+    "es": "Cargando la matriz de los grupos mostrados…"
+  },
+  "group.groupLoadPair.a_b_0aa0f4": {
+    "zh-CN": "A → B · 显示 {p0}–{p1} / {p2} 条 · 扫描 {p3} / {p4} · {p5}",
+    "en": "A → B · showing {p0}–{p1} of {p2} connections · scanned {p3}/{p4} · {p5}",
+    "ja": "A → B · {p2} 接続中 {p0}–{p1} を表示 · 走査済み {p3}/{p4} · {p5}",
+    "fr": "A → B · affichage de {p0}–{p1} sur {p2} connexions · balayage {p3}/{p4} · {p5}",
+    "de": "A → B · Anzeige {p0}–{p1} von {p2} Verbindungen · gescannt {p3}/{p4} · {p5}",
+    "es": "A → B · se muestran {p0}–{p1} de {p2} conexiones · exploradas {p3}/{p4} · {p5}"
+  },
+  "group.groupLoadPair.budget_complete_no_connection_connections_53f0f6": {
+    "zh-CN": "扫描因预算不足而未完成，不能据此判断没有连接，也不能认为已找到全局最强连接。",
+    "en": "The scan stopped at its budget. It cannot establish that no connections exist or identify the globally strongest connections.",
+    "ja": "予算上限によりスキャンが完了していません。接続の有無や全体で最も強い接続は判断できません。",
+    "fr": "Le budget a interrompu le parcours. Il ne permet ni de conclure à l’absence de connexions ni d’identifier les connexions les plus fortes de l’ensemble du réseau.",
+    "de": "Die Durchsuchung wurde am Budgetlimit beendet. Daraus lassen sich weder fehlende Verbindungen noch die global stärksten Verbindungen ableiten.",
+    "es": "El recorrido se detuvo al alcanzar el presupuesto. No permite concluir que no haya conexiones ni identificar las más fuertes de toda la red."
+  },
+  "group.groupLoadPair.connected_node_pairs_connection_count_node_share_of_full_78785f": {
+    "zh-CN": "{p0} → {p1} · {p2} 真实节点对连接 / {p3} 连接计数 · 参与发送 {p4} / 接收 {p5} 节点 · 目标完整输入占比 {p6}{p7}",
+    "en": "{p0} → {p1} · {p2} connected node pairs / {p3} contacts · {p4} sending / {p5} receiving nodes · share of full target input {p6}{p7}",
+    "ja": "{p0} → {p1} · 接続ノード対 {p2} / 接触数 {p3} · 送信ノード {p4} / 受信ノード {p5} · 受信側の全入力に対する割合 {p6}{p7}",
+    "fr": "{p0} → {p1} · {p2} paires de nœuds connectées / {p3} contacts · {p4} nœuds émetteurs / {p5} récepteurs · part de l’entrée totale de la cible {p6}{p7}",
+    "de": "{p0} → {p1} · {p2} verbundene Knotenpaare / {p3} Kontakte · {p4} sendende / {p5} empfangende Knoten · Anteil am gesamten Zieleingang {p6}{p7}",
+    "es": "{p0} → {p1} · {p2} pares de nodos conectados / {p3} contactos · {p4} nodos emisores / {p5} receptores · proporción de la entrada total del destino {p6}{p7}"
+  },
+  "group.groupLoadPair.connections_5db919": {
+    "zh-CN": " · 自连接 ",
+    "en": " · self-connection ",
+    "ja": " · 自己接続 ",
+    "fr": " · auto-connexion ",
+    "de": " · Selbstverbindung ",
+    "es": " · autoconexión "
+  },
+  "group.groupLoadPair.nodeconnections_6047ae": {
+    "zh-CN": " 条，其余为同组不同节点连接",
+    "en": " entries; the remainder connect different nodes in the same group",
+    "ja": " 件。残りは同じグループ内の異なるノード間の接続です",
+    "fr": " entrées ; les autres relient des nœuds distincts du même groupe",
+    "de": " Einträge; die übrigen verbinden verschiedene Knoten derselben Gruppe",
+    "es": " entradas; el resto conecta nodos distintos del mismo grupo"
+  },
+  "group.groupLoadPair.search_connections_adddad": {
+    "zh-CN": "正在查询真实连接…",
+    "en": "Querying recorded connections…",
+    "ja": "実測接続を検索中…",
+    "fr": "Recherche des connexions mesurées…",
+    "de": "Gemessene Verbindungen werden abgefragt…",
+    "es": "Consultando conexiones medidas…"
+  },
+  "group.groupLoadPair.search_d59afa": {
+    "zh-CN": "完整查询",
+    "en": "Complete query",
+    "ja": "全件検索",
+    "fr": "Requête complète",
+    "de": "Vollständige Abfrage",
+    "es": "Consulta completa"
+  },
+  "group.groupNumber.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "group.groupOptions.nodes_871529": {
+    "zh-CN": "{p0} · {p1} 节点",
+    "en": "{p0} · {p1} nodes",
+    "ja": "{p0} · {p1}ノード",
+    "fr": "{p0} · {p1} nœuds",
+    "de": "{p0} · {p1} Knoten",
+    "es": "{p0} · {p1} nodos"
+  },
+  "group.groupPairIds.complete_open_analysis_6d12ff": {
+    "zh-CN": "先完成或打开分组分析",
+    "en": "Complete or open a group analysis first",
+    "ja": "先にグループ分析を完了するか開いてください",
+    "fr": "Terminez ou ouvrez d’abord une analyse des groupes",
+    "de": "Schließen Sie zuerst eine Gruppenanalyse ab oder öffnen Sie eine",
+    "es": "Complete o abra primero un análisis de grupos"
+  },
+  "group.groupPairIds.select_a_b_db77fc": {
+    "zh-CN": "选择 A 与 B",
+    "en": "Select A and B",
+    "ja": "A と B を選択してください",
+    "fr": "Sélectionnez A et B",
+    "de": "Wählen Sie A und B",
+    "es": "Seleccione A y B"
+  },
+  "group.groupPoll.budget_59d2bc": {
+    "zh-CN": "超出预算",
+    "en": "Budget exceeded",
+    "ja": "予算超過",
+    "fr": "Budget dépassé",
+    "de": "Budget überschritten",
+    "es": "Presupuesto superado"
+  },
+  "group.groupPoll.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "group.groupPoll.complete_no_connection_fd775a": {
+    "zh-CN": "统计{p0}。未完成的统计不能证明没有连接。",
+    "en": "Aggregation {p0}. Incomplete statistics do not establish that no connections exist.",
+    "ja": "集計: {p0}。未完了の集計から接続がないとは判断できません。",
+    "fr": "Agrégation : {p0}. Des statistiques incomplètes ne prouvent pas l’absence de connexions.",
+    "de": "Aggregation: {p0}. Unvollständige Statistiken belegen nicht, dass keine Verbindungen bestehen.",
+    "es": "Agregación: {p0}. Las estadísticas incompletas no demuestran que no existan conexiones."
+  },
+  "group.groupPoll.direction_18298b": {
+    "zh-CN": "发送方向",
+    "en": "Outgoing",
+    "ja": "送信方向",
+    "fr": "Sortant",
+    "de": "Ausgehend",
+    "es": "Saliente"
+  },
+  "group.groupPoll.direction_d59eb2": {
+    "zh-CN": "接收方向",
+    "en": "Incoming",
+    "ja": "受信方向",
+    "fr": "Entrant",
+    "de": "Eingehend",
+    "es": "Entrante"
+  },
+  "group.groupPoll.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "group.groupPoll.node_9e730d": {
+    "zh-CN": "{p0} {p1} / {p2} 节点 · 已扫描 {p3} / {p4} 条边",
+    "en": "{p0} {p1}/{p2} nodes · scanned {p3}/{p4} edges",
+    "ja": "{p0} {p1}/{p2} ノード · 走査済み {p3}/{p4} エッジ",
+    "fr": "{p0} {p1}/{p2} nœuds · {p3}/{p4} arêtes parcourues",
+    "de": "{p0} {p1}/{p2} Knoten · {p3}/{p4} Kanten gescannt",
+    "es": "{p0} {p1}/{p2} nodos · {p3}/{p4} aristas exploradas"
+  },
+  "group.groupPoll.status_59143f": {
+    "zh-CN": "统计状态：{p0}",
+    "en": "Aggregation status: {p0}",
+    "ja": "集計状態: {p0}",
+    "fr": "État de l’agrégation : {p0}",
+    "de": "Aggregationsstatus: {p0}",
+    "es": "Estado de la agregación: {p0}"
+  },
+  "group.groupPreflight.analysis_node_mib_e2a900": {
+    "zh-CN": "分析 {p0} 节点 / {p1} 组 · 扫描 {p2} 条边 · 预计 {p3} MiB{p4}{p5}",
+    "en": "Analysis: {p0} nodes / {p1} groups · scan: {p2} edges · estimated {p3} MiB{p4}{p5}",
+    "ja": "分析：{p0} ノード / {p1} グループ · 走査：{p2} エッジ · 推定 {p3} MiB{p4}{p5}",
+    "fr": "Analyse : {p0} nœuds / {p1} groupes · balayage : {p2} arêtes · estimation {p3} MiB{p4}{p5}",
+    "de": "Analyse: {p0} Knoten / {p1} Gruppen · Scan: {p2} Kanten · geschätzt {p3} MiB{p4}{p5}",
+    "es": "Análisis: {p0} nodos / {p1} grupos · exploración: {p2} aristas · estimación {p3} MiB{p4}{p5}"
+  },
+  "group.groupPreflight.check_requestanalysismembers_1355f0": {
+    "zh-CN": "正在预检分析成员与邻接规模…",
+    "en": "Checking analysis members and adjacency size…",
+    "ja": "分析対象と隣接規模を確認中…",
+    "fr": "Vérification des membres et de la taille des adjacences…",
+    "de": "Analysemitglieder und Adjazenzumfang werden geprüft…",
+    "es": "Comprobando los miembros del análisis y el tamaño de las adyacencias…"
+  },
+  "group.groupPreflight.scope_aba7ec": {
+    "zh-CN": " · 复用已有完整范围",
+    "en": " · reusing the existing complete scope",
+    "ja": " · 既存の完全な範囲を再利用",
+    "fr": " · réutilisation du périmètre complet existant",
+    "de": " · vorhandener vollständiger Bereich wird wiederverwendet",
+    "es": " · reutilizando el ámbito completo existente"
+  },
+  "group.groupRatio.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "group.groupSelectMembers.all_members_029ae8": {
+    "zh-CN": "全部组成员",
+    "en": "All group members",
+    "ja": "グループの全メンバー",
+    "fr": "Tous les membres du groupe",
+    "de": "Alle Gruppenmitglieder",
+    "es": "Todos los miembros del grupo"
+  },
+  "group.groupSelectMembers.filter_f068ad": {
+    "zh-CN": " 筛选",
+    "en": " Filter",
+    "ja": " 絞り込み",
+    "fr": " Filtrer",
+    "de": " Filtern",
+    "es": " Filtrar"
+  },
+  "group.groupSelectMembers.message_ed9d5c": {
+    "zh-CN": "按 ",
+    "en": "by ",
+    "ja": "による ",
+    "fr": "par ",
+    "de": "nach ",
+    "es": "por "
+  },
+  "group.groupSelectMembers.node_6f5329": {
+    "zh-CN": "确切 {p0} 个节点 · {p1} · 不受分页或矩阵显示限制",
+    "en": "{p0} exact nodes · {p1} · independent of pagination and matrix display limits",
+    "ja": "正確な {p0} ノード · {p1} · ページや行列の表示上限に依存しません",
+    "fr": "{p0} nœuds exacts · {p1} · indépendants de la pagination et des limites d’affichage de la matrice",
+    "de": "{p0} exakt bestimmte Knoten · {p1} · unabhängig von Seitenaufteilung und Matrixanzeigegrenzen",
+    "es": "{p0} nodos exactos · {p1} · independientes de la paginación y los límites de visualización de la matriz"
+  },
+  "group.groupSetEndpoint.analysis_532631": {
+    "zh-CN": "所选组不属于当前分析",
+    "en": "The selected group does not belong to this analysis",
+    "ja": "選択したグループはこの分析に含まれていません",
+    "fr": "Le groupe sélectionné n’appartient pas à cette analyse",
+    "de": "Die ausgewählte Gruppe gehört nicht zu dieser Analyse",
+    "es": "El grupo seleccionado no pertenece a este análisis"
+  },
+  "group.groupSetEndpoint.nodes_871529": {
+    "zh-CN": "{p0} · {p1} 节点",
+    "en": "{p0} · {p1} nodes",
+    "ja": "{p0} · {p1}ノード",
+    "fr": "{p0} · {p1} nœuds",
+    "de": "{p0} · {p1} Knoten",
+    "es": "{p0} · {p1} nodos"
+  },
+  "group.groupSetEndpoint.select_get_exact_members_2cda11": {
+    "zh-CN": "组选择已改，待取得确切集合",
+    "en": "Selection changed. Retrieve the exact members again.",
+    "ja": "選択が変更されました。正確なメンバーを再取得してください。",
+    "fr": "La sélection a changé. Récupérez à nouveau les membres exacts.",
+    "de": "Auswahl geändert. Die genauen Mitglieder erneut abrufen.",
+    "es": "La selección ha cambiado. Obtenga de nuevo los miembros exactos."
+  },
+  "group.groupStart.check_the_definition_first_analysisdefinition_005e48": {
+    "zh-CN": "请先预检当前分析定义",
+    "en": "Check the current analysis definition first",
+    "ja": "先に現在の分析定義を事前確認してください",
+    "fr": "Vérifiez d’abord la définition actuelle de l’analyse",
+    "de": "Prüfen Sie zuerst die aktuelle Analysedefinition",
+    "es": "Compruebe primero la definición actual del análisis"
+  },
+  "group.groupStart.group_connections_e2d21f": {
+    "zh-CN": "分组连接统计已开始",
+    "en": "Group connection aggregation started",
+    "ja": "グループ接続の集計を開始しました",
+    "fr": "Agrégation des connexions entre groupes démarrée",
+    "de": "Aggregation der Gruppenverbindungen gestartet",
+    "es": "Agregación de conexiones entre grupos iniciada"
+  },
+  "group.incomplete": {
+    "zh-CN": "统计{status}。未完成的统计不能证明没有连接。",
+    "en": "Aggregation {status}. Incomplete statistics do not establish that no connections exist.",
+    "ja": "集計: {status}。未完了の集計から接続がないとは判断できません。",
+    "fr": "Agrégation : {status}. Des statistiques incomplètes ne prouvent pas l’absence de connexions.",
+    "de": "Aggregation: {status}. Unvollständige Statistiken belegen nicht, dass keine Verbindungen bestehen.",
+    "es": "Agregación: {status}. Las estadísticas incompletas no demuestran que no existan conexiones."
+  },
+  "group.initializeGroups.no_filter_cff884": {
+    "zh-CN": "不筛选",
+    "en": "No filter",
+    "ja": "フィルターなし",
+    "fr": "Sans filtre",
+    "de": "Kein Filter",
+    "es": "Sin filtro"
+  },
+  "group.renderGroupReport.analysis_6d8a8f": {
+    "zh-CN": "分组分析缺少服务端结果引用",
+    "en": "The group analysis has no server result reference",
+    "ja": "グループ分析のサーバー結果参照がありません",
+    "fr": "L’analyse des groupes n’a pas de référence de résultat sur le serveur",
+    "de": "Der Gruppenanalyse fehlt die Referenz auf das Serverergebnis",
+    "es": "El análisis de grupos carece de referencia al resultado del servidor"
+  },
+  "group.renderGroupReport.analysis_node_connected_node_pairs_connection_count_0da070": {
+    "zh-CN": "{p0} · {p1}{p2} · 分析 {p3} 节点 / {p4} 组 · {p5} 内部真实节点对连接 / {p6} 连接计数 · {p7} 秒",
+    "en": "{p0} · {p1}{p2} · {p3} nodes / {p4} groups · {p5} internal connected node pairs / {p6} contacts · {p7} s",
+    "ja": "{p0} · {p1}{p2} · {p3} ノード / {p4} グループ · 内部接続ノード対 {p5} / 接触数 {p6} · {p7} 秒",
+    "fr": "{p0} · {p1}{p2} · {p3} nœuds / {p4} groupes · {p5} paires de nœuds connectées internes / {p6} contacts · {p7} s",
+    "de": "{p0} · {p1}{p2} · {p3} Knoten / {p4} Gruppen · {p5} interne verbundene Knotenpaare / {p6} Kontakte · {p7} s",
+    "es": "{p0} · {p1}{p2} · {p3} nodos / {p4} grupos · {p5} pares de nodos conectados internos / {p6} contactos · {p7} s"
+  },
+  "group.renderGroupReport.complete_1846e3": {
+    "zh-CN": "统计完成",
+    "en": "Aggregation complete",
+    "ja": "集計完了",
+    "fr": "Agrégation terminée",
+    "de": "Aggregation abgeschlossen",
+    "es": "Agregación completada"
+  },
+  "group.renderGroupReport.complete_363c0f": {
+    "zh-CN": "此统计尚未完成。",
+    "en": "This aggregation is incomplete.",
+    "ja": "この集計はまだ完了していません。",
+    "fr": "Cette agrégation est incomplète.",
+    "de": "Diese Aggregation ist unvollständig.",
+    "es": "Esta agregación está incompleta."
+  },
+  "group.renderGroupReport.members_351887": {
+    "zh-CN": " · 限定确切组内成员",
+    "en": " · restricted to exact group members",
+    "ja": " · 正確なグループメンバーに限定",
+    "fr": " · limité aux membres exacts du groupe",
+    "de": " · auf exakt bestimmte Gruppenmitglieder beschränkt",
+    "es": " · limitado a los miembros exactos del grupo"
+  },
+  "group.renderGroupReport.message_1410cf": {
+    "zh-CN": "全局已注释神经元",
+    "en": "All annotated neurons",
+    "ja": "注釈付きの全ニューロン",
+    "fr": "Tous les neurones annotés",
+    "de": "Alle annotierten Neuronen",
+    "es": "Todas las neuronas anotadas"
+  },
+  "group.renderGroupReport.savescope_47ce7a": {
+    "zh-CN": "保存计算范围 ",
+    "en": "Save Scope ",
+    "ja": "保存計算範囲 ",
+    "fr": "Enregistrer Périmètre ",
+    "de": "Speichern Umfang ",
+    "es": "Guardar Alcance "
+  },
+  "group.resourceLimits": {
+    "zh-CN": "资源限制",
+    "en": "Resource limits",
+    "ja": "リソース制限",
+    "fr": "Limites de ressources",
+    "de": "Ressourcengrenzen",
+    "es": "Límites de recursos"
+  }
+}

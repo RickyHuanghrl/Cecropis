@@ -1,0 +1,82 @@
+{
+  "editor.bodyIds": {
+    "zh-CN": "{role} {number} · body ID",
+    "en": "{role} {number} · body IDs",
+    "ja": "{role} {number} · body ID",
+    "fr": "{role} {number} · body ID",
+    "de": "{role} {number} · body IDs",
+    "es": "{role} {number} · body ID"
+  },
+  "editor.edges": {
+    "zh-CN": "{count} 条有向边",
+    "en": "Directed edges: {count}",
+    "ja": "有向エッジ数: {count}",
+    "fr": "Arêtes orientées : {count}",
+    "de": "Gerichtete Kanten: {count}",
+    "es": "Aristas dirigidas: {count}"
+  },
+  "editor.editMembers": {
+    "zh-CN": "编辑成员",
+    "en": "Edit members",
+    "ja": "メンバーを編集",
+    "fr": "Modifier les membres",
+    "de": "Mitglieder bearbeiten",
+    "es": "Editar miembros"
+  },
+  "editor.interval": {
+    "zh-CN": "更新步 [{start}, {stop})",
+    "en": "Update steps [{start}, {stop})",
+    "ja": "更新ステップ [{start}, {stop})",
+    "fr": "Pas de mise à jour [{start}, {stop})",
+    "de": "Aktualisierungsschritte [{start}, {stop})",
+    "es": "Pasos de actualización [{start}, {stop})"
+  },
+  "editor.members": {
+    "zh-CN": "{count} 个节点",
+    "en": "Nodes: {count}",
+    "ja": "ノード数: {count}",
+    "fr": "Nœuds : {count}",
+    "de": "Knoten: {count}",
+    "es": "Nodos: {count}"
+  },
+  "editor.observationName": {
+    "zh-CN": "观察 {number}",
+    "en": "Observation {number}",
+    "ja": "観測 {number}",
+    "fr": "Observation {number}",
+    "de": "Beobachtung {number}",
+    "es": "Observación {number}"
+  },
+  "editor.conditionName": {
+    "zh-CN": "条件 {number}",
+    "en": "Condition {number}",
+    "ja": "条件 {number}",
+    "fr": "Condition {number}",
+    "de": "Bedingung {number}",
+    "es": "Condición {number}"
+  },
+  "editor.responseName": {
+    "zh-CN": "{name} · 响应条件",
+    "en": "{name} · Response condition",
+    "ja": "{name} · 応答条件",
+    "fr": "{name} · Condition de réponse",
+    "de": "{name} · Antwortbedingung",
+    "es": "{name} · Condición de respuesta"
+  },
+  "editor.pathScopeName": {
+    "zh-CN": "通路 {sources} → {targets}",
+    "en": "Paths {sources} → {targets}",
+    "ja": "経路 {sources} → {targets}",
+    "fr": "Chemins {sources} → {targets}",
+    "de": "Pfade {sources} → {targets}",
+    "es": "Rutas {sources} → {targets}"
+  },
+  "editor.connectionValue": {
+    "zh-CN": "{source} → {target} · {value}",
+    "en": "{source} → {target} · {value}",
+    "ja": "{source} → {target} · {value}",
+    "fr": "{source} → {target} · {value}",
+    "de": "{source} → {target} · {value}",
+    "es": "{source} → {target} · {value}"
+  }
+}

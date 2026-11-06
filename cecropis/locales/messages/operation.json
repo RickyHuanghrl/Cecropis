@@ -1,0 +1,890 @@
+{
+  "operation.search.controls.actions_1ee2ec": {
+    "zh-CN": "无操作",
+    "en": "No operations",
+    "ja": "操作なし",
+    "fr": "Aucune opération",
+    "de": "Keine Operationen",
+    "es": "Sin operaciones"
+  },
+  "operation.search.controls.candidate_exclusive_group_d9e227": {
+    "zh-CN": "候选 {p0} 互斥组",
+    "en": "Candidate {p0} exclusive group",
+    "ja": "候補{p0}の排他グループ",
+    "fr": "Groupe exclusif du candidat {p0}",
+    "de": "Ausschlussgruppe von Kandidat {p0}",
+    "es": "Grupo excluyente de candidato {p0}"
+  },
+  "operation.search.controls.candidate_id_5daa12": {
+    "zh-CN": "候选 {p0} 标识",
+    "en": "Candidate {p0} ID",
+    "ja": "候補{p0}のID",
+    "fr": "ID du candidat {p0}",
+    "de": "ID von Kandidat {p0}",
+    "es": "ID de candidato {p0}"
+  },
+  "operation.search.controls.candidate_name_6091f3": {
+    "zh-CN": "候选 {p0} 名称",
+    "en": "Candidate {p0} name",
+    "ja": "候補{p0}の名前",
+    "fr": "Nom du candidat {p0}",
+    "de": "Name von Kandidat {p0}",
+    "es": "Nombre de candidato {p0}"
+  },
+  "operation.search.controls.check_requestcomplete_actions_c93820": {
+    "zh-CN": "预检完成 · 候选库只限定允许操作",
+    "en": "Check request completed · candidate library defines allowed operations only",
+    "ja": "リクエスト確認完了 · 候補ライブラリー許可操作のみを定義",
+    "fr": "Vérifier la demande terminé · candidat bibliothèque définit seulement les opérations permises",
+    "de": "Anfrage prüfen abgeschlossen · Kandidat Bibliothek definiert nur zulässige Operationen",
+    "es": "Verificar solicitud completado · candidato biblioteca define solo operaciones permitidas"
+  },
+  "operation.search.controls.complete_6707de": {
+    "zh-CN": "未完成",
+    "en": "Incomplete",
+    "ja": "未完了",
+    "fr": "Incomplet",
+    "de": "Unvollständig",
+    "es": "Incompleto"
+  },
+  "operation.search.controls.current_protocol_7bc8cb": {
+    "zh-CN": "当前协议",
+    "en": "Current protocol",
+    "ja": "現在のプロトコル",
+    "fr": "Protocole actuel",
+    "de": "Aktuelles Protokoll",
+    "es": "Protocolo actual"
+  },
+  "operation.search.controls.definition_changed_check_it_again_166dcb": {
+    "zh-CN": "定义已改，请重新预检",
+    "en": "Definition changed; check it again",
+    "ja": "定義が変更されました。再確認してください",
+    "fr": "Définition modifiée ; revérifiez",
+    "de": "Definition geändert; erneut prüfen",
+    "es": "Definición modificada; verifique de nuevo"
+  },
+  "operation.search.controls.edit_79a4ac": {
+    "zh-CN": "更新一个候选时编辑器须恰好包含一项事件",
+    "en": "To update one candidate, the editor must contain exactly one event",
+    "ja": "候補 1 件の更新にはエディター内のイベントがちょうど 1 件である必要があります",
+    "fr": "Pour modifier un candidat, l’éditeur doit contenir exactement un événement",
+    "de": "Zum Aktualisieren eines Kandidaten muss der Editor genau ein Ereignis enthalten",
+    "es": "Para actualizar un candidato, el editor debe contener exactamente un evento"
+  },
+  "operation.search.controls.edit_check_request_216d67": {
+    "zh-CN": "已复制当前事件。请预检无效和重复操作。",
+    "en": "Current events copied. Preview to check for ineffective and duplicate operations.",
+    "ja": "現在のイベントをコピーしました。プレビューで無効な操作や重複を確認してください。",
+    "fr": "Événements copiés. Lancez l’aperçu pour vérifier les opérations sans effet et les doublons.",
+    "de": "Aktuelle Ereignisse kopiert. Prüfen Sie in der Vorschau wirkungslose und doppelte Operationen.",
+    "es": "Eventos copiados. Use la vista previa para detectar operaciones sin efecto y duplicadas."
+  },
+  "operation.search.controls.edit_in_event_editor_33a049": {
+    "zh-CN": "在事件编辑器中编辑",
+    "en": "Edit in event editor",
+    "ja": "イベント編集で編集",
+    "fr": "Modifier dans l’éditeur d’événements",
+    "de": "Im Ereigniseditor bearbeiten",
+    "es": "Editar en editor de eventos"
+  },
+  "operation.search.controls.edit_update_selected_candidate_from_editor_33e4ba": {
+    "zh-CN": "编辑所选事件后，点击“用编辑器更新所选候选”",
+    "en": "Edit the event, then choose Update selected candidate from editor.",
+    "ja": "イベントを編集してから「エディターから選択候補を更新」を選んでください。",
+    "fr": "Modifiez l’événement, puis choisissez de mettre à jour le candidat sélectionné depuis l’éditeur.",
+    "de": "Ereignis bearbeiten, dann den ausgewählten Kandidaten aus dem Editor aktualisieren.",
+    "es": "Edite el evento y después actualice el candidato seleccionado desde el editor."
+  },
+  "operation.search.controls.message_0e81fd": {
+    "zh-CN": " · 边增益 ",
+    "en": " · edge gain ",
+    "ja": " · 辺ゲイン ",
+    "fr": " · arête gain ",
+    "de": " · Kante Verstärkung ",
+    "es": " · arista ganancia "
+  },
+  "operation.search.controls.message_37e1ec": {
+    "zh-CN": " · 推荐",
+    "en": " · recommended",
+    "ja": " · 推奨",
+    "fr": " · recommandé",
+    "de": " · empfohlen",
+    "es": " · recomendado"
+  },
+  "operation.search.controls.message_574f9b": {
+    "zh-CN": "已形成新事件草稿 · 原报告和来源协议未修改",
+    "en": "New event draft created · original report and source protocol unchanged",
+    "ja": "新しいイベント下書きを作成 · 元の報告とプロトコルは保持",
+    "fr": "Nouveau brouillon d’événement créé · rapport et protocole sources inchangés",
+    "de": "Neuer Ereignisentwurf erstellt · ursprünglicher Bericht und Quellprotokoll unverändert",
+    "es": "Nuevo borrador de evento creado · informe y protocolo de origen sin cambios"
+  },
+  "operation.search.controls.message_780f6a": {
+    "zh-CN": "空计划",
+    "en": "Empty plan",
+    "ja": "空の計画",
+    "fr": "Plan vide",
+    "de": "Leerer Plan",
+    "es": "Plan vacío"
+  },
+  "operation.search.controls.message_d32ec4": {
+    "zh-CN": "边 ",
+    "en": "edge ",
+    "ja": "辺 ",
+    "fr": "arête ",
+    "de": "Kante ",
+    "es": "arista "
+  },
+  "operation.search.controls.node_191ba7": {
+    "zh-CN": " · 节点增益 ",
+    "en": " · Node gain ",
+    "ja": " · ノードゲイン ",
+    "fr": " · Nœud gain ",
+    "de": " · Knoten Verstärkung ",
+    "es": " · Nodo ganancia "
+  },
+  "operation.search.controls.node_765575": {
+    "zh-CN": "实际覆盖 {p0} 节点 / {p1} 边 · ",
+    "en": "Covers {p0} nodes / {p1} edges · ",
+    "ja": "対象 {p0} ノード / {p1} エッジ · ",
+    "fr": "Couvre {p0} nœuds / {p1} arêtes · ",
+    "de": "Umfasst {p0} Knoten / {p1} Kanten · ",
+    "es": "Abarca {p0} nodos / {p1} aristas · "
+  },
+  "operation.search.controls.node_d0df5c": {
+    "zh-CN": "节点 ",
+    "en": "Node ",
+    "ja": "ノード ",
+    "fr": "Nœud ",
+    "de": "Knoten ",
+    "es": "Nodo "
+  },
+  "operation.search.controls.node_maximum_propagations_edede0": {
+    "zh-CN": "候选 {p0} · 节点 {p1} / 边 {p2}（端点 {p3}） · 协议 {p4} · 最多传播 {p5} · 排除 {p6} · 互斥 {p7}",
+    "en": "candidate {p0} · Node {p1} / edge {p2}（endpoint {p3}） · protocol {p4} · Maximum propagations {p5} · excluded {p6} · mutually exclusive {p7}",
+    "ja": "候補 {p0} · ノード {p1} / 辺 {p2}（端点 {p3}） · プロトコル {p4} · 最大伝播数 {p5} · 除外 {p6} · 相互排他 {p7}",
+    "fr": "candidat {p0} · Nœud {p1} / arête {p2}（extrémité {p3}） · protocole {p4} · Propagations maximales {p5} · exclu {p6} · mutuellement exclusif {p7}",
+    "de": "Kandidat {p0} · Knoten {p1} / Kante {p2}（Endpunkt {p3}） · Protokoll {p4} · Maximale Ausbreitungen {p5} · ausgeschlossen {p6} · gegenseitig ausschließend {p7}",
+    "es": "candidato {p0} · Nodo {p1} / arista {p2}（extremo {p3}） · protocolo {p4} · Máximo de propagaciones {p5} · excluido {p6} · mutuamente excluyente {p7}"
+  },
+  "operation.search.controls.protection_7ba7bc": {
+    "zh-CN": " · 保护 ",
+    "en": " · protection ",
+    "ja": " · 保護 ",
+    "fr": " · protection ",
+    "de": " · Schutz ",
+    "es": " · protección "
+  },
+  "operation.search.controls.remove_2f9daa": {
+    "zh-CN": "删除",
+    "en": "Remove",
+    "ja": "削除",
+    "fr": "Retirer",
+    "de": "Entfernen",
+    "es": "Quitar"
+  },
+  "operation.search.controls.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "operation.search.controls.satisfied_ec9205": {
+    "zh-CN": "未满足",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "operation.search.controls.save_c2e69b": {
+    "zh-CN": "已保存 ",
+    "en": "saved ",
+    "ja": "保存済み ",
+    "fr": "enregistré ",
+    "de": "gespeichert ",
+    "es": "guardado "
+  },
+  "operation.search.controls.savedefinition_keep_1acab8": {
+    "zh-CN": "保存定义已作为新草稿；原报告仍保留",
+    "en": "Saved definition copied to a new draft. The original report is retained.",
+    "ja": "保存済み定義を新しい下書きにコピーしました。元のレポートは保持されます。",
+    "fr": "Définition enregistrée copiée dans un nouveau brouillon. Le rapport original est conservé.",
+    "de": "Gespeicherte Definition in einen neuen Entwurf kopiert. Der Originalbericht bleibt erhalten.",
+    "es": "Definición guardada copiada a un borrador nuevo. Se conserva el informe original."
+  },
+  "operation.search.controls.select_edit_86bc09": {
+    "zh-CN": "先选择要编辑的候选",
+    "en": "Select a candidate to edit first",
+    "ja": "先に編集する候補を選択してください",
+    "fr": "Sélectionnez d’abord un candidat à modifier",
+    "de": "Wählen Sie zuerst einen Kandidaten zum Bearbeiten",
+    "es": "Seleccione primero un candidato para editar"
+  },
+  "operation.search.controls.target_536d56": {
+    "zh-CN": "目标 ",
+    "en": "target ",
+    "ja": "目標 ",
+    "fr": "cible ",
+    "de": "Ziel ",
+    "es": "objetivo "
+  },
+  "operation.search.controls.view_db8db0": {
+    "zh-CN": "查看",
+    "en": "View",
+    "ja": "表示",
+    "fr": "Voir",
+    "de": "Anzeigen",
+    "es": "Ver"
+  },
+  "operation.search.labels.actions_ed31fb": {
+    "zh-CN": "操作",
+    "en": "Actions",
+    "ja": "操作",
+    "fr": "Actions",
+    "de": "Aktionen",
+    "es": "Acciones"
+  },
+  "operation.search.labels.add_editor_events_to_candidates_663097": {
+    "zh-CN": "事件编辑器 → 候选库",
+    "en": "Add editor events to candidates",
+    "ja": "編集イベントを候補に追加",
+    "fr": "Ajouter les événements aux candidats",
+    "de": "Editorereignisse als Kandidaten hinzufügen",
+    "es": "Añadir eventos del editor a candidatos"
+  },
+  "operation.search.labels.beam_width_8ca4bd": {
+    "zh-CN": "束宽",
+    "en": "Beam width",
+    "ja": "ビーム幅",
+    "fr": "Largeur du faisceau",
+    "de": "Strahlbreite",
+    "es": "Ancho del haz"
+  },
+  "operation.search.labels.cancel_2cd0f3": {
+    "zh-CN": "取消",
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "fr": "Annuler",
+    "de": "Abbrechen",
+    "es": "Cancelar"
+  },
+  "operation.search.labels.candidate_operation_search_51ad3b": {
+    "zh-CN": "候选操作组合搜索",
+    "en": "Candidate operation search",
+    "ja": "候補操作の組合せ探索",
+    "fr": "Recherche de combinaisons d’opérations",
+    "de": "Suche nach Operationskombinationen",
+    "es": "Búsqueda de combinaciones de operaciones"
+  },
+  "operation.search.labels.check_request_3b5e10": {
+    "zh-CN": "预检",
+    "en": "Check request",
+    "ja": "リクエスト確認",
+    "fr": "Vérifier la demande",
+    "de": "Anfrage prüfen",
+    "es": "Verificar solicitud"
+  },
+  "operation.search.labels.combination_ce3df9": {
+    "zh-CN": "组合",
+    "en": "Combination",
+    "ja": "組合せ",
+    "fr": "Combinaison",
+    "de": "Kombination",
+    "es": "Combinación"
+  },
+  "operation.search.labels.combination_evaluation_budget_a8d57b": {
+    "zh-CN": "组合评价预算",
+    "en": "Combination evaluation budget",
+    "ja": "組合せ評価予算",
+    "fr": "Budget d’évaluation des combinaisons",
+    "de": "Budget für Kombinationsevaluationen",
+    "es": "Presupuesto de evaluación de combinaciones"
+  },
+  "operation.search.labels.compute_selected_plan_curves_4b7d00": {
+    "zh-CN": "显式评价所选方案曲线",
+    "en": "Compute selected plan curves",
+    "ja": "選択案の曲線を計算",
+    "fr": "Calculer les courbes du plan choisi",
+    "de": "Kurven des gewählten Plans berechnen",
+    "es": "Calcular curvas del plan elegido"
+  },
+  "operation.search.labels.direct_node_intervention_limit_dd58b7": {
+    "zh-CN": "直接节点上限",
+    "en": "Direct node intervention limit",
+    "ja": "直接ノード介入上限",
+    "fr": "Limite de nœuds directement modifiés",
+    "de": "Limit direkt beeinflusster Knoten",
+    "es": "Límite de nodos intervenidos directamente"
+  },
+  "operation.search.labels.directed_edge_limit_446444": {
+    "zh-CN": "有向边上限",
+    "en": "Directed edge limit",
+    "ja": "有向辺上限",
+    "fr": "Limite d’arêtes dirigées",
+    "de": "Limit gerichteter Kanten",
+    "es": "Límite de aristas dirigidas"
+  },
+  "operation.search.labels.exclusive_group_edfbfc": {
+    "zh-CN": "互斥组",
+    "en": "Exclusive group",
+    "ja": "排他グループ",
+    "fr": "Groupe exclusif",
+    "de": "Ausschlussgruppe",
+    "es": "Grupo excluyente"
+  },
+  "operation.search.labels.id_name_aa5e31": {
+    "zh-CN": "标识／名称",
+    "en": "ID / name",
+    "ja": "ID／名前",
+    "fr": "ID / nom",
+    "de": "ID / Name",
+    "es": "ID / nombre"
+  },
+  "operation.search.labels.inspect_selected_plan_coverage_522fb7": {
+    "zh-CN": "检查所选实际覆盖",
+    "en": "Inspect selected plan coverage",
+    "ja": "選択案の実対象を確認",
+    "fr": "Examiner les cibles du plan",
+    "de": "Abdeckung des gewählten Plans prüfen",
+    "es": "Examinar cobertura del plan"
+  },
+  "operation.search.labels.maximum_operations_c9364c": {
+    "zh-CN": "最多操作项",
+    "en": "Maximum operations",
+    "ja": "最大操作数",
+    "fr": "Opérations maximales",
+    "de": "Maximale Operationen",
+    "es": "Máximo de operaciones"
+  },
+  "operation.search.labels.next_page_8a8542": {
+    "zh-CN": "下一页",
+    "en": "Next page",
+    "ja": "次のページ",
+    "fr": "Page suivante",
+    "de": "Nächste Seite",
+    "es": "Página siguiente"
+  },
+  "operation.search.labels.operation_size_interval_gain_2baae1": {
+    "zh-CN": "操作／规模／区间／增益",
+    "en": "Operation / size / interval / gain",
+    "ja": "操作／規模／区間／ゲイン",
+    "fr": "Opération / taille / intervalle / gain",
+    "de": "Operation / Größe / Intervall / Verstärkung",
+    "es": "Operación / tamaño / intervalo / ganancia"
+  },
+  "operation.search.labels.operations_nodes_edges_b7e026": {
+    "zh-CN": "操作／节点／边",
+    "en": "Operations / nodes / edges",
+    "ja": "操作／ノード／辺",
+    "fr": "Opérations / nœuds / arêtes",
+    "de": "Operationen / Knoten / Kanten",
+    "es": "Operaciones / nodos / aristas"
+  },
+  "operation.search.labels.previous_page_c9b9ae": {
+    "zh-CN": "上一页",
+    "en": "Previous page",
+    "ja": "前のページ",
+    "fr": "Page précédente",
+    "de": "Vorherige Seite",
+    "es": "Página anterior"
+  },
+  "operation.search.labels.save_report_6d8b82": {
+    "zh-CN": "保存报告",
+    "en": "Save report",
+    "ja": "レポート保存",
+    "fr": "Enregistrer le rapport",
+    "de": "Bericht speichern",
+    "es": "Guardar informe"
+  },
+  "operation.search.labels.search_44ce7a": {
+    "zh-CN": "搜索",
+    "en": "Search",
+    "ja": "探索",
+    "fr": "Recherche",
+    "de": "Suche",
+    "es": "Búsqueda"
+  },
+  "operation.search.labels.search_retention_reason_2bde95": {
+    "zh-CN": "搜索保留原因",
+    "en": "Search retention reason",
+    "ja": "探索での保持理由",
+    "fr": "Raison de conservation",
+    "de": "Grund für Beibehaltung",
+    "es": "Motivo de conservación"
+  },
+  "operation.search.labels.select_c11330": {
+    "zh-CN": "选择",
+    "en": "Select",
+    "ja": "選択",
+    "fr": "Sélectionner",
+    "de": "Auswählen",
+    "es": "Seleccionar"
+  },
+  "operation.search.labels.set_target_and_protection_6db144": {
+    "zh-CN": "设置目标与保护",
+    "en": "Set target and protection",
+    "ja": "目標と保護を設定",
+    "fr": "Définir la cible et les protections",
+    "de": "Ziel und Schutz festlegen",
+    "es": "Definir objetivo y protecciones"
+  },
+  "operation.search.labels.status_constraints_3652e2": {
+    "zh-CN": "状态／约束",
+    "en": "Status / constraints",
+    "ja": "状態／制約",
+    "fr": "État / contraintes",
+    "de": "Status / Bedingungen",
+    "es": "Estado / restricciones"
+  },
+  "operation.search.labels.task_name_247956": {
+    "zh-CN": "任务名称",
+    "en": "Task name",
+    "ja": "タスク名",
+    "fr": "Nom de tâche",
+    "de": "Aufgabenname",
+    "es": "Nombre de tarea"
+  },
+  "operation.search.labels.unrun_combinations_and_coverage_c04b4b": {
+    "zh-CN": "未运行组合与范围",
+    "en": "Unrun combinations and coverage",
+    "ja": "未実行の組合せと範囲",
+    "fr": "Combinaisons non exécutées et couverture",
+    "de": "Nicht ausgeführte Kombinationen und Abdeckung",
+    "es": "Combinaciones sin ejecutar y cobertura"
+  },
+  "operation.search.labels.update_selected_candidate_from_editor_592d12": {
+    "zh-CN": "用编辑器更新所选候选",
+    "en": "Update selected candidate from editor",
+    "ja": "選択候補を編集内容で更新",
+    "fr": "Mettre à jour le candidat depuis l’éditeur",
+    "de": "Gewählten Kandidaten aus Editor aktualisieren",
+    "es": "Actualizar candidato desde editor"
+  },
+  "operation.search.labels.use_as_event_draft_aedf65": {
+    "zh-CN": "采用为事件草稿",
+    "en": "Use as event draft",
+    "ja": "イベント草案として使用",
+    "fr": "Utiliser comme brouillon d’événements",
+    "de": "Als Ereignisentwurf verwenden",
+    "es": "Usar como borrador de eventos"
+  },
+  "operation.search.labels.use_saved_report_definition_e5c521": {
+    "zh-CN": "使用报告定义",
+    "en": "Use saved report definition",
+    "ja": "保存レポートの定義を使用",
+    "fr": "Utiliser la définition du rapport",
+    "de": "Gespeicherte Berichtsdefinition verwenden",
+    "es": "Usar definición del informe"
+  },
+  "operation.search.labels.worst_target_effect_2b51f8": {
+    "zh-CN": "最差目标",
+    "en": "Worst target effect",
+    "ja": "最悪の目標効果",
+    "fr": "Effet cible le plus faible",
+    "de": "Schwächster Zieleffekt",
+    "es": "Peor efecto objetivo"
+  },
+  "operation.search.operationChanged.message_2a5c46": {
+    "zh-CN": "已显示原报告 · 候选、协议或要求的修改仅属于新任务",
+    "en": "Original report displayed · changes to candidates, protocols or requirements apply to a new task",
+    "ja": "元の報告を表示中 · 候補・プロトコル・要件の変更は新しいタスクに適用",
+    "fr": "Rapport d’origine affiché · les modifications des candidats, protocoles ou exigences concernent une nouvelle tâche",
+    "de": "Ursprünglicher Bericht angezeigt · Änderungen an Kandidaten, Protokollen oder Anforderungen gelten für eine neue Aufgabe",
+    "es": "Se muestra el informe original · los cambios de candidatos, protocolos o requisitos se aplican a una nueva tarea"
+  },
+  "operation.search.operationDefinition.select_decision_protocols_f308dc": {
+    "zh-CN": "至少选择一个决策协议",
+    "en": "Select at least one decision protocol",
+    "ja": "判定用プロトコルを 1 個以上選択してください",
+    "fr": "Sélectionnez au moins un protocole de décision",
+    "de": "Wählen Sie mindestens ein Entscheidungsprotokoll",
+    "es": "Seleccione al menos un protocolo de decisión"
+  },
+  "operation.search.operationLoss.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "operation.search.operationPoll.combination_completeintervention_014f46": {
+    "zh-CN": "{p0} · 已评价组合数：{p1} · 协议：{p2} · 已完成干预传播数：{p3}",
+    "en": "{p0} · Evaluated combinations: {p1} · Protocol: {p2} · Completed intervention propagations: {p3}",
+    "ja": "{p0} · 評価済みの組み合わせ数：{p1} · プロトコル：{p2} · 完了した介入伝播数：{p3}",
+    "fr": "{p0} · Combinaisons évaluées : {p1} · Protocole : {p2} · Propagations d’intervention terminées : {p3}",
+    "de": "{p0} · Bewertete Kombinationen: {p1} · Protokoll: {p2} · Abgeschlossene Eingriffsausbreitungen: {p3}",
+    "es": "{p0} · Combinaciones evaluadas: {p1} · Protocolo: {p2} · Propagaciones de intervención completadas: {p3}"
+  },
+  "operation.search.operationPoll.message_cde4d5": {
+    "zh-CN": "评价曲线",
+    "en": "evaluation curve",
+    "ja": "評価曲線",
+    "fr": "évaluation courbe",
+    "de": "Bewertung Kurve",
+    "es": "evaluación curva"
+  },
+  "operation.search.operationPoll.search_44ce7a": {
+    "zh-CN": "搜索",
+    "en": "Search",
+    "ja": "探索",
+    "fr": "Recherche",
+    "de": "Suche",
+    "es": "Búsqueda"
+  },
+  "operation.search.operationProtocolChoices.current_protocol_7bc8cb": {
+    "zh-CN": "当前协议",
+    "en": "Current protocol",
+    "ja": "現在のプロトコル",
+    "fr": "Protocole actuel",
+    "de": "Aktuelles Protokoll",
+    "es": "Protocolo actual"
+  },
+  "operation.search.operationRefreshProtocols.decision_protocols_48e70c": {
+    "zh-CN": "决策协议",
+    "en": "Decision protocols",
+    "ja": "判定用プロトコル",
+    "fr": "Protocoles de décision",
+    "de": "Entscheidungsprotokolle",
+    "es": "Protocolos de decisión"
+  },
+  "operation.search.operationRefreshProtocols.open_a_calculation_scope_first_59b2f9": {
+    "zh-CN": "先打开计算范围",
+    "en": "Open a calculation scope first",
+    "ja": "先に計算範囲を開いてください",
+    "fr": "Ouvrez d’abord un périmètre de calcul",
+    "de": "Zuerst Rechenbereich öffnen",
+    "es": "Abra primero un ámbito de cálculo"
+  },
+  "operation.search.operationRenderReport.baseline_intervention_b0c926": {
+    "zh-CN": "{p0} · {p1} · 组合评价数／预算：{p2}/{p3} · 已覆盖／候选总数：{p4}/{p5} · 传播完成／启动：基线 {p6}/{p7}，干预 {p8}/{p9}，合计 {p10}/{p11} · 去重组合数：{p12} · 未覆盖候选 ID：{p13}",
+    "en": "{p0} · {p1} · Combinations evaluated / budget: {p2}/{p3} · Candidates covered / total: {p4}/{p5} · Propagations completed / started: baseline {p6}/{p7}, intervention {p8}/{p9}, total {p10}/{p11} · Duplicate combinations removed: {p12} · Uncovered candidate IDs: {p13}",
+    "ja": "{p0} · {p1} · 組み合わせの評価数／予算：{p2}/{p3} · 評価済み候補数／候補総数：{p4}/{p5} · 伝播の完了数／開始数：ベースライン {p6}/{p7}、介入 {p8}/{p9}、合計 {p10}/{p11} · 除外した重複組み合わせ数：{p12} · 未評価の候補 ID：{p13}",
+    "fr": "{p0} · {p1} · Combinaisons évaluées / budget : {p2}/{p3} · Candidats couverts / total : {p4}/{p5} · Propagations terminées / démarrées : référence {p6}/{p7}, intervention {p8}/{p9}, total {p10}/{p11} · Combinaisons en double écartées : {p12} · ID des candidats non couverts : {p13}",
+    "de": "{p0} · {p1} · Bewertete Kombinationen / Budget: {p2}/{p3} · Abgedeckte Kandidaten / Gesamtzahl: {p4}/{p5} · Abgeschlossene / gestartete Ausbreitungen: Referenz {p6}/{p7}, Eingriff {p8}/{p9}, insgesamt {p10}/{p11} · Entfernte doppelte Kombinationen: {p12} · Nicht abgedeckte Kandidaten-IDs: {p13}",
+    "es": "{p0} · {p1} · Combinaciones evaluadas / presupuesto: {p2}/{p3} · Candidatos cubiertos / total: {p4}/{p5} · Propagaciones completadas / iniciadas: referencia {p6}/{p7}, intervención {p8}/{p9}, total {p10}/{p11} · Combinaciones duplicadas descartadas: {p12} · ID de candidatos sin cubrir: {p13}"
+  },
+  "operation.search.operationRenderReport.keep_1c8b6c": {
+    "zh-CN": "\n仅枚举保留束的后继；淘汰束及尚未生成的层没有评价。",
+    "en": "Only successors of retained beams were enumerated. Discarded beams and ungenerated layers were not evaluated.",
+    "ja": "保持されたビームの後続のみを列挙しました。除外されたビームと未生成の層は未評価です。",
+    "fr": "Seuls les successeurs des faisceaux retenus ont été énumérés. Les faisceaux écartés et les couches non générées n’ont pas été évalués.",
+    "de": "Nur Nachfolger beibehaltener Suchpfade wurden aufgezählt. Verworfene Suchpfade und nicht erzeugte Ebenen wurden nicht ausgewertet.",
+    "es": "Solo se enumeraron los sucesores de los haces conservados. No se evaluaron los descartados ni las capas no generadas."
+  },
+  "operation.search.operationRenderReport.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "operation.search.operationRenderReport.showing_of_21a5ae": {
+    "zh-CN": "显示 {p0}–{p1} / {p2}",
+    "en": "Showing {p0}–{p1} of {p2}",
+    "ja": "{p2}件中{p0}–{p1}を表示",
+    "fr": "Affichage {p0}–{p1} sur {p2}",
+    "de": "Anzeige {p0}–{p1} von {p2}",
+    "es": "Mostrando {p0}–{p1} de {p2}"
+  },
+  "operation.search.operationReportPayload.completesearch_opensave_report_72087e": {
+    "zh-CN": "先完成搜索或打开保存报告",
+    "en": "Complete the search or open a saved report first",
+    "ja": "先に検索を完了するか保存済みの報告を開いてください",
+    "fr": "Terminez la recherche ou ouvrez d’abord un rapport enregistré",
+    "de": "Schließen Sie zuerst die Suche ab oder öffnen Sie einen gespeicherten Bericht",
+    "es": "Complete primero la búsqueda o abra un informe guardado"
+  },
+  "operation.search.operationSelect.absolute_mean_change_ddee3c": {
+    "zh-CN": "绝对均值变化",
+    "en": "Absolute mean change",
+    "ja": "絶対平均変化",
+    "fr": "Variation absolue moyenne",
+    "de": "Absolute Mittelwertänderung",
+    "es": "Cambio absoluto de media"
+  },
+  "operation.search.operationSelect.baseline_mean_a882a3": {
+    "zh-CN": "基线均值",
+    "en": "Baseline mean",
+    "ja": "基準平均",
+    "fr": "Moyenne de référence",
+    "de": "Referenzmittel",
+    "es": "Media de referencia"
+  },
+  "operation.search.operationSelect.decision_protocols_48e70c": {
+    "zh-CN": "决策协议",
+    "en": "Decision protocols",
+    "ja": "判定用プロトコル",
+    "fr": "Protocoles de décision",
+    "de": "Entscheidungsprotokolle",
+    "es": "Protocolos de decisión"
+  },
+  "operation.search.operationSelect.extra_evaluation_only_excluded_from_search_ranking_5cfb97": {
+    "zh-CN": "仅额外评价（不参与搜索排序）",
+    "en": "Extra evaluation only; excluded from search ranking",
+    "ja": "追加評価のみ・探索順位に不使用",
+    "fr": "Évaluation supplémentaire ; hors classement",
+    "de": "Zusätzliche Bewertung; nicht in Suchrangfolge",
+    "es": "Evaluación adicional; fuera de clasificación"
+  },
+  "operation.search.operationSelect.failed_constraints_9a9b7b": {
+    "zh-CN": "失败项",
+    "en": "Failed constraints",
+    "ja": "不適合項目",
+    "fr": "Contraintes non satisfaites",
+    "de": "Nicht erfüllte Bedingungen",
+    "es": "Restricciones incumplidas"
+  },
+  "operation.search.operationSelect.intervention_mean_ed07c3": {
+    "zh-CN": "干预均值",
+    "en": "Intervention mean",
+    "ja": "介入平均",
+    "fr": "Moyenne avec intervention",
+    "de": "Eingriffsmittel",
+    "es": "Media con intervención"
+  },
+  "operation.search.operationSelect.message_780f6a": {
+    "zh-CN": "空计划",
+    "en": "Empty plan",
+    "ja": "空の計画",
+    "fr": "Plan vide",
+    "de": "Leerer Plan",
+    "es": "Plan vacío"
+  },
+  "operation.search.operationSelect.protection_loss_limit_b9d483": {
+    "zh-CN": "保护损失／上限",
+    "en": "Protection loss / limit",
+    "ja": "保護損失／上限",
+    "fr": "Perte protégée / limite",
+    "de": "Schutzverlust / Grenze",
+    "es": "Pérdida protegida / límite"
+  },
+  "operation.search.operationSelect.protocol_observation_d42d8a": {
+    "zh-CN": "协议／观察",
+    "en": "Protocol / observation",
+    "ja": "プロトコル／観測",
+    "fr": "Protocole / observation",
+    "de": "Protokoll / Beobachtung",
+    "es": "Protocolo / observación"
+  },
+  "operation.search.operationSelect.relative_change_d26b48": {
+    "zh-CN": "相对变化",
+    "en": "Relative change",
+    "ja": "相対変化",
+    "fr": "Variation relative",
+    "de": "Relative Änderung",
+    "es": "Cambio relativo"
+  },
+  "operation.search.operationSelect.target_effect_requirement_a5a5ec": {
+    "zh-CN": "目标效果／要求",
+    "en": "Target effect / requirement",
+    "ja": "目標効果／要件",
+    "fr": "Effet cible / exigence",
+    "de": "Zieleffekt / Anforderung",
+    "es": "Efecto objetivo / requisito"
+  },
+  "operation.search.operationState.beam_width_683d20": {
+    "zh-CN": "束宽淘汰",
+    "en": "Discarded by beam-width limit",
+    "ja": "ビーム幅上限により除外",
+    "fr": "Écarté par la limite de largeur du faisceau",
+    "de": "Durch Strahlbreitengrenze verworfen",
+    "es": "Descartado por el límite de ancho del haz"
+  },
+  "operation.search.operationState.budget_exhausted_d9e9de": {
+    "zh-CN": "预算耗尽",
+    "en": "Budget exhausted",
+    "ja": "予算上限に到達",
+    "fr": "Budget épuisé",
+    "de": "Budget ausgeschöpft",
+    "es": "Presupuesto agotado"
+  },
+  "operation.search.operationState.cancel_2cd0f3": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "operation.search.operationState.combination_evaluation_budget_13e1d8": {
+    "zh-CN": "达到组合评价预算",
+    "en": "Combination evaluation budget reached",
+    "ja": "組み合わせ評価の予算に達しました",
+    "fr": "Budget d’évaluation des combinaisons atteint",
+    "de": "Budget für Kombinationsbewertungen erreicht",
+    "es": "Presupuesto de evaluación de combinaciones alcanzado"
+  },
+  "operation.search.operationState.complete_6707de": {
+    "zh-CN": "未完成",
+    "en": "Incomplete",
+    "ja": "未完了",
+    "fr": "Incomplet",
+    "de": "Unvollständig",
+    "es": "Incompleto"
+  },
+  "operation.search.operationState.complete_99eb38": {
+    "zh-CN": "有限层探索完成",
+    "en": "Bounded layer exploration complete",
+    "ja": "有限層の探索が完了",
+    "fr": "Exploration des niveaux bornés terminée",
+    "de": "Begrenzte Ebenensuche abgeschlossen",
+    "es": "Exploración de niveles acotados completada"
+  },
+  "operation.search.operationState.complete_c0b3fb": {
+    "zh-CN": "完成",
+    "en": "Complete",
+    "ja": "完了",
+    "fr": "Terminé",
+    "de": "Abgeschlossen",
+    "es": "Completado"
+  },
+  "operation.search.operationState.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "operation.search.operationState.failed_934459": {
+    "zh-CN": "执行失败",
+    "en": "Execution failed",
+    "ja": "実行失敗",
+    "fr": "Échec de l’exécution",
+    "de": "Ausführung fehlgeschlagen",
+    "es": "Error de ejecución"
+  },
+  "operation.search.operationState.interrupted_88cf2d": {
+    "zh-CN": "已中断",
+    "en": "Interrupted",
+    "ja": "中断",
+    "fr": "Interrompu",
+    "de": "Unterbrochen",
+    "es": "Interrumpido"
+  },
+  "operation.search.operationState.message_60f374": {
+    "zh-CN": "进入下一层",
+    "en": "Advanced to the next layer",
+    "ja": "次の層に進みました",
+    "fr": "Passage au niveau suivant",
+    "de": "Zur nächsten Ebene fortgeschritten",
+    "es": "Se avanzó al siguiente nivel"
+  },
+  "operation.search.operationState.message_c81472": {
+    "zh-CN": "无有效候选",
+    "en": "No valid candidates",
+    "ja": "有効な候補なし",
+    "fr": "Aucun candidat valide",
+    "de": "Keine gültigen Kandidaten",
+    "es": "Sin candidatos válidos"
+  },
+  "operation.search.operationState.message_df49f2": {
+    "zh-CN": "已评价",
+    "en": "evaluated",
+    "ja": "評価済み",
+    "fr": "évalué",
+    "de": "bewertet",
+    "es": "evaluado"
+  },
+  "operation.search.operationState.no_intervention_satisfied_e3a627": {
+    "zh-CN": "无干预已满足要求",
+    "en": "Requirements already met without intervention",
+    "ja": "介入なしで要件達成",
+    "fr": "Exigences déjà satisfaites sans intervention",
+    "de": "Anforderungen bereits ohne Intervention erfüllt",
+    "es": "Requisitos ya cumplidos sin intervención"
+  },
+  "operation.search.operationState.pause_requested_3e246f": {
+    "zh-CN": "暂停请求",
+    "en": "Pause requested",
+    "ja": "一時停止要求",
+    "fr": "Pause demandée",
+    "de": "Pause angefordert",
+    "es": "Pausa solicitada"
+  },
+  "operation.search.operationState.paused_eb0c32": {
+    "zh-CN": "已暂停",
+    "en": "Paused",
+    "ja": "一時停止中",
+    "fr": "En pause",
+    "de": "Pausiert",
+    "es": "En pausa"
+  },
+  "operation.search.operationState.running_1f0eb9": {
+    "zh-CN": "运行中",
+    "en": "Running",
+    "ja": "実行中",
+    "fr": "En cours",
+    "de": "Läuft",
+    "es": "En ejecución"
+  },
+  "operation.search.operationState.satisfiedconstraints_326996": {
+    "zh-CN": "空计划满足约束",
+    "en": "Empty plan meets the constraints",
+    "ja": "空の計画で制約を満たしています",
+    "fr": "Le plan vide satisfait les contraintes",
+    "de": "Leerer Plan erfüllt die Nebenbedingungen",
+    "es": "El plan vacío cumple las restricciones"
+  },
+  "operation.search.operationState.sort_6407a6": {
+    "zh-CN": "未排序",
+    "en": "Not ranked",
+    "ja": "未順位付け",
+    "fr": "Non classé",
+    "de": "Nicht geordnet",
+    "es": "Sin clasificar"
+  },
+  "operation.report.context": {
+    "zh-CN": "报告：{name} · 范围：{scope} · 计算节点数：{nodes} · 协议：{protocols}",
+    "en": "Report: {name} · Scope: {scope} · Nodes in calculation: {nodes} · Protocols: {protocols}",
+    "ja": "レポート：{name} · 範囲：{scope} · 計算ノード数：{nodes} · プロトコル：{protocols}",
+    "fr": "Rapport : {name} · Périmètre : {scope} · Nœuds inclus dans le calcul : {nodes} · Protocoles : {protocols}",
+    "de": "Bericht: {name} · Bereich: {scope} · Knoten im Rechenbereich: {nodes} · Protokolle: {protocols}",
+    "es": "Informe: {name} · Ámbito: {scope} · Nodos incluidos en el cálculo: {nodes} · Protocolos: {protocols}"
+  },
+  "operation.report.pending": {
+    "zh-CN": "第 {depth} 层 · 已评价组合数：{evaluated} · 待评价组合数：{count} · 候选 ID 组合：{ids}",
+    "en": "Layer {depth} · Evaluated combinations: {evaluated} · Pending combinations: {count} · Candidate ID combinations: {ids}",
+    "ja": "第 {depth} 層 · 評価済みの組み合わせ数：{evaluated} · 評価待ちの組み合わせ数：{count} · 候補 ID の組み合わせ：{ids}",
+    "fr": "Niveau {depth} · Combinaisons évaluées : {evaluated} · Combinaisons en attente : {count} · Combinaisons d’ID de candidats : {ids}",
+    "de": "Ebene {depth} · Bewertete Kombinationen: {evaluated} · Ausstehende Kombinationen: {count} · Kombinationen von Kandidaten-IDs: {ids}",
+    "es": "Nivel {depth} · Combinaciones evaluadas: {evaluated} · Combinaciones pendientes: {count} · Combinaciones de ID de candidatos: {ids}"
+  },
+  "operation.report.unrun": {
+    "zh-CN": "第 {depth} 层 · 未评价组合数：{count} · 候选 ID 组合：{ids}",
+    "en": "Layer {depth} · Unevaluated combinations: {count} · Candidate ID combinations: {ids}",
+    "ja": "第 {depth} 層 · 未評価の組み合わせ数：{count} · 候補 ID の組み合わせ：{ids}",
+    "fr": "Niveau {depth} · Combinaisons non évaluées : {count} · Combinaisons d’ID de candidats : {ids}",
+    "de": "Ebene {depth} · Nicht bewertete Kombinationen: {count} · Kombinationen von Kandidaten-IDs: {ids}",
+    "es": "Nivel {depth} · Combinaciones sin evaluar: {count} · Combinaciones de ID de candidatos: {ids}"
+  },
+  "operation.report.none": {
+    "zh-CN": "无",
+    "en": "None",
+    "ja": "なし",
+    "fr": "Aucun élément",
+    "de": "Keine",
+    "es": "Ningún elemento"
+  },
+  "operation.report.noUnrun": {
+    "zh-CN": "已生成的组合中没有待评价项。",
+    "en": "No generated combinations remain unevaluated.",
+    "ja": "生成済みの組み合わせに未評価のものはありません。",
+    "fr": "Aucune combinaison générée ne reste à évaluer.",
+    "de": "Keine erzeugten Kombinationen sind noch unbewertet.",
+    "es": "No quedan combinaciones generadas sin evaluar."
+  },
+  "operation.report.curves": {
+    "zh-CN": "所选方案曲线：{state}。可保存比较，或选择已有条件进入分析。",
+    "en": "Selected-plan curves: {state}. Save the comparison or select an available condition for analysis.",
+    "ja": "選択した計画の曲線：{state}。比較を保存するか、利用可能な条件を選択して解析してください。",
+    "fr": "Courbes du plan sélectionné : {state}. Enregistrez la comparaison ou choisissez une condition disponible pour l’analyse.",
+    "de": "Kurven des ausgewählten Plans: {state}. Speichern Sie den Vergleich oder wählen Sie eine verfügbare Bedingung für die Analyse.",
+    "es": "Curvas del plan seleccionado: {state}. Guarde la comparación o seleccione una condición disponible para analizarla."
+  }
+}

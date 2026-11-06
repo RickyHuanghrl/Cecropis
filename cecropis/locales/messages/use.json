@@ -1,0 +1,602 @@
+{
+  "use.absoluteUnit": {
+    "zh-CN": "{value} 平均活动单位",
+    "en": "{value} mean activity units",
+    "ja": "平均活動単位 {value}",
+    "fr": "{value} unités d’activité moyenne",
+    "de": "{value} mittlere Aktivitätseinheiten",
+    "es": "{value} unidades de actividad media"
+  },
+  "use.activity": {
+    "zh-CN": "活动回放",
+    "en": "Activity replay",
+    "ja": "活動の再生",
+    "fr": "Relecture d’activité",
+    "de": "Aktivitätswiedergabe",
+    "es": "Reproducción de actividad"
+  },
+  "use.add": {
+    "zh-CN": "加入共享选择",
+    "en": "Add to shared selection",
+    "ja": "共有選択に追加",
+    "fr": "Ajouter à la sélection partagée",
+    "de": "Zur gemeinsamen Auswahl hinzufügen",
+    "es": "Añadir a la selección compartida"
+  },
+  "use.addCompare": {
+    "zh-CN": "将当前草稿加入比较",
+    "en": "Add current draft to comparison",
+    "ja": "現在の下書きを比較に追加",
+    "fr": "Ajouter le brouillon à la comparaison",
+    "de": "Aktuellen Entwurf zum Vergleich hinzufügen",
+    "es": "Añadir borrador a la comparación"
+  },
+  "use.adopt": {
+    "zh-CN": "用此条件替换当前草稿",
+    "en": "Replace current draft with this condition",
+    "ja": "この条件で現在の下書きを置換",
+    "fr": "Remplacer le brouillon par cette condition",
+    "de": "Aktuellen Entwurf durch diese Bedingung ersetzen",
+    "es": "Reemplazar borrador con esta condición"
+  },
+  "use.advanced": {
+    "zh-CN": "高级参数与记录",
+    "en": "Advanced parameters and recording",
+    "ja": "詳細パラメータと記録",
+    "fr": "Paramètres avancés et enregistrement",
+    "de": "Erweiterte Parameter und Aufzeichnung",
+    "es": "Parámetros avanzados y registro"
+  },
+  "use.allCurves": {
+    "zh-CN": "查看多个条件",
+    "en": "Show multiple conditions",
+    "ja": "複数条件を表示",
+    "fr": "Afficher plusieurs conditions",
+    "de": "Mehrere Bedingungen anzeigen",
+    "es": "Mostrar varias condiciones"
+  },
+  "use.analyze": {
+    "zh-CN": "分析此条件",
+    "en": "Analyze this condition",
+    "ja": "この条件を分析",
+    "fr": "Analyser cette condition",
+    "de": "Diese Bedingung analysieren",
+    "es": "Analizar esta condición"
+  },
+  "use.baseline": {
+    "zh-CN": "无干预基线",
+    "en": "No-intervention baseline",
+    "ja": "介入なしの基準",
+    "fr": "Référence sans intervention",
+    "de": "Referenz ohne Eingriff",
+    "es": "Referencia sin intervención"
+  },
+  "use.conditions": {
+    "zh-CN": "待比较条件",
+    "en": "Conditions to compare",
+    "ja": "比較する条件",
+    "fr": "Conditions à comparer",
+    "de": "Zu vergleichende Bedingungen",
+    "es": "Condiciones a comparar"
+  },
+  "use.configure": {
+    "zh-CN": "配置输入与观察",
+    "en": "Configure inputs and observations",
+    "ja": "入力と観察を設定",
+    "fr": "Configurer les entrées et observations",
+    "de": "Eingaben und Beobachtungen konfigurieren",
+    "es": "Configurar entradas y observaciones"
+  },
+  "use.contacts": {
+    "zh-CN": "连接计数",
+    "en": "Connection count",
+    "ja": "接続数",
+    "fr": "Nombre de connexions",
+    "de": "Verbindungszahl",
+    "es": "Número de conexiones"
+  },
+  "use.continue": {
+    "zh-CN": "继续已有工作",
+    "en": "Continue saved work",
+    "ja": "保存した作業を続ける",
+    "fr": "Continuer un travail enregistré",
+    "de": "Gespeicherte Arbeit fortsetzen",
+    "es": "Continuar trabajo guardado"
+  },
+  "use.cutEnd": {
+    "zh-CN": "截断端点位置",
+    "en": "Cut endpoint position",
+    "ja": "切断端の位置",
+    "fr": "Position de l’extrémité coupée",
+    "de": "Position des Schnittendes",
+    "es": "Posición del extremo cortado"
+  },
+  "use.details": {
+    "zh-CN": "条件详情",
+    "en": "Condition details",
+    "ja": "条件の詳細",
+    "fr": "Détails de la condition",
+    "de": "Bedingungsdetails",
+    "es": "Detalles de condición"
+  },
+  "use.downstream": {
+    "zh-CN": "下游",
+    "en": "Downstream",
+    "ja": "下流",
+    "fr": "Aval",
+    "de": "Nachgeschaltet",
+    "es": "Aguas abajo"
+  },
+  "use.draft": {
+    "zh-CN": "当前实验草稿",
+    "en": "Current experiment draft",
+    "ja": "現在の実験下書き",
+    "fr": "Brouillon actuel de l’expérience",
+    "de": "Aktueller Experimententwurf",
+    "es": "Borrador actual del experimento"
+  },
+  "use.emptyNeighbors": {
+    "zh-CN": "该方向没有真实连接",
+    "en": "No real connections in this direction",
+    "ja": "この方向に接続はありません",
+    "fr": "Aucune connexion réelle dans ce sens",
+    "de": "Keine realen Verbindungen in dieser Richtung",
+    "es": "No hay conexiones reales en esta dirección"
+  },
+  "use.exact": {
+    "zh-CN": "确切输入、观察与干预",
+    "en": "Exact inputs, observations and interventions",
+    "ja": "正確な入力・観察・介入",
+    "fr": "Entrées, observations et interventions exactes",
+    "de": "Exakte Eingaben, Beobachtungen und Eingriffe",
+    "es": "Entradas, observaciones e intervenciones exactas"
+  },
+  "use.exportTask": {
+    "zh-CN": "导出固定任务",
+    "en": "Export fixed task",
+    "ja": "固定タスクを出力",
+    "fr": "Exporter une tâche fixe",
+    "de": "Feste Aufgabe exportieren",
+    "es": "Exportar tarea fija"
+  },
+  "use.fail": {
+    "zh-CN": "未满足",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "use.focus": {
+    "zh-CN": "当前聚焦节点",
+    "en": "Focused node",
+    "ja": "注目ノード",
+    "fr": "Nœud focalisé",
+    "de": "Fokussierter Knoten",
+    "es": "Nodo enfocado"
+  },
+  "use.focusHint": {
+    "zh-CN": "点击真实骨架查看节点与连接",
+    "en": "Click a skeleton to inspect its node and connections",
+    "ja": "骨格をクリックしてノードと接続を確認",
+    "fr": "Cliquez sur un squelette pour examiner son nœud et ses connexions",
+    "de": "Ein Skelett anklicken, um Knoten und Verbindungen zu prüfen",
+    "es": "Pulse un esqueleto para ver su nodo y conexiones"
+  },
+  "use.fromSelection": {
+    "zh-CN": "用所选节点建立范围",
+    "en": "Build a scope from selected nodes",
+    "ja": "選択ノードで範囲を作る",
+    "fr": "Créer un périmètre avec la sélection",
+    "de": "Bereich aus ausgewählten Knoten erstellen",
+    "es": "Crear ámbito con los nodos seleccionados"
+  },
+  "use.inputActive": {
+    "zh-CN": "当前输入以事件表为准；下方简易设置仅在明确替换时生效",
+    "en": "The event table defines the input; quick settings apply only when explicitly used to replace it",
+    "ja": "入力はイベント表で定義します。簡易設定は明示的に置換した場合のみ有効です",
+    "fr": "Le tableau définit les entrées ; les réglages rapides servent uniquement à un remplacement explicite",
+    "de": "Die Ereignistabelle definiert die Eingabe; Schnelleinstellungen gelten nur bei ausdrücklichem Ersetzen",
+    "es": "La tabla define las entradas; los ajustes rápidos solo se aplican al reemplazar explícitamente"
+  },
+  "use.inputSummary": {
+    "zh-CN": "输入 {events} 个事件 · 观察 {observations} 个集合",
+    "en": "{events} input events · {observations} observation sets",
+    "ja": "入力 {events} イベント · 観察 {observations} 集合",
+    "fr": "{events} événements d’entrée · {observations} ensembles observés",
+    "de": "{events} Eingabeereignisse · {observations} Beobachtungsmengen",
+    "es": "{events} eventos de entrada · {observations} conjuntos observados"
+  },
+  "use.intervention": {
+    "zh-CN": "干预响应",
+    "en": "Intervention response",
+    "ja": "介入応答",
+    "fr": "Réponse avec intervention",
+    "de": "Antwort mit Eingriff",
+    "es": "Respuesta con intervención"
+  },
+  "use.knownZero": {
+    "zh-CN": "0 是已记录零值",
+    "en": "0 is a recorded zero",
+    "ja": "0 は記録されたゼロ値",
+    "fr": "0 est une valeur nulle enregistrée",
+    "de": "0 ist ein aufgezeichneter Nullwert",
+    "es": "0 es un cero registrado"
+  },
+  "use.layers": {
+    "zh-CN": "图层与显示",
+    "en": "Layers and display",
+    "ja": "レイヤーと表示",
+    "fr": "Couches et affichage",
+    "de": "Ebenen und Darstellung",
+    "es": "Capas y visualización"
+  },
+  "use.locate": {
+    "zh-CN": "在空间中定位",
+    "en": "Locate in space",
+    "ja": "空間で位置を確認",
+    "fr": "Localiser dans l’espace",
+    "de": "Im Raum lokalisieren",
+    "es": "Localizar en el espacio"
+  },
+  "use.maintenance": {
+    "zh-CN": "几何维护与缓存",
+    "en": "Geometry maintenance and cache",
+    "ja": "形状データとキャッシュの管理",
+    "fr": "Maintenance géométrique et cache",
+    "de": "Geometriewartung und Cache",
+    "es": "Mantenimiento de geometría y caché"
+  },
+  "use.maximumLoss": {
+    "zh-CN": "下降不超过 {value}",
+    "en": "Decrease of at most {value}",
+    "ja": "低下は {value} 以下",
+    "fr": "Baisse d’au plus {value}",
+    "de": "Rückgang von höchstens {value}",
+    "es": "Disminución de como máximo {value}"
+  },
+  "use.minimumLoss": {
+    "zh-CN": "下降至少 {value}",
+    "en": "Decrease of at least {value}",
+    "ja": "{value} 以上の低下",
+    "fr": "Baisse d’au moins {value}",
+    "de": "Rückgang von mindestens {value}",
+    "es": "Disminución de al menos {value}"
+  },
+  "use.missingActivity": {
+    "zh-CN": "未记录活动",
+    "en": "Activity not recorded",
+    "ja": "活動未記録",
+    "fr": "Activité non enregistrée",
+    "de": "Aktivität nicht aufgezeichnet",
+    "es": "Actividad no registrada"
+  },
+  "use.name": {
+    "zh-CN": "名称／类型",
+    "en": "Name / type",
+    "ja": "名前／型",
+    "fr": "Nom / type",
+    "de": "Name / Typ",
+    "es": "Nombre / tipo"
+  },
+  "use.neighborEdges": {
+    "zh-CN": "显示当前页真实连接",
+    "en": "Show real connections on this page",
+    "ja": "現在のページの接続を表示",
+    "fr": "Afficher les connexions réelles de cette page",
+    "de": "Reale Verbindungen dieser Seite anzeigen",
+    "es": "Mostrar conexiones reales de esta página"
+  },
+  "use.neighborPage": {
+    "zh-CN": "显示 {start}–{stop} / {total}，按连接计数排序",
+    "en": "Showing {start}–{stop} of {total}, ordered by connection count",
+    "ja": "{total} 件中 {start}–{stop}、接続数順",
+    "fr": "{start}–{stop} sur {total}, par nombre de connexions",
+    "de": "{start}–{stop} von {total}, nach Verbindungszahl",
+    "es": "{start}–{stop} de {total}, por número de conexiones"
+  },
+  "use.new": {
+    "zh-CN": "开始新实验",
+    "en": "Start an experiment",
+    "ja": "実験を始める",
+    "fr": "Commencer une expérience",
+    "de": "Experiment beginnen",
+    "es": "Iniciar experimento"
+  },
+  "use.next": {
+    "zh-CN": "下一页",
+    "en": "Next",
+    "ja": "次へ",
+    "fr": "Suivant",
+    "de": "Weiter",
+    "es": "Siguiente"
+  },
+  "use.noResult": {
+    "zh-CN": "尚无计算结果；加入条件后运行比较",
+    "en": "No results yet; add conditions and run comparison",
+    "ja": "条件を追加して比較を実行してください",
+    "fr": "Ajoutez des conditions et lancez la comparaison",
+    "de": "Bedingungen hinzufügen und Vergleich ausführen",
+    "es": "Añada condiciones y ejecute la comparación"
+  },
+  "use.noSaved": {
+    "zh-CN": "尚无保存的工作",
+    "en": "No saved work yet",
+    "ja": "保存した作業はありません",
+    "fr": "Aucun travail enregistré",
+    "de": "Noch keine gespeicherte Arbeit",
+    "es": "Aún no hay trabajo guardado"
+  },
+  "use.nodeDetails": {
+    "zh-CN": "节点详情",
+    "en": "Node details",
+    "ja": "ノード詳細",
+    "fr": "Détails du nœud",
+    "de": "Knotendetails",
+    "es": "Detalles del nodo"
+  },
+  "use.notConfigured": {
+    "zh-CN": "未设置",
+    "en": "Not configured",
+    "ja": "未設定",
+    "fr": "Non configuré",
+    "de": "Nicht festgelegt",
+    "es": "Sin configurar"
+  },
+  "use.openLatest": {
+    "zh-CN": "打开最近保存的工作",
+    "en": "Open recent saved work",
+    "ja": "最近の保存を開く",
+    "fr": "Ouvrir le travail récent",
+    "de": "Letzte Arbeit öffnen",
+    "es": "Abrir trabajo reciente"
+  },
+  "use.pass": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "use.prepareCondition": {
+    "zh-CN": "编辑输入、观察与干预后，再加入条件",
+    "en": "Edit inputs, observations and interventions, then add a condition",
+    "ja": "入力・観察・介入を編集して条件を追加してください",
+    "fr": "Modifiez les entrées, observations et interventions, puis ajoutez une condition",
+    "de": "Eingaben, Beobachtungen und Eingriffe bearbeiten, dann eine Bedingung hinzufügen",
+    "es": "Edite entradas, observaciones e intervenciones y añada una condición"
+  },
+  "use.previous": {
+    "zh-CN": "上一页",
+    "en": "Previous",
+    "ja": "前へ",
+    "fr": "Précédent",
+    "de": "Zurück",
+    "es": "Anterior"
+  },
+  "use.protection": {
+    "zh-CN": "保护要求",
+    "en": "Protection requirements",
+    "ja": "保護要件",
+    "fr": "Exigences de protection",
+    "de": "Schutzanforderungen",
+    "es": "Requisitos de protección"
+  },
+  "use.quickInput": {
+    "zh-CN": "简易输入替换",
+    "en": "Quick input replacement",
+    "ja": "簡易入力で置換",
+    "fr": "Remplacement rapide des entrées",
+    "de": "Eingabe schnell ersetzen",
+    "es": "Reemplazo rápido de entrada"
+  },
+  "use.readyCompare": {
+    "zh-CN": "条件已加入，可以运行比较。",
+    "en": "Condition added. Ready to compare.",
+    "ja": "条件を追加しました。比較を実行できます。",
+    "fr": "Condition ajoutée. La comparaison peut être lancée.",
+    "de": "Bedingung hinzugefügt. Der Vergleich kann gestartet werden.",
+    "es": "Condición añadida. Puede ejecutar la comparación."
+  },
+  "use.recordMissing": {
+    "zh-CN": "该条件没有匹配的回放记录，请在分析页准备。",
+    "en": "No matching replay for this condition. Prepare a recording in Analysis.",
+    "ja": "この条件に一致するリプレイがありません。分析画面で記録を作成してください。",
+    "fr": "Aucune lecture ne correspond à cette condition. Préparez un enregistrement dans Analyse.",
+    "de": "Keine passende Wiedergabe für diese Bedingung. Erstellen Sie eine Aufzeichnung unter Analyse.",
+    "es": "No hay una reproducción para esta condición. Prepare una grabación en Análisis."
+  },
+  "use.remove": {
+    "zh-CN": "从共享选择移除",
+    "en": "Remove from shared selection",
+    "ja": "共有選択から削除",
+    "fr": "Retirer de la sélection partagée",
+    "de": "Aus gemeinsamer Auswahl entfernen",
+    "es": "Quitar de la selección compartida"
+  },
+  "use.replaceConfirm": {
+    "zh-CN": "用此条件覆盖已修改的草稿？",
+    "en": "Replace the edited draft with this condition?",
+    "ja": "編集中の下書きをこの条件で置き換えますか？",
+    "fr": "Remplacer le brouillon modifié par cette condition ?",
+    "de": "Den bearbeiteten Entwurf durch diese Bedingung ersetzen?",
+    "es": "¿Reemplazar el borrador modificado por esta condición?"
+  },
+  "use.replaceInput": {
+    "zh-CN": "将输入事件替换为此脉冲",
+    "en": "Replace input events with this pulse",
+    "ja": "入力イベントをこのパルスに置換",
+    "fr": "Remplacer les événements par cette impulsion",
+    "de": "Eingabeereignisse durch diesen Impuls ersetzen",
+    "es": "Reemplazar eventos por este pulso"
+  },
+  "use.response": {
+    "zh-CN": "响应变化",
+    "en": "Response change",
+    "ja": "応答の変化",
+    "fr": "Variation de réponse",
+    "de": "Antwortänderung",
+    "es": "Cambio de respuesta"
+  },
+  "use.restoreDraft": {
+    "zh-CN": "载入此现场将替换尚未保存的实验草稿。继续吗？",
+    "en": "Loading this session will replace the unsaved experiment draft. Continue?",
+    "ja": "この現場の読込は未保存の実験下書きを置換します。続けますか？",
+    "fr": "Cette session remplacera le brouillon non enregistré. Continuer ?",
+    "de": "Diese Sitzung ersetzt den ungespeicherten Entwurf. Fortfahren?",
+    "es": "Esta sesión reemplazará el borrador sin guardar. ¿Continuar?"
+  },
+  "use.resultActions": {
+    "zh-CN": "已计算结果",
+    "en": "Computed results",
+    "ja": "計算済み結果",
+    "fr": "Résultats calculés",
+    "de": "Berechnete Ergebnisse",
+    "es": "Resultados calculados"
+  },
+  "use.runDraft": {
+    "zh-CN": "运行当前草稿",
+    "en": "Run current draft",
+    "ja": "現在の下書きを実行",
+    "fr": "Exécuter le brouillon actuel",
+    "de": "Aktuellen Entwurf ausführen",
+    "es": "Ejecutar borrador actual"
+  },
+  "use.saveDraft": {
+    "zh-CN": "同时保存当前有效实验草稿",
+    "en": "Include the current valid experiment draft",
+    "ja": "現在の有効な実験下書きも保存",
+    "fr": "Inclure le brouillon valide actuel",
+    "de": "Aktuellen gültigen Experimententwurf mitspeichern",
+    "es": "Incluir el borrador válido actual"
+  },
+  "use.saveRun": {
+    "zh-CN": "保存当前运行结果",
+    "en": "Save current run result",
+    "ja": "現在の実行結果を保存",
+    "fr": "Enregistrer le résultat actuel",
+    "de": "Aktuelles Laufergebnis speichern",
+    "es": "Guardar resultado actual"
+  },
+  "use.savedResult": {
+    "zh-CN": "保存比较结果",
+    "en": "Save comparison results",
+    "ja": "比較結果を保存",
+    "fr": "Enregistrer les résultats comparés",
+    "de": "Vergleichsergebnisse speichern",
+    "es": "Guardar resultados comparados"
+  },
+  "use.sceneName": {
+    "zh-CN": "分析现场名称",
+    "en": "Analysis session name",
+    "ja": "分析現場の名前",
+    "fr": "Nom de la session d’analyse",
+    "de": "Name der Analysesitzung",
+    "es": "Nombre de sesión de análisis"
+  },
+  "use.scopeReady": {
+    "zh-CN": "当前范围已可配置；选择集合不会改变范围",
+    "en": "The current scope is ready; selecting nodes does not change it",
+    "ja": "現在の範囲は設定可能です。ノード選択では範囲は変わりません",
+    "fr": "Le périmètre est prêt ; sélectionner des nœuds ne le modifie pas",
+    "de": "Der Bereich ist bereit; Knotenauswahl verändert ihn nicht",
+    "es": "El ámbito está listo; seleccionar nodos no lo modifica"
+  },
+  "use.searchJoint": {
+    "zh-CN": "寻找适用于多个输入条件的同一集合",
+    "en": "Find one set for multiple input conditions",
+    "ja": "複数入力条件で使う同じ集合を探索",
+    "fr": "Chercher un même ensemble pour plusieurs entrées",
+    "de": "Eine gemeinsame Menge für mehrere Eingabebedingungen suchen",
+    "es": "Buscar un conjunto común para varias entradas"
+  },
+  "use.searchNodes": {
+    "zh-CN": "固定强度和时段下寻找节点集合",
+    "en": "Find node sets at fixed gain and timing",
+    "ja": "固定ゲイン・時刻でノード集合を探索",
+    "fr": "Chercher un ensemble de nœuds à gain et période fixes",
+    "de": "Knotenmenge bei festem Gain und Zeitraum suchen",
+    "es": "Buscar conjuntos con ganancia y período fijos"
+  },
+  "use.searchOperations": {
+    "zh-CN": "从允许的操作库中组合方案",
+    "en": "Combine operations from an allowed library",
+    "ja": "許可した操作を組み合わせる",
+    "fr": "Combiner les opérations autorisées",
+    "de": "Zugelassene Operationen kombinieren",
+    "es": "Combinar operaciones permitidas"
+  },
+  "use.searchPrerequisite": {
+    "zh-CN": "先配置输入和观察；各工具中再设置目标、允许操作及预算",
+    "en": "Configure inputs and observations, then set goals, allowed operations and budget in the tool",
+    "ja": "入力と観察を設定し、ツール内で目標・操作・予算を指定",
+    "fr": "Configurez les entrées et observations, puis les objectifs, opérations et budget",
+    "de": "Eingaben und Beobachtungen konfigurieren, dann Ziele, Operationen und Budget festlegen",
+    "es": "Configure entradas y observaciones, después objetivos, operaciones y presupuesto"
+  },
+  "use.searchTiming": {
+    "zh-CN": "固定节点和增益，只探索开始与持续时间",
+    "en": "Explore start and duration at fixed nodes and gain",
+    "ja": "ノードとゲインを固定し開始・継続時間を探索",
+    "fr": "Explorer le début et la durée à nœuds et gain fixes",
+    "de": "Start und Dauer bei festen Knoten und Gain untersuchen",
+    "es": "Explorar inicio y duración con nodos y ganancia fijos"
+  },
+  "use.selectFirst": {
+    "zh-CN": "先从查询、群体或空间中选择节点",
+    "en": "Select nodes through query, groups or space first",
+    "ja": "検索・グループ・空間でノードを選択してください",
+    "fr": "Sélectionnez d’abord des nœuds par recherche, groupes ou espace",
+    "de": "Zuerst Knoten über Suche, Gruppen oder Raum auswählen",
+    "es": "Seleccione primero nodos mediante búsqueda, grupos o espacio"
+  },
+  "use.selectedCount": {
+    "zh-CN": "共享选择 {count} 个节点",
+    "en": "Nodes in shared selection: {count}",
+    "ja": "共有選択：{count} ノード",
+    "fr": "Sélection partagée : {count} nœuds",
+    "de": "Gemeinsame Auswahl: {count} Knoten",
+    "es": "Selección compartida: {count} nodos"
+  },
+  "use.soma": {
+    "zh-CN": "胞体位置",
+    "en": "Soma position",
+    "ja": "細胞体位置",
+    "fr": "Position du soma",
+    "de": "Somaposition",
+    "es": "Posición del soma"
+  },
+  "use.sourceReadOnly": {
+    "zh-CN": "已保存结果只读；采用条件后编辑的是新草稿",
+    "en": "Saved results are read-only; adopted conditions become a new draft",
+    "ja": "保存結果は読み取り専用です。採用した条件は新しい下書きになります",
+    "fr": "Les résultats enregistrés sont en lecture seule ; adopter crée un brouillon",
+    "de": "Gespeicherte Ergebnisse sind schreibgeschützt; Übernahme erstellt einen Entwurf",
+    "es": "Los resultados guardados son de solo lectura; adoptar crea un borrador"
+  },
+  "use.toIntervention": {
+    "zh-CN": "将所选节点追加到干预草稿",
+    "en": "Append selected nodes to intervention draft",
+    "ja": "選択ノードを介入下書きに追加",
+    "fr": "Ajouter la sélection au brouillon d’intervention",
+    "de": "Auswahl zum Eingriffsentwurf hinzufügen",
+    "es": "Añadir selección al borrador de intervención"
+  },
+  "use.undefined": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "use.upstream": {
+    "zh-CN": "上游",
+    "en": "Upstream",
+    "ja": "上流",
+    "fr": "Amont",
+    "de": "Vorgeschaltet",
+    "es": "Aguas arriba"
+  }
+}

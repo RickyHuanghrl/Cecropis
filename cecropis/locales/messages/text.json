@@ -1,0 +1,162 @@
+{
+  "text.006101ccd648": {
+    "zh-CN": "全部已定义集合",
+    "en": "All defined sets",
+    "ja": "すべての定義済み集合",
+    "fr": "Tous les ensembles définis",
+    "de": "Alle definierten Mengen",
+    "es": "Todos los conjuntos definidos"
+  },
+  "text.13acf235b8f8": {
+    "zh-CN": "草稿编辑方式",
+    "en": "Draft update mode",
+    "ja": "草稿の編集方法",
+    "fr": "Mode de modification",
+    "de": "Entwurfsmodus",
+    "es": "Modo de borrador"
+  },
+  "text.2479560deb33": {
+    "zh-CN": "任务名称",
+    "en": "Task name",
+    "ja": "タスク名",
+    "fr": "Nom de tâche",
+    "de": "Aufgabenname",
+    "es": "Nombre de tarea"
+  },
+  "text.2584921cf7cd": {
+    "zh-CN": "导出内容",
+    "en": "Export content",
+    "ja": "出力内容",
+    "fr": "Contenu à exporter",
+    "de": "Exportinhalt",
+    "es": "Contenido a exportar"
+  },
+  "text.3be0945335ef": {
+    "zh-CN": "不追加筛选",
+    "en": "No additional filter",
+    "ja": "追加フィルターなし",
+    "fr": "Aucun filtre supplémentaire",
+    "de": "Kein zusätzlicher Filter",
+    "es": "Sin filtro adicional"
+  },
+  "text.3e41b59e14b0": {
+    "zh-CN": "集合用途",
+    "en": "Use selection for",
+    "ja": "集合の用途",
+    "fr": "Usage de la sélection",
+    "de": "Auswahl verwenden für",
+    "es": "Uso de selección"
+  },
+  "text.3fd5f4b04386": {
+    "zh-CN": "条件名称",
+    "en": "Condition name",
+    "ja": "条件名",
+    "fr": "Nom de condition",
+    "de": "Bedingungsname",
+    "es": "Nombre de condición"
+  },
+  "text.48e70c30dbd6": {
+    "zh-CN": "决策协议",
+    "en": "Decision protocols",
+    "ja": "判定用プロトコル",
+    "fr": "Protocoles de décision",
+    "de": "Entscheidungsprotokolle",
+    "es": "Protocolos de decisión"
+  },
+  "text.578e09ba7945": {
+    "zh-CN": "回放结果来源",
+    "en": "Replay source",
+    "ja": "再生の結果ソース",
+    "fr": "Source de lecture",
+    "de": "Wiedergabequelle",
+    "es": "Origen de reproducción"
+  },
+  "text.6e2889b2fda3": {
+    "zh-CN": "分析输出",
+    "en": "Observation to analyze",
+    "ja": "分析する観測",
+    "fr": "Observation à analyser",
+    "de": "Zu analysierende Beobachtung",
+    "es": "Observación a analizar"
+  },
+  "text.7281b7bc5e7f": {
+    "zh-CN": "信号分析条件",
+    "en": "Signal condition",
+    "ja": "信号分析の条件",
+    "fr": "Condition du signal",
+    "de": "Signalbedingung",
+    "es": "Condición de señal"
+  },
+  "text.7aee3b59e280": {
+    "zh-CN": "矩阵指标",
+    "en": "Matrix metric",
+    "ja": "行列指標",
+    "fr": "Mesure de la matrice",
+    "de": "Matrixkennzahl",
+    "es": "Métrica de matriz"
+  },
+  "text.83466b0c6f78": {
+    "zh-CN": "扩展方向",
+    "en": "Expansion direction",
+    "ja": "拡張方向",
+    "fr": "Sens d’expansion",
+    "de": "Erweiterungsrichtung",
+    "es": "Dirección de expansión"
+  },
+  "text.93ee38a413f7": {
+    "zh-CN": "现场名称",
+    "en": "Session name",
+    "ja": "分析状態名",
+    "fr": "Nom de session",
+    "de": "Sitzungsname",
+    "es": "Nombre de sesión"
+  },
+  "text.9c5e9257768f": {
+    "zh-CN": "关闭节点详情",
+    "en": "Close node details",
+    "ja": "ノード詳細を閉じる",
+    "fr": "Fermer les détails",
+    "de": "Knotendetails schließen",
+    "es": "Cerrar detalles"
+  },
+  "text.a48b97349147": {
+    "zh-CN": "分析视图",
+    "en": "Analysis view",
+    "ja": "分析ビュー",
+    "fr": "Vue d’analyse",
+    "de": "Analyseansicht",
+    "es": "Vista de análisis"
+  },
+  "text.a68efcec4684": {
+    "zh-CN": "注释值",
+    "en": "Annotation value",
+    "ja": "注釈値",
+    "fr": "Valeur d’annotation",
+    "de": "Annotationswert",
+    "es": "Valor de anotación"
+  },
+  "text.b7e7f3ea26bb": {
+    "zh-CN": "回放显示模式",
+    "en": "Replay mode",
+    "ja": "再生モード",
+    "fr": "Mode de lecture",
+    "de": "Wiedergabemodus",
+    "es": "Modo de reproducción"
+  },
+  "text.cd363cf14c64": {
+    "zh-CN": "body ID，可留空",
+    "en": "Body ID, optional",
+    "ja": "body ID（省略可）",
+    "fr": "Body ID facultatif",
+    "de": "Body-ID, optional",
+    "es": "Body ID opcional"
+  },
+  "text.da7b197669c2": {
+    "zh-CN": "离线报告条件",
+    "en": "Report conditions",
+    "ja": "レポートの条件",
+    "fr": "Conditions du rapport",
+    "de": "Berichtsbedingungen",
+    "es": "Condiciones del informe"
+  }
+}

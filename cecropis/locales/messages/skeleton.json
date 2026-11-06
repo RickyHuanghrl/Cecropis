@@ -1,0 +1,266 @@
+{
+  "skeleton.controls.cancel_complete_keep_097285": {
+    "zh-CN": "正在取消；已完成缓存保留",
+    "en": "Cancelling. Completed caches will be retained.",
+    "ja": "キャンセル中。完成したキャッシュは保持されます。",
+    "fr": "Annulation en cours. Les caches terminés seront conservés.",
+    "de": "Abbruch läuft. Fertige Caches bleiben erhalten.",
+    "es": "Cancelando. Se conservarán las cachés completadas."
+  },
+  "skeleton.controls.failed_569fca": {
+    "zh-CN": "几何解码线程失败；可重新载入",
+    "en": "Geometry decoder failed. Reload to retry.",
+    "ja": "形態デコーダーに失敗しました。再読み込みして再試行してください。",
+    "fr": "Échec du décodeur géométrique. Rechargez pour réessayer.",
+    "de": "Geometriedekodierung fehlgeschlagen. Zum Wiederholen neu laden.",
+    "es": "Falló el decodificador geométrico. Recargue para reintentar."
+  },
+  "skeleton.controls.failed_d1806e": {
+    "zh-CN": "几何读取失败",
+    "en": "Failed to read geometry",
+    "ja": "形状データを読み込めませんでした",
+    "fr": "Échec de lecture de la géométrie",
+    "de": "Geometrie konnte nicht gelesen werden",
+    "es": "Error al leer la geometría"
+  },
+  "skeleton.controls.geometry_loaded_awaiting_processing_1bcade": {
+    "zh-CN": "几何已载入 · 待处理 {p0}",
+    "en": "Geometry loaded · {p0} awaiting processing",
+    "ja": "形態読込済み・未処理{p0}",
+    "fr": "Géométrie chargée · {p0} en attente",
+    "de": "Geometrie geladen · {p0} ausstehend",
+    "es": "Geometría cargada · {p0} pendientes"
+  },
+  "skeleton.controls.keep_e356b3": {
+    "zh-CN": "几何未恢复：{p0}；点位／结果保留，未自动处理",
+    "en": "Geometry was not restored: {p0}. Positions and results are retained; no processing was started.",
+    "ja": "形態を復元できませんでした: {p0}。位置と結果は保持され、処理は開始されていません。",
+    "fr": "Géométrie non restaurée : {p0}. Positions et résultats conservés ; aucun traitement lancé.",
+    "de": "Geometrie nicht wiederhergestellt: {p0}. Positionen und Ergebnisse bleiben erhalten; keine Verarbeitung gestartet.",
+    "es": "No se restauró la geometría: {p0}. Se conservan posiciones y resultados; no se inició ningún procesamiento."
+  },
+  "skeleton.controls.message_615506": {
+    "zh-CN": "尚无已处理几何",
+    "en": "No processed geometry available",
+    "ja": "処理済みの形状データはありません",
+    "fr": "Aucune géométrie traitée disponible",
+    "de": "Keine verarbeitete Geometrie verfügbar",
+    "es": "No hay geometría procesada disponible"
+  },
+  "skeleton.controls.skeletons_annotated_unannotated_invalid_over_limit_mib_b_6e5145": {
+    "zh-CN": "可用骨架 {p0} / {p1} · {p2}有注释 · {p3}无注释 · {p4}无效／{p5}超限 · {p6} MiB · 背景 {p7}对象 · 连续主干概览／局部完整拓扑",
+    "en": "Skeletons {p0} / {p1} · annotated {p2} · unannotated {p3} · invalid {p4} / over limit {p5} · {p6} MiB · {p7} background objects · continuous overview / full local topology",
+    "ja": "骨格 {p0} / {p1}・注釈あり {p2}／なし {p3}・無効 {p4}／上限超過 {p5}・{p6} MiB・背景 {p7}・連続概観／局部全トポロジー",
+    "fr": "Squelettes {p0} / {p1} · annotés {p2} / sans annotation {p3} · invalides {p4} / hors limite {p5} · {p6} MiB · fond {p7} objets · vue continue / topologie locale complète",
+    "de": "Skelette {p0} / {p1} · annotiert {p2} / unannotiert {p3} · ungültig {p4} / über Limit {p5} · {p6} MiB · {p7} Hintergrundobjekte · durchgehende Übersicht / vollständige lokale Topologie",
+    "es": "Esqueletos {p0} / {p1} · anotados {p2} / sin anotación {p3} · inválidos {p4} / sobre límite {p5} · {p6} MiB · fondo {p7} objetos · vista continua / topología local completa"
+  },
+  "skeleton.controls.space_keep_select_fbb2c5": {
+    "zh-CN": "几何缓存身份或空间不匹配；已保留点位／选择，未套用旧几何设置",
+    "en": "Geometry cache or spatial identity mismatch. Positions and selection retained; previous geometry settings were not applied.",
+    "ja": "形態キャッシュまたは空間の識別情報が一致しません。位置と選択は保持し、以前の形態設定は適用していません。",
+    "fr": "Identité du cache géométrique ou de l’espace incompatible. Positions et sélection conservées ; anciens réglages non appliqués.",
+    "de": "Identität des Geometriecaches oder Raums stimmt nicht überein. Positionen und Auswahl bleiben erhalten; vorherige Einstellungen wurden nicht angewendet.",
+    "es": "No coincide la identidad de la caché geométrica o del espacio. Se conservan posiciones y selección; no se aplicaron los ajustes anteriores."
+  },
+  "skeleton.controls.spacesearchfailed_eb5b75": {
+    "zh-CN": "空间查询失败",
+    "en": "Spatial query failed",
+    "ja": "空間検索に失敗しました",
+    "fr": "Échec de la requête spatiale",
+    "de": "Räumliche Abfrage fehlgeschlagen",
+    "es": "Error en la consulta espacial"
+  },
+  "skeleton.controls.view_matches_directory_576_local_objects_segments_mib_fu_1b2629": {
+    "zh-CN": "视域候选 {p0}对象 · 目录 {p1} / 576上限 · 局部 {p2}对象／{p3}段 · {p4} MiB · 完整选择 {p5} · 细节32对象／24万段 · 管状9万段",
+    "en": "View matches {p0} · directory {p1} / 576 · local {p2} objects / {p3} segments · {p4} MiB · full selection {p5} · detail limits: 32 objects / 240,000 segments, 90,000 tubular",
+    "ja": "視域候補 {p0}・目録 {p1} / 576・局部 {p2}物体／{p3}区間・{p4} MiB・全選択 {p5}・詳細上限32物体／24万区間・管状9万",
+    "fr": "Correspondances {p0} · catalogue {p1} / 576 · local {p2} objets / {p3} segments · {p4} MiB · sélection complète {p5} · limites : 32 objets / 240 000 segments, 90 000 tubulaires",
+    "de": "Sichttreffer {p0} · Katalog {p1} / 576 · lokal {p2} Objekte / {p3} Segmente · {p4} MiB · Auswahl {p5} · Detailgrenzen: 32 Objekte / 240.000 Segmente, 90.000 röhrenförmig",
+    "es": "Coincidencias {p0} · catálogo {p1} / 576 · local {p2} objetos / {p3} segmentos · {p4} MiB · selección completa {p5} · límites: 32 objetos / 240.000 segmentos, 90.000 tubulares"
+  },
+  "skeleton.poll.message_3099d5": {
+    "zh-CN": "处理 {p0} / {p1} · {p2}",
+    "en": "processing {p0} / {p1} · {p2}",
+    "ja": "処理 {p0} / {p1} · {p2}",
+    "fr": "traitement {p0} / {p1} · {p2}",
+    "de": "Verarbeitung {p0} / {p1} · {p2}",
+    "es": "procesamiento {p0} / {p1} · {p2}"
+  },
+  "skeleton.poll.message_8fed5c": {
+    "zh-CN": "处理 {p0} · 已发布缓存可浏览；新增正式文件在下次更新纳入",
+    "en": "Processing: {p0}. Published caches remain browsable. New complete files will be included in the next update.",
+    "ja": "処理中: {p0}。公開済みキャッシュは閲覧できます。新しい完全ファイルは次回更新に含まれます。",
+    "fr": "Traitement : {p0}. Les caches publiés restent consultables. Les nouveaux fichiers complets seront inclus à la prochaine mise à jour.",
+    "de": "Verarbeitung: {p0}. Veröffentlichte Caches bleiben nutzbar. Neue vollständige Dateien werden beim nächsten Update einbezogen.",
+    "es": "Procesando: {p0}. Las cachés publicadas siguen disponibles. Los archivos completos nuevos se incluirán en la siguiente actualización."
+  },
+  "skeleton.poll.message_ee8626": {
+    "zh-CN": "几何准备",
+    "en": "Geometry preparation",
+    "ja": "形状データの準備",
+    "fr": "Préparation de la géométrie",
+    "de": "Geometrievorbereitung",
+    "es": "Preparación de geometría"
+  },
+  "skeleton.view.controls.0_80_m_zoom_in_0_100_2b9535": {
+    "zh-CN": "管径必须在(0,80] μm，半径放大必须在(0,100]",
+    "en": "Display diameter must be in (0,80] µm and radius scale in (0,100].",
+    "ja": "表示直径は (0,80] µm、半径倍率は (0,100] で指定してください。",
+    "fr": "Le diamètre d’affichage doit être dans (0,80] µm et le facteur de rayon dans (0,100].",
+    "de": "Anzeigedurchmesser: (0,80] µm; Radiusskalierung: (0,100].",
+    "es": "El diámetro de visualización debe estar en (0,80] µm y la escala del radio en (0,100]."
+  },
+  "skeleton.view.controls.background_intensity_0_1_dcb78f": {
+    "zh-CN": "背景强度必须在[0,1]",
+    "en": "Background intensity must be within [0, 1]",
+    "ja": "背景強度は [0, 1] の範囲で指定してください",
+    "fr": "L’intensité de fond doit être dans [0, 1]",
+    "de": "Die Hintergrundintensität muss in [0, 1] liegen",
+    "es": "La intensidad de fondo debe estar en [0, 1]"
+  },
+  "skeleton.view.controls.body_id_ef0768": {
+    "zh-CN": "骨架body ID必须是确切整数",
+    "en": "Skeleton body IDs must be exact integers",
+    "ja": "骨格の body ID は正確な整数で指定してください",
+    "fr": "Les body ID des squelettes doivent être des entiers exacts",
+    "de": "Skelett-body-IDs müssen exakte ganze Zahlen sein",
+    "es": "Los body ID de los esqueletos deben ser enteros exactos"
+  },
+  "skeleton.view.controls.budget_21323d": {
+    "zh-CN": "全局骨架背景超过显示缓存内存预算",
+    "en": "Global skeleton background exceeds the display cache memory budget",
+    "ja": "全体骨格背景が表示キャッシュのメモリ予算を超えています",
+    "fr": "Le fond global des squelettes dépasse le budget mémoire du cache d’affichage",
+    "de": "Der globale Skeletthintergrund überschreitet das Speicherbudget des Anzeigecaches",
+    "es": "El fondo global de esqueletos supera el presupuesto de memoria de la caché de visualización"
+  },
+  "skeleton.view.controls.budget_3fc1b1": {
+    "zh-CN": "全局骨架背景超过线段显示预算",
+    "en": "Global skeleton background exceeds the segment display budget",
+    "ja": "全体骨格背景が表示線分数の予算を超えています",
+    "fr": "Le fond global des squelettes dépasse le budget de segments affichés",
+    "de": "Der globale Skeletthintergrund überschreitet das Anzeigebudget für Segmente",
+    "es": "El fondo global de esqueletos supera el presupuesto de segmentos visibles"
+  },
+  "skeleton.view.controls.budget_702864": {
+    "zh-CN": "单个骨架超过显示缓存预算；请使用较粗层级：",
+    "en": "A skeleton exceeds the display cache budget. Use a coarser level: ",
+    "ja": "骨格が表示キャッシュ予算を超えています。粗いレベルを使用してください: ",
+    "fr": "Un squelette dépasse le budget du cache d’affichage. Utilisez un niveau plus grossier : ",
+    "de": "Ein Skelett überschreitet das Anzeigecachebudget. Eine gröbere Stufe verwenden: ",
+    "es": "Un esqueleto supera el presupuesto de la caché de visualización. Use un nivel menos detallado:"
+  },
+  "skeleton.view.controls.connections_972d3c": {
+    "zh-CN": "骨架连接顶点越界：",
+    "en": "Skeleton edge vertex index is out of bounds: ",
+    "ja": "骨格エッジの頂点インデックスが範囲外です: ",
+    "fr": "Indice de sommet d’arête du squelette hors limites : ",
+    "de": "Scheitelindex einer Skelettkante außerhalb der Grenzen: ",
+    "es": "Índice de vértice de arista del esqueleto fuera de rango:"
+  },
+  "skeleton.view.controls.count_3485b4": {
+    "zh-CN": "骨架半径数量不匹配：",
+    "en": "Skeleton radius count mismatch: ",
+    "ja": "骨格の半径数が一致しません: ",
+    "fr": "Nombre de rayons du squelette incohérent : ",
+    "de": "Anzahl der Skelettradien stimmt nicht überein: ",
+    "es": "No coincide el número de radios del esqueleto:"
+  },
+  "skeleton.view.controls.display_quality_f7cf7b": {
+    "zh-CN": "显示质量无效",
+    "en": "Invalid display quality",
+    "ja": "表示品質が無効です",
+    "fr": "Qualité d’affichage invalide",
+    "de": "Ungültige Anzeigequalität",
+    "es": "Calidad de visualización no válida"
+  },
+  "skeleton.view.controls.gpu_d4d033": {
+    "zh-CN": "GPU不支持实例绘制；骨架背景可用，局部管状细节不可用",
+    "en": "Instanced rendering is unavailable. Skeleton backgrounds remain visible; detailed tubes are unavailable.",
+    "ja": "インスタンス描画は利用できません。骨格背景は表示できますが、詳細な管状形態は表示できません。",
+    "fr": "Rendu instancié indisponible. Le fond squelettique reste visible ; les tubes détaillés sont indisponibles.",
+    "de": "Instanziiertes Rendering nicht verfügbar. Skeletthintergrund bleibt sichtbar; detaillierte Röhren sind nicht verfügbar.",
+    "es": "El renderizado por instancias no está disponible. El fondo de esqueletos sigue visible; los tubos detallados no están disponibles."
+  },
+  "skeleton.view.controls.id_7adef3": {
+    "zh-CN": "全局骨架背景ID无效",
+    "en": "Invalid global skeleton background ID",
+    "ja": "全体骨格背景の ID が無効です",
+    "fr": "ID du fond global des squelettes invalide",
+    "de": "Ungültige ID im globalen Skeletthintergrund",
+    "es": "ID del fondo global de esqueletos no válido"
+  },
+  "skeleton.view.controls.message_27406b": {
+    "zh-CN": "骨架没有顶点：",
+    "en": "Skeleton has no vertices: ",
+    "ja": "骨格に頂点がありません: ",
+    "fr": "Le squelette ne contient aucun sommet : ",
+    "de": "Skelett enthält keine Scheitelpunkte: ",
+    "es": "El esqueleto no tiene vértices:"
+  },
+  "skeleton.view.controls.message_31e6b4": {
+    "zh-CN": "全局骨架背景缓冲格式无效",
+    "en": "Invalid global skeleton background buffer format",
+    "ja": "全体骨格背景バッファーの形式が無効です",
+    "fr": "Format de tampon du fond global des squelettes invalide",
+    "de": "Ungültiges Pufferformat des globalen Skeletthintergrunds",
+    "es": "Formato de búfer del fondo global de esqueletos no válido"
+  },
+  "skeleton.view.controls.message_458aee": {
+    "zh-CN": "骨架显示参数无效：",
+    "en": "Invalid skeleton display parameters: ",
+    "ja": "骨格表示パラメータが無効です: ",
+    "fr": "Paramètres d’affichage du squelette invalides : ",
+    "de": "Ungültige Skelettanzeigeparameter: ",
+    "es": "Parámetros de visualización del esqueleto no válidos:"
+  },
+  "skeleton.view.controls.message_4824be": {
+    "zh-CN": "骨架显示开关必须为布尔值",
+    "en": "Skeleton visibility must be a Boolean value",
+    "ja": "骨格の表示設定は真偽値が必要です",
+    "fr": "La visibilité des squelettes doit être une valeur booléenne",
+    "de": "Die Skelettsichtbarkeit muss ein boolescher Wert sein",
+    "es": "La visibilidad de los esqueletos debe ser un valor booleano"
+  },
+  "skeleton.view.controls.message_6f8676": {
+    "zh-CN": "骨架着色器：",
+    "en": "Skeleton shader: ",
+    "ja": "骨格シェーダー: ",
+    "fr": "Shader du squelette : ",
+    "de": "Skelett-Shader: ",
+    "es": "Sombreador del esqueleto:"
+  },
+  "skeleton.view.controls.message_9bcfef": {
+    "zh-CN": "骨架半径无效：",
+    "en": "Invalid skeleton radius: ",
+    "ja": "骨格の半径が無効です: ",
+    "fr": "Rayon du squelette invalide : ",
+    "de": "Ungültiger Skelettradius: ",
+    "es": "Radio del esqueleto no válido:"
+  },
+  "skeleton.view.controls.message_abb399": {
+    "zh-CN": "骨架缓冲格式无效：",
+    "en": "Invalid skeleton buffer format: ",
+    "ja": "骨格バッファ形式が無効です: ",
+    "fr": "Format du tampon du squelette invalide : ",
+    "de": "Ungültiges Skelettpufferformat: ",
+    "es": "Formato del búfer del esqueleto no válido:"
+  },
+  "skeleton.view.controls.message_cb6bbb": {
+    "zh-CN": "全局骨架背景坐标无效",
+    "en": "Invalid global skeleton background coordinates",
+    "ja": "全体骨格背景の座標が無効です",
+    "fr": "Coordonnées du fond global des squelettes invalides",
+    "de": "Ungültige Koordinaten im globalen Skeletthintergrund",
+    "es": "Coordenadas del fondo global de esqueletos no válidas"
+  },
+  "skeleton.view.controls.message_dd822b": {
+    "zh-CN": "骨架坐标无效：",
+    "en": "Invalid skeleton coordinates: ",
+    "ja": "骨格座標が無効です: ",
+    "fr": "Coordonnées du squelette invalides : ",
+    "de": "Ungültige Skelettkoordinaten: ",
+    "es": "Coordenadas del esqueleto no válidas:"
+  }
+}

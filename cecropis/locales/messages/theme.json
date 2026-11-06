@@ -1,0 +1,50 @@
+{
+  "theme.dark": {
+    "zh-CN": "暗色",
+    "en": "Dark",
+    "ja": "ダーク",
+    "fr": "Sombre",
+    "de": "Dunkel",
+    "es": "Oscuro"
+  },
+  "theme.light": {
+    "zh-CN": "亮色",
+    "en": "Light",
+    "ja": "ライト",
+    "fr": "Clair",
+    "de": "Hell",
+    "es": "Claro"
+  },
+  "theme.menuDark": {
+    "zh-CN": "☾ 暗色",
+    "en": "☾ Dark",
+    "ja": "☾ ダーク",
+    "fr": "☾ Sombre",
+    "de": "☾ Dunkel",
+    "es": "☾ Oscuro"
+  },
+  "theme.menuLight": {
+    "zh-CN": "☀ 亮色",
+    "en": "☀ Light",
+    "ja": "☀ ライト",
+    "fr": "☀ Clair",
+    "de": "☀ Hell",
+    "es": "☀ Claro"
+  },
+  "theme.menuSystem": {
+    "zh-CN": "◐ 系统",
+    "en": "◐ System",
+    "ja": "◐ システム",
+    "fr": "◐ Système",
+    "de": "◐ System",
+    "es": "◐ Sistema"
+  },
+  "theme.system": {
+    "zh-CN": "跟随系统",
+    "en": "System",
+    "ja": "システム",
+    "fr": "Système",
+    "de": "System",
+    "es": "Sistema"
+  }
+}

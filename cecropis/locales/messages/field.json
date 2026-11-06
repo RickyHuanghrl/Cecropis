@@ -1,0 +1,138 @@
+{
+  "field.category": {
+    "zh-CN": "记录类别",
+    "en": "Record category",
+    "ja": "記録カテゴリ",
+    "fr": "Catégorie d’enregistrement",
+    "de": "Datensatzkategorie",
+    "es": "Categoría de registro"
+  },
+  "field.class": {
+    "zh-CN": "类别",
+    "en": "Class",
+    "ja": "分類",
+    "fr": "Classe",
+    "de": "Klasse",
+    "es": "Clase"
+  },
+  "field.entryNerve": {
+    "zh-CN": "传入神经",
+    "en": "Entry nerve",
+    "ja": "進入神経",
+    "fr": "Nerf d’entrée",
+    "de": "Eintrittsnerv",
+    "es": "Nervio de entrada"
+  },
+  "field.exitNerve": {
+    "zh-CN": "传出神经",
+    "en": "Exit nerve",
+    "ja": "退出神経",
+    "fr": "Nerf de sortie",
+    "de": "Austrittsnerv",
+    "es": "Nervio de salida"
+  },
+  "field.hemibrain_type": {
+    "zh-CN": "Hemibrain 类型",
+    "en": "Hemibrain type",
+    "ja": "Hemibrain タイプ",
+    "fr": "Type Hemibrain",
+    "de": "Hemibrain-Typ",
+    "es": "Tipo Hemibrain"
+  },
+  "field.instance": {
+    "zh-CN": "实例名称",
+    "en": "Instance name",
+    "ja": "インスタンス名",
+    "fr": "Nom de l’instance",
+    "de": "Instanzname",
+    "es": "Nombre de instancia"
+  },
+  "field.name": {
+    "zh-CN": "名称",
+    "en": "Name",
+    "ja": "名前",
+    "fr": "Nom",
+    "de": "Name",
+    "es": "Nombre"
+  },
+  "field.receptorType": {
+    "zh-CN": "受体类型",
+    "en": "Receptor type",
+    "ja": "受容体タイプ",
+    "fr": "Type de récepteur",
+    "de": "Rezeptortyp",
+    "es": "Tipo de receptor"
+  },
+  "field.rootSide": {
+    "zh-CN": "根部侧别",
+    "en": "Root side",
+    "ja": "根の側",
+    "fr": "Côté de la racine",
+    "de": "Wurzelseite",
+    "es": "Lado de la raíz"
+  },
+  "field.somaNeuromere": {
+    "zh-CN": "胞体神经节",
+    "en": "Soma neuromere",
+    "ja": "細胞体の神経分節",
+    "fr": "Neuromère du soma",
+    "de": "Soma-Neuromer",
+    "es": "Neurómero del soma"
+  },
+  "field.somaSide": {
+    "zh-CN": "胞体侧别",
+    "en": "Soma side",
+    "ja": "細胞体の側",
+    "fr": "Côté du soma",
+    "de": "Somaseite",
+    "es": "Lado del soma"
+  },
+  "field.status": {
+    "zh-CN": "记录状态",
+    "en": "Record status",
+    "ja": "記録状態",
+    "fr": "État de l’enregistrement",
+    "de": "Datensatzstatus",
+    "es": "Estado del registro"
+  },
+  "field.statusLabel": {
+    "zh-CN": "状态标签",
+    "en": "Status label",
+    "ja": "状態ラベル",
+    "fr": "Libellé d’état",
+    "de": "Statusbezeichnung",
+    "es": "Etiqueta de estado"
+  },
+  "field.subclass": {
+    "zh-CN": "子类",
+    "en": "Subclass",
+    "ja": "下位分類",
+    "fr": "Sous-classe",
+    "de": "Unterklasse",
+    "es": "Subclase"
+  },
+  "field.superclass": {
+    "zh-CN": "大类",
+    "en": "Superclass",
+    "ja": "大分類",
+    "fr": "Super-classe",
+    "de": "Oberklasse",
+    "es": "Superclase"
+  },
+  "field.supertype": {
+    "zh-CN": "上级类型",
+    "en": "Supertype",
+    "ja": "上位タイプ",
+    "fr": "Super-type",
+    "de": "Obertyp",
+    "es": "Supertipo"
+  },
+  "field.type": {
+    "zh-CN": "类型",
+    "en": "Type",
+    "ja": "タイプ",
+    "fr": "Type",
+    "de": "Typ",
+    "es": "Tipo"
+  }
+}

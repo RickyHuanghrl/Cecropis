@@ -1,0 +1,7 @@
+include README.md LICENSE NOTICE pyproject.toml
+recursive-include cecropis *.py *.json *.html *.js *.css *.svg *.woff2 LICENSE LICENSE.txt
+recursive-include scripts *.py *.md
+recursive-include docs *.md *.png
+recursive-include examples *.py *.json *.md
+recursive-include tests *.py *.cjs *.md
+global-exclude __pycache__ *.py[cod]

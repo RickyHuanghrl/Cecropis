@@ -1,0 +1,10 @@
+{
+  "window.full": {
+    "zh-CN": "全程 · [0, {steps})",
+    "en": "Full run · [0, {steps})",
+    "ja": "全区間 · [0, {steps})",
+    "fr": "Exécution entière · [0, {steps})",
+    "de": "Gesamter Lauf · [0, {steps})",
+    "es": "Ejecución completa · [0, {steps})"
+  }
+}

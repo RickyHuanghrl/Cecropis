@@ -1,0 +1,15 @@
+Cecropis
+Copyright 2026 Ziyu Huang
+
+Cecropis's original source code and documentation are licensed under the
+Apache License, Version 2.0. See LICENSE.
+
+Bundled fonts retain their own copyright notices and SIL Open Font License:
+- Inter: cecropis/web/static/assets/fonts/inter/LICENSE.txt
+- Noto Sans SC: cecropis/web/static/assets/fonts/noto-sans-sc/LICENSE
+- Noto Sans JP: cecropis/web/static/assets/fonts/noto-sans-jp/LICENSE
+
+MaleCNS datasets are obtained separately under CC BY 4.0. README screenshots
+include visualizations of MaleCNS v1.0 data; this code license does not replace
+the data license. See docs/reference/data-sources.md for the source, attribution
+and processing of the displayed data.

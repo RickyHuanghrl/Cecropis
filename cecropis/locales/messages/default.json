@@ -1,0 +1,50 @@
+{
+  "default.candidateName": {
+    "zh-CN": "候选",
+    "en": "Candidates",
+    "ja": "候補",
+    "fr": "Candidats",
+    "de": "Kandidaten",
+    "es": "Candidatos"
+  },
+  "default.inputName": {
+    "zh-CN": "输入",
+    "en": "Inputs",
+    "ja": "入力",
+    "fr": "Entrées",
+    "de": "Eingaben",
+    "es": "Entradas"
+  },
+  "default.operationName": {
+    "zh-CN": "操作组合",
+    "en": "Operation combinations",
+    "ja": "操作の組み合わせ",
+    "fr": "Combinaisons d’opérations",
+    "de": "Operationskombinationen",
+    "es": "Combinaciones de operaciones"
+  },
+  "default.outputA": {
+    "zh-CN": "观察 A",
+    "en": "Observation A",
+    "ja": "観測 A",
+    "fr": "Observation A",
+    "de": "Beobachtung A",
+    "es": "Observación A"
+  },
+  "default.outputB": {
+    "zh-CN": "观察 B",
+    "en": "Observation B",
+    "ja": "観測 B",
+    "fr": "Observation B",
+    "de": "Beobachtung B",
+    "es": "Observación B"
+  },
+  "default.responseName": {
+    "zh-CN": "输入响应探索",
+    "en": "Input response exploration",
+    "ja": "入力応答の探索",
+    "fr": "Exploration des réponses aux entrées",
+    "de": "Erkundung der Eingabeantworten",
+    "es": "Exploración de respuestas a entradas"
+  }
+}

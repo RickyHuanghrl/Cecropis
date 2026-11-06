@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cecropis"
+version = "1.0.0"
+description = "Local connectome perturbation and exploration tools"
+readme = "README.md"
+authors = [{name = "Ziyu Huang"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy", "pyarrow"]
+
+[project.scripts]
+cecropis = "cecropis.__main__:main"
+
+[tool.setuptools]
+packages = ["cecropis", "cecropis.cli"]
+license-files = ["LICENSE", "NOTICE"]
+
+[tool.setuptools.package-data]
+cecropis = [
+    "web/templates/*.html",
+    "web/static/js/*.js",
+    "web/static/css/*.css",
+    "locales/*.json",
+    "web/static/assets/brand/*.svg",
+    "web/static/assets/fonts/inter/*.woff2",
+    "web/static/assets/fonts/inter/LICENSE.txt",
+    "web/static/assets/fonts/noto-sans-*/wght.css",
+    "web/static/assets/fonts/noto-sans-*/LICENSE",
+    "web/static/assets/fonts/noto-sans-*/files/*.woff2",
+]

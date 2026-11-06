@@ -1,0 +1,130 @@
+{
+  "download.action": {
+    "zh-CN": "脚本操作",
+    "en": "Script action",
+    "ja": "スクリプト操作",
+    "fr": "Action du script",
+    "de": "Skriptaktion",
+    "es": "Acción del script"
+  },
+  "download.connectivity": {
+    "zh-CN": "连接权重与注释",
+    "en": "Connection weights and annotations",
+    "ja": "接続重みと注釈",
+    "fr": "Poids des connexions et annotations",
+    "de": "Verbindungsgewichte und Annotationen",
+    "es": "Pesos de conexiones y anotaciones"
+  },
+  "download.copied": {
+    "zh-CN": "命令已复制，尚未执行。",
+    "en": "Command copied; not executed.",
+    "ja": "コマンドをコピーしました。未実行です。",
+    "fr": "Commande copiée ; non exécutée.",
+    "de": "Befehl kopiert; nicht ausgeführt.",
+    "es": "Comando copiado; no ejecutado."
+  },
+  "download.copyFailed": {
+    "zh-CN": "无法访问剪贴板，请复制上方命令。",
+    "en": "Clipboard unavailable; copy the command above.",
+    "ja": "クリップボードにアクセスできません。上記をコピーしてください。",
+    "fr": "Presse-papiers indisponible ; copiez la commande ci-dessus.",
+    "de": "Zwischenablage nicht verfügbar; obigen Befehl kopieren.",
+    "es": "Portapapeles no disponible; copie el comando anterior."
+  },
+  "download.directory": {
+    "zh-CN": "在代码目录的 PowerShell 中自行运行。",
+    "en": "Run this command yourself in PowerShell from the code directory.",
+    "ja": "コードディレクトリのPowerShellで実行してください。",
+    "fr": "Exécutez la commande dans PowerShell depuis le dossier du code.",
+    "de": "Diesen Befehl selbst in PowerShell im Codeverzeichnis ausführen.",
+    "es": "Ejecute el comando en PowerShell desde el directorio del código."
+  },
+  "download.enterTarget": {
+    "zh-CN": "先填写目标目录。",
+    "en": "Enter a destination directory first.",
+    "ja": "先に保存先を入力してください。",
+    "fr": "Indiquez d’abord le dossier de destination.",
+    "de": "Zuerst Zielverzeichnis angeben.",
+    "es": "Introduzca primero el directorio de destino."
+  },
+  "download.item": {
+    "zh-CN": "数据项",
+    "en": "Data item",
+    "ja": "データ項目",
+    "fr": "Élément de données",
+    "de": "Datenelement",
+    "es": "Elemento de datos"
+  },
+  "download.metadata": {
+    "zh-CN": "获取缺失的官方清单（联网）",
+    "en": "Fetch missing official listing (network)",
+    "ja": "不足する公式一覧を取得（ネット接続）",
+    "fr": "Obtenir la liste officielle manquante (réseau)",
+    "de": "Fehlende offizielle Liste abrufen (Netzwerk)",
+    "es": "Obtener listado oficial faltante (red)"
+  },
+  "download.plan": {
+    "zh-CN": "查看计划",
+    "en": "View plan",
+    "ja": "計画を確認",
+    "fr": "Voir le plan",
+    "de": "Plan anzeigen",
+    "es": "Ver plan"
+  },
+  "download.sizeConnectivity": {
+    "zh-CN": "连接分析必需 · 已知大小约 1.07 GB",
+    "en": "Required for connection analysis · known size about 1.07 GB",
+    "ja": "接続分析に必要・既知の容量は約1.07 GB",
+    "fr": "Requis pour l’analyse · taille connue : environ 1,07 GB",
+    "de": "Für Verbindungsanalyse benötigt · bekannte Größe etwa 1,07 GB",
+    "es": "Necesario para análisis · tamaño conocido de unos 1,07 GB"
+  },
+  "download.sizeSkeletons": {
+    "zh-CN": "真实形态可选 · 已知大小约 5.55 GB",
+    "en": "Optional real morphology · known size about 5.55 GB",
+    "ja": "実形態表示は任意・既知の容量は約5.55 GB",
+    "fr": "Morphologie réelle facultative · environ 5,55 GB",
+    "de": "Echte Morphologie optional · bekannte Größe etwa 5,55 GB",
+    "es": "Morfología real opcional · unos 5,55 GB"
+  },
+  "download.skeletons": {
+    "zh-CN": "二进制骨架与 info（可选）",
+    "en": "Binary skeletons and info (optional)",
+    "ja": "バイナリ骨格とinfo（任意）",
+    "fr": "Squelettes binaires et info (facultatif)",
+    "de": "Binäre Skelette und info (optional)",
+    "es": "Esqueletos binarios e info (opcional)"
+  },
+  "download.start": {
+    "zh-CN": "开始或继续下载",
+    "en": "Start or resume download",
+    "ja": "ダウンロードを開始・再開",
+    "fr": "Démarrer ou reprendre",
+    "de": "Download starten oder fortsetzen",
+    "es": "Iniciar o reanudar descarga"
+  },
+  "download.status": {
+    "zh-CN": "查看已有文件状态",
+    "en": "View existing file status",
+    "ja": "既存ファイルの状態を確認",
+    "fr": "Voir l’état des fichiers",
+    "de": "Dateistatus anzeigen",
+    "es": "Ver estado de archivos"
+  },
+  "download.target": {
+    "zh-CN": "本地目标目录",
+    "en": "Local destination directory",
+    "ja": "ローカル保存先",
+    "fr": "Dossier local de destination",
+    "de": "Lokales Zielverzeichnis",
+    "es": "Directorio local de destino"
+  },
+  "download.title": {
+    "zh-CN": "准备本地数据",
+    "en": "Prepare local data",
+    "ja": "ローカルデータの準備",
+    "fr": "Préparer les données locales",
+    "de": "Lokale Daten vorbereiten",
+    "es": "Preparar datos locales"
+  }
+}

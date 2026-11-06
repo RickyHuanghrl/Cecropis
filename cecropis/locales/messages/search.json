@@ -1,0 +1,50 @@
+{
+  "search.candidateSummary": {
+    "zh-CN": "{status} · {policy} · 原候选 {candidates} · 排除端点 {excluded}",
+    "en": "{status} · {policy} · Original candidates: {candidates}; excluded endpoints: {excluded}",
+    "ja": "{status} · {policy} · 元の候補数: {candidates}、除外した端点数: {excluded}",
+    "fr": "{status} · {policy} · Candidats initiaux : {candidates} ; extrémités exclues : {excluded}",
+    "de": "{status} · {policy} · Ursprüngliche Kandidaten: {candidates}; ausgeschlossene Endpunkte: {excluded}",
+    "es": "{status} · {policy} · Candidatos iniciales: {candidates}; extremos excluidos: {excluded}"
+  },
+  "search.matches": {
+    "zh-CN": "与当前配置一致",
+    "en": "Matches the current configuration",
+    "ja": "現在の設定と一致",
+    "fr": "Correspond à la configuration actuelle",
+    "de": "Entspricht der aktuellen Konfiguration",
+    "es": "Coincide con la configuración actual"
+  },
+  "search.mismatch": {
+    "zh-CN": "当前协议或搜索设置已更改",
+    "en": "Current protocol or search settings have changed",
+    "ja": "現在のプロトコルまたは探索設定が変更されています",
+    "fr": "Le protocole ou les paramètres de recherche ont changé",
+    "de": "Aktuelles Protokoll oder Sucheinstellungen geändert",
+    "es": "El protocolo o la configuración de búsqueda han cambiado"
+  },
+  "search.originCalculated": {
+    "zh-CN": "搜索结果",
+    "en": "Search result",
+    "ja": "探索結果",
+    "fr": "Résultat de recherche",
+    "de": "Suchergebnis",
+    "es": "Resultado de búsqueda"
+  },
+  "search.originSaved": {
+    "zh-CN": "已保存搜索",
+    "en": "Saved search",
+    "ja": "保存済み探索",
+    "fr": "Recherche enregistrée",
+    "de": "Gespeicherte Suche",
+    "es": "Búsqueda guardada"
+  },
+  "search.resultStatus": {
+    "zh-CN": "{origin} · {match} · {summary}",
+    "en": "{origin} · {match} · {summary}",
+    "ja": "{origin} · {match} · {summary}",
+    "fr": "{origin} · {match} · {summary}",
+    "de": "{origin} · {match} · {summary}",
+    "es": "{origin} · {match} · {summary}"
+  }
+}

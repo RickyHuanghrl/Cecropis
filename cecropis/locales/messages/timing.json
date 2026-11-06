@@ -1,0 +1,522 @@
+{
+  "timing.controls.cancel_keep_complete_fdf07b": {
+    "zh-CN": "正在取消，保留此前完成的时段评价…",
+    "en": "Cancelling. Completed evaluations will be retained…",
+    "ja": "キャンセル中。完了した評価は保持されます…",
+    "fr": "Annulation en cours. Les évaluations terminées seront conservées…",
+    "de": "Abbruch läuft. Abgeschlossene Auswertungen bleiben erhalten…",
+    "es": "Cancelando. Se conservarán las evaluaciones completadas…"
+  },
+  "timing.controls.message_67b8cd": {
+    "zh-CN": "时段[{p0}, {p1}) · {p2}",
+    "en": "interval[{p0}, {p1}) · {p2}",
+    "ja": "期間[{p0}, {p1}) · {p2}",
+    "fr": "intervalle[{p0}, {p1}) · {p2}",
+    "de": "Intervall[{p0}, {p1}) · {p2}",
+    "es": "intervalo[{p0}, {p1}) · {p2}"
+  },
+  "timing.controls.message_76b164": {
+    "zh-CN": "相对下降",
+    "en": "Relative decrease",
+    "ja": "相対減少",
+    "fr": "Diminution relative",
+    "de": "Relative Abnahme",
+    "es": "Disminución relativa"
+  },
+  "timing.controls.message_794fee": {
+    "zh-CN": "更新[",
+    "en": "update[",
+    "ja": "更新[",
+    "fr": "mise à jour[",
+    "de": "Aktualisierung[",
+    "es": "actualización["
+  },
+  "timing.controls.message_9ad48b": {
+    "zh-CN": "输入 [{p0}, {p1}) / {p2} · {p3}",
+    "en": "input [{p0}, {p1}) / {p2} · {p3}",
+    "ja": "入力 [{p0}, {p1}) / {p2} · {p3}",
+    "fr": "entrée [{p0}, {p1}) / {p2} · {p3}",
+    "de": "Eingabe [{p0}, {p1}) / {p2} · {p3}",
+    "es": "entrada [{p0}, {p1}) / {p2} · {p3}"
+  },
+  "timing.controls.message_d22418": {
+    "zh-CN": "绝对平均下降",
+    "en": "Absolute mean decrease",
+    "ja": "平均値の絶対減少",
+    "fr": "Diminution absolue de la moyenne",
+    "de": "Absolute Abnahme des Mittelwerts",
+    "es": "Disminución absoluta de la media"
+  },
+  "timing.controls.observation_01868c": {
+    "zh-CN": "观察 {p0} · 评价[{p1}, {p2}) · {p3}",
+    "en": "Observation {p0} · evaluation[{p1}, {p2}) · {p3}",
+    "ja": "観測 {p0} · 評価[{p1}, {p2}) · {p3}",
+    "fr": "Observation {p0} · évaluation[{p1}, {p2}) · {p3}",
+    "de": "Beobachtung {p0} · Bewertung[{p1}, {p2}) · {p3}",
+    "es": "Observación {p0} · evaluación[{p1}, {p2}) · {p3}"
+  },
+  "timing.controls.outside_scope_789ca1": {
+    "zh-CN": "不在范围内",
+    "en": "Outside scope",
+    "ja": "範囲外",
+    "fr": "Hors périmètre",
+    "de": "Außerhalb des Bereichs",
+    "es": "Fuera del ámbito"
+  },
+  "timing.controls.protection_53d8fc": {
+    "zh-CN": "保护 {p0} · {p1} ≤ {p2}",
+    "en": "protection {p0} · {p1} ≤ {p2}",
+    "ja": "保護 {p0} · {p1} ≤ {p2}",
+    "fr": "protection {p0} · {p1} ≤ {p2}",
+    "de": "Schutz {p0} · {p1} ≤ {p2}",
+    "es": "protección {p0} · {p1} ≤ {p2}"
+  },
+  "timing.controls.selectjoint_search_plan_07135f": {
+    "zh-CN": "先选择共同搜索中的方案",
+    "en": "Select a plan from joint search first",
+    "ja": "先に共同検索の計画を選択してください",
+    "fr": "Sélectionnez d’abord un plan issu de la recherche conjointe",
+    "de": "Wählen Sie zuerst einen Plan aus der gemeinsamen Suche",
+    "es": "Seleccione primero un plan de la búsqueda conjunta"
+  },
+  "timing.controls.timing_exploration_save_b65b0d": {
+    "zh-CN": "时段探索已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "timing.controls.updates_gain_7b1c70": {
+    "zh-CN": " · {p0} 更新步 / gain {p1}{p2}{p3}",
+    "en": " · {p0} Updates / gain {p1}{p2}{p3}",
+    "ja": " · {p0} 更新ステップ / gain {p1}{p2}{p3}",
+    "fr": " · {p0} Mises à jour / gain {p1}{p2}{p3}",
+    "de": " · {p0} Updates / gain {p1}{p2}{p3}",
+    "es": " · {p0} Actualizaciones / gain {p1}{p2}{p3}"
+  },
+  "timing.controls.view_db8db0": {
+    "zh-CN": "查看",
+    "en": "View",
+    "ja": "表示",
+    "fr": "Voir",
+    "de": "Anzeigen",
+    "es": "Ver"
+  },
+  "timing.invalidateTiming.current_protocol_node_set_scope_constraints_58668e": {
+    "zh-CN": "历史时段结果 · 当前协议、节点集合、范围或约束已改",
+    "en": "Previous timing result · protocol, node set, scope or constraints have changed",
+    "ja": "以前の時段結果 · プロトコル・ノード集合・範囲・制約に変更があります",
+    "fr": "Résultat temporel précédent · protocole, nœuds, périmètre ou contraintes modifiés",
+    "de": "Früheres Zeitintervallergebnis · Protokoll, Knotenmenge, Bereich oder Nebenbedingungen geändert",
+    "es": "Resultado temporal anterior · se han modificado el protocolo, los nodos, el ámbito o las restricciones"
+  },
+  "timing.openTiming.opensavemetric_38b71b": {
+    "zh-CN": "已打开保存指标，未计算曲线",
+    "en": "Saved metrics opened. Curves were not calculated.",
+    "ja": "保存済み指標を開きました。曲線は計算していません。",
+    "fr": "Mesures enregistrées ouvertes. Courbes non calculées.",
+    "de": "Gespeicherte Metriken geöffnet. Kurven wurden nicht berechnet.",
+    "es": "Métricas guardadas abiertas. No se calcularon curvas."
+  },
+  "timing.openTimingCurves.baseline_intervention_5619a7": {
+    "zh-CN": "曲线额外基线 {p0}/{p1} / 干预 {p2}/{p3}",
+    "en": "Additional curve propagations: baseline {p0}/{p1} / intervention {p2}/{p3}",
+    "ja": "曲線の追加伝播：ベースライン {p0}/{p1} / 介入 {p2}/{p3}",
+    "fr": "Propagations supplémentaires pour les courbes : référence {p0}/{p1} / intervention {p2}/{p3}",
+    "de": "Zusätzliche Ausbreitungsläufe für Kurven: Referenz {p0}/{p1} / Intervention {p2}/{p3}",
+    "es": "Propagaciones adicionales para curvas: referencia {p0}/{p1} / intervención {p2}/{p3}"
+  },
+  "timing.openTimingCurves.message_2c3986": {
+    "zh-CN": "静态曲线，无活跃探索任务引用",
+    "en": "Static curves without an active exploration task.",
+    "ja": "実行中の探索タスクを参照しない静的曲線です。",
+    "fr": "Courbes statiques sans tâche d’exploration active.",
+    "de": "Statische Kurven ohne aktive Erkundungsaufgabe.",
+    "es": "Curvas estáticas sin una tarea de exploración activa."
+  },
+  "timing.openTimingCurves.not_recorded_7c925a": {
+    "zh-CN": "历史曲线未记录额外传播计数",
+    "en": "This previous curve has no additional propagation count",
+    "ja": "この以前の曲線には追加伝播回数の記録がありません",
+    "fr": "Cette courbe précédente ne contient pas de compteur de propagations supplémentaires",
+    "de": "Für diese frühere Kurve ist keine Anzahl zusätzlicher Ausbreitungsläufe gespeichert",
+    "es": "Esta curva anterior no tiene un recuento de propagaciones adicionales"
+  },
+  "timing.openTimingCurves.savefixed_interval_curves_run_timing_exploration_634d3d": {
+    "zh-CN": "已保存固定时段曲线 · 未运行时段探索",
+    "en": "Saved fixed-interval curves · timing exploration was not run",
+    "ja": "固定時段の曲線を保存済み · 時段探索は未実行",
+    "fr": "Courbes à intervalle fixe enregistrées · exploration temporelle non exécutée",
+    "de": "Kurven mit festem Intervall gespeichert · Zeitintervallsuche nicht ausgeführt",
+    "es": "Curvas de intervalo fijo guardadas · exploración temporal sin ejecutar"
+  },
+  "timing.openTimingCurves.savepinnode_98c8de": {
+    "zh-CN": "已保存固定节点 · 更新[{p0}, {p1}) · {p2}",
+    "en": "Saved fixed node set · updates [{p0}, {p1}) · {p2}",
+    "ja": "保存済みの固定ノード集合 · 更新 [{p0}, {p1}) · {p2}",
+    "fr": "Ensemble de nœuds fixe enregistré · mises à jour [{p0}, {p1}) · {p2}",
+    "de": "Gespeicherte feste Knotenmenge · Aktualisierungen [{p0}, {p1}) · {p2}",
+    "es": "Conjunto fijo de nodos guardado · actualizaciones [{p0}, {p1}) · {p2}"
+  },
+  "timing.pollTiming.timing_exploration_complete_2ba84e": {
+    "zh-CN": "时段探索中 · 完成 {p0}/{p1} · 当前 [{p2}, {p3})",
+    "en": "Timing exploration in progress · completed {p0}/{p1} · current [{p2}, {p3})",
+    "ja": "時間帯探索中 · 完了 {p0}/{p1} · 現在 [{p2}, {p3})",
+    "fr": "Exploration des périodes en cours · terminé {p0}/{p1} · actuel [{p2}, {p3})",
+    "de": "Zeitfenstererkundung in Bearbeitung · abgeschlossen {p0}/{p1} · aktuell [{p2}, {p3})",
+    "es": "Exploración de intervalos en curso · completado {p0}/{p1} · actual [{p2}, {p3})"
+  },
+  "timing.pollTiming.timing_explorationfailed_b64b44": {
+    "zh-CN": "时段探索失败",
+    "en": "Timing exploration failed",
+    "ja": "時間帯探索失敗",
+    "fr": "Exploration des périodeséchec",
+    "de": "Zeitfenstererkundung fehlgeschlagen",
+    "es": "Exploración de intervalos fallido"
+  },
+  "timing.previewTiming.node_scope_93f53b": {
+    "zh-CN": "正在检查节点、协议与时段范围…",
+    "en": "Checking nodes, protocols and time intervals…",
+    "ja": "ノード・プロトコル・時段を確認中…",
+    "fr": "Vérification des nœuds, protocoles et intervalles temporels…",
+    "de": "Knoten, Protokolle und Zeitintervalle werden geprüft…",
+    "es": "Comprobando nodos, protocolos e intervalos temporales…"
+  },
+  "timing.previewTiming.pinnode_combination_budget_baseline_intervention_84b925": {
+    "zh-CN": "{p0} 固定节点 · {p1} 时段组合 · 预算内预计 {p2} 次评价 / {p3} 次基线 / {p4} 次干预传播",
+    "en": "{p0} fixed nodes · {p1} intervals · within budget: about {p2} evaluations / {p3} baseline / {p4} intervention propagations",
+    "ja": "固定ノード {p0} · 時段 {p1} 組 · 予算内の見積もり：評価 {p2} 回 / ベースライン伝播 {p3} 回 / 介入伝播 {p4} 回",
+    "fr": "{p0} nœuds fixes · {p1} intervalles · dans le budget : environ {p2} évaluations / {p3} propagations de référence / {p4} avec intervention",
+    "de": "{p0} feste Knoten · {p1} Intervalle · im Budget: etwa {p2} Bewertungen / {p3} Referenz- / {p4} Interventionsläufe",
+    "es": "{p0} nodos fijos · {p1} intervalos · dentro del presupuesto: unas {p2} evaluaciones / {p3} propagaciones de referencia / {p4} con intervención"
+  },
+  "timing.previewTiming.scope_b569a4": {
+    "zh-CN": "范围已确认 · 尚未计算模型",
+    "en": "Scope confirmed · model not run",
+    "ja": "範囲確認済み · モデル未実行",
+    "fr": "Périmètre confirmé · modèle non exécuté",
+    "de": "Bereich bestätigt · Modell nicht ausgeführt",
+    "es": "Ámbito confirmado · modelo sin ejecutar"
+  },
+  "timing.renderTimingGrid.combination_20_c2ec17": {
+    "zh-CN": "{p0}/{p1} 页 · {p2} 个时段组合 · 网格按每轴 20 个分组",
+    "en": "Page {p0}/{p1} · {p2} intervals · grid grouped in blocks of 20 per axis",
+    "ja": "{p0}/{p1} ページ · 時段 {p2} 組 · グリッドは各軸 20 件ずつ",
+    "fr": "Page {p0}/{p1} · {p2} intervalles · grille par blocs de 20 sur chaque axe",
+    "de": "Seite {p0}/{p1} · {p2} Intervalle · Raster mit 20 Einträgen je Achse",
+    "es": "Página {p0}/{p1} · {p2} intervalos · cuadrícula en bloques de 20 por eje"
+  },
+  "timing.renderTimingGrid.start_duration_d45924": {
+    "zh-CN": "起始 / 持续",
+    "en": "Start / duration",
+    "ja": "開始／継続",
+    "fr": "Début / durée",
+    "de": "Start / Dauer",
+    "es": "Inicio / duración"
+  },
+  "timing.renderTimingReport.budget_exhausted_7ae4d2": {
+    "zh-CN": "评价预算耗尽",
+    "en": "evaluation Budget exhausted",
+    "ja": "評価予算を消費",
+    "fr": "évaluation Budget épuisé",
+    "de": "Bewertung Budget ausgeschöpft",
+    "es": "evaluación Presupuesto agotado"
+  },
+  "timing.renderTimingReport.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "timing.renderTimingReport.complete_bb88ba": {
+    "zh-CN": "探索完成",
+    "en": "Exploration complete",
+    "ja": "探索完了",
+    "fr": "Exploration terminée",
+    "de": "Erkundung abgeschlossen",
+    "es": "Exploración completada"
+  },
+  "timing.renderTimingReport.failed_a1244b": {
+    "zh-CN": "探索失败",
+    "en": "Exploration failed",
+    "ja": "探索に失敗しました",
+    "fr": "Échec de l’exploration",
+    "de": "Erkundung fehlgeschlagen",
+    "es": "Error de exploración"
+  },
+  "timing.renderTimingReport.message_c33b67": {
+    "zh-CN": " · 历史结果，当前设置不匹配",
+    "en": " · Historical result; current settings do not match",
+    "ja": " · 過去の結果。現在の設定とは一致しません",
+    "fr": " · Résultat historique ; les paramètres actuels ne correspondent pas",
+    "de": " · Historisches Ergebnis; aktuelle Einstellungen stimmen nicht überein",
+    "es": " · Resultado histórico; la configuración actual no coincide"
+  },
+  "timing.renderTimingReport.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "timing.renderTimingReport.select_view_condition_f34ade": {
+    "zh-CN": "选择时段查看逐条件结果",
+    "en": "Select an interval to view results for each condition",
+    "ja": "時段を選択して条件別の結果を表示してください",
+    "fr": "Sélectionnez un intervalle pour voir les résultats par condition",
+    "de": "Wählen Sie ein Intervall, um die Ergebnisse je Bedingung anzuzeigen",
+    "es": "Seleccione un intervalo para ver los resultados por condición"
+  },
+  "timing.requestTimingCurves.compute_selected_interval_curves_524bd6": {
+    "zh-CN": "正在计算所选时段曲线…",
+    "en": "Calculating curves for the selected interval…",
+    "ja": "選択した時段の曲線を計算中…",
+    "fr": "Calcul des courbes de l’intervalle sélectionné…",
+    "de": "Kurven für das ausgewählte Intervall werden berechnet…",
+    "es": "Calculando las curvas del intervalo seleccionado…"
+  },
+  "timing.requestTimingCurves.message_1006ed": {
+    "zh-CN": " · 传播计数未刷新",
+    "en": " · propagation counts not refreshed",
+    "ja": " · 伝播回数は未更新",
+    "fr": " · compteurs de propagation non actualisés",
+    "de": " · Ausbreitungszähler nicht aktualisiert",
+    "es": " · recuentos de propagación sin actualizar"
+  },
+  "timing.requestTimingCurves.message_7ae12b": {
+    "zh-CN": " · 传播计数已刷新",
+    "en": " · propagation counts refreshed",
+    "ja": " · 伝播回数を更新済み",
+    "fr": " · compteurs de propagation actualisés",
+    "de": " · Ausbreitungszähler aktualisiert",
+    "es": " · recuentos de propagación actualizados"
+  },
+  "timing.requestTimingCurves.multi_condition_comparison_save_ec2120": {
+    "zh-CN": "所选时段曲线已计算 · 可在多条件比较中保存",
+    "en": "Interval curves calculated · save them in multi-condition comparison",
+    "ja": "時段の曲線を計算済み · 複数条件比較で保存できます",
+    "fr": "Courbes calculées · enregistrez-les dans la comparaison multi-condition",
+    "de": "Intervallkurven berechnet · in der Mehrbedingungenvergleichsansicht speichern",
+    "es": "Curvas calculadas · guárdelas en la comparación de múltiples condiciones"
+  },
+  "timing.requestTimingCurves.pinnode_5e3f35": {
+    "zh-CN": "固定节点曲线 · 更新[{p0}, {p1})",
+    "en": "Fixed-node curves · updates [{p0}, {p1})",
+    "ja": "固定ノードの曲線 · 更新 [{p0}, {p1})",
+    "fr": "Courbes à nœuds fixes · mises à jour [{p0}, {p1})",
+    "de": "Kurven mit fester Knotenmenge · Aktualisierungen [{p0}, {p1})",
+    "es": "Curvas con nodos fijos · actualizaciones [{p0}, {p1})"
+  },
+  "timing.selectTimingEntry.duration_pinnode_b8b8a1": {
+    "zh-CN": "所选更新[{p0}, {p1}) · 持续 {p2} 步 · {p3} · 固定节点 {p4}",
+    "en": "Selected updates [{p0}, {p1}) · duration {p2} steps · {p3} · {p4} fixed nodes",
+    "ja": "選択した更新 [{p0}, {p1}) · 長さ {p2} ステップ · {p3} · 固定ノード {p4}",
+    "fr": "Mises à jour sélectionnées [{p0}, {p1}) · durée {p2} pas · {p3} · {p4} nœuds fixes",
+    "de": "Ausgewählte Aktualisierungen [{p0}, {p1}) · Dauer {p2} Schritte · {p3} · {p4} feste Knoten",
+    "es": "Actualizaciones seleccionadas [{p0}, {p1}) · duración {p2} pasos · {p3} · {p4} nodos fijos"
+  },
+  "timing.selectTimingEntry.message_078710": {
+    "zh-CN": "此时段没有完整评价结果",
+    "en": "No complete evaluation for this interval",
+    "ja": "この時段の評価は未完了です",
+    "fr": "Aucune évaluation complète pour cet intervalle",
+    "de": "Keine vollständige Bewertung für dieses Intervall",
+    "es": "No hay una evaluación completa para este intervalo"
+  },
+  "timing.selectTimingEntry.selection_keepmetric_854b65": {
+    "zh-CN": "当前选择仅保留指标；点击计算曲线会增加模型传播次数",
+    "en": "Only metrics are recorded for this selection. Calculating curves adds model propagations.",
+    "ja": "この選択には指標のみ記録されています。曲線の計算にはモデル伝播が追加されます。",
+    "fr": "Seules les mesures sont enregistrées pour cette sélection. Calculer les courbes ajoute des propagations du modèle.",
+    "de": "Für diese Auswahl sind nur Metriken aufgezeichnet. Die Kurvenberechnung fügt Modellpropagationen hinzu.",
+    "es": "Solo se registraron métricas para esta selección. Calcular las curvas añade propagaciones del modelo."
+  },
+  "timing.startTiming.scope_fcf3fa": {
+    "zh-CN": "先检查当前时段范围",
+    "en": "Check the current interval range first",
+    "ja": "先に現在の時段範囲を確認してください",
+    "fr": "Vérifiez d’abord la plage d’intervalles actuelle",
+    "de": "Prüfen Sie zuerst den aktuellen Intervallbereich",
+    "es": "Compruebe primero el rango actual de intervalos"
+  },
+  "timing.startTiming.starttiming_exploration_293413": {
+    "zh-CN": "正在启动时段探索…",
+    "en": "Starting timing exploration…",
+    "ja": "時段探索を開始中…",
+    "fr": "Démarrage de l’exploration temporelle…",
+    "de": "Zeitintervallsuche wird gestartet…",
+    "es": "Iniciando la exploración temporal…"
+  },
+  "timing.timingChoices.condition_b14319": {
+    "zh-CN": "当前条件",
+    "en": "Current condition",
+    "ja": "現在の条件",
+    "fr": "Condition actuelle",
+    "de": "Aktuelle Bedingung",
+    "es": "Condición actual"
+  },
+  "timing.timingChoices.message_4b2232": {
+    "zh-CN": " · 当前",
+    "en": " · current",
+    "ja": " · 現在",
+    "fr": " · actuel",
+    "de": " · aktuell",
+    "es": " · actual"
+  },
+  "timing.timingCounters.complete_baseline_intervention_baseline_intervention_7a9907": {
+    "zh-CN": "完成评价 {p0}/{p1} · 尝试 {p2} · 基线 {p3}/{p4} · 干预 {p5}/{p6} · 曲线额外基线 {p7}/{p8} / 干预 {p9}/{p10}",
+    "en": "Evaluations completed {p0}/{p1} · attempts {p2} · baseline {p3}/{p4} / intervention {p5}/{p6} · additional curve propagations: baseline {p7}/{p8} / intervention {p9}/{p10}",
+    "ja": "評価完了 {p0}/{p1} · 試行 {p2} · ベースライン {p3}/{p4} / 介入 {p5}/{p6} · 曲線の追加伝播：ベースライン {p7}/{p8} / 介入 {p9}/{p10}",
+    "fr": "Évaluations terminées {p0}/{p1} · tentatives {p2} · référence {p3}/{p4} / intervention {p5}/{p6} · propagations supplémentaires des courbes : référence {p7}/{p8} / intervention {p9}/{p10}",
+    "de": "Bewertungen abgeschlossen {p0}/{p1} · Versuche {p2} · Referenz {p3}/{p4} / Intervention {p5}/{p6} · zusätzliche Kurvenläufe: Referenz {p7}/{p8} / Intervention {p9}/{p10}",
+    "es": "Evaluaciones completadas {p0}/{p1} · intentos {p2} · referencia {p3}/{p4} / intervención {p5}/{p6} · propagaciones adicionales de curvas: referencia {p7}/{p8} / intervención {p9}/{p10}"
+  },
+  "timing.timingEntryLabel.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "timing.timingEntryLabel.complete_metricundefined_18209c": {
+    "zh-CN": "完成 · 指标无定义",
+    "en": "Complete · metric undefined",
+    "ja": "完了 · 指標は未定義",
+    "fr": "Terminé · mesure indéfinie",
+    "de": "Abgeschlossen · Messgröße undefiniert",
+    "es": "Completado · métrica indefinida"
+  },
+  "timing.timingEntryLabel.complete_not_satisfied_d7a950": {
+    "zh-CN": "完成 · 未达标",
+    "en": "Complete · constraints not met",
+    "ja": "完了 · 制約未達",
+    "fr": "Terminé · contraintes non satisfaites",
+    "de": "Abgeschlossen · Nebenbedingungen nicht erfüllt",
+    "es": "Completado · restricciones incumplidas"
+  },
+  "timing.timingEntryLabel.complete_satisfiedconstraints_77e4db": {
+    "zh-CN": "完成 · 满足约束",
+    "en": "Complete · constraints met",
+    "ja": "完了 · 制約達成",
+    "fr": "Terminé · contraintes satisfaites",
+    "de": "Abgeschlossen · Nebenbedingungen erfüllt",
+    "es": "Completado · restricciones cumplidas"
+  },
+  "timing.timingEntryLabel.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "timing.timingEntryLabel.run_62cdc8": {
+    "zh-CN": "未运行",
+    "en": "Not run",
+    "ja": "未実行",
+    "fr": "Non exécuté",
+    "de": "Nicht ausgeführt",
+    "es": "Sin ejecutar"
+  },
+  "timing.timingIntegerList.duration_3aea84": {
+    "zh-CN": "持续步须为正整数",
+    "en": "Duration must be a positive integer",
+    "ja": "継続ステップ数は正の整数が必要です",
+    "fr": "La durée doit être un entier positif",
+    "de": "Die Dauer muss eine positive ganze Zahl sein",
+    "es": "La duración debe ser un entero positivo"
+  },
+  "timing.timingIntegerList.start_update_2df526": {
+    "zh-CN": "起始步须为非负整数",
+    "en": "The start step must be a non-negative integer",
+    "ja": "開始ステップは非負の整数が必要です",
+    "fr": "Le pas de début doit être un entier positif ou nul",
+    "de": "Der Startschritt muss eine nichtnegative ganze Zahl sein",
+    "es": "El paso inicial debe ser un entero no negativo"
+  },
+  "timing.timingPayload.timing_exploration_select_1_12_f8287c": {
+    "zh-CN": "时段探索需选择 1–12 个协议",
+    "en": "Select 1–12 protocols for timing exploration",
+    "ja": "時段探索には 1–12 個のプロトコルを選択してください",
+    "fr": "Sélectionnez 1 à 12 protocoles pour l’exploration temporelle",
+    "de": "Wählen Sie 1–12 Protokolle für die Zeitintervallsuche",
+    "es": "Seleccione entre 1 y 12 protocolos para la exploración temporal"
+  },
+  "timing.updateTimingSummary.current_protocol_compare_conditions_4a9245": {
+    "zh-CN": "当前协议与比较条件",
+    "en": "Current protocol and Compare conditions",
+    "ja": "現在のプロトコルと条件を比較",
+    "fr": "Protocole actuel et Comparer les conditions",
+    "de": "Aktuelles Protokoll und Bedingungen vergleichen",
+    "es": "Protocolo actual y Comparar condiciones"
+  },
+  "timing.updateTimingSummary.message_1067cd": {
+    "zh-CN": "协议待补全",
+    "en": "Protocol is incomplete",
+    "ja": "プロトコルは未完成です",
+    "fr": "Le protocole est incomplet",
+    "de": "Das Protokoll ist unvollständig",
+    "es": "El protocolo está incompleto"
+  },
+  "timing.updateTimingSummary.message_76b164": {
+    "zh-CN": "相对下降",
+    "en": "Relative decrease",
+    "ja": "相対減少",
+    "fr": "Diminution relative",
+    "de": "Relative Abnahme",
+    "es": "Disminución relativa"
+  },
+  "timing.updateTimingSummary.message_d22418": {
+    "zh-CN": "绝对平均下降",
+    "en": "Absolute mean decrease",
+    "ja": "平均値の絶対減少",
+    "fr": "Diminution absolue de la moyenne",
+    "de": "Absolute Abnahme des Mittelwerts",
+    "es": "Disminución absoluta de la media"
+  },
+  "timing.updateTimingSummary.save_74cd42": {
+    "zh-CN": "保存的协议",
+    "en": "Saved protocol",
+    "ja": "保存済みプロトコル",
+    "fr": "Protocole enregistré",
+    "de": "Gespeichertes Protokoll",
+    "es": "Protocolo guardado"
+  },
+  "timing.updateTimingSummary.save_constraints_1e1bcd": {
+    "zh-CN": "保存的约束",
+    "en": "Saved constraints",
+    "ja": "保存済み制約",
+    "fr": "Contraintes enregistrées",
+    "de": "Gespeicherte Nebenbedingungen",
+    "es": "Restricciones guardadas"
+  },
+  "timing.updateTimingSummary.searchconstraints_03eb7c": {
+    "zh-CN": "当前搜索约束",
+    "en": "current Search Constraints",
+    "ja": "現在探索制約",
+    "fr": "actuel Recherche Contraintes",
+    "de": "aktuell Suche Nebenbedingungen",
+    "es": "actual Búsqueda Restricciones"
+  },
+  "timing.updateTimingSummary.select_1182c5": {
+    "zh-CN": "未选择",
+    "en": "Not selected",
+    "ja": "未選択",
+    "fr": "Non sélectionné",
+    "de": "Nicht ausgewählt",
+    "es": "Sin seleccionar"
+  },
+  "timing.updateTimingSummary.target_budget_combination_combinationrun_3ba526": {
+    "zh-CN": "{p0} · 已选 {p1} 协议 · {p2} · 目标 {p3} / {p4} · 预算 {p5} 个时段组合（每组合运行所有协议）",
+    "en": "{p0} · {p1} protocols selected · {p2} · target {p3} / {p4} · budget {p5} intervals, each run with all protocols",
+    "ja": "{p0} · 選択プロトコル {p1} 個 · {p2} · 目標 {p3} / {p4} · 予算 {p5} 時段、各時段で全プロトコルを実行",
+    "fr": "{p0} · {p1} protocoles sélectionnés · {p2} · cible {p3} / {p4} · budget de {p5} intervalles, chacun exécuté avec tous les protocoles",
+    "de": "{p0} · {p1} Protokolle ausgewählt · {p2} · Ziel {p3} / {p4} · Budget: {p5} Intervalle, jeweils mit allen Protokollen",
+    "es": "{p0} · {p1} protocolos seleccionados · {p2} · objetivo {p3} / {p4} · presupuesto: {p5} intervalos, cada uno con todos los protocolos"
+  }
+}

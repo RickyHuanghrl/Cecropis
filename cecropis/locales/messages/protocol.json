@@ -1,0 +1,1290 @@
+{
+  "protocol.changeText.message_b00d5f": {
+    "zh-CN": "绝对 ",
+    "en": "absolute ",
+    "ja": "絶対 ",
+    "fr": "absolu ",
+    "de": "absolut ",
+    "es": "absoluto "
+  },
+  "protocol.collectionCell.input_events_409b10": {
+    "zh-CN": "输入事件",
+    "en": "Input events",
+    "ja": "入力イベント",
+    "fr": "Événements d’entrée",
+    "de": "Eingabeereignisse",
+    "es": "Eventos de entrada"
+  },
+  "protocol.collectionCell.node_select_cde95a": {
+    "zh-CN": "{p0} {p1} 节点快捷选择",
+    "en": "{p0} {p1} Node shortcut selection",
+    "ja": "{p0} {p1} ノードショートカット選択",
+    "fr": "{p0} {p1} Nœud raccourci sélection",
+    "de": "{p0} {p1} Knoten Verknüpfung Auswahl",
+    "es": "{p0} {p1} Nodo atajo selección"
+  },
+  "protocol.collectionCell.nodes_83b761": {
+    "zh-CN": "{p0} 节点",
+    "en": "{p0} nodes",
+    "ja": "{p0}ノード",
+    "fr": "{p0} nœuds",
+    "de": "{p0} Knoten",
+    "es": "{p0} nodos"
+  },
+  "protocol.collectionCell.observation_sets_376101": {
+    "zh-CN": "观察集合",
+    "en": "Observation sets",
+    "ja": "観測集合",
+    "fr": "Ensembles observés",
+    "de": "Beobachtungsmengen",
+    "es": "Conjuntos observados"
+  },
+  "protocol.contextPercent.undefined_2c744a": {
+    "zh-CN": "无定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "protocol.controls.absolute_mean_activity_24d3f6": {
+    "zh-CN": "绝对平均活动",
+    "en": "Absolute mean activity",
+    "ja": "絶対平均活動",
+    "fr": "Activité moyenne absolue",
+    "de": "Absolute mittlere Aktivität",
+    "es": "Actividad media absoluta"
+  },
+  "protocol.controls.actions_ed31fb": {
+    "zh-CN": "操作",
+    "en": "Actions",
+    "ja": "操作",
+    "fr": "Actions",
+    "de": "Aktionen",
+    "es": "Acciones"
+  },
+  "protocol.controls.baseline_7edda1": {
+    "zh-CN": "超过基线活动",
+    "en": "exceeds Baseline activity",
+    "ja": "超過基準活動",
+    "fr": "dépasse Référence activité",
+    "de": "überschreitet Referenz Aktivität",
+    "es": "supera Referencia actividad"
+  },
+  "protocol.controls.budget_exhausted_d9e9de": {
+    "zh-CN": "预算耗尽",
+    "en": "Budget exhausted",
+    "ja": "予算を消費",
+    "fr": "Budget épuisé",
+    "de": "Budget ausgeschöpft",
+    "es": "Presupuesto agotado"
+  },
+  "protocol.controls.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "protocol.controls.candidate_set_scope_422b41": {
+    "zh-CN": "候选集合不在计算范围内",
+    "en": "The candidate set is outside the calculation scope",
+    "ja": "候補集合が計算範囲外です",
+    "fr": "L’ensemble des candidats est hors du périmètre de calcul",
+    "de": "Die Kandidatenmenge liegt außerhalb des Berechnungsbereichs",
+    "es": "El conjunto de candidatos está fuera del ámbito de cálculo"
+  },
+  "protocol.controls.condition_263052": {
+    "zh-CN": "条件含未知字段",
+    "en": "The condition contains unknown fields",
+    "ja": "条件に不明なフィールドが含まれています",
+    "fr": "La condition contient des champs inconnus",
+    "de": "Die Bedingung enthält unbekannte Felder",
+    "es": "La condición contiene campos desconocidos"
+  },
+  "protocol.controls.condition_95077c": {
+    "zh-CN": "实验条件须为对象",
+    "en": "An experiment condition must be an object",
+    "ja": "実験条件はオブジェクトである必要があります",
+    "fr": "Une condition expérimentale doit être un objet",
+    "de": "Eine Experimentbedingung muss ein Objekt sein",
+    "es": "Una condición experimental debe ser un objeto"
+  },
+  "protocol.controls.condition_b14319": {
+    "zh-CN": "当前条件",
+    "en": "Current condition",
+    "ja": "現在の条件",
+    "fr": "Condition actuelle",
+    "de": "Aktuelle Bedingung",
+    "es": "Condición actual"
+  },
+  "protocol.controls.constraints_06d78e": {
+    "zh-CN": "宽松约束 · 允许输出完全消失",
+    "en": "permissive Constraints · allows the output to disappear completely",
+    "ja": "緩い制約 · 出力が完全に消失しても許容",
+    "fr": "permissif Contraintes · autorise la disparition complète de la sortie",
+    "de": "locker Nebenbedingungen · erlaubt vollständiges Verschwinden der Ausgabe",
+    "es": "permisivo Restricciones · permite que la salida desaparezca completamente"
+  },
+  "protocol.controls.constraints_ba0934": {
+    "zh-CN": "约束",
+    "en": "Constraints",
+    "ja": "制約",
+    "fr": "Contraintes",
+    "de": "Nebenbedingungen",
+    "es": "Restricciones"
+  },
+  "protocol.controls.current_intervention_set_d6edaa": {
+    "zh-CN": "当前干预集合",
+    "en": "Current intervention set",
+    "ja": "現在の介入集合",
+    "fr": "Ensemble d’intervention actuel",
+    "de": "Aktuelle Eingriffsmenge",
+    "es": "Conjunto de intervención actual"
+  },
+  "protocol.controls.exact_body_ids_07c86e": {
+    "zh-CN": "指定 body ID",
+    "en": "Exact body IDs",
+    "ja": "body IDを指定",
+    "fr": "Body ID exacts",
+    "de": "Exakte Body-IDs",
+    "es": "Body ID exactos"
+  },
+  "protocol.controls.exceeded_314600": {
+    "zh-CN": "超限",
+    "en": "Exceeded",
+    "ja": "超過",
+    "fr": "Dépassé",
+    "de": "Überschritten",
+    "es": "Excedido"
+  },
+  "protocol.controls.fixed_interval_curves_19457c": {
+    "zh-CN": "固定时段曲线",
+    "en": "Fixed-interval curves",
+    "ja": "固定区間の曲線",
+    "fr": "Courbes à intervalle fixe",
+    "de": "Kurven für festes Intervall",
+    "es": "Curvas de intervalo fijo"
+  },
+  "protocol.controls.input_events_128_a74588": {
+    "zh-CN": "输入事件最多 128 个",
+    "en": "At most 128 input events are allowed",
+    "ja": "入力イベントは最大 128 件です",
+    "fr": "Un maximum de 128 événements d’entrée est autorisé",
+    "de": "Höchstens 128 Eingabeereignisse sind zulässig",
+    "es": "Se permiten como máximo 128 eventos de entrada"
+  },
+  "protocol.controls.intervention_interval_must_fit_within_the_total_updates_af3339": {
+    "zh-CN": "干预时段须在总更新步内",
+    "en": "Intervention interval must fit within the total updates",
+    "ja": "介入区間は全更新区間内で指定してください",
+    "fr": "L’intervalle d’intervention doit rester dans les mises à jour",
+    "de": "Eingriffsintervall muss innerhalb der Schritte liegen",
+    "es": "El intervalo de intervención debe estar dentro de los pasos"
+  },
+  "protocol.controls.interventionnode_candidate_set_body_id_593ee3": {
+    "zh-CN": "干预节点须为候选集合内不重复的 body ID",
+    "en": "Intervention nodes must be unique body IDs from the candidate set",
+    "ja": "介入ノードは候補集合内の重複しない body ID で指定してください",
+    "fr": "Les nœuds d’intervention doivent être des body ID uniques de l’ensemble des candidats",
+    "de": "Interventionsknoten müssen eindeutige body IDs aus der Kandidatenmenge sein",
+    "es": "Los nodos de intervención deben ser body ID únicos del conjunto de candidatos"
+  },
+  "protocol.controls.invalid_input_event_interval_or_amplitude_a8c113": {
+    "zh-CN": "输入事件的步数或强度无效",
+    "en": "Invalid input event interval or amplitude",
+    "ja": "入力イベントの区間または強度が無効です",
+    "fr": "Intervalle ou amplitude d’entrée invalide",
+    "de": "Ungültiges Eingabeintervall oder Stärke",
+    "es": "Intervalo o amplitud de entrada no válidos"
+  },
+  "protocol.controls.keep_observation_sets_a5ca37": {
+    "zh-CN": "至少保留一个观察集合",
+    "en": "Keep at least one observation set",
+    "ja": "観測集合を 1 個以上残してください",
+    "fr": "Conservez au moins un ensemble d’observation",
+    "de": "Behalten Sie mindestens eine Beobachtungsmenge",
+    "es": "Conserve al menos un conjunto de observación"
+  },
+  "protocol.controls.load_and_run_aac69c": {
+    "zh-CN": "载入并运行",
+    "en": "Load and run",
+    "ja": "読込と実行",
+    "fr": "Charger et exécuter",
+    "de": "Laden und ausführen",
+    "es": "Cargar y ejecutar"
+  },
+  "protocol.controls.load_nodes_34138c": {
+    "zh-CN": "载入节点",
+    "en": "Load nodes",
+    "ja": "ノードを読込",
+    "fr": "Charger les nœuds",
+    "de": "Knoten laden",
+    "es": "Cargar nodos"
+  },
+  "protocol.controls.maximum_decrease_23a30e": {
+    "zh-CN": "最多下降",
+    "en": "Maximum decrease",
+    "ja": "最大減少",
+    "fr": "Baisse maximale",
+    "de": "Maximale Abnahme",
+    "es": "Descenso máximo"
+  },
+  "protocol.controls.maximum_decrease_5d15df": {
+    "zh-CN": "{p0} 最多下降",
+    "en": "{p0} Maximum decrease",
+    "ja": "{p0} 最大減少",
+    "fr": "{p0} Baisse maximale",
+    "de": "{p0} Maximale Abnahme",
+    "es": "{p0} Descenso máximo"
+  },
+  "protocol.controls.message_0cea83": {
+    "zh-CN": " 必须为整数",
+    "en": " must be an integer",
+    "ja": " 整数でなければなりません",
+    "fr": " doit être un entier",
+    "de": " muss eine Ganzzahl sein",
+    "es": " debe ser un entero"
+  },
+  "protocol.controls.message_1234ab": {
+    "zh-CN": "当前最好",
+    "en": "best evaluated",
+    "ja": "評価済み最良",
+    "fr": "meilleur évalué",
+    "de": "beste bewertet",
+    "es": "mejor evaluado"
+  },
+  "protocol.controls.message_29e6d0": {
+    "zh-CN": "至少下降",
+    "en": "at least decrease",
+    "ja": "最低低下",
+    "fr": "au moins baisse",
+    "de": "mindestens Abnahme",
+    "es": "al menos disminución"
+  },
+  "protocol.controls.message_3bdcc9": {
+    "zh-CN": " 平均活动",
+    "en": " mean activity",
+    "ja": " 平均活動",
+    "fr": " moyenne activité",
+    "de": " Mittelwert Aktivität",
+    "es": " media actividad"
+  },
+  "protocol.controls.message_3d7752": {
+    "zh-CN": "取舍 ",
+    "en": "trade-off ",
+    "ja": "比較 ",
+    "fr": "compromis ",
+    "de": "Abwägung ",
+    "es": "compensación "
+  },
+  "protocol.controls.message_3f765a": {
+    "zh-CN": "{p0} 累计变化",
+    "en": "{p0} cumulative change",
+    "ja": "{p0} 累積変化",
+    "fr": "{p0} variation cumulée",
+    "de": "{p0} kumulative Änderung",
+    "es": "{p0} cambio acumulado"
+  },
+  "protocol.controls.message_4bcce2": {
+    "zh-CN": "{p0} · {p1} · 单点覆盖 {p2}/{p3} · 联合模拟 {p4}/{p5} · {p6}",
+    "en": "{p0} · {p1} · single-node coverage {p2}/{p3} · joint simulation {p4}/{p5} · {p6}",
+    "ja": "{p0} · {p1} · 単一ノード評価範囲 {p2}/{p3} · 共同シミュレーション {p4}/{p5} · {p6}",
+    "fr": "{p0} · {p1} · couverture individuelle {p2}/{p3} · simulation conjointe {p4}/{p5} · {p6}",
+    "de": "{p0} · {p1} · Einzelknotenabdeckung {p2}/{p3} · gemeinsame Simulation {p4}/{p5} · {p6}",
+    "es": "{p0} · {p1} · cobertura individual {p2}/{p3} · simulación conjunta {p4}/{p5} · {p6}"
+  },
+  "protocol.controls.message_5154a5": {
+    "zh-CN": "{p0} 下降",
+    "en": "{p0} decrease",
+    "ja": "{p0} 低下",
+    "fr": "{p0} baisse",
+    "de": "{p0} Abnahme",
+    "es": "{p0} disminución"
+  },
+  "protocol.controls.message_582f92": {
+    "zh-CN": "允许输出完全消失",
+    "en": "allows the output to disappear completely",
+    "ja": "出力が完全に消失しても許容",
+    "fr": "autorise la disparition complète de la sortie",
+    "de": "erlaubt vollständiges Verschwinden der Ausgabe",
+    "es": "permite que la salida desaparezca completamente"
+  },
+  "protocol.controls.message_68543f": {
+    "zh-CN": "{p0} · 线宽 {p1}",
+    "en": "{p0} · line width {p1}",
+    "ja": "{p0} · 線幅 {p1}",
+    "fr": "{p0} · épaisseur {p1}",
+    "de": "{p0} · Linienbreite {p1}",
+    "es": "{p0} · grosor {p1}"
+  },
+  "protocol.controls.message_a2ebfb": {
+    "zh-CN": "当前结果",
+    "en": "current result",
+    "ja": "現在の結果",
+    "fr": "résultat actuel",
+    "de": "aktuelles Ergebnis",
+    "es": "resultado actual"
+  },
+  "protocol.controls.message_e4cb6f": {
+    "zh-CN": " · 更新[",
+    "en": " · update[",
+    "ja": " · 更新[",
+    "fr": " · mise à jour[",
+    "de": " · Aktualisierung[",
+    "es": " · actualización["
+  },
+  "protocol.controls.message_f95fd6": {
+    "zh-CN": " 停用",
+    "en": " disabled",
+    "ja": " 無効",
+    "fr": " désactivé",
+    "de": " deaktiviert",
+    "es": " deshabilitado"
+  },
+  "protocol.controls.message_ff6110": {
+    "zh-CN": " 比例",
+    "en": " ratio",
+    "ja": " 比率",
+    "fr": " proportion",
+    "de": " Verhältnis",
+    "es": " proporción"
+  },
+  "protocol.controls.metricundefined_d5fdbb": {
+    "zh-CN": "相对指标无定义",
+    "en": "Relative metric undefined",
+    "ja": "相対指標は未定義",
+    "fr": "Mesure relative indéfinie",
+    "de": "Relative Messgröße undefiniert",
+    "es": "Métrica relativa indefinida"
+  },
+  "protocol.controls.multi_condition_comparisoncomplete_1ba199": {
+    "zh-CN": "多条件比较完成",
+    "en": "Multi-condition comparison complete",
+    "ja": "複数条件の比較が完了",
+    "fr": "Comparaison multi-condition terminée",
+    "de": "Mehrbedingungenvergleich abgeschlossen",
+    "es": "Comparación de múltiples condiciones completada"
+  },
+  "protocol.controls.node_344d84": {
+    "zh-CN": "{p0} 节点 / {p1} 边",
+    "en": "{p0} Node / {p1} edge",
+    "ja": "{p0} ノード / {p1} 辺",
+    "fr": "{p0} Nœud / {p1} arête",
+    "de": "{p0} Knoten / {p1} Kante",
+    "es": "{p0} Nodo / {p1} arista"
+  },
+  "protocol.controls.node_7f67d6": {
+    "zh-CN": " 节点",
+    "en": " Node",
+    "ja": " ノード",
+    "fr": " Nœud",
+    "de": " Knoten",
+    "es": " Nodo"
+  },
+  "protocol.controls.node_count_2e797c": {
+    "zh-CN": "节点数",
+    "en": "Node count",
+    "ja": "ノード数",
+    "fr": "Nombre de nœuds",
+    "de": "Knotenzahl",
+    "es": "Número de nodos"
+  },
+  "protocol.controls.observation_ddf5ff": {
+    "zh-CN": "观察 ",
+    "en": "Observation ",
+    "ja": "観測 ",
+    "fr": "Observation ",
+    "de": "Beobachtung ",
+    "es": "Observación "
+  },
+  "protocol.controls.observation_names_must_be_nonempty_and_unique_765db4": {
+    "zh-CN": "观察集合名称须非空且唯一",
+    "en": "Observation names must be nonempty and unique",
+    "ja": "観測名は空欄不可・重複不可です",
+    "fr": "Les noms d’observation doivent être uniques et non vides",
+    "de": "Beobachtungsnamen müssen eindeutig und nicht leer sein",
+    "es": "Los nombres de observación deben ser únicos y no vacíos"
+  },
+  "protocol.controls.observation_sets_1_32_527e5d": {
+    "zh-CN": "观察集合须为 1–32 个",
+    "en": "Define 1–32 observation sets",
+    "ja": "観測集合は 1–32 個指定してください",
+    "fr": "Définissez 1 à 32 ensembles d’observation",
+    "de": "Definieren Sie 1–32 Beobachtungsmengen",
+    "es": "Defina entre 1 y 32 conjuntos de observación"
+  },
+  "protocol.controls.observation_window_must_fit_within_the_total_updates_6bd639": {
+    "zh-CN": "观察评价区间须在总更新步内",
+    "en": "Observation window must fit within the total updates",
+    "ja": "観測窓は全更新区間内で指定してください",
+    "fr": "La fenêtre d’observation doit rester dans les mises à jour",
+    "de": "Beobachtungsfenster muss innerhalb der Schritte liegen",
+    "es": "La ventana observada debe estar dentro de los pasos"
+  },
+  "protocol.controls.plan_6f949a": {
+    "zh-CN": "方案",
+    "en": "Plan",
+    "ja": "計画",
+    "fr": "Plan",
+    "de": "Plan",
+    "es": "Plan"
+  },
+  "protocol.controls.protection_0f810a": {
+    "zh-CN": "保护",
+    "en": "Protection",
+    "ja": "保護",
+    "fr": "Protection",
+    "de": "Schutz",
+    "es": "Protección"
+  },
+  "protocol.controls.protection_5e7311": {
+    "zh-CN": "保护 {p0}",
+    "en": "protection {p0}",
+    "ja": "保護 {p0}",
+    "fr": "protection {p0}",
+    "de": "Schutz {p0}",
+    "es": "protección {p0}"
+  },
+  "protocol.controls.protectionexceeded_9a9e68": {
+    "zh-CN": "保护超限",
+    "en": "Protection limit exceeded",
+    "ja": "保護上限超過",
+    "fr": "Limite de protection dépassée",
+    "de": "Schutzgrenze überschritten",
+    "es": "Límite de protección superado"
+  },
+  "protocol.controls.protectionmetric_f52221": {
+    "zh-CN": "{p0} 保护指标",
+    "en": "{p0} protection Metric",
+    "ja": "{p0} 保護指標",
+    "fr": "{p0} protection Mesure",
+    "de": "{p0} Schutz Kennwert",
+    "es": "{p0} protección Métrica"
+  },
+  "protocol.controls.relative_87577c": {
+    "zh-CN": "相对 · %",
+    "en": "Relative (%)",
+    "ja": "相対（%）",
+    "fr": "Relatif (%)",
+    "de": "Relativ (%)",
+    "es": "Relativo (%)"
+  },
+  "protocol.controls.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "protocol.controls.satisfiedindividual_constraints_plan_29c3fd": {
+    "zh-CN": "未找到满足各项约束的方案",
+    "en": "No plan meeting all constraints was found",
+    "ja": "全制約を満たす計画は見つかりませんでした",
+    "fr": "Aucun plan satisfaisant toutes les contraintes n’a été trouvé",
+    "de": "Kein Plan gefunden, der alle Nebenbedingungen erfüllt",
+    "es": "No se encontró ningún plan que cumpliera todas las restricciones"
+  },
+  "protocol.controls.satisfiedindividual_constraints_plan_6481a8": {
+    "zh-CN": "找到满足各项约束的方案",
+    "en": "A plan meeting all constraints was found",
+    "ja": "全制約を満たす計画が見つかりました",
+    "fr": "Un plan satisfaisant toutes les contraintes a été trouvé",
+    "de": "Ein Plan gefunden, der alle Nebenbedingungen erfüllt",
+    "es": "Se encontró un plan que cumple todas las restricciones"
+  },
+  "protocol.controls.scope_3bbd98": {
+    "zh-CN": " 超出范围",
+    "en": " exceeds Scope",
+    "ja": " 超過範囲",
+    "fr": " dépasse Périmètre",
+    "de": " überschreitet Umfang",
+    "es": " supera Alcance"
+  },
+  "protocol.controls.searchstop_8728a6": {
+    "zh-CN": "搜索结束",
+    "en": "Search finished",
+    "ja": "検索終了",
+    "fr": "Recherche terminée",
+    "de": "Suche beendet",
+    "es": "Búsqueda finalizada"
+  },
+  "protocol.controls.status_ac6d05": {
+    "zh-CN": "{p0} · 更新[{p1}, {p2}) → 响应状态 {p3}–{p4}",
+    "en": "{p0} · updates [{p1}, {p2}) → response states {p3}–{p4}",
+    "ja": "{p0} · 更新 [{p1}, {p2}) → 応答状態 {p3}–{p4}",
+    "fr": "{p0} · mises à jour [{p1}, {p2}) → états de réponse {p3}–{p4}",
+    "de": "{p0} · Aktualisierungen [{p1}, {p2}) → Antwortzustände {p3}–{p4}",
+    "es": "{p0} · actualizaciones [{p1}, {p2}) → estados de respuesta {p3}–{p4}"
+  },
+  "protocol.controls.target_aa63db": {
+    "zh-CN": "目标不足",
+    "en": "target insufficient",
+    "ja": "目標不足",
+    "fr": "cible insuffisant",
+    "de": "Ziel unzureichend",
+    "es": "objetivo insuficiente"
+  },
+  "protocol.controls.targetconnections_5a826a": {
+    "zh-CN": "{p0} · 活动 {p1} / 目标连接 {p2} / 分数 {p3}",
+    "en": "{p0} · activity {p1} / target Connections {p2} / score {p3}",
+    "ja": "{p0} · 活動 {p1} / 目標接続 {p2} / スコア {p3}",
+    "fr": "{p0} · activité {p1} / cible Connexions {p2} / score {p3}",
+    "de": "{p0} · Aktivität {p1} / Ziel Verbindungen {p2} / Wert {p3}",
+    "es": "{p0} · actividad {p1} / objetivo Conexiones {p2} / puntuación {p3}"
+  },
+  "protocol.controls.type_ba4001": {
+    "zh-CN": "类型",
+    "en": "Type",
+    "ja": "種類",
+    "fr": "Type",
+    "de": "Typ",
+    "es": "Tipo"
+  },
+  "protocol.eventRow.input_events_amplitude_14961f": {
+    "zh-CN": "输入事件 {p0} 强度",
+    "en": "Input events {p0} Amplitude",
+    "ja": "入力イベント {p0} 強度",
+    "fr": "Événements d’entrée {p0} Amplitude",
+    "de": "Eingabeereignisse {p0} Stärke",
+    "es": "Eventos de entrada {p0} Amplitud"
+  },
+  "protocol.eventRow.input_events_start_update_ed662d": {
+    "zh-CN": "输入事件 {p0} 起始步",
+    "en": "Input events {p0} Start update",
+    "ja": "入力イベント {p0} 開始更新ステップ",
+    "fr": "Événements d’entrée {p0} Mise à jour initiale",
+    "de": "Eingabeereignisse {p0} Erster Updateschritt",
+    "es": "Eventos de entrada {p0} Actualización inicial"
+  },
+  "protocol.eventRow.input_events_stop_e36ef4": {
+    "zh-CN": "输入事件 {p0} 结束步",
+    "en": "Input events {p0} Stop updates",
+    "ja": "入力イベント {p0} 終了更新ステップ",
+    "fr": "Événements d’entrée {p0} Fin mises à jour",
+    "de": "Eingabeereignisse {p0} Ende Schritte",
+    "es": "Eventos de entrada {p0} Fin pasos"
+  },
+  "protocol.eventRow.remove_6135d4": {
+    "zh-CN": "移除",
+    "en": "Remove",
+    "ja": "削除",
+    "fr": "Retirer",
+    "de": "Entfernen",
+    "es": "Quitar"
+  },
+  "protocol.groupShortcutOptions.current_intervention_set_d6edaa": {
+    "zh-CN": "当前干预集合",
+    "en": "Current intervention set",
+    "ja": "現在の介入集合",
+    "fr": "Ensemble d’intervention actuel",
+    "de": "Aktuelle Eingriffsmenge",
+    "es": "Conjunto de intervención actual"
+  },
+  "protocol.groupShortcutOptions.exact_body_ids_07c86e": {
+    "zh-CN": "指定 body ID",
+    "en": "Exact body IDs",
+    "ja": "body IDを指定",
+    "fr": "Body ID exacts",
+    "de": "Exakte Body-IDs",
+    "es": "Body ID exactos"
+  },
+  "protocol.ids.node_sets_require_unique_body_ids_within_the_calculation_bf9ad0": {
+    "zh-CN": "节点集合须包含计算范围内不重复的 body ID",
+    "en": "Node sets require unique body IDs within the calculation scope",
+    "ja": "集合は計算範囲内の重複しないbody IDで指定してください",
+    "fr": "Les ensembles exigent des body ID uniques dans le périmètre",
+    "de": "Knotenmengen benötigen eindeutige Body-IDs im Rechenbereich",
+    "es": "Los conjuntos requieren body ID únicos dentro del ámbito"
+  },
+  "protocol.observationRow.full_run_2d6445": {
+    "zh-CN": "全程",
+    "en": "Full run",
+    "ja": "全期間",
+    "fr": "Exécution complète",
+    "de": "Gesamter Lauf",
+    "es": "Ejecución completa"
+  },
+  "protocol.observationRow.observation_sets_name_9eed40": {
+    "zh-CN": "观察集合 {p0} 名称",
+    "en": "Observation sets {p0} Name",
+    "ja": "観測集合 {p0} 名前",
+    "fr": "Ensembles observés {p0} Nom",
+    "de": "Beobachtungsmengen {p0} Name",
+    "es": "Conjuntos observados {p0} Nombre"
+  },
+  "protocol.observationRow.remove_6135d4": {
+    "zh-CN": "移除",
+    "en": "Remove",
+    "ja": "削除",
+    "fr": "Retirer",
+    "de": "Entfernen",
+    "es": "Quitar"
+  },
+  "protocol.observationRow.start_update_8092fd": {
+    "zh-CN": "{p0} 评价起始更新步",
+    "en": "{p0}: evaluation start update",
+    "ja": "{p0}：評価開始更新ステップ",
+    "fr": "{p0} : début de la fenêtre d’évaluation",
+    "de": "{p0}: Beginn des Auswertungsfensters",
+    "es": "{p0}: inicio de la ventana de evaluación"
+  },
+  "protocol.observationRow.stop_4ff4d5": {
+    "zh-CN": "{p0} 评价结束步（不含）",
+    "en": "{p0}: evaluation stop update (exclusive)",
+    "ja": "{p0}：評価終了更新ステップ（含まない）",
+    "fr": "{p0} : fin de la fenêtre d’évaluation (exclue)",
+    "de": "{p0}: Ende des Auswertungsfensters (exklusiv)",
+    "es": "{p0}: fin de la ventana de evaluación (excluido)"
+  },
+  "protocol.observationRow.to_65edbf": {
+    "zh-CN": "至",
+    "en": "to",
+    "ja": "まで",
+    "fr": "à",
+    "de": "bis",
+    "es": "hasta"
+  },
+  "protocol.protocolTimelineSvg.condition_b14319": {
+    "zh-CN": "当前条件",
+    "en": "Current condition",
+    "ja": "現在の条件",
+    "fr": "Condition actuelle",
+    "de": "Aktuelle Bedingung",
+    "es": "Condición actual"
+  },
+  "protocol.protocolTimelineSvg.intervention_observation_status_updates_9a81d9": {
+    "zh-CN": "输入、干预和观察评价区间，响应状态为更新步加一",
+    "en": "Input, intervention and evaluation intervals. Response state steps equal update steps plus one.",
+    "ja": "入力・介入・評価の区間。応答の状態ステップは更新ステップに 1 を加えた値です。",
+    "fr": "Intervalles d’entrée, d’intervention et d’évaluation. Les pas d’état de réponse correspondent aux pas de mise à jour plus un.",
+    "de": "Eingabe-, Interventions- und Auswertungsintervalle. Antwortzustandsschritte entsprechen den Aktualisierungsschritten plus eins.",
+    "es": "Intervalos de entrada, intervención y evaluación. Los pasos de estado de respuesta equivalen a los de actualización más uno."
+  },
+  "protocol.protocolTimelineSvg.message_099db3": {
+    "zh-CN": "边",
+    "en": "edge",
+    "ja": "辺",
+    "fr": "arête",
+    "de": "Kante",
+    "es": "arista"
+  },
+  "protocol.protocolTimelineSvg.message_826379": {
+    "zh-CN": " · 输入",
+    "en": " · input",
+    "ja": " · 入力",
+    "fr": " · entrée",
+    "de": " · Eingabe",
+    "es": " · entrada"
+  },
+  "protocol.protocolTimelineSvg.message_f3570b": {
+    "zh-CN": " · 评价",
+    "en": " · evaluation",
+    "ja": " · 評価",
+    "fr": " · évaluation",
+    "de": " · Bewertung",
+    "es": " · evaluación"
+  },
+  "protocol.protocolTimelineSvg.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "protocol.protocolTimelineSvg.nodeintervention_01240a": {
+    "zh-CN": " · 节点干预",
+    "en": " · Node Intervention",
+    "ja": " · ノード介入",
+    "fr": " · Nœud Intervention",
+    "de": " · Knoten Eingriff",
+    "es": " · Nodo Intervención"
+  },
+  "protocol.protocolTimelineSvg.response_state_step_0_0ff3ff": {
+    "zh-CN": "响应状态步 0",
+    "en": "Response state step 0",
+    "ja": "応答の状態ステップ 0",
+    "fr": "Étape d’état de réponse 0",
+    "de": "Antwort-Zustandsschritt 0",
+    "es": "Paso de estado de respuesta 0"
+  },
+  "protocol.renderComparison.actions_ed31fb": {
+    "zh-CN": "操作",
+    "en": "Actions",
+    "ja": "操作",
+    "fr": "Actions",
+    "de": "Aktionen",
+    "es": "Acciones"
+  },
+  "protocol.renderComparison.condition_16bb1d": {
+    "zh-CN": "条件",
+    "en": "Condition",
+    "ja": "条件",
+    "fr": "Condition",
+    "de": "Bedingung",
+    "es": "Condición"
+  },
+  "protocol.renderComparison.condition_5a9cf2": {
+    "zh-CN": "{p0} · {p1} 个条件",
+    "en": "{p0} · {p1} conditions",
+    "ja": "{p0} · {p1} 条件",
+    "fr": "{p0} · {p1} conditions",
+    "de": "{p0} · {p1} Bedingungen",
+    "es": "{p0} · {p1} condiciones"
+  },
+  "protocol.renderComparison.condition_observation_sets_274100": {
+    "zh-CN": "{p0}{p1} 个条件 · {p2} 观察集合",
+    "en": "{p0}{p1} conditions · {p2} observation sets",
+    "ja": "{p0}{p1} 条件 · 観測集合 {p2}",
+    "fr": "{p0}{p1} conditions · {p2} ensembles d’observation",
+    "de": "{p0}{p1} Bedingungen · {p2} Beobachtungsmengen",
+    "es": "{p0}{p1} condiciones · {p2} conjuntos de observación"
+  },
+  "protocol.renderComparison.constraints_ba0934": {
+    "zh-CN": "约束",
+    "en": "Constraints",
+    "ja": "制約",
+    "fr": "Contraintes",
+    "de": "Nebenbedingungen",
+    "es": "Restricciones"
+  },
+  "protocol.renderComparison.intervention_nodes_edges_8f4783": {
+    "zh-CN": "干预节点／边",
+    "en": "Intervened nodes / edges",
+    "ja": "介入ノード／辺",
+    "fr": "Nœuds / arêtes modifiés",
+    "de": "Beeinflusste Knoten / Kanten",
+    "es": "Nodos / aristas intervenidos"
+  },
+  "protocol.renderComparison.message_407596": {
+    "zh-CN": "任务结果",
+    "en": "task result",
+    "ja": "タスク結果",
+    "fr": "résultat de tâche",
+    "de": "Aufgabenergebnis",
+    "es": "resultado de tarea"
+  },
+  "protocol.renderComparison.retained_gain_915c4f": {
+    "zh-CN": "保留增益",
+    "en": "Retained gain",
+    "ja": "残存ゲイン",
+    "fr": "Gain conservé",
+    "de": "Verbleibende Verstärkung",
+    "es": "Ganancia conservada"
+  },
+  "protocol.renderComparison.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "protocol.renderComparison.save_eacd46": {
+    "zh-CN": "已保存任务结果",
+    "en": "saved task result",
+    "ja": "保存済みタスク結果",
+    "fr": "enregistrérésultat de tâche",
+    "de": "gespeichert Aufgabenergebnis",
+    "es": "guardado resultado de tarea"
+  },
+  "protocol.renderComparison.update_interval_677bb0": {
+    "zh-CN": "更新时段",
+    "en": "Update interval",
+    "ja": "更新区間",
+    "fr": "Intervalle de mises à jour",
+    "de": "Schrittintervall",
+    "es": "Intervalo de pasos"
+  },
+  "protocol.renderSearchContext.0_eadba9": {
+    "zh-CN": "最小分数为 0 的 ",
+    "en": "minimum score as 0 of ",
+    "ja": "最小スコアとして 0 の ",
+    "fr": "minimum score comme 0 de ",
+    "de": "Minimum Wert als 0 von ",
+    "es": "mínimo puntuación como 0 de "
+  },
+  "protocol.renderSearchContext.baseline_mean_activity_model_units_fe1585": {
+    "zh-CN": "基线与阈值解释 · 平均活动 / 模型单位",
+    "en": "Baseline and threshold interpretation · Mean activity / model units",
+    "ja": "基準と閾値の解釈 · 平均活動／モデル単位",
+    "fr": "Référence et interprétation du seuil · Activité moyenne / unités du modèle",
+    "de": "Referenz und Schwelleninterpretation · Mittlere Aktivität / Modelleinheiten",
+    "es": "Referencia e interpretación del umbral · Actividad media / unidades del modelo"
+  },
+  "protocol.renderSearchContext.baseline_target_3_connections_mean_score_id_255159": {
+    "zh-CN": "基线活动 × 目标读出与最多 3 跳连接（最差、平均分数降序；同分按 ID）",
+    "en": "Baseline activity × target readout connectivity within 3 hops. Descending worst and mean scores; ties by ID.",
+    "ja": "ベースライン活動 × 3 ホップ以内の目標読出しへの接続性。最悪値、平均値の降順。同点は ID 順。",
+    "fr": "Activité de référence × connectivité vers la sortie cible à 3 sauts au plus. Scores minimal puis moyen décroissants ; égalités départagées par ID.",
+    "de": "Referenzaktivität × Konnektivität zum Zielausgang innerhalb von 3 Schritten. Absteigend nach schlechtestem und mittlerem Wert; Gleichstände nach ID.",
+    "es": "Actividad de referencia × conectividad con la salida objetivo en hasta 3 saltos. Puntuaciones peor y media descendentes; desempate por ID."
+  },
+  "protocol.renderSearchContext.by_body_id_94e546": {
+    "zh-CN": "按 body ID",
+    "en": "By body ID",
+    "ja": "body ID順",
+    "fr": "Par body ID",
+    "de": "Nach Body-ID",
+    "es": "Por body ID"
+  },
+  "protocol.renderSearchContext.complete_66b07f": {
+    "zh-CN": " · 预选未完成",
+    "en": " · preselection not completed",
+    "ja": " · 事前選択未完了",
+    "fr": " · présélection non terminé",
+    "de": " · Vorauswahl nicht abgeschlossen",
+    "es": " · preselección no completado"
+  },
+  "protocol.renderSearchContext.fixed_plan_90fc7e": {
+    "zh-CN": "固定方案评价未进行候选预选",
+    "en": "Fixed-plan evaluation did not preselect candidates",
+    "ja": "固定計画の評価では候補の事前選択を行っていません",
+    "fr": "L’évaluation du plan fixe n’a pas présélectionné de candidats",
+    "de": "Bei der Bewertung des festen Plans wurde keine Kandidatenvorauswahl durchgeführt",
+    "es": "La evaluación del plan fijo no realizó una preselección de candidatos"
+  },
+  "protocol.renderSearchContext.keep_a361e0": {
+    "zh-CN": " 个仍保留",
+    "en": " items still Keep",
+    "ja": " 件引き続き保持",
+    "fr": " éléments encore Conserver",
+    "de": " Elemente weiterhin Behalten",
+    "es": " elementos todavía Conservar"
+  },
+  "protocol.renderSearchContext.message_20cc08": {
+    "zh-CN": "未计算分数",
+    "en": "Scores not calculated",
+    "ja": "スコアは未計算",
+    "fr": "Scores non calculés",
+    "de": "Bewertungen nicht berechnet",
+    "es": "Puntuaciones sin calcular"
+  },
+  "protocol.renderSearchContext.not_recorded_order_78d15e": {
+    "zh-CN": "历史结果未记录预选顺序",
+    "en": "This previous result has no recorded preselection order",
+    "ja": "この以前の結果には事前選択順序の記録がありません",
+    "fr": "Ce résultat précédent n’a pas d’ordre de présélection enregistré",
+    "de": "Für dieses frühere Ergebnis ist keine Vorauswahlreihenfolge gespeichert",
+    "es": "Este resultado anterior no tiene un orden de preselección registrado"
+  },
+  "protocol.renderSearchContext.not_recordedbaseline_54f2d2": {
+    "zh-CN": "历史结果未记录基线与阈值解释",
+    "en": "This previous result has no baseline or threshold explanation",
+    "ja": "この以前の結果にはベースラインと閾値の説明がありません",
+    "fr": "Ce résultat précédent ne contient pas d’explication de la référence ni du seuil",
+    "de": "Dieses frühere Ergebnis enthält keine Erläuterung zu Referenz und Schwellenwert",
+    "es": "Este resultado anterior no contiene una explicación de la referencia ni del umbral"
+  },
+  "protocol.renderSearchContext.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "protocol.renderSearchContext.sort_42880b": {
+    "zh-CN": "{p0} · {p1} 候选 · {p2} · 排序依据，未代表实际扰动评价{p3}",
+    "en": "{p0} · Candidates: {p1} · {p2} · Ranking criterion, not a perturbation assessment{p3}",
+    "ja": "{p0} · 候補数: {p1} · {p2} · 順位付けの基準であり、摂動の評価ではありません{p3}",
+    "fr": "{p0} · Candidats : {p1} · {p2} · Critère de classement, pas une évaluation de perturbation{p3}",
+    "de": "{p0} · Kandidaten: {p1} · {p2} · Rangordnungskriterium, keine Störungsbewertung{p3}",
+    "es": "{p0} · Candidatos: {p1} · {p2} · Criterio de clasificación, no una evaluación de perturbaciones{p3}"
+  },
+  "protocol.renderSearchDiagnostics.0_scope_0322aa": {
+    "zh-CN": "最小预选分数为 0 的候选仍在范围内",
+    "en": "Candidates with a minimum preselection score of zero remain eligible",
+    "ja": "最小事前選択スコアがゼロの候補も対象に含まれます",
+    "fr": "Les candidats dont le score minimal de présélection est nul restent admissibles",
+    "de": "Kandidaten mit minimalem Vorauswahlwert null bleiben zulässig",
+    "es": "Los candidatos con puntuación mínima de preselección cero siguen siendo aptos"
+  },
+  "protocol.renderSearchDiagnostics.budget_d2eacc": {
+    "zh-CN": "预算已用尽",
+    "en": "budget exhausted",
+    "ja": "予算使い切り",
+    "fr": "budgetépuisé",
+    "de": "Budget aufgebraucht",
+    "es": "presupuesto agotado"
+  },
+  "protocol.renderSearchDiagnostics.cancel_d8ccc0": {
+    "zh-CN": "用户取消",
+    "en": "user cancelled",
+    "ja": "ユーザー取消",
+    "fr": "utilisateur annulé",
+    "de": "Benutzer abgebrochen",
+    "es": "usuario cancelado"
+  },
+  "protocol.renderSearchDiagnostics.cancelled_ac25a3": {
+    "zh-CN": "用户已取消",
+    "en": "user Cancelled",
+    "ja": "ユーザー中止済み",
+    "fr": "utilisateur Annulé",
+    "de": "Benutzer Abgebrochen",
+    "es": "usuario Cancelado"
+  },
+  "protocol.renderSearchDiagnostics.combinationscope_4d8682": {
+    "zh-CN": "短名单限制了组合范围",
+    "en": "The shortlist limited the combination space",
+    "ja": "短縮候補リストにより組み合わせ範囲が限定されました",
+    "fr": "La liste restreinte a limité l’espace des combinaisons",
+    "de": "Die engere Auswahl hat den Kombinationsraum begrenzt",
+    "es": "La lista reducida limitó el espacio de combinaciones"
+  },
+  "protocol.renderSearchDiagnostics.fixed_plan_0c8d8d": {
+    "zh-CN": "固定方案已评价",
+    "en": "Fixed plan evaluated",
+    "ja": "固定案評価済み",
+    "fr": "Plan fixeévalué",
+    "de": "Fester Plan bewertet",
+    "es": "Plan fijo evaluado"
+  },
+  "protocol.renderSearchDiagnostics.fixed_plan_f0aa75": {
+    "zh-CN": "固定方案评价",
+    "en": "Fixed plan evaluation",
+    "ja": "固定案評価",
+    "fr": "Plan fixeévaluation",
+    "de": "Fester Plan Bewertung",
+    "es": "Plan fijo evaluación"
+  },
+  "protocol.renderSearchDiagnostics.fixed_plan_f81c71": {
+    "zh-CN": "固定方案仅评价，未重新优化",
+    "en": "Fixed plan evaluated without re-optimization.",
+    "ja": "固定計画を評価しました。再最適化は行っていません。",
+    "fr": "Plan fixe évalué sans nouvelle optimisation.",
+    "de": "Fester Plan ohne erneute Optimierung ausgewertet.",
+    "es": "Plan fijo evaluado sin volver a optimizar."
+  },
+  "protocol.renderSearchDiagnostics.message_2dcb68": {
+    "zh-CN": "部分候选尚未逐点评价",
+    "en": "Some candidates have not been evaluated individually",
+    "ja": "一部の候補は個別に未評価です",
+    "fr": "Certains candidats n’ont pas été évalués individuellement",
+    "de": "Einige Kandidaten wurden noch nicht einzeln bewertet",
+    "es": "Algunos candidatos no se han evaluado individualmente"
+  },
+  "protocol.renderSearchDiagnostics.message_77cde5": {
+    "zh-CN": "（已截断）",
+    "en": "（truncated）",
+    "ja": "（打切りあり）",
+    "fr": "（tronqué）",
+    "de": "（gekürzt）",
+    "es": "（truncado）"
+  },
+  "protocol.renderSearchDiagnostics.nodecombination_budget_plan_95a08e": {
+    "zh-CN": "节点组合未穷举，仅评价预算内方案",
+    "en": "Only plans within the budget were evaluated. Node combinations were not searched exhaustively.",
+    "ja": "予算内の計画のみを評価しました。ノードの組合せは網羅的に探索していません。",
+    "fr": "Seuls les plans dans le budget ont été évalués. Les combinaisons de nœuds n’ont pas été explorées exhaustivement.",
+    "de": "Nur Pläne innerhalb des Budgets wurden ausgewertet. Knotenkombinationen wurden nicht vollständig durchsucht.",
+    "es": "Solo se evaluaron los planes dentro del presupuesto. No se exploraron exhaustivamente las combinaciones de nodos."
+  },
+  "protocol.renderSearchDiagnostics.nodeplan_protectionconstraints_3f13bf": {
+    "zh-CN": "有多节点方案因保护约束淘汰",
+    "en": "Some multi-node plans were rejected by protection constraints",
+    "ja": "一部の複数ノード計画は保護制約により除外されました",
+    "fr": "Certains plans à plusieurs nœuds ont été rejetés par les contraintes de protection",
+    "de": "Einige Pläne mit mehreren Knoten wurden wegen Schutzbedingungen verworfen",
+    "es": "Algunos planes de varios nodos se descartaron por las restricciones de protección"
+  },
+  "protocol.renderSearchDiagnostics.nodeplan_protectionconstraints_404132": {
+    "zh-CN": "有单节点方案因保护约束淘汰",
+    "en": "Some single-node plans were rejected by protection constraints",
+    "ja": "一部の単一ノード計画は保護制約により除外されました",
+    "fr": "Certains plans à un seul nœud ont été rejetés par les contraintes de protection",
+    "de": "Einige Einzelknotenpläne wurden wegen Schutzbedingungen verworfen",
+    "es": "Algunos planes de un solo nodo se descartaron por las restricciones de protección"
+  },
+  "protocol.renderSearchDiagnostics.not_recordedsearch_8cbfa0": {
+    "zh-CN": "历史结果未记录搜索诊断",
+    "en": "This previous result has no recorded search diagnostics",
+    "ja": "この以前の結果には検索診断の記録がありません",
+    "fr": "Ce résultat précédent ne contient pas de diagnostic de recherche",
+    "de": "Für dieses frühere Ergebnis sind keine Suchdiagnosen gespeichert",
+    "es": "Este resultado anterior no contiene diagnósticos de búsqueda"
+  },
+  "protocol.renderSearchDiagnostics.plan_condition_target_c443d3": {
+    "zh-CN": "当前最好方案仍有条件未达目标",
+    "en": "The best evaluated plan still misses the target in some conditions",
+    "ja": "評価済みの最良計画も一部の条件で目標に未達です",
+    "fr": "Le meilleur plan évalué n’atteint toujours pas la cible dans certaines conditions",
+    "de": "Der beste bewertete Plan verfehlt das Ziel noch in einigen Bedingungen",
+    "es": "El mejor plan evaluado aún no alcanza el objetivo en algunas condiciones"
+  },
+  "protocol.renderSearchDiagnostics.plannode_290894": {
+    "zh-CN": " · 当前最好方案节点 ",
+    "en": " · best evaluated Plan Node ",
+    "ja": " · 評価済み最良計画ノード ",
+    "fr": " · meilleur évaluéPlan Nœud ",
+    "de": " · beste bewertet Plan Knoten ",
+    "es": " · mejor evaluado Plan Nodo "
+  },
+  "protocol.renderSearchDiagnostics.plannode_824363": {
+    "zh-CN": " · 所选方案节点 ",
+    "en": " · selected Plan Node ",
+    "ja": " · 選択済み計画ノード ",
+    "fr": " · sélectionnéPlan Nœud ",
+    "de": " · ausgewählt Plan Knoten ",
+    "es": " · seleccionado Plan Nodo "
+  },
+  "protocol.renderSearchDiagnostics.plannot_recorded_95cad5": {
+    "zh-CN": " · 所选方案未记录足够诊断字段",
+    "en": " · selected Plan Not recorded sufficient diagnostic fields",
+    "ja": " · 選択済み計画未記録十分な診断項目",
+    "fr": " · sélectionnéPlan Non enregistréchamps de diagnostic suffisants",
+    "de": " · ausgewählt Plan Nicht aufgezeichnet ausreichende Diagnosefelder",
+    "es": " · seleccionado Plan No registrado campos diagnósticos suficientes"
+  },
+  "protocol.renderSearchDiagnostics.protection_node_set_91ee07": {
+    "zh-CN": " · 单点覆盖 {p0}/{p1} · 未探查 {p2} · 保护淘汰单点 {p3} / 多节点集合 {p4} · 短名单 {p5}{p6}",
+    "en": " · single-node coverage {p0}/{p1} · unexplored {p2} · rejected by protection: {p3} single-node / {p4} multi-node sets · shortlist {p5}{p6}",
+    "ja": " · 単一ノード評価 {p0}/{p1} · 未探索 {p2} · 保護制約で除外：単一 {p3} / 複数ノード集合 {p4} · 短縮候補リスト {p5}{p6}",
+    "fr": " · couverture individuelle {p0}/{p1} · non explorés {p2} · rejetés par protection : {p3} nœuds seuls / {p4} ensembles multinœuds · liste restreinte {p5}{p6}",
+    "de": " · Einzelknotenabdeckung {p0}/{p1} · unerforscht {p2} · wegen Schutz verworfen: {p3} Einzelknoten / {p4} Mehrknotenmengen · engere Auswahl {p5}{p6}",
+    "es": " · cobertura individual {p0}/{p1} · sin explorar {p2} · descartados por protección: {p3} individuales / {p4} conjuntos de varios nodos · lista reducida {p5}{p6}"
+  },
+  "protocol.renderSearchDiagnostics.satisfiedprotectionconstraints_9f8c35": {
+    "zh-CN": "已评价单点中没有满足保护约束的候选",
+    "en": "None of the evaluated single-node candidates meet the protection constraints",
+    "ja": "評価済みの単一ノード候補に保護制約を満たすものはありません",
+    "fr": "Aucun candidat évalué à un seul nœud ne satisfait les contraintes de protection",
+    "de": "Keiner der bewerteten Einzelknotenkandidaten erfüllt die Schutzbedingungen",
+    "es": "Ningún candidato individual evaluado cumple las restricciones de protección"
+  },
+  "protocol.renderSearchDiagnostics.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "protocol.renderSearchDiagnostics.scope_plan_61ad76": {
+    "zh-CN": "已检查范围没有可行方案",
+    "en": "No feasible plan in the evaluated search space",
+    "ja": "評価した検索範囲に実行可能な計画はありません",
+    "fr": "Aucun plan admissible dans l’espace de recherche évalué",
+    "de": "Kein zulässiger Plan im bewerteten Suchraum",
+    "es": "No hay un plan viable en el espacio de búsqueda evaluado"
+  },
+  "protocol.renderSearchDiagnostics.searchcomplete_050044": {
+    "zh-CN": "有限短名单搜索完成",
+    "en": "Bounded shortlist search complete",
+    "ja": "短縮候補リスト内の有限検索が完了",
+    "fr": "Recherche bornée sur la liste restreinte terminée",
+    "de": "Begrenzte Suche in der engeren Auswahl abgeschlossen",
+    "es": "Búsqueda acotada en la lista reducida completada"
+  },
+  "protocol.renderSearchDiagnostics.searchcomplete_a06444": {
+    "zh-CN": "有限搜索完成",
+    "en": "Bounded search complete",
+    "ja": "有限検索が完了",
+    "fr": "Recherche bornée terminée",
+    "de": "Begrenzte Suche abgeschlossen",
+    "es": "Búsqueda acotada completada"
+  },
+  "protocol.renderSearchDiagnostics.searchstop_184860": {
+    "zh-CN": "本次搜索结束",
+    "en": "Search finished",
+    "ja": "検索終了",
+    "fr": "Recherche terminée",
+    "de": "Suche beendet",
+    "es": "Búsqueda finalizada"
+  },
+  "protocol.renderSearchDiagnostics.set_evaluation_budget_510523": {
+    "zh-CN": "集合评价预算已用尽",
+    "en": "Set evaluation budget exhausted",
+    "ja": "集合評価予算使い切り",
+    "fr": "Budget d’évaluationépuisé",
+    "de": "Mengenbewertungsbudget aufgebraucht",
+    "es": "Presupuesto de evaluación agotado"
+  },
+  "protocol.renderSearchDiagnostics.target_decrease_baseline_41d44a": {
+    "zh-CN": "目标下降要求超过基线活动",
+    "en": "Target decrease requirement exceeds Baseline activity",
+    "ja": "目標減少要件超過基準活動",
+    "fr": "Diminution cible exigence dépasse Référence activité",
+    "de": "Zielabnahme Anforderungüberschreitet Referenz Aktivität",
+    "es": "Descenso objetivo requisito supera Referencia actividad"
+  },
+  "protocol.renderUnifiedCurves.baseline_a7ac58": {
+    "zh-CN": "基线",
+    "en": "Baseline",
+    "ja": "ベースライン",
+    "fr": "Référence",
+    "de": "Referenz",
+    "es": "Referencia"
+  },
+  "protocol.renderUnifiedCurves.baseline_dashed_intervention_solid_faecdb": {
+    "zh-CN": "基线实线 · 干预虚线",
+    "en": "Baseline solid · intervention dashed",
+    "ja": "基準は実線・介入は破線",
+    "fr": "Référence continue · intervention pointillée",
+    "de": "Referenz durchgezogen · Eingriff gestrichelt",
+    "es": "Referencia continua · intervención discontinua"
+  },
+  "protocol.renderUnifiedCurves.baseline_evaluation_sum_847dd3": {
+    "zh-CN": "基线评价累计",
+    "en": "Baseline evaluation sum",
+    "ja": "基準評価の累計",
+    "fr": "Somme évaluée de référence",
+    "de": "Referenzbewertungssumme",
+    "es": "Suma evaluada base"
+  },
+  "protocol.renderUnifiedCurves.condition_16bb1d": {
+    "zh-CN": "条件",
+    "en": "Condition",
+    "ja": "条件",
+    "fr": "Condition",
+    "de": "Bedingung",
+    "es": "Condición"
+  },
+  "protocol.renderUnifiedCurves.evaluation_sum_change_923c0f": {
+    "zh-CN": "评价累计变化",
+    "en": "Evaluation sum change",
+    "ja": "評価累計変化",
+    "fr": "Variation de la somme évaluée",
+    "de": "Änderung der Bewertungssumme",
+    "es": "Cambio de suma evaluada"
+  },
+  "protocol.renderUnifiedCurves.final_state_response_8ab619": {
+    "zh-CN": "末态响应",
+    "en": "Final-state response",
+    "ja": "最終状態応答",
+    "fr": "Réponse finale",
+    "de": "Endzustandsantwort",
+    "es": "Respuesta final"
+  },
+  "protocol.renderUnifiedCurves.forward_run_9fdd24": {
+    "zh-CN": "前向响应",
+    "en": "Forward run response",
+    "ja": "前向き計算応答",
+    "fr": "Calcul direct réponse",
+    "de": "Vorwärtslauf Antwort",
+    "es": "Ejecución directa respuesta"
+  },
+  "protocol.renderUnifiedCurves.intervention_evaluation_sum_ca83eb": {
+    "zh-CN": "干预评价累计",
+    "en": "Intervention evaluation sum",
+    "ja": "介入評価の累計",
+    "fr": "Somme évaluée avec intervention",
+    "de": "Eingriffsbewertungssumme",
+    "es": "Suma evaluada intervenida"
+  },
+  "protocol.renderUnifiedCurves.message_a2ebfb": {
+    "zh-CN": "当前结果",
+    "en": "current result",
+    "ja": "現在の結果",
+    "fr": "résultat actuel",
+    "de": "aktuelles Ergebnis",
+    "es": "resultado actual"
+  },
+  "protocol.renderUnifiedCurves.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "protocol.renderUnifiedCurves.observation_sets_376101": {
+    "zh-CN": "观察集合",
+    "en": "Observation sets",
+    "ja": "観測集合",
+    "fr": "Ensembles observés",
+    "de": "Beobachtungsmengen",
+    "es": "Conjuntos observados"
+  },
+  "protocol.renderUnifiedCurves.observation_sets_condition_f790ac": {
+    "zh-CN": "所选观察集合与条件的响应",
+    "en": "Responses of selected observation sets and conditions",
+    "ja": "選択した観測集合と条件の応答",
+    "fr": "Réponses des ensembles d’observation et conditions sélectionnés",
+    "de": "Antworten der ausgewählten Beobachtungsmengen und Bedingungen",
+    "es": "Respuestas de los conjuntos de observación y condiciones seleccionados"
+  },
+  "protocol.renderUnifiedCurves.peak_response_f55417": {
+    "zh-CN": "响应峰值",
+    "en": "Peak response",
+    "ja": "応答ピーク",
+    "fr": "Réponse maximale",
+    "de": "Spitzenantwort",
+    "es": "Respuesta máxima"
+  },
+  "protocol.renderUnifiedCurves.response_sum_651711": {
+    "zh-CN": "累计响应",
+    "en": "Response sum",
+    "ja": "応答の累積",
+    "fr": "Somme des réponses",
+    "de": "Antwortsumme",
+    "es": "Suma de respuesta"
+  },
+  "protocol.renderUnifiedCurves.select_observations_and_conditions_91b06f": {
+    "zh-CN": "选择观察集合和条件",
+    "en": "Select observations and conditions",
+    "ja": "観測集合と条件を選択",
+    "fr": "Choisir observations et conditions",
+    "de": "Beobachtungen und Bedingungen wählen",
+    "es": "Elegir observaciones y condiciones"
+  },
+  "protocol.renderUnifiedCurves.set_mean_activity_model_units_41850f": {
+    "zh-CN": "集合平均活动 / 模型单位",
+    "en": "Set mean activity / model units",
+    "ja": "集合平均活動／モデル単位",
+    "fr": "Activité moyenne de l’ensemble / unités du modèle",
+    "de": "Mittlere Mengenaktivität / Modelleinheiten",
+    "es": "Actividad media del conjunto / unidades del modelo"
+  },
+  "protocol.renderUnifiedCurves.state_step_ebe1ee": {
+    "zh-CN": "状态步",
+    "en": "State step",
+    "ja": "状態ステップ",
+    "fr": "Étape d’état",
+    "de": "Zustandsschritt",
+    "es": "Paso de estado"
+  },
+  "protocol.searchLossText.baseline_b345a1": {
+    "zh-CN": "基线接近零",
+    "en": "Baseline near zero",
+    "ja": "基準ゼロ近傍",
+    "fr": "Référence proche de zéro",
+    "de": "Referenz nahe null",
+    "es": "Referencia cerca de cero"
+  },
+  "protocol.setSignalChoices.condition_770deb": {
+    "zh-CN": "暂无完整条件结果",
+    "en": "No complete condition results yet",
+    "ja": "完了した条件結果はまだありません",
+    "fr": "Aucun résultat de condition complet pour le moment",
+    "de": "Noch keine vollständigen Bedingungsergebnisse",
+    "es": "Aún no hay resultados completos de condiciones"
+  },
+  "protocol.setSignalChoices.forward_run_66b095": {
+    "zh-CN": "前向结果",
+    "en": "Forward run result",
+    "ja": "前向き計算結果",
+    "fr": "Calcul direct résultat",
+    "de": "Vorwärtslauf Ergebnis",
+    "es": "Ejecución directa resultado"
+  },
+  "protocol.setSignalChoices.message_a2ebfb": {
+    "zh-CN": "当前结果",
+    "en": "current result",
+    "ja": "現在の結果",
+    "fr": "résultat actuel",
+    "de": "aktuelles Ergebnis",
+    "es": "resultado actual"
+  },
+  "protocol.setSignalContext.incoming_signals_aa8377": {
+    "zh-CN": " · 无传入信号记录",
+    "en": " · no incoming signal recording",
+    "ja": " · 入力信号の記録なし",
+    "fr": " · aucun enregistrement de signal entrant",
+    "de": " · keine Eingangssignalaufzeichnung",
+    "es": " · sin registro de señal de entrada"
+  }
+}

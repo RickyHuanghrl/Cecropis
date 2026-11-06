@@ -1,0 +1,10 @@
+{
+  "status.loaded": {
+    "zh-CN": "已载入",
+    "en": "Loaded",
+    "ja": "読み込み済み",
+    "fr": "Chargé",
+    "de": "Geladen",
+    "es": "Cargado"
+  }
+}

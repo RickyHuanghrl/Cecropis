@@ -1,0 +1,962 @@
+{
+  "response.controls.add_to_selection_c3ce5d": {
+    "zh-CN": "加入选择",
+    "en": "Add to selection",
+    "ja": "選択に追加",
+    "fr": "Ajouter à la sélection",
+    "de": "Zur Auswahl hinzufügen",
+    "es": "Añadir a selección"
+  },
+  "response.controls.cancel_complete_keep_73b6c2": {
+    "zh-CN": "正在取消 · 已完成统计保留",
+    "en": "Cancelling · completed statistics will be retained",
+    "ja": "キャンセル中 · 完了済みの統計は保持されます",
+    "fr": "Annulation en cours · les statistiques terminées seront conservées",
+    "de": "Abbruch läuft · abgeschlossene Statistiken bleiben erhalten",
+    "es": "Cancelando · se conservarán las estadísticas completadas"
+  },
+  "response.controls.check_request_pin_edit_d94674": {
+    "zh-CN": "原结果保持 · 复制为待预检草稿 · 固定计划取自该结果；重新勾选则使用当前事件编辑器",
+    "en": "Result retained. Copied to a draft awaiting preview, using this result’s fixed plan. Reselect to use the current event editor.",
+    "ja": "結果を保持し、この結果の固定計画を使うプレビュー待ち下書きにコピーしました。現在のイベント編集内容を使うには再選択してください。",
+    "fr": "Résultat conservé et copié dans un brouillon à prévisualiser, avec son plan fixe. Resélectionnez pour utiliser l’éditeur d’événements actuel.",
+    "de": "Ergebnis beibehalten und mit seinem festen Plan in einen Entwurf zur Vorschau kopiert. Zur Verwendung des aktuellen Ereigniseditors erneut auswählen.",
+    "es": "Resultado conservado y copiado a un borrador pendiente de vista previa con su plan fijo. Vuelva a seleccionar para usar el editor de eventos actual."
+  },
+  "response.controls.check_the_definition_first_0d5767": {
+    "zh-CN": "先预检",
+    "en": "Check the definition first",
+    "ja": "先に定義を確認してください",
+    "fr": "Vérifiez d’abord la définition",
+    "de": "Zuerst Definition prüfen",
+    "es": "Verifique primero la definición"
+  },
+  "response.controls.compare_conditions_12_1aade4": {
+    "zh-CN": "已有比较条件达到12上限",
+    "en": "The limit of 12 comparison conditions has been reached",
+    "ja": "比較条件の上限 12 個に達しています",
+    "fr": "La limite de 12 conditions de comparaison est atteinte",
+    "de": "Die Grenze von 12 Vergleichsbedingungen ist erreicht",
+    "es": "Se ha alcanzado el límite de 12 condiciones de comparación"
+  },
+  "response.controls.comparison_condition_58c0da": {
+    "zh-CN": "比较草稿已有同名条件",
+    "en": "The comparison draft already has a condition with this name",
+    "ja": "比較下書きに同名の条件が既にあります",
+    "fr": "Le brouillon de comparaison contient déjà une condition portant ce nom",
+    "de": "Der Vergleichsentwurf enthält bereits eine Bedingung mit diesem Namen",
+    "es": "El borrador de comparación ya contiene una condición con este nombre"
+  },
+  "response.controls.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "response.controls.edit_051836": {
+    "zh-CN": "编辑",
+    "en": "Edit",
+    "ja": "編集",
+    "fr": "Modifier",
+    "de": "Bearbeiten",
+    "es": "Editar"
+  },
+  "response.controls.export_selected_fixed_task_604d59": {
+    "zh-CN": "已导出所选固定任务 · 未传播",
+    "en": "Selected fixed task exported · no propagation run",
+    "ja": "選択した固定タスクを出力済み · 伝播は未実行",
+    "fr": "Tâche fixe sélectionnée exportée · aucune propagation exécutée",
+    "de": "Ausgewählte feste Aufgabe exportiert · kein Ausbreitungslauf ausgeführt",
+    "es": "Tarea fija seleccionada exportada · sin ejecutar propagaciones"
+  },
+  "response.controls.input_responses_d8cbcf": {
+    "zh-CN": "输入响应 · ",
+    "en": "Input responses · ",
+    "ja": "入力応答 · ",
+    "fr": "Réponses aux entrées · ",
+    "de": "Eingabeantworten · ",
+    "es": "Respuestas a entradas · "
+  },
+  "response.controls.message_3636c3": {
+    "zh-CN": "当前输入",
+    "en": "current input",
+    "ja": "現在入力",
+    "fr": "actuel entrée",
+    "de": "aktuell Eingabe",
+    "es": "actual entrada"
+  },
+  "response.controls.message_5b1bfc": {
+    "zh-CN": " · 响应群体",
+    "en": " · response group",
+    "ja": " · 応答群",
+    "fr": " · groupe de réponse",
+    "de": " · Antwortgruppe",
+    "es": " · grupo de respuesta"
+  },
+  "response.controls.message_9c54e4": {
+    "zh-CN": "缺注释",
+    "en": "missing annotation",
+    "ja": "不足注釈",
+    "fr": "manquant annotation",
+    "de": "fehlend Annotation",
+    "es": "faltante anotación"
+  },
+  "response.controls.message_b6469a": {
+    "zh-CN": "所选输入",
+    "en": "selected input",
+    "ja": "選択済み入力",
+    "fr": "sélectionnéentrée",
+    "de": "ausgewählt Eingabe",
+    "es": "seleccionado entrada"
+  },
+  "response.controls.message_e34475": {
+    "zh-CN": "未请求",
+    "en": "Not requested",
+    "ja": "未要求",
+    "fr": "Non demandé",
+    "de": "Nicht angefordert",
+    "es": "No solicitado"
+  },
+  "response.controls.node_node_0f1dc9": {
+    "zh-CN": "{p0} 节点 · [{p1},{p2}) · 每节点 {p3} / 总量 {p4}",
+    "en": "{p0} nodes · [{p1}, {p2}) · {p3} per node / {p4} total",
+    "ja": "{p0} ノード · [{p1}, {p2}) · ノードあたり {p3} / 合計 {p4}",
+    "fr": "{p0} nœuds · [{p1}, {p2}) · {p3} par nœud / {p4} au total",
+    "de": "{p0} Knoten · [{p1}, {p2}) · {p3} pro Knoten / {p4} gesamt",
+    "es": "{p0} nodos · [{p1}, {p2}) · {p3} por nodo / {p4} en total"
+  },
+  "response.controls.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "response.controls.observation_978220": {
+    "zh-CN": "新增 {p0} 传播 · 仅观察曲线，无全图历史 · {p1}",
+    "en": "Additional propagations: {p0}. Observation curves only; no full-network history. {p1}",
+    "ja": "追加伝播回数: {p0}。観測曲線のみで、全ネットワークの履歴はありません。{p1}",
+    "fr": "Propagations supplémentaires : {p0}. Courbes d’observation uniquement, sans historique du réseau entier. {p1}",
+    "de": "Zusätzliche Propagationen: {p0}. Nur Beobachtungskurven, kein Verlauf des gesamten Netzwerks. {p1}",
+    "es": "Propagaciones adicionales: {p0}. Solo curvas de observación, sin historial de toda la red. {p1}"
+  },
+  "response.controls.open_aac452": {
+    "zh-CN": "先打开一个响应结果",
+    "en": "Open a response result first",
+    "ja": "先に応答結果を開いてください",
+    "fr": "Ouvrez d’abord un résultat de réponse",
+    "de": "Öffnen Sie zuerst ein Antwortergebnis",
+    "es": "Abra primero un resultado de respuesta"
+  },
+  "response.controls.openwindow_29d91f": {
+    "zh-CN": "已打开窗口汇总 · 未计算曲线",
+    "en": "Window summary opened · curves not calculated",
+    "ja": "窓の集計を開きました · 曲線は未計算",
+    "fr": "Résumé de la fenêtre ouvert · courbes non calculées",
+    "de": "Fensterzusammenfassung geöffnet · Kurven nicht berechnet",
+    "es": "Resumen de ventana abierto · curvas sin calcular"
+  },
+  "response.controls.outside_this_calculation_c5d1ba": {
+    "zh-CN": "未参与本次计算",
+    "en": "Outside this calculation",
+    "ja": "今回の計算範囲外",
+    "fr": "Hors de ce calcul",
+    "de": "Außerhalb dieser Berechnung",
+    "es": "Fuera de este cálculo"
+  },
+  "response.controls.pincomparison_keep_not_run_24a428": {
+    "zh-CN": "已加入固定比较草稿 · 原结果保留 · 尚未运行",
+    "en": "Added to a fixed comparison draft · original result retained · not run",
+    "ja": "固定比較下書きに追加 · 元の結果は保持 · 未実行",
+    "fr": "Ajouté au brouillon de comparaison fixe · résultat d’origine conservé · non exécuté",
+    "de": "Zum festen Vergleichsentwurf hinzugefügt · ursprüngliches Ergebnis beibehalten · nicht ausgeführt",
+    "es": "Añadido al borrador de comparación fija · resultado original conservado · sin ejecutar"
+  },
+  "response.controls.remove_6135d4": {
+    "zh-CN": "移除",
+    "en": "Remove",
+    "ja": "削除",
+    "fr": "Retirer",
+    "de": "Entfernen",
+    "es": "Quitar"
+  },
+  "response.controls.save_894c5d": {
+    "zh-CN": "探索与显示已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "response.controls.search_e0473c": {
+    "zh-CN": "查询输入",
+    "en": "query input",
+    "ja": "検索入力",
+    "fr": "requête entrée",
+    "de": "Abfrage Eingabe",
+    "es": "consulta entrada"
+  },
+  "response.controls.search_openscope_3d285c": {
+    "zh-CN": "先从全局查询建立或打开计算范围",
+    "en": "Create a scope from a global query, or open an existing scope first",
+    "ja": "先に全体検索から範囲を作成するか既存の範囲を開いてください",
+    "fr": "Créez d’abord un périmètre depuis une requête globale, ou ouvrez un périmètre existant",
+    "de": "Erstellen Sie zuerst einen Bereich aus einer globalen Abfrage oder öffnen Sie einen vorhandenen Bereich",
+    "es": "Cree primero un ámbito desde una consulta global o abra uno existente"
+  },
+  "response.controls.select_266b4b": {
+    "zh-CN": "请选择一个响应群体。",
+    "en": "Select a response group.",
+    "ja": "応答群を選択してください。",
+    "fr": "Sélectionnez un groupe de réponse.",
+    "de": "Wählen Sie eine Antwortgruppe.",
+    "es": "Seleccione un grupo de respuesta."
+  },
+  "response.controls.select_86b531": {
+    "zh-CN": "分组选择",
+    "en": "grouping selection",
+    "ja": "グループ分け選択",
+    "fr": "regroupement sélection",
+    "de": "Gruppierung Auswahl",
+    "es": "agrupación selección"
+  },
+  "response.controls.select_members_0d4ef6": {
+    "zh-CN": "选择完整群体 {p0} 成员 · 不受排名页限制",
+    "en": "Select all {p0} group members · independent of the ranking page",
+    "ja": "グループの全 {p0} メンバーを選択 · 順位表示ページに依存しません",
+    "fr": "Sélectionner les {p0} membres du groupe · indépendamment de la page du classement",
+    "de": "Alle {p0} Gruppenmitglieder auswählen · unabhängig von der Ranglistenseite",
+    "es": "Seleccionar los {p0} miembros del grupo · independientemente de la página de clasificación"
+  },
+  "response.controls.window_input_responses_9b03ab": {
+    "zh-CN": "切换窗口汇总模式请使用输入响应中的模式控件",
+    "en": "Use the mode control in Input responses to change the window summary mode",
+    "ja": "窓の集計モードは入力応答のモード選択で変更してください",
+    "fr": "Utilisez le sélecteur de mode des réponses aux entrées pour modifier le résumé de la fenêtre",
+    "de": "Ändern Sie den Fensterauswertungsmodus über die Modusauswahl bei Eingabeantworten",
+    "es": "Use el selector de modo de respuestas a entradas para cambiar el resumen de ventana"
+  },
+  "response.controls.window_status_replay_1696ed": {
+    "zh-CN": "窗口平均响应 {p0} · {p1} · 非状态时刻回放",
+    "en": "Window mean response {p0} · {p1} · window summary, not a single-state replay",
+    "ja": "窓の平均応答 {p0} · {p1} · 時点再生ではなく窓の集計",
+    "fr": "Réponse moyenne de la fenêtre {p0} · {p1} · résumé de fenêtre, pas une relecture d’état",
+    "de": "Mittlere Fensterantwort {p0} · {p1} · Fensterzusammenfassung, keine Einzelzustandswiedergabe",
+    "es": "Respuesta media de ventana {p0} · {p1} · resumen de ventana, no reproducción de un estado"
+  },
+  "response.labels.absolute_change_8ab166": {
+    "zh-CN": "绝对变化",
+    "en": "Absolute change",
+    "ja": "絶対変化",
+    "fr": "Variation absolue",
+    "de": "Absolute Änderung",
+    "es": "Cambio absoluto"
+  },
+  "response.labels.actions_ed31fb": {
+    "zh-CN": "操作",
+    "en": "Actions",
+    "ja": "操作",
+    "fr": "Actions",
+    "de": "Aktionen",
+    "es": "Acciones"
+  },
+  "response.labels.add_all_query_members_2cee0a": {
+    "zh-CN": "加入查询完整成员",
+    "en": "Add all query members",
+    "ja": "検索の全メンバーを追加",
+    "fr": "Ajouter tous les membres de la requête",
+    "de": "Alle Abfragemitglieder hinzufügen",
+    "es": "Añadir todos los miembros consultados"
+  },
+  "response.labels.add_comparison_protocols_49e269": {
+    "zh-CN": "加入现有比较协议",
+    "en": "Add comparison protocols",
+    "ja": "比較プロトコルを追加",
+    "fr": "Ajouter les protocoles comparés",
+    "de": "Vergleichsprotokolle hinzufügen",
+    "es": "Añadir protocolos comparados"
+  },
+  "response.labels.add_complete_group_selection_23eebb": {
+    "zh-CN": "加入分组探索完整选择",
+    "en": "Add complete group selection",
+    "ja": "グループの全選択を追加",
+    "fr": "Ajouter la sélection complète de groupe",
+    "de": "Vollständige Gruppenauswahl hinzufügen",
+    "es": "Añadir selección completa de grupo"
+  },
+  "response.labels.add_current_input_protocol_bbc950": {
+    "zh-CN": "加入当前输入协议",
+    "en": "Add current input protocol",
+    "ja": "現在の入力プロトコルを追加",
+    "fr": "Ajouter le protocole courant",
+    "de": "Aktuelles Eingabeprotokoll hinzufügen",
+    "es": "Añadir protocolo actual"
+  },
+  "response.labels.add_group_input_ea102c": {
+    "zh-CN": "加入群体输入",
+    "en": "Add group input",
+    "ja": "グループ入力を追加",
+    "fr": "Ajouter une entrée de groupe",
+    "de": "Gruppeneingabe hinzufügen",
+    "es": "Añadir entrada de grupo"
+  },
+  "response.labels.add_input_from_shared_selection_a6e109": {
+    "zh-CN": "加入共享选择输入",
+    "en": "Add input from shared selection",
+    "ja": "共有選択を入力に追加",
+    "fr": "Ajouter l’entrée de la sélection",
+    "de": "Eingabe aus gemeinsamer Auswahl hinzufügen",
+    "es": "Añadir entrada de selección compartida"
+  },
+  "response.labels.amplitude_dcd367": {
+    "zh-CN": "强度 ",
+    "en": "Amplitude ",
+    "ja": "強度 ",
+    "fr": "Amplitude ",
+    "de": "Stärke ",
+    "es": "Amplitud "
+  },
+  "response.labels.batch_input_definition_60ae9a": {
+    "zh-CN": "批量输入定义",
+    "en": "Batch input definition",
+    "ja": "一括入力の定義",
+    "fr": "Définition des entrées en lot",
+    "de": "Stapeleingabedefinition",
+    "es": "Definición de entradas en lote"
+  },
+  "response.labels.body_id_type_8d5575": {
+    "zh-CN": "body ID／类型",
+    "en": "body ID / type",
+    "ja": "body ID／タイプ",
+    "fr": "body ID / type",
+    "de": "Body-ID / Typ",
+    "es": "body ID / tipo"
+  },
+  "response.labels.budget_bd8dbd": {
+    "zh-CN": "预算",
+    "en": "Budget",
+    "ja": "予算",
+    "fr": "Budget",
+    "de": "Budget",
+    "es": "Presupuesto"
+  },
+  "response.labels.cancel_2cd0f3": {
+    "zh-CN": "取消",
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "fr": "Annuler",
+    "de": "Abbrechen",
+    "es": "Cancelar"
+  },
+  "response.labels.check_full_curve_request_4db7a9": {
+    "zh-CN": "预检完整曲线",
+    "en": "Check full curve request",
+    "ja": "全曲線リクエストを確認",
+    "fr": "Vérifier la demande de courbes complètes",
+    "de": "Vollständige Kurvenanfrage prüfen",
+    "es": "Verificar solicitud de curvas completas"
+  },
+  "response.labels.check_request_3b5e10": {
+    "zh-CN": "预检",
+    "en": "Check request",
+    "ja": "リクエスト確認",
+    "fr": "Vérifier la demande",
+    "de": "Anfrage prüfen",
+    "es": "Verificar solicitud"
+  },
+  "response.labels.color_domain_upper_bound_3e10ad": {
+    "zh-CN": "色域上界 ",
+    "en": "Color domain upper bound ",
+    "ja": "色範囲上限 ",
+    "fr": "Borne supérieure des couleurs ",
+    "de": "Obere Farbwertgrenze ",
+    "es": "Límite superior de color "
+  },
+  "response.labels.compute_curves_be1304": {
+    "zh-CN": "显式计算曲线",
+    "en": "Compute curves",
+    "ja": "曲線を計算",
+    "fr": "Calculer les courbes",
+    "de": "Kurven berechnen",
+    "es": "Calcular curvas"
+  },
+  "response.labels.condition_95bf38": {
+    "zh-CN": "下钻条件",
+    "en": "drill down Condition",
+    "ja": "詳細を表示条件",
+    "fr": "détailler Condition",
+    "de": "Details anzeigen Bedingung",
+    "es": "desglosar Condición"
+  },
+  "response.labels.copy_historical_definition_to_a_new_draft_4b36d0": {
+    "zh-CN": "复制历史定义为新草稿",
+    "en": "Copy historical definition to a new draft",
+    "ja": "過去の定義を新草案に複製",
+    "fr": "Copier la définition vers un nouveau brouillon",
+    "de": "Historische Definition als neuen Entwurf kopieren",
+    "es": "Copiar definición histórica a nuevo borrador"
+  },
+  "response.labels.current_condition_responses_443f6c": {
+    "zh-CN": "当前条件响应",
+    "en": "Current condition responses",
+    "ja": "現在の条件応答",
+    "fr": "Réponses de la condition actuelle",
+    "de": "Antworten der aktuellen Bedingung",
+    "es": "Respuestas de condición actual"
+  },
+  "response.labels.edit_a_condition_82e992": {
+    "zh-CN": "编辑一个条件",
+    "en": "Edit a condition",
+    "ja": "条件を編集",
+    "fr": "Modifier une condition",
+    "de": "Bedingung bearbeiten",
+    "es": "Editar condición"
+  },
+  "response.labels.exact_members_interval_amplitude_5f8880": {
+    "zh-CN": "确切成员／时段／强度",
+    "en": "Exact members / interval / amplitude",
+    "ja": "確定メンバー／区間／強度",
+    "fr": "Membres exacts / intervalle / amplitude",
+    "de": "Exakte Mitglieder / Intervall / Stärke",
+    "es": "Miembros exactos / intervalo / amplitud"
+  },
+  "response.labels.exclude_current_direct_inputs_from_ranking_00e947": {
+    "zh-CN": "排名排除当前直接输入",
+    "en": "Exclude current direct inputs from ranking",
+    "ja": "現在の直接入力を順位から除外",
+    "fr": "Exclure les entrées directes du classement",
+    "de": "Aktuelle direkte Eingaben aus Rangliste ausschließen",
+    "es": "Excluir entradas directas de clasificación"
+  },
+  "response.labels.export_selected_fixed_task_296ded": {
+    "zh-CN": "导出所选固定任务",
+    "en": "Export selected fixed task",
+    "ja": "選択した固定タスクを出力",
+    "fr": "Exporter la tâche fixe choisie",
+    "de": "Gewählte feste Aufgabe exportieren",
+    "es": "Exportar tarea fija elegida"
+  },
+  "response.labels.filter_9dd91d": {
+    "zh-CN": "筛选响应群体",
+    "en": "Filter response group",
+    "ja": "絞り込み応答群",
+    "fr": "Filtrer groupe de réponse",
+    "de": "Filtern Antwortgruppe",
+    "es": "Filtrar grupo de respuesta"
+  },
+  "response.labels.fixed_group_total_53a03d": {
+    "zh-CN": "群体总强度固定",
+    "en": "Fixed group total",
+    "ja": "グループ総強度を固定",
+    "fr": "Amplitude totale fixe",
+    "de": "Feste Gruppen-Gesamtstärke",
+    "es": "Amplitud total fija"
+  },
+  "response.labels.generate_from_scope_groups_e54731": {
+    "zh-CN": "从范围分组生成 ",
+    "en": "Generate from scope groups ",
+    "ja": "範囲のグループから生成 ",
+    "fr": "Générer depuis les groupes du périmètre ",
+    "de": "Aus Bereichsgruppen erzeugen ",
+    "es": "Generar desde grupos del ámbito "
+  },
+  "response.labels.input_conditions_1cc45e": {
+    "zh-CN": "输入条件",
+    "en": "Input conditions",
+    "ja": "入力条件",
+    "fr": "Conditions d’entrée",
+    "de": "Eingabebedingungen",
+    "es": "Condiciones de entrada"
+  },
+  "response.labels.input_conditions_29fd89": {
+    "zh-CN": "对比输入条件",
+    "en": "compare Input conditions",
+    "ja": "比較入力条件",
+    "fr": "comparer Conditions d’entrée",
+    "de": "vergleichen Eingabebedingungen",
+    "es": "comparar Condiciones de entrada"
+  },
+  "response.labels.input_conditions_740e17": {
+    "zh-CN": "输入条件乘响应群体矩阵",
+    "en": "Input conditions×response group matrix",
+    "ja": "入力条件×応答群行列",
+    "fr": "Conditions d’entrée×groupe de réponse matrice",
+    "de": "Eingabebedingungen×Antwortgruppe Matrix",
+    "es": "Condiciones de entrada×grupo de respuesta matriz"
+  },
+  "response.labels.input_eventsjson_f5e910": {
+    "zh-CN": "输入事件JSON",
+    "en": "Input events JSON",
+    "ja": "入力イベントJSON",
+    "fr": "Événements d’entrée JSON",
+    "de": "Eingabeereignisse JSON",
+    "es": "Eventos de entrada JSON"
+  },
+  "response.labels.input_responses_ed303c": {
+    "zh-CN": "输入响应",
+    "en": "Input responses",
+    "ja": "入力応答",
+    "fr": "Réponses aux entrées",
+    "de": "Eingabeantworten",
+    "es": "Respuestas a entradas"
+  },
+  "response.labels.intervention_c74feb": {
+    "zh-CN": "干预",
+    "en": "Intervention",
+    "ja": "介入",
+    "fr": "Intervention",
+    "de": "Eingriff",
+    "es": "Intervención"
+  },
+  "response.labels.intervention_mean_ed07c3": {
+    "zh-CN": "干预均值",
+    "en": "Intervention mean",
+    "ja": "介入平均",
+    "fr": "Moyenne avec intervention",
+    "de": "Eingriffsmittel",
+    "es": "Media con intervención"
+  },
+  "response.labels.intervention_no_intervention_mean_253118": {
+    "zh-CN": "干预 − 无干预均值",
+    "en": "Intervention − no-intervention mean",
+    "ja": "介入−無介入の平均",
+    "fr": "Moyenne intervention − sans intervention",
+    "de": "Mittelwert Eingriff − ohne Eingriff",
+    "es": "Media intervención − sin intervención"
+  },
+  "response.labels.maximum_conditions_debc2d": {
+    "zh-CN": "最多条件 ",
+    "en": "Maximum conditions ",
+    "ja": "最大条件数 ",
+    "fr": "Conditions maximales ",
+    "de": "Maximale Bedingungen ",
+    "es": "Máximo de condiciones "
+  },
+  "response.labels.maximum_propagations_21c090": {
+    "zh-CN": "最多传播 ",
+    "en": "Maximum propagations ",
+    "ja": "最大伝播数 ",
+    "fr": "Propagations maximales ",
+    "de": "Maximale Ausbreitungen ",
+    "es": "Máximo de propagaciones "
+  },
+  "response.labels.member_count_0bcb3d": {
+    "zh-CN": "成员数",
+    "en": "Member count",
+    "ja": "メンバー数",
+    "fr": "Nombre de membres",
+    "de": "Mitgliederzahl",
+    "es": "Número de miembros"
+  },
+  "response.labels.memory_mib_1ba4fd": {
+    "zh-CN": "内存 MiB ",
+    "en": "Memory (MiB) ",
+    "ja": "メモリ MiB ",
+    "fr": "Mémoire (MiB) ",
+    "de": "Speicher (MiB) ",
+    "es": "Memoria (MiB) "
+  },
+  "response.labels.message_373bd1": {
+    "zh-CN": "输入群体",
+    "en": "input group",
+    "ja": "入力群体",
+    "fr": "entrée groupe",
+    "de": "Eingabe Gruppe",
+    "es": "entrada grupo"
+  },
+  "response.labels.message_a8245a": {
+    "zh-CN": "默认：响应 · 群体",
+    "en": "Default: response · group",
+    "ja": "既定: 応答 · グループ",
+    "fr": "Par défaut : réponse · groupe",
+    "de": "Standard: Antwort · Gruppe",
+    "es": "Predeterminado: respuesta · grupo"
+  },
+  "response.labels.message_e01078": {
+    "zh-CN": "下钻群体",
+    "en": "drill down group",
+    "ja": "詳細を表示群体",
+    "fr": "détailler groupe",
+    "de": "Details anzeigen Gruppe",
+    "es": "desglosar grupo"
+  },
+  "response.labels.name_1f7866": {
+    "zh-CN": "名称 ",
+    "en": "Name ",
+    "ja": "名前 ",
+    "fr": "Nom ",
+    "de": "Name ",
+    "es": "Nombre "
+  },
+  "response.labels.name_d44e9b": {
+    "zh-CN": "名称",
+    "en": "Name",
+    "ja": "名前",
+    "fr": "Nom",
+    "de": "Name",
+    "es": "Nombre"
+  },
+  "response.labels.new_observation_name_dec81c": {
+    "zh-CN": "新增观察名称 ",
+    "en": "New observation name ",
+    "ja": "新観測名 ",
+    "fr": "Nom de la nouvelle observation ",
+    "de": "Neuer Beobachtungsname ",
+    "es": "Nombre de observación nueva "
+  },
+  "response.labels.next_9376bc": {
+    "zh-CN": "后页",
+    "en": "Next",
+    "ja": "次へ",
+    "fr": "Suivant",
+    "de": "Weiter",
+    "es": "Siguiente"
+  },
+  "response.labels.no_intervention_269771": {
+    "zh-CN": "无干预",
+    "en": "No intervention",
+    "ja": "介入なし",
+    "fr": "Sans intervention",
+    "de": "Ohne Eingriff",
+    "es": "Sin intervención"
+  },
+  "response.labels.no_intervention_mean_bc6282": {
+    "zh-CN": "无干预均值",
+    "en": "No-intervention mean",
+    "ja": "無介入平均",
+    "fr": "Moyenne sans intervention",
+    "de": "Mittelwert ohne Eingriff",
+    "es": "Media sin intervención"
+  },
+  "response.labels.node_ranking_d332b4": {
+    "zh-CN": "节点排名",
+    "en": "Node ranking",
+    "ja": "ノード順位",
+    "fr": "Classement des nœuds",
+    "de": "Knotenrangfolge",
+    "es": "Clasificación de nodos"
+  },
+  "response.labels.previous_30f69e": {
+    "zh-CN": "前页",
+    "en": "Previous",
+    "ja": "前へ",
+    "fr": "Précédent",
+    "de": "Zurück",
+    "es": "Anterior"
+  },
+  "response.labels.pulse_7f5a0b": {
+    "zh-CN": "脉冲 [ ",
+    "en": "Pulse [ ",
+    "ja": "パルス [ ",
+    "fr": "Impulsion [ ",
+    "de": "Impuls [ ",
+    "es": "Pulso [ "
+  },
+  "response.labels.response_groups_25f752": {
+    "zh-CN": "响应分组 ",
+    "en": "Response groups ",
+    "ja": "応答グループ ",
+    "fr": "Groupes de réponse ",
+    "de": "Antwortgruppen ",
+    "es": "Grupos de respuesta "
+  },
+  "response.labels.run_batch_responses_6a6217": {
+    "zh-CN": "运行批量响应",
+    "en": "Run batch responses",
+    "ja": "一括応答を実行",
+    "fr": "Calculer les réponses en lot",
+    "de": "Stapelantworten berechnen",
+    "es": "Calcular respuestas en lote"
+  },
+  "response.labels.same_amplitude_per_node_bd9d43": {
+    "zh-CN": "每节点同强度",
+    "en": "Same amplitude per node",
+    "ja": "各ノード同じ強度",
+    "fr": "Même amplitude par nœud",
+    "de": "Gleiche Stärke je Knoten",
+    "es": "Misma amplitud por nodo"
+  },
+  "response.labels.save_draft_changes_275625": {
+    "zh-CN": "保存草稿修改",
+    "en": "Save draft changes",
+    "ja": "草案の変更を保存",
+    "fr": "Enregistrer le brouillon",
+    "de": "Entwurfsänderungen speichern",
+    "es": "Guardar cambios del borrador"
+  },
+  "response.labels.save_exploration_and_display_1dd0b8": {
+    "zh-CN": "保存探索与显示",
+    "en": "Save exploration and display",
+    "ja": "探索と表示を保存",
+    "fr": "Enregistrer l’exploration et l’affichage",
+    "de": "Erkundung und Anzeige speichern",
+    "es": "Guardar exploración y visualización"
+  },
+  "response.labels.select_complete_response_group_6018a2": {
+    "zh-CN": "选择完整响应群体",
+    "en": "Select complete response group",
+    "ja": "応答グループ全体を選択",
+    "fr": "Sélectionner tout le groupe de réponse",
+    "de": "Vollständige Antwortgruppe auswählen",
+    "es": "Seleccionar grupo de respuesta completo"
+  },
+  "response.labels.spatial_window_summary_19ab37": {
+    "zh-CN": "空间窗口汇总",
+    "en": "Spatial window summary",
+    "ja": "空間ウィンドウ集計",
+    "fr": "Résumé spatial de fenêtre",
+    "de": "Räumliche Fensterzusammenfassung",
+    "es": "Resumen espacial de ventana"
+  },
+  "response.labels.storage_mib_590e23": {
+    "zh-CN": "存储 MiB ",
+    "en": "Storage (MiB) ",
+    "ja": "保存 MiB ",
+    "fr": "Stockage (MiB) ",
+    "de": "Speicherplatz (MiB) ",
+    "es": "Almacenamiento (MiB) "
+  },
+  "response.labels.summary_updates_50ffbc": {
+    "zh-CN": "统计更新步 [ ",
+    "en": "Summary updates [ ",
+    "ja": "集計更新ステップ [ ",
+    "fr": "Mises à jour résumées [ ",
+    "de": "Zusammengefasste Schritte [ ",
+    "es": "Pasos resumidos [ "
+  },
+  "response.labels.two_input_difference_5e0997": {
+    "zh-CN": "两输入差异",
+    "en": "Two-input difference",
+    "ja": "2入力の差分",
+    "fr": "Différence entre deux entrées",
+    "de": "Unterschied zweier Eingaben",
+    "es": "Diferencia entre dos entradas"
+  },
+  "response.labels.updates_4402f3": {
+    "zh-CN": "更新步 ",
+    "en": "Updates ",
+    "ja": "更新ステップ ",
+    "fr": "Mises à jour ",
+    "de": "Updates ",
+    "es": "Actualizaciones "
+  },
+  "response.labels.use_as_comparison_draft_6c8bc0": {
+    "zh-CN": "送入比较草稿",
+    "en": "Use as comparison draft",
+    "ja": "比較草案に使用",
+    "fr": "Utiliser comme brouillon de comparaison",
+    "de": "Als Vergleichsentwurf verwenden",
+    "es": "Usar como borrador de comparación"
+  },
+  "response.labels.use_current_fixed_event_plan_2e72b3": {
+    "zh-CN": "使用当前固定事件计划",
+    "en": "Use current fixed event plan",
+    "ja": "現在の固定イベント計画を使用",
+    "fr": "Utiliser le plan fixe courant",
+    "de": "Aktuellen festen Ereignisplan verwenden",
+    "es": "Usar plan fijo actual"
+  },
+  "response.responseDoPreview.check_requestcomplete_80af31": {
+    "zh-CN": "预检完成 · 尚未计算",
+    "en": "Preflight complete · no calculation run",
+    "ja": "事前確認完了 · 計算は未実行",
+    "fr": "Vérification terminée · aucun calcul exécuté",
+    "de": "Vorprüfung abgeschlossen · keine Berechnung ausgeführt",
+    "es": "Comprobación previa completada · sin ejecutar cálculos"
+  },
+  "response.responseDoPreview.node_condition_mib_mib_mib_6e047c": {
+    "zh-CN": "计算 {p0} 节点 · {p1} 条件 / {p2} 响应组 · 预计 {p3} 传播 · 数组 {p4} MiB · 内存估算 {p5} MiB · 存储估算 {p6} MiB",
+    "en": "{p0} calculation nodes · {p1} conditions / {p2} response groups · estimated {p3} propagations · arrays {p4} MiB · estimated memory {p5} MiB / storage {p6} MiB",
+    "ja": "計算ノード {p0} · 条件 {p1} / 応答グループ {p2} · 推定伝播 {p3} 回 · 配列 {p4} MiB · 推定メモリ {p5} MiB / 保存容量 {p6} MiB",
+    "fr": "{p0} nœuds de calcul · {p1} conditions / {p2} groupes de réponse · estimation : {p3} propagations · tableaux {p4} MiB · mémoire estimée {p5} MiB / stockage {p6} MiB",
+    "de": "{p0} Berechnungsknoten · {p1} Bedingungen / {p2} Antwortgruppen · geschätzt {p3} Ausbreitungsläufe · Arrays {p4} MiB · geschätzter Arbeitsspeicher {p5} MiB / Datenspeicher {p6} MiB",
+    "es": "{p0} nodos de cálculo · {p1} condiciones / {p2} grupos de respuesta · estimación: {p3} propagaciones · matrices {p4} MiB · memoria estimada {p5} MiB / almacenamiento {p6} MiB"
+  },
+  "response.responseDrawMatrix.color_domain_upper_bound_43d8f4": {
+    "zh-CN": "色域上界必须大于零",
+    "en": "The color range upper bound must be greater than zero",
+    "ja": "色範囲の上限はゼロより大きい値が必要です",
+    "fr": "La borne supérieure de l’échelle de couleurs doit être supérieure à zéro",
+    "de": "Die Obergrenze der Farbskala muss größer als null sein",
+    "es": "El límite superior de la escala de color debe ser mayor que cero"
+  },
+  "response.responseDrawMatrix.input_conditions_membersnode_pin_3774f6": {
+    "zh-CN": "来源：输入条件行 → 响应群体列 · 显示 {p0}/{p1} 组（总 {p2}） · 成员节点均值 · 固定色域 {p3}{p4} · 本页实值 {p5} · 暗格=真实零／灰格=缺失",
+    "en": "Rows: input conditions; columns: response groups. Displayed: {p0}/{p1} groups ({p2} total). Mean across member nodes. Fixed color range: {p3}{p4}. Values on this page: {p5}. Dark = recorded zero; gray = missing.",
+    "ja": "行: 入力条件、列: 応答グループ。表示: {p0}/{p1} グループ（全 {p2}）。メンバーノードの平均。固定色範囲: {p3}{p4}。このページの値: {p5}。暗色は記録されたゼロ、灰色は欠損です。",
+    "fr": "Lignes : conditions d’entrée ; colonnes : groupes de réponse. Affichés : {p0}/{p1} groupes ({p2} au total). Moyenne des nœuds membres. Plage fixe : {p3}{p4}. Valeurs de cette page : {p5}. Sombre = zéro enregistré ; gris = manquant.",
+    "de": "Zeilen: Eingabebedingungen; Spalten: Antwortgruppen. Angezeigt: {p0}/{p1} Gruppen (insgesamt {p2}). Mittelwert der Mitgliedsknoten. Fester Farbbereich: {p3}{p4}. Seitenwerte: {p5}. Dunkel = aufgezeichnete Null; Grau = fehlend.",
+    "es": "Filas: condiciones de entrada; columnas: grupos de respuesta. Se muestran {p0}/{p1} grupos ({p2} en total). Media de los nodos miembros. Rango fijo: {p3}{p4}. Valores de esta página: {p5}. Oscuro = cero registrado; gris = ausente."
+  },
+  "response.responseDrawMatrix.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "response.responseInvalidate.definition_changed_check_again_3efc2e": {
+    "zh-CN": "定义已修改 · 需重新预检",
+    "en": "Definition changed; check again",
+    "ja": "定義変更済み・再確認が必要",
+    "fr": "Définition modifiée ; revérifiez",
+    "de": "Definition geändert; erneut prüfen",
+    "es": "Definición modificada; vuelva a verificar"
+  },
+  "response.responseInvalidate.definition_edit_run_14ca70": {
+    "zh-CN": "已有结果属于原定义；编辑只影响下一次运行",
+    "en": "Existing results retain their original definition. Edits affect only the next run.",
+    "ja": "既存の結果は元の定義を保持します。編集は次の実行にのみ反映されます。",
+    "fr": "Les résultats existants conservent leur définition initiale. Les modifications ne concernent que la prochaine exécution.",
+    "de": "Bestehende Ergebnisse behalten ihre ursprüngliche Definition. Änderungen wirken nur auf den nächsten Lauf.",
+    "es": "Los resultados existentes conservan su definición original. Los cambios solo afectan a la siguiente ejecución."
+  },
+  "response.responseLocalCheck.members_current_scope_scope_62b753": {
+    "zh-CN": "成员不在当前计算范围，请先明确调整或建立范围：\n",
+    "en": "These members are outside the current scope. Adjust or create a scope first: ",
+    "ja": "現在の範囲に含まれないメンバーです。まず範囲を調整または作成してください: ",
+    "fr": "Ces membres sont hors du périmètre actuel. Ajustez ou créez d’abord un périmètre : ",
+    "de": "Diese Mitglieder liegen außerhalb des aktuellen Bereichs. Zuerst einen Bereich anpassen oder erstellen: ",
+    "es": "Estos miembros están fuera del ámbito actual. Ajuste o cree primero un ámbito:"
+  },
+  "response.responsePoll.condition_completebaseline_intervention_b102a9": {
+    "zh-CN": "条件 {p0}/{p1} · {p2} · {p3} · 已完成基线 {p4}／干预 {p5}",
+    "en": "Condition {p0}/{p1} · {p2} · {p3} · completed: {p4} baseline / {p5} intervention propagations",
+    "ja": "条件 {p0}/{p1} · {p2} · {p3} · 完了：ベースライン伝播 {p4} / 介入伝播 {p5}",
+    "fr": "Condition {p0}/{p1} · {p2} · {p3} · propagations terminées : {p4} de référence / {p5} avec intervention",
+    "de": "Bedingung {p0}/{p1} · {p2} · {p3} · abgeschlossene Läufe: {p4} Referenz / {p5} Intervention",
+    "es": "Condición {p0}/{p1} · {p2} · {p3} · propagaciones completadas: {p4} de referencia / {p5} con intervención"
+  },
+  "response.responsePoll.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "response.responsePoll.message_42098f": {
+    "zh-CN": "完整曲线已计算",
+    "en": "Full curves calculated",
+    "ja": "全曲線を計算済み",
+    "fr": "Courbes complètes calculées",
+    "de": "Vollständige Kurven berechnet",
+    "es": "Curvas completas calculadas"
+  },
+  "response.responsePoll.message_ddcf6e": {
+    "zh-CN": "准备",
+    "en": "prepare",
+    "ja": "準備",
+    "fr": "préparer",
+    "de": "vorbereiten",
+    "es": "preparar"
+  },
+  "response.responsePoll.start_complete_result_analysis_c34fcd": {
+    "zh-CN": "{p0} · 新增计算：已启动 {p1}，已完成 {p2}",
+    "en": "{p0} · Additional simulations: {p1} started, {p2} completed",
+    "ja": "{p0} · 追加シミュレーション：開始 {p1}、完了 {p2}",
+    "fr": "{p0} · Simulations supplémentaires : {p1} lancées, {p2} terminées",
+    "de": "{p0} · Zusätzliche Simulationen: {p1} gestartet, {p2} abgeschlossen",
+    "es": "{p0} · Simulaciones adicionales: {p1} iniciadas, {p2} completadas"
+  },
+  "response.responseReadNodes.all_calculation_nodes_7c717c": {
+    "zh-CN": "全部计算节点排名",
+    "en": "All calculation nodes ranking",
+    "ja": "全計算ノード順位",
+    "fr": "Tous les nœuds calculés classement",
+    "de": "Alle Berechnungsknoten Rangliste",
+    "es": "Todos los nodos calculados clasificación"
+  },
+  "response.responseReadNodes.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "response.responseReadNodes.members_no_intervention_mean_intervention_mean_relative__81419d": {
+    "zh-CN": "成员 {p0} · 无干预均值 {p1}／总和 {p2} · 干预均值 {p3} · 相对变化 {p4}",
+    "en": "{p0} members · no-intervention mean {p1} / sum {p2} · intervention mean {p3} · relative change {p4}",
+    "ja": "メンバー {p0} · 無介入平均 {p1} / 合計 {p2} · 介入平均 {p3} · 相対変化 {p4}",
+    "fr": "{p0} membres · moyenne sans intervention {p1} / somme {p2} · moyenne avec intervention {p3} · variation relative {p4}",
+    "de": "{p0} Mitglieder · Mittelwert ohne Intervention {p1} / Summe {p2} · Interventionsmittelwert {p3} · relative Änderung {p4}",
+    "es": "{p0} miembros · media sin intervención {p1} / suma {p2} · media con intervención {p3} · cambio relativo {p4}"
+  },
+  "response.responseReadNodes.message_e34475": {
+    "zh-CN": "未请求",
+    "en": "Not requested",
+    "ja": "未要求",
+    "fr": "Non demandé",
+    "de": "Nicht angefordert",
+    "es": "No solicitado"
+  },
+  "response.responseReadNodes.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "response.responseRender.all_calculation_nodes_c3d6e0": {
+    "zh-CN": "全部计算节点",
+    "en": "All calculation nodes",
+    "ja": "全計算ノード",
+    "fr": "Tous les nœuds calculés",
+    "de": "Alle Berechnungsknoten",
+    "es": "Todos los nodos calculados"
+  },
+  "response.responseRender.comparison_b56bd6": {
+    "zh-CN": "不比较第二输入",
+    "en": "No second input comparison",
+    "ja": "第 2 入力との比較なし",
+    "fr": "Sans comparaison avec une seconde entrée",
+    "de": "Kein Vergleich mit einer zweiten Eingabe",
+    "es": "Sin comparación con una segunda entrada"
+  },
+  "response.responseRender.scope_node_cad55c": {
+    "zh-CN": "结果 {p0} · 范围 {p1} · {p2} 节点 · {p3} 输入 · 统计更新 [{p4},{p5})，均值分母 {p6}",
+    "en": "Result: {p0} · Scope: {p1} · Nodes: {p2} · Inputs: {p3} · Evaluation updates: [{p4},{p5}); mean denominator: {p6}",
+    "ja": "結果: {p0} · 範囲: {p1} · ノード: {p2} · 入力: {p3} · 評価更新区間: [{p4},{p5})、平均の分母: {p6}",
+    "fr": "Résultat : {p0} · Périmètre : {p1} · Nœuds : {p2} · Entrées : {p3} · Mises à jour évaluées : [{p4},{p5}) ; dénominateur moyen : {p6}",
+    "de": "Ergebnis: {p0} · Bereich: {p1} · Knoten: {p2} · Eingaben: {p3} · Auswertungsaktualisierungen: [{p4},{p5}); Mittelwertnenner: {p6}",
+    "es": "Resultado: {p0} · Ámbito: {p1} · Nodos: {p2} · Entradas: {p3} · Actualizaciones evaluadas: [{p4},{p5}); denominador de la media: {p6}"
+  },
+  "response.responseRender.start_complete_run_failed_d6f61a": {
+    "zh-CN": "{p0} · 传播启动 {p1} / 完成 {p2} · 未运行／失败不填零",
+    "en": "{p0} · propagations started {p1} / completed {p2} · unrun or failed entries are not zeros",
+    "ja": "{p0} · 伝播開始 {p1} / 完了 {p2} · 未実行・失敗はゼロではありません",
+    "fr": "{p0} · propagations démarrées {p1} / terminées {p2} · les entrées non exécutées ou échouées ne valent pas zéro",
+    "de": "{p0} · Ausbreitungsläufe gestartet {p1} / abgeschlossen {p2} · nicht ausgeführte oder fehlgeschlagene Einträge sind keine Nullwerte",
+    "es": "{p0} · propagaciones iniciadas {p1} / completadas {p2} · las entradas no ejecutadas o fallidas no son ceros"
+  },
+  "response.responseToSpace.message_7488f8": {
+    "zh-CN": "响应分块为空",
+    "en": "Response data block is empty",
+    "ja": "応答データブロックが空です",
+    "fr": "Le bloc de données de réponse est vide",
+    "de": "Antwortdatenblock ist leer",
+    "es": "El bloque de datos de respuesta está vacío"
+  },
+  "response.responseToSpace.node_space_no_position_scope_keep_3881e4": {
+    "zh-CN": "统计 {p0} 节点 · 空间 {p1}／缺位置 {p2} · 真实零 {p3} · 计算范围外背景不着活动色 · 全局背景保留 · 实值 {p4}…{p5} · 色域 {p6}{p7}",
+    "en": "{p0} analyzed nodes · {p1} positioned / {p2} without positions · {p3} recorded zeros · background outside the calculation scope has no activity color · values {p4}…{p5} · color range {p6}{p7}",
+    "ja": "集計 {p0} ノード · 位置あり {p1} / 位置なし {p2} · 記録済みゼロ {p3} · 計算範囲外の背景に活動色は付けません · 値 {p4}…{p5} · 色範囲 {p6}{p7}",
+    "fr": "{p0} nœuds analysés · {p1} avec position / {p2} sans position · {p3} zéros enregistrés · fond hors périmètre sans couleur d’activité · valeurs {p4}…{p5} · échelle {p6}{p7}",
+    "de": "{p0} analysierte Knoten · {p1} mit Position / {p2} ohne Position · {p3} aufgezeichnete Nullwerte · Hintergrund außerhalb des Berechnungsbereichs ohne Aktivitätsfarbe · Werte {p4}…{p5} · Farbskala {p6}{p7}",
+    "es": "{p0} nodos analizados · {p1} con posición / {p2} sin posición · {p3} ceros registrados · fondo fuera del ámbito de cálculo sin color de actividad · valores {p4}…{p5} · escala {p6}{p7}"
+  },
+  "response.responseToSpace.window_6f3603": {
+    "zh-CN": "窗口均值 · {p0} · 更新 [{p1},{p2})",
+    "en": "Window mean · {p0} · update [{p1},{p2})",
+    "ja": "評価区間平均 · {p0} · 更新 [{p1},{p2})",
+    "fr": "Fenêtre moyenne · {p0} · mise à jour [{p1},{p2})",
+    "de": "Zeitfenster Mittelwert · {p0} · Aktualisierung [{p1},{p2})",
+    "es": "Ventana media · {p0} · actualización [{p1},{p2})"
+  }
+}

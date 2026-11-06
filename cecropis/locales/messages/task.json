@@ -1,0 +1,10 @@
+{
+  "task.layerPosition": {
+    "zh-CN": "本层位置 {position} / {total}",
+    "en": "Position in layer {position} / {total}",
+    "ja": "現在の層内の位置 {position} / {total}",
+    "fr": "Position dans la couche {position} / {total}",
+    "de": "Position in Ebene {position} / {total}",
+    "es": "Posición en la capa {position} / {total}"
+  }
+}

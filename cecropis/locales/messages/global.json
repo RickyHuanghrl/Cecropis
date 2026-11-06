@@ -1,0 +1,674 @@
+{
+  "global.appendSeeds.message_2b7c7b": {
+    "zh-CN": "种子已改，待预览",
+    "en": "Selection changed. Preview required.",
+    "ja": "選択が変更されました。プレビューが必要です。",
+    "fr": "La sélection a changé. Un aperçu est nécessaire.",
+    "de": "Auswahl geändert. Vorschau erforderlich.",
+    "es": "La selección ha cambiado. Se necesita una vista previa."
+  },
+  "global.appendSeeds.select_one_or_more_nodes_first_4658a7": {
+    "zh-CN": "先选择一个或多个节点",
+    "en": "Select one or more nodes first",
+    "ja": "先にノードを1つ以上選択してください",
+    "fr": "Sélectionnez d’abord un ou plusieurs nœuds",
+    "de": "Wählen Sie zuerst einen oder mehrere Knoten",
+    "es": "Seleccione primero uno o más nodos"
+  },
+  "global.assignRole.node_84d995": {
+    "zh-CN": "已加入 {p0} 个节点",
+    "en": "Added {p0} nodes",
+    "ja": "{p0} ノードを追加しました",
+    "fr": "{p0} nœuds ajoutés",
+    "de": "{p0} Knoten hinzugefügt",
+    "es": "Se añadieron {p0} nodos"
+  },
+  "global.assignRole.noderole_6447b9": {
+    "zh-CN": "未知节点角色",
+    "en": "Unknown node role",
+    "ja": "不明なノードの役割",
+    "fr": "Rôle de nœud inconnu",
+    "de": "Unbekannte Knotenrolle",
+    "es": "Rol de nodo desconocido"
+  },
+  "global.assignRole.select_one_or_more_nodes_first_4658a7": {
+    "zh-CN": "先选择一个或多个节点",
+    "en": "Select one or more nodes first",
+    "ja": "先にノードを1つ以上選択してください",
+    "fr": "Sélectionnez d’abord un ou plusieurs nœuds",
+    "de": "Wählen Sie zuerst einen oder mehrere Knoten",
+    "es": "Seleccione primero uno o más nodos"
+  },
+  "global.canSwitchCase.stop_cancelsearch_scope_fe7ee2": {
+    "zh-CN": "请先结束当前计算或取消搜索，再切换计算范围",
+    "en": "Finish the calculation or cancel the search before switching scopes.",
+    "ja": "範囲を切り替える前に、計算を完了するか探索をキャンセルしてください。",
+    "fr": "Terminez le calcul ou annulez la recherche avant de changer de périmètre.",
+    "de": "Vor dem Bereichswechsel die Berechnung beenden oder die Suche abbrechen.",
+    "es": "Termine el cálculo o cancele la búsqueda antes de cambiar de ámbito."
+  },
+  "global.controls.20_5c5181": {
+    "zh-CN": "{p0} · {p1} 条边 · 前20",
+    "en": "{p0} · Edges: {p1} · First 20",
+    "ja": "{p0} · エッジ数：{p1} · 先頭20件",
+    "fr": "{p0} · Arêtes : {p1} · 20 premières",
+    "de": "{p0} · Kanten: {p1} · Erste 20",
+    "es": "{p0} · Aristas: {p1} · Primeras 20"
+  },
+  "global.controls.all_5c55a6": {
+    "zh-CN": "全部",
+    "en": "All",
+    "ja": "すべて",
+    "fr": "Tout",
+    "de": "Alle",
+    "es": "Todo"
+  },
+  "global.controls.connection_count_93e376": {
+    "zh-CN": "连接计数",
+    "en": "Connection count",
+    "ja": "接続計数",
+    "fr": "Nombre de contacts",
+    "de": "Kontaktzahl",
+    "es": "Número de contactos"
+  },
+  "global.controls.downstream_fde36e": {
+    "zh-CN": "下游",
+    "en": "Downstream",
+    "ja": "下流",
+    "fr": "Aval",
+    "de": "Nachgelagert",
+    "es": "Aguas abajo"
+  },
+  "global.controls.filter_search_b40c04": {
+    "zh-CN": "筛选已改，待查询",
+    "en": "Filter changed. Run the query again.",
+    "ja": "フィルターが変更されました。再度検索してください。",
+    "fr": "Le filtre a changé. Relancez la requête.",
+    "de": "Filter geändert. Abfrage erneut ausführen.",
+    "es": "El filtro ha cambiado. Ejecute la consulta de nuevo."
+  },
+  "global.controls.opensave_group_connectionsanalysis_a14421": {
+    "zh-CN": "已打开保存的分组连接分析",
+    "en": "Saved group analysis opened",
+    "ja": "保存済みのグループ分析を開きました",
+    "fr": "Analyse de groupes enregistrée ouverte",
+    "de": "Gespeicherte Gruppenanalyse geöffnet",
+    "es": "Análisis de grupos guardado abierto"
+  },
+  "global.controls.opensave_paths_5788c1": {
+    "zh-CN": "已打开保存的全局通路",
+    "en": "Saved global pathways opened",
+    "ja": "保存済みの全体経路を開きました",
+    "fr": "Chemins globaux enregistrés ouverts",
+    "de": "Gespeicherte globale Pfade geöffnet",
+    "es": "Rutas globales guardadas abiertas"
+  },
+  "global.controls.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "global.controls.saved_item_opened_275e20": {
+    "zh-CN": "保存内容已打开",
+    "en": "Saved item opened",
+    "ja": "保存内容を開きました",
+    "fr": "Élément enregistré ouvert",
+    "de": "Gespeicherter Inhalt geöffnet",
+    "es": "Elemento guardado abierto"
+  },
+  "global.controls.saved_result_and_scope_opened_6e9413": {
+    "zh-CN": "已打开保存内容及其计算范围",
+    "en": "Saved result and scope opened",
+    "ja": "保存結果と計算範囲を開きました",
+    "fr": "Résultat et périmètre ouverts",
+    "de": "Gespeichertes Ergebnis und Umfang geöffnet",
+    "es": "Resultado y alcance abiertos"
+  },
+  "global.controls.savescope_f52e35": {
+    "zh-CN": "正在保存计算范围…",
+    "en": "Saving calculation scope…",
+    "ja": "計算範囲を保存中…",
+    "fr": "Enregistrement du périmètre de calcul…",
+    "de": "Berechnungsbereich wird gespeichert…",
+    "es": "Guardando el ámbito de cálculo…"
+  },
+  "global.controls.scope_opened_9721bf": {
+    "zh-CN": "已打开计算范围",
+    "en": "Scope opened",
+    "ja": "計算範囲を開きました",
+    "fr": "Périmètre ouvert",
+    "de": "Umfang geöffnet",
+    "es": "Alcance abierto"
+  },
+  "global.controls.scope_save_126a41": {
+    "zh-CN": "计算范围已保存并载入",
+    "en": "Scope saved and loaded",
+    "ja": "範囲を保存して読み込みました",
+    "fr": "Périmètre enregistré et chargé",
+    "de": "Bereich gespeichert und geladen",
+    "es": "Ámbito guardado y cargado"
+  },
+  "global.controls.scopecondition_00ba18": {
+    "zh-CN": "范围条件已改，待预览",
+    "en": "Selection changed. Preview required.",
+    "ja": "選択が変更されました。プレビューが必要です。",
+    "fr": "La sélection a changé. Un aperçu est nécessaire.",
+    "de": "Auswahl geändert. Vorschau erforderlich.",
+    "es": "La selección ha cambiado. Se necesita una vista previa."
+  },
+  "global.controls.select_a_calculation_scope_cf6421": {
+    "zh-CN": "请选择计算范围",
+    "en": "Select a calculation scope",
+    "ja": "計算範囲を選択してください",
+    "fr": "Sélectionnez un périmètre de calcul",
+    "de": "Wählen Sie einen Berechnungsbereich",
+    "es": "Seleccione un ámbito de cálculo"
+  },
+  "global.controls.select_an_item_da590a": {
+    "zh-CN": "请选择",
+    "en": "Select an item",
+    "ja": "選択してください",
+    "fr": "Choisir un élément",
+    "de": "Element auswählen",
+    "es": "Elegir elemento"
+  },
+  "global.controls.select_f0f5c3": {
+    "zh-CN": "选择 {p0}",
+    "en": "Select {p0}",
+    "ja": "{p0} を選択",
+    "fr": "Sélectionner {p0}",
+    "de": "{p0} auswählen",
+    "es": "Seleccionar {p0}"
+  },
+  "global.controls.type_ba4001": {
+    "zh-CN": "类型",
+    "en": "Type",
+    "ja": "種類",
+    "fr": "Type",
+    "de": "Typ",
+    "es": "Tipo"
+  },
+  "global.controls.upstream_a9ab29": {
+    "zh-CN": "上游",
+    "en": "Upstream",
+    "ja": "上流",
+    "fr": "Amont",
+    "de": "Vorgelagert",
+    "es": "Aguas arriba"
+  },
+  "global.createScopeCase.current_scope_d8a79e": {
+    "zh-CN": "请先预览当前计算范围",
+    "en": "Preview the current scope first",
+    "ja": "先に現在の範囲をプレビューしてください",
+    "fr": "Prévisualisez d’abord le périmètre actuel",
+    "de": "Prüfen Sie zuerst die Vorschau des aktuellen Bereichs",
+    "es": "Revise primero la vista previa del ámbito actual"
+  },
+  "global.createScopeCase.observation_sets_name_ace4a9": {
+    "zh-CN": "两个输出集合的名称须不同",
+    "en": "The two output sets must have different names",
+    "ja": "2つの出力集合には異なる名前を付けてください",
+    "fr": "Les deux ensembles de sortie doivent avoir des noms différents",
+    "de": "Die beiden Ausgabemengen müssen unterschiedliche Namen haben",
+    "es": "Los dos conjuntos de salida deben tener nombres distintos"
+  },
+  "global.createScopeCase.scope_name_6e4c2b": {
+    "zh-CN": "请输入计算范围名称",
+    "en": "Enter a name for the calculation scope",
+    "ja": "計算範囲の名前を入力してください",
+    "fr": "Saisissez un nom pour le périmètre de calcul",
+    "de": "Geben Sie einen Namen für den Berechnungsbereich ein",
+    "es": "Introduzca un nombre para el ámbito de cálculo"
+  },
+  "global.filterSaved.select_an_item_da590a": {
+    "zh-CN": "请选择",
+    "en": "Select an item",
+    "ja": "選択してください",
+    "fr": "Choisir un élément",
+    "de": "Element auswählen",
+    "es": "Elegir elemento"
+  },
+  "global.findGlobal.matches_showing_3c19a9": {
+    "zh-CN": "匹配 {p0} 条 · 显示 {p1}–{p2}",
+    "en": "{p0} matches · showing {p1}–{p2}",
+    "ja": "一致{p0}件・表示{p1}–{p2}",
+    "fr": "{p0} correspondances · affichage {p1}–{p2}",
+    "de": "{p0} Treffer · Anzeige {p1}–{p2}",
+    "es": "{p0} coincidencias · mostrando {p1}–{p2}"
+  },
+  "global.initializeGlobal.annotated_traced_glia_other_unannotated_endpoints_total__8f4479": {
+    "zh-CN": "全局注释 {p0} 条 · 神经元（Traced）{p1} / 胶质 {p2} / 其他 {p3} / 未注释端点 {p4} · 全局端点 {p5}",
+    "en": "Annotated {p0} · Traced {p1} / glia {p2} / other {p3} / unannotated endpoints {p4} · total endpoints {p5}",
+    "ja": "注釈 {p0}・Traced {p1}／グリア {p2}／その他 {p3}／未注釈端点 {p4}・全端点 {p5}",
+    "fr": "Annotés {p0} · Traced {p1} / glie {p2} / autres {p3} / extrémités sans annotation {p4} · total {p5}",
+    "de": "Annotiert {p0} · Traced {p1} / Glia {p2} / andere {p3} / unannotierte Endpunkte {p4} · insgesamt {p5}",
+    "es": "Anotados {p0} · Traced {p1} / glía {p2} / otros {p3} / extremos sin anotación {p4} · total {p5}"
+  },
+  "global.initializeGlobal.no_additional_filter_3be094": {
+    "zh-CN": "不追加筛选",
+    "en": "No additional filter",
+    "ja": "追加フィルターなし",
+    "fr": "Aucun filtre supplémentaire",
+    "de": "Kein zusätzlicher Filter",
+    "es": "Sin filtro adicional"
+  },
+  "global.label.name_c0f17b": {
+    "zh-CN": "请输入有效集合名称",
+    "en": "Enter a valid set name",
+    "ja": "有効な集合名を入力してください",
+    "fr": "Saisissez un nom d’ensemble valide",
+    "de": "Geben Sie einen gültigen Mengennamen ein",
+    "es": "Introduzca un nombre de conjunto válido"
+  },
+  "global.labels.analysis_session_73541d": {
+    "zh-CN": "分析现场",
+    "en": "Analysis session",
+    "ja": "分析状態",
+    "fr": "Session d’analyse",
+    "de": "Analysesitzung",
+    "es": "Sesión de análisis"
+  },
+  "global.labels.comparison_fb8791": {
+    "zh-CN": "比较",
+    "en": "Comparison",
+    "ja": "比較",
+    "fr": "Comparaison",
+    "de": "Vergleich",
+    "es": "Comparación"
+  },
+  "global.labels.condition_16bb1d": {
+    "zh-CN": "条件",
+    "en": "Condition",
+    "ja": "条件",
+    "fr": "Condition",
+    "de": "Bedingung",
+    "es": "Condición"
+  },
+  "global.labels.fixed_plans_across_scopes_4cd451": {
+    "zh-CN": "固定方案范围比较",
+    "en": "Fixed plans across scopes",
+    "ja": "固定計画の範囲比較",
+    "fr": "Plans fixes entre périmètres",
+    "de": "Feste Pläne über Umfänge",
+    "es": "Planes fijos entre alcances"
+  },
+  "global.labels.forward_run_8bbc4d": {
+    "zh-CN": "前向",
+    "en": "Forward run",
+    "ja": "前向き計算",
+    "fr": "Calcul direct",
+    "de": "Vorwärtslauf",
+    "es": "Ejecución directa"
+  },
+  "global.labels.glia_d77f0b": {
+    "zh-CN": "胶质",
+    "en": "Glia",
+    "ja": "グリア",
+    "fr": "Glie",
+    "de": "Glia",
+    "es": "Glía"
+  },
+  "global.labels.group_connections_43fdd4": {
+    "zh-CN": "分组连接",
+    "en": "Group connections",
+    "ja": "グループ接続",
+    "fr": "Connexions de groupes",
+    "de": "Gruppenverbindungen",
+    "es": "Conexiones de grupos"
+  },
+  "global.labels.input_response_exploration_3cb1e0": {
+    "zh-CN": "输入响应探索",
+    "en": "Input response exploration",
+    "ja": "入力応答探索",
+    "fr": "Exploration des réponses",
+    "de": "Eingabeantworten erkunden",
+    "es": "Exploración de respuestas"
+  },
+  "global.labels.joint_search_1c82c5": {
+    "zh-CN": "共同搜索",
+    "en": "Joint search",
+    "ja": "共同探索",
+    "fr": "Recherche conjointe",
+    "de": "Gemeinsame Suche",
+    "es": "Búsqueda conjunta"
+  },
+  "global.labels.neurons_traced_a0ae4c": {
+    "zh-CN": "神经元（Traced）",
+    "en": "Neurons (Traced)",
+    "ja": "ニューロン（Traced）",
+    "fr": "Neurones (Traced)",
+    "de": "Neuronen (Traced)",
+    "es": "Neuronas (Traced)"
+  },
+  "global.labels.operation_search_469176": {
+    "zh-CN": "操作组合搜索",
+    "en": "Operation search",
+    "ja": "操作組合せ探索",
+    "fr": "Recherche d’opérations",
+    "de": "Operationssuche",
+    "es": "Búsqueda de operaciones"
+  },
+  "global.labels.other_d2909f": {
+    "zh-CN": "其他",
+    "en": "Other",
+    "ja": "その他",
+    "fr": "Autre",
+    "de": "Andere",
+    "es": "Otro"
+  },
+  "global.labels.paths_a35b41": {
+    "zh-CN": "通路",
+    "en": "Paths",
+    "ja": "経路",
+    "fr": "Chemins",
+    "de": "Pfade",
+    "es": "Rutas"
+  },
+  "global.labels.removal_reduction_a403f8": {
+    "zh-CN": "撤销与精简",
+    "en": "Removal & reduction",
+    "ja": "撤回と簡略化",
+    "fr": "Retrait et réduction",
+    "de": "Entfernen und reduzieren",
+    "es": "Retirada y reducción"
+  },
+  "global.labels.replay_27b68e": {
+    "zh-CN": "回放",
+    "en": "Replay",
+    "ja": "再生",
+    "fr": "Lecture",
+    "de": "Wiedergabe",
+    "es": "Reproducción"
+  },
+  "global.labels.run_75b269": {
+    "zh-CN": "运行",
+    "en": "Run",
+    "ja": "実行",
+    "fr": "Exécuter",
+    "de": "Ausführen",
+    "es": "Ejecutar"
+  },
+  "global.labels.scope_comparison_8b47a9": {
+    "zh-CN": "范围比较",
+    "en": "Scope comparison",
+    "ja": "範囲比較",
+    "fr": "Comparaison de périmètres",
+    "de": "Umfangsvergleich",
+    "es": "Comparación de alcances"
+  },
+  "global.labels.scope_differences_c876a0": {
+    "zh-CN": "范围差异",
+    "en": "Scope differences",
+    "ja": "範囲内の差分",
+    "fr": "Différences dans le périmètre",
+    "de": "Umfangsdifferenzen",
+    "es": "Diferencias de alcance"
+  },
+  "global.labels.scope_sequence_a9decd": {
+    "zh-CN": "范围序列",
+    "en": "Scope sequence",
+    "ja": "範囲系列",
+    "fr": "Séquence de périmètres",
+    "de": "Umfangsfolge",
+    "es": "Secuencia de alcances"
+  },
+  "global.labels.search_44ce7a": {
+    "zh-CN": "搜索",
+    "en": "Search",
+    "ja": "探索",
+    "fr": "Recherche",
+    "de": "Suche",
+    "es": "Búsqueda"
+  },
+  "global.labels.timing_exploration_692e7a": {
+    "zh-CN": "时段探索",
+    "en": "Timing exploration",
+    "ja": "時間帯探索",
+    "fr": "Exploration des périodes",
+    "de": "Zeitfenstererkundung",
+    "es": "Exploración de intervalos"
+  },
+  "global.labels.unannotated_endpoints_0aeb6e": {
+    "zh-CN": "未注释端点",
+    "en": "Unannotated endpoints",
+    "ja": "未注釈の端点",
+    "fr": "Extrémités non annotées",
+    "de": "Nicht annotierte Endpunkte",
+    "es": "Extremos sin anotación"
+  },
+  "global.parseBodyIds.body_ids_must_be_unique_positive_integers_20c8b8": {
+    "zh-CN": "body ID 须为不重复的正整数",
+    "en": "Body IDs must be unique positive integers",
+    "ja": "body IDは重複しない正の整数にしてください",
+    "fr": "Les body ID doivent être des entiers positifs uniques",
+    "de": "Body-IDs müssen eindeutige positive Ganzzahlen sein",
+    "es": "Los body ID deben ser enteros positivos únicos"
+  },
+  "global.previewScope.node_connection_count_omitted_inputs_omitted_outputs_6ea370": {
+    "zh-CN": "计算 {p0} 节点 · 种子 {p1} · 预览前 {p2} 个 · {p3} · 内部连接计数 {p4} / 省略输入 {p5} / 省略输出 {p6}",
+    "en": "Calculation nodes {p0} · Seeds {p1} · First {p2} shown · {p3} · Internal contacts {p4} / omitted inputs {p5} / omitted outputs {p6}",
+    "ja": "計算ノード {p0} · シード {p1} · 先頭 {p2} 件を表示 · {p3} · 内部接続数 {p4} / 除外入力 {p5} / 除外出力 {p6}",
+    "fr": "Nœuds calculés {p0} · Graines {p1} · {p2} premiers affichés · {p3} · Contacts internes {p4} / entrées omises {p5} / sorties omises {p6}",
+    "de": "Berechnungsknoten {p0} · Startknoten {p1} · Erste {p2} angezeigt · {p3} · Interne Kontakte {p4} / ausgelassene Eingänge {p5} / ausgelassene Ausgänge {p6}",
+    "es": "Nodos calculados {p0} · Semillas {p1} · Primeros {p2} mostrados · {p3} · Contactos internos {p4} / entradas omitidas {p5} / salidas omitidas {p6}"
+  },
+  "global.previewScope.node_limit_e9d9d0": {
+    "zh-CN": "已达到节点上限",
+    "en": "Node limit reached",
+    "ja": "ノード数の上限に達しました",
+    "fr": "Limite de nœuds atteinte",
+    "de": "Knotenlimit erreicht",
+    "es": "Límite de nodos alcanzado"
+  },
+  "global.previewScope.scope_313561": {
+    "zh-CN": "范围完整",
+    "en": "Scope complete",
+    "ja": "範囲全体を取得済み",
+    "fr": "Périmètre complet",
+    "de": "Bereich vollständig",
+    "es": "Ámbito completo"
+  },
+  "global.previewScope.scope_568b54": {
+    "zh-CN": "范围未确认",
+    "en": "Scope not confirmed",
+    "ja": "範囲が未確認です",
+    "fr": "Périmètre non confirmé",
+    "de": "Bereich nicht bestätigt",
+    "es": "Ámbito sin confirmar"
+  },
+  "global.previewScope.scope_82b724": {
+    "zh-CN": "正在读取范围…",
+    "en": "Loading scope…",
+    "ja": "範囲を読み込み中…",
+    "fr": "Chargement du périmètre…",
+    "de": "Bereich wird geladen…",
+    "es": "Cargando el ámbito…"
+  },
+  "global.previewScope.scopecondition_d7ecbc": {
+    "zh-CN": "范围条件已变化，请重新预览",
+    "en": "The definition changed. Preview it again.",
+    "ja": "定義が変更されました。再度プレビューしてください。",
+    "fr": "La définition a changé. Prévisualisez-la à nouveau.",
+    "de": "Die Definition wurde geändert. Erneut in der Vorschau prüfen.",
+    "es": "La definición ha cambiado. Vuelva a previsualizarla."
+  },
+  "global.refreshSaved.all_5c55a6": {
+    "zh-CN": "全部",
+    "en": "All",
+    "ja": "すべて",
+    "fr": "Tout",
+    "de": "Alle",
+    "es": "Todo"
+  },
+  "global.refreshSaved.select_an_item_da590a": {
+    "zh-CN": "请选择",
+    "en": "Select an item",
+    "ja": "選択してください",
+    "fr": "Choisir un élément",
+    "de": "Element auswählen",
+    "es": "Elegir elemento"
+  },
+  "global.reopenArtifact.select_a_saved_item_e39e3b": {
+    "zh-CN": "请选择已保存内容",
+    "en": "Select a saved item",
+    "ja": "保存内容を選択してください",
+    "fr": "Choisissez un élément enregistré",
+    "de": "Gespeicherten Inhalt auswählen",
+    "es": "Seleccione un elemento guardado"
+  },
+  "global.requestedScope.adjacency_layers_0_3_compute_node_limit_1_200000_e23111": {
+    "zh-CN": "邻接层数须为0–3，计算节点上限须为1–200000",
+    "en": "Adjacency depth must be 0–3 and the node limit must be 1–200000.",
+    "ja": "隣接の深さは 0–3、ノード上限は 1–200000 で指定してください。",
+    "fr": "La profondeur d’adjacence doit être de 0 à 3 et la limite de nœuds de 1 à 200000.",
+    "de": "Nachbarschaftstiefe: 0–3; Knotengrenze: 1–200000.",
+    "es": "La profundidad de adyacencia debe ser 0–3 y el límite de nodos 1–200000."
+  },
+  "global.showGlobalNode.add_as_inputs_7a7d9c": {
+    "zh-CN": "加入输入",
+    "en": "Add as inputs",
+    "ja": "入力に追加",
+    "fr": "Ajouter aux entrées",
+    "de": "Als Eingaben hinzufügen",
+    "es": "Añadir como entradas"
+  },
+  "global.showGlobalNode.add_as_seeds_8b644d": {
+    "zh-CN": "加入种子",
+    "en": "Add as seeds",
+    "ja": "種ノードに追加",
+    "fr": "Ajouter comme graines",
+    "de": "Als Ausgangsknoten hinzufügen",
+    "es": "Añadir como semillas"
+  },
+  "global.showGlobalNode.add_to_output_a_b300f3": {
+    "zh-CN": "加入输出 A",
+    "en": "Add to output A",
+    "ja": "出力Aに追加",
+    "fr": "Ajouter à la sortie A",
+    "de": "Zu Ausgabe A hinzufügen",
+    "es": "Añadir a salida A"
+  },
+  "global.showGlobalNode.add_to_output_b_02f1a7": {
+    "zh-CN": "加入输出 B",
+    "en": "Add to output B",
+    "ja": "出力Bに追加",
+    "fr": "Ajouter à la sortie B",
+    "de": "Zu Ausgabe B hinzufügen",
+    "es": "Añadir a salida B"
+  },
+  "global.showGlobalNode.category_0d12cb": {
+    "zh-CN": "类别",
+    "en": "Category",
+    "ja": "分類",
+    "fr": "Catégorie",
+    "de": "Kategorie",
+    "es": "Categoría"
+  },
+  "global.showGlobalNode.downstream_6e4f06": {
+    "zh-CN": "下游边数",
+    "en": "Downstream edge count",
+    "ja": "下流辺数",
+    "fr": "Aval nombre d’arêtes",
+    "de": "Nachgelagert Kantenzahl",
+    "es": "Aguas abajo número de aristas"
+  },
+  "global.showGlobalNode.input_contacts_a6abcc": {
+    "zh-CN": "完整输入计数",
+    "en": "Full input contact count",
+    "ja": "全入力接触数",
+    "fr": "Nombre total de contacts d’entrée",
+    "de": "Gesamte Anzahl der Eingangskontakte",
+    "es": "Número total de contactos de entrada"
+  },
+  "global.showGlobalNode.message_0f783c": {
+    "zh-CN": "胞体侧别",
+    "en": "Soma side",
+    "ja": "細胞体の側",
+    "fr": "Côté du soma",
+    "de": "Somaseite",
+    "es": "Lado del soma"
+  },
+  "global.showGlobalNode.name_d44e9b": {
+    "zh-CN": "名称",
+    "en": "Name",
+    "ja": "名前",
+    "fr": "Nom",
+    "de": "Name",
+    "es": "Nombre"
+  },
+  "global.showGlobalNode.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "global.showGlobalNode.output_contacts_25997f": {
+    "zh-CN": "完整输出计数",
+    "en": "Full output contact count",
+    "ja": "全出力接触数",
+    "fr": "Nombre total de contacts de sortie",
+    "de": "Gesamte Anzahl der Ausgangskontakte",
+    "es": "Número total de contactos de salida"
+  },
+  "global.showGlobalNode.status_3cf45f": {
+    "zh-CN": "状态标签",
+    "en": "Status labels",
+    "ja": "状態ラベル",
+    "fr": "Étatétiquettes",
+    "de": "Status Beschriftungen",
+    "es": "Estado etiquetas"
+  },
+  "global.showGlobalNode.status_6320b4": {
+    "zh-CN": "状态",
+    "en": "Status",
+    "ja": "状態",
+    "fr": "État",
+    "de": "Status",
+    "es": "Estado"
+  },
+  "global.showGlobalNode.type_ba4001": {
+    "zh-CN": "类型",
+    "en": "Type",
+    "ja": "種類",
+    "fr": "Type",
+    "de": "Typ",
+    "es": "Tipo"
+  },
+  "global.showGlobalNode.upstream_2149fe": {
+    "zh-CN": "上游边数",
+    "en": "Upstream edge count",
+    "ja": "上流辺数",
+    "fr": "Amont nombre d’arêtes",
+    "de": "Vorgelagert Kantenzahl",
+    "es": "Aguas arriba número de aristas"
+  },
+  "global.showGlobalNode.use_as_path_source_777393": {
+    "zh-CN": "作为通路来源",
+    "en": "Use as path source",
+    "ja": "経路始点に設定",
+    "fr": "Utiliser comme source du chemin",
+    "de": "Als Pfadquelle verwenden",
+    "es": "Usar como origen de ruta"
+  },
+  "global.showGlobalNode.use_as_path_target_a_d9e3f0": {
+    "zh-CN": "作为通路目标 A",
+    "en": "Use as path target A",
+    "ja": "経路終点Aに設定",
+    "fr": "Utiliser comme cible A",
+    "de": "Als Pfadziel A verwenden",
+    "es": "Usar como destino A"
+  },
+  "global.showGlobalNode.use_as_path_target_b_7803ab": {
+    "zh-CN": "作为通路目标 B",
+    "en": "Use as path target B",
+    "ja": "経路終点Bに設定",
+    "fr": "Utiliser comme cible B",
+    "de": "Als Pfadziel B verwenden",
+    "es": "Usar como destino B"
+  }
+}

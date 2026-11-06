@@ -1,0 +1,34 @@
+{
+  "tool.joint": {
+    "zh-CN": "多协议共同搜索",
+    "en": "Multi-protocol search",
+    "ja": "複数プロトコル探索",
+    "fr": "Recherche multi-protocoles",
+    "de": "Mehrprotokollsuche",
+    "es": "Búsqueda multiprotocolo"
+  },
+  "tool.nodes": {
+    "zh-CN": "节点集合搜索",
+    "en": "Node-set search",
+    "ja": "ノード集合探索",
+    "fr": "Recherche de nœuds",
+    "de": "Knotenmengensuche",
+    "es": "Búsqueda de conjuntos"
+  },
+  "tool.operations": {
+    "zh-CN": "候选操作组合",
+    "en": "Operation combinations",
+    "ja": "操作の組合せ",
+    "fr": "Combinaisons d’opérations",
+    "de": "Operationskombinationen",
+    "es": "Combinaciones de operaciones"
+  },
+  "tool.timing": {
+    "zh-CN": "固定节点时段探索",
+    "en": "Fixed-set timing exploration",
+    "ja": "固定集合の時間帯探索",
+    "fr": "Exploration des périodes",
+    "de": "Zeitfenster erkunden",
+    "es": "Explorar intervalos"
+  }
+}

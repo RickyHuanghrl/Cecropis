@@ -1,0 +1,402 @@
+{
+  "analysis.analysisContext.fixed_plan_3b7d6e": {
+    "zh-CN": "固定方案",
+    "en": "Fixed plan",
+    "ja": "固定案",
+    "fr": "Plan fixe",
+    "de": "Fester Plan",
+    "es": "Plan fijo"
+  },
+  "analysis.analysisContext.select_a_saved_result_b82304": {
+    "zh-CN": "选择已保存结果",
+    "en": "Select a saved result",
+    "ja": "保存結果を選択",
+    "fr": "Choisir un résultat enregistré",
+    "de": "Gespeichertes Ergebnis auswählen",
+    "es": "Elegir resultado guardado"
+  },
+  "analysis.analysisReadNode.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "analysis.analysisReadPathEdge.create_edge_event_f1e789": {
+    "zh-CN": "建立边事件",
+    "en": "Create edge event",
+    "ja": "辺イベントを作成",
+    "fr": "Créer un événement d’arête",
+    "de": "Kantenereignis erstellen",
+    "es": "Crear evento de arista"
+  },
+  "analysis.analysisReadPathEdge.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "analysis.analysisReadPathEdge.normalized_weight_803935": {
+    "zh-CN": "{p0} → {p1} · 接触 {p2} · 完整接收输入 {p3} · 归一化权重 {p4}",
+    "en": "{p0} → {p1} · contacts {p2} · full receiving input {p3} · normalized weight {p4}",
+    "ja": "{p0} → {p1} · 接触数 {p2} · 受信側の全入力 {p3} · 正規化重み {p4}",
+    "fr": "{p0} → {p1} · contacts {p2} · entrée totale du récepteur {p3} · poids normalisé {p4}",
+    "de": "{p0} → {p1} · Kontakte {p2} · gesamter Empfängereingang {p3} · normiertes Gewicht {p4}",
+    "es": "{p0} → {p1} · contactos {p2} · entrada total del receptor {p3} · peso normalizado {p4}"
+  },
+  "analysis.analysisSendDraft.intervention_node_not_run_ebab53": {
+    "zh-CN": "干预草稿已{p0} · {p1} 个所选节点 · 尚未运行",
+    "en": "Intervention draft: {p0} · {p1} selected nodes · not run",
+    "ja": "介入下書き：{p0} · 選択ノード {p1} · 未実行",
+    "fr": "Brouillon d’intervention : {p0} · {p1} nœuds sélectionnés · non exécuté",
+    "de": "Interventionsentwurf: {p0} · {p1} ausgewählte Knoten · nicht ausgeführt",
+    "es": "Borrador de intervención: {p0} · {p1} nodos seleccionados · sin ejecutar"
+  },
+  "analysis.analysisSendDraft.members_intervention_50b255": {
+    "zh-CN": "以下确切成员不属于当前干预候选，草稿未更改：\n",
+    "en": "The draft is unchanged. These members are outside the intervention candidates: ",
+    "ja": "下書きは変更されていません。介入候補に含まれないメンバー: ",
+    "fr": "Le brouillon reste inchangé. Membres hors des candidats à l’intervention : ",
+    "de": "Der Entwurf bleibt unverändert. Mitglieder außerhalb der Interventionskandidaten: ",
+    "es": "El borrador no ha cambiado. Miembros fuera de los candidatos a la intervención:"
+  },
+  "analysis.analysisSendDraft.members_scope_scope_63c19c": {
+    "zh-CN": "以下成员不在当前范围，草稿未更改；请先建立范围：\n",
+    "en": "The draft is unchanged. Create a scope containing these members first: ",
+    "ja": "下書きは変更されていません。まず次のメンバーを含む範囲を作成してください: ",
+    "fr": "Le brouillon reste inchangé. Créez d’abord un périmètre contenant ces membres : ",
+    "de": "Der Entwurf bleibt unverändert. Zuerst einen Bereich mit diesen Mitgliedern erstellen: ",
+    "es": "El borrador no ha cambiado. Cree primero un ámbito con estos miembros:"
+  },
+  "analysis.analysisSendDraft.message_131b13": {
+    "zh-CN": "替换",
+    "en": "replace",
+    "ja": "置換",
+    "fr": "remplacer",
+    "de": "ersetzen",
+    "es": "reemplazar"
+  },
+  "analysis.analysisSendDraft.message_d91017": {
+    "zh-CN": "追加",
+    "en": "append",
+    "ja": "追加",
+    "fr": "ajouter",
+    "de": "anhängen",
+    "es": "añadir"
+  },
+  "analysis.analysisSendDraft.select_node_result_source_not_run_6ab7fc": {
+    "zh-CN": "确切选择已成为新节点事件 · 来源结果保持 · 尚未运行",
+    "en": "Created a node event from the exact selection · source result retained · not run",
+    "ja": "正確な選択からノードイベントを作成 · 元の結果は保持 · 未実行",
+    "fr": "Événement de nœud créé à partir de la sélection exacte · résultat source conservé · non exécuté",
+    "de": "Knotenereignis aus der exakten Auswahl erstellt · Quellergebnis beibehalten · nicht ausgeführt",
+    "es": "Evento de nodo creado a partir de la selección exacta · resultado de origen conservado · sin ejecutar"
+  },
+  "analysis.analysisSendDraft.select_nodes_first_24135a": {
+    "zh-CN": "先选择节点",
+    "en": "Select nodes first",
+    "ja": "先にノードを選択してください",
+    "fr": "Sélectionnez d’abord des nœuds",
+    "de": "Zuerst Knoten auswählen",
+    "es": "Seleccione primero nodos"
+  },
+  "analysis.analysisSendDraft.stop_actions_f9d6a3": {
+    "zh-CN": "请先结束当前操作",
+    "en": "Finish the current operation first",
+    "ja": "先に現在の操作を完了してください",
+    "fr": "Terminez d’abord l’opération en cours",
+    "de": "Schließen Sie zuerst den aktuellen Vorgang ab",
+    "es": "Termine primero la operación actual"
+  },
+  "analysis.analysisSet.members_select_63a053": {
+    "zh-CN": "尚未核对的全局成员，选择未更改：",
+    "en": "Selection unchanged. These global members have not been verified: ",
+    "ja": "選択は変更されていません。未確認の全体メンバー: ",
+    "fr": "Sélection inchangée. Membres globaux non vérifiés : ",
+    "de": "Auswahl unverändert. Nicht geprüfte globale Mitglieder: ",
+    "es": "Selección sin cambios. Miembros globales sin verificar:"
+  },
+  "analysis.analysisSet.selection_200000nodebudget_fbb479": {
+    "zh-CN": "当前选择超过200000节点预算",
+    "en": "The selection exceeds the 200,000-node limit",
+    "ja": "選択数が上限の 200,000 ノードを超えています",
+    "fr": "La sélection dépasse la limite de 200 000 nœuds",
+    "de": "Die Auswahl überschreitet die Grenze von 200.000 Knoten",
+    "es": "La selección supera el límite de 200 000 nodos"
+  },
+  "analysis.analyzeSearchPlan.actions_a6ab18": {
+    "zh-CN": "请等待当前操作",
+    "en": "Wait for the current operation to finish",
+    "ja": "現在の操作が完了するまでお待ちください",
+    "fr": "Attendez la fin de l’opération en cours",
+    "de": "Warten Sie, bis der aktuelle Vorgang abgeschlossen ist",
+    "es": "Espere a que termine la operación actual"
+  },
+  "analysis.analyzeSearchPlan.save_open_search_6763e4": {
+    "zh-CN": "先保存或打开这个搜索结果",
+    "en": "Save or open this search result first",
+    "ja": "先にこの検索結果を保存するか開いてください",
+    "fr": "Enregistrez ou ouvrez d’abord ce résultat de recherche",
+    "de": "Speichern oder öffnen Sie zuerst dieses Suchergebnis",
+    "es": "Guarde o abra primero este resultado de búsqueda"
+  },
+  "analysis.analyzeSearchPlan.searchplan_7aa29f": {
+    "zh-CN": "搜索方案 · ",
+    "en": "Search Plan · ",
+    "ja": "探索計画 · ",
+    "fr": "Recherche Plan · ",
+    "de": "Suche Plan · ",
+    "es": "Búsqueda Plan · "
+  },
+  "analysis.condition": {
+    "zh-CN": "条件：{name} · {steps} 更新步",
+    "en": "Condition: {name} · {steps} updates",
+    "ja": "条件：{name}・更新{steps}",
+    "fr": "Condition : {name} · {steps} mises à jour",
+    "de": "Bedingung: {name} · {steps} Schritte",
+    "es": "Condición: {name} · {steps} pasos"
+  },
+  "analysis.controls.20_0f606c": {
+    "zh-CN": "{p0} · 前20",
+    "en": "{p0} · top 20",
+    "ja": "{p0} · 上位 20 件",
+    "fr": "{p0} · les 20 premiers",
+    "de": "{p0} · die ersten 20",
+    "es": "{p0} · los primeros 20"
+  },
+  "analysis.controls.add_to_selection_c3ce5d": {
+    "zh-CN": "加入选择",
+    "en": "Add to selection",
+    "ja": "選択に追加",
+    "fr": "Ajouter à la sélection",
+    "de": "Zur Auswahl hinzufügen",
+    "es": "Añadir a selección"
+  },
+  "analysis.controls.analysis_session_restored_d23d36": {
+    "zh-CN": "分析现场已恢复",
+    "en": "Analysis session restored",
+    "ja": "分析セッションを復元しました",
+    "fr": "Session d’analyse restaurée",
+    "de": "Analysesitzung wiederhergestellt",
+    "es": "Sesión de análisis restaurada"
+  },
+  "analysis.controls.analysisplan_6efb1e": {
+    "zh-CN": "分析方案",
+    "en": "Analysis Plan",
+    "ja": "分析計画",
+    "fr": "Analyse Plan",
+    "de": "Analyse Plan",
+    "es": "Análisis Plan"
+  },
+  "analysis.controls.back_572cf4": {
+    "zh-CN": "返回",
+    "en": "Back",
+    "ja": "戻る",
+    "fr": "Retour",
+    "de": "Zurück",
+    "es": "Volver"
+  },
+  "analysis.controls.downstream_fde36e": {
+    "zh-CN": "下游",
+    "en": "Downstream",
+    "ja": "下流",
+    "fr": "Aval",
+    "de": "Nachgelagert",
+    "es": "Aguas abajo"
+  },
+  "analysis.controls.expand_00bd39": {
+    "zh-CN": "展开",
+    "en": "Expand",
+    "ja": "拡大",
+    "fr": "Agrandir",
+    "de": "Vergrößern",
+    "es": "Ampliar"
+  },
+  "analysis.controls.message_18c4c8": {
+    "zh-CN": "已恢复可用部分 · 缺失：",
+    "en": "Available state restored. Missing: ",
+    "ja": "利用可能な状態を復元しました。不足: ",
+    "fr": "État disponible restauré. Éléments manquants : ",
+    "de": "Verfügbaren Zustand wiederhergestellt. Fehlend: ",
+    "es": "Se restauró el estado disponible. Faltan:"
+  },
+  "analysis.controls.open_7aa466": {
+    "zh-CN": "正在打开来源，请等待",
+    "en": "Opening the source…",
+    "ja": "ソースを開いています…",
+    "fr": "Ouverture de la source…",
+    "de": "Quelle wird geöffnet…",
+    "es": "Abriendo la fuente…"
+  },
+  "analysis.controls.opening_source_7b763e": {
+    "zh-CN": "正在打开来源…",
+    "en": "Opening source…",
+    "ja": "出典を開いています…",
+    "fr": "Ouverture de la source…",
+    "de": "Quelle wird geöffnet…",
+    "es": "Abriendo origen…"
+  },
+  "analysis.controls.remove_912bb1": {
+    "zh-CN": "移除 {p0}",
+    "en": "Remove {p0}",
+    "ja": "{p0}を除外",
+    "fr": "Retirer {p0}",
+    "de": "{p0} entfernen",
+    "es": "Quitar {p0}"
+  },
+  "analysis.controls.scope_selection_saveintervention_continue_56911b": {
+    "zh-CN": "切换计算范围将清空当前选择并覆盖未保存干预草稿。继续？",
+    "en": "Switching scopes clears the selection and replaces the unsaved intervention draft. Continue?",
+    "ja": "範囲を切り替えると選択が解除され、未保存の介入下書きが置き換わります。続行しますか？",
+    "fr": "Changer de périmètre efface la sélection et remplace le brouillon d’intervention non enregistré. Continuer ?",
+    "de": "Ein Bereichswechsel löscht die Auswahl und ersetzt den ungespeicherten Interventionsentwurf. Fortfahren?",
+    "es": "Cambiar de ámbito borra la selección y reemplaza el borrador de intervención sin guardar. ¿Continuar?"
+  },
+  "analysis.controls.source_opened_intervention_draft_retained_677021": {
+    "zh-CN": "已打开来源 · 干预草稿保持",
+    "en": "Source opened; intervention draft retained",
+    "ja": "出典を開きました・介入草案を保持",
+    "fr": "Source ouverte ; brouillon conservé",
+    "de": "Quelle geöffnet; Eingriffsentwurf bleibt",
+    "es": "Origen abierto; borrador conservado"
+  },
+  "analysis.controls.upstream_a9ab29": {
+    "zh-CN": "上游",
+    "en": "Upstream",
+    "ja": "上流",
+    "fr": "Amont",
+    "de": "Vorgelagert",
+    "es": "Aguas arriba"
+  },
+  "analysis.definition": {
+    "zh-CN": "来源与执行定义",
+    "en": "Source and execution definition",
+    "ja": "出典と実行定義",
+    "fr": "Source et définition d’exécution",
+    "de": "Quelle und Ausführungsdefinition",
+    "es": "Origen y definición de ejecución"
+  },
+  "analysis.label.node_2410d8": {
+    "zh-CN": "节点",
+    "en": "Node",
+    "ja": "ノード",
+    "fr": "Nœud",
+    "de": "Knoten",
+    "es": "Nodo"
+  },
+  "analysis.labels.add_to_selection_f6e6d5": {
+    "zh-CN": "加入当前选择",
+    "en": "Add to selection",
+    "ja": "現在の選択に追加",
+    "fr": "Ajouter à la sélection",
+    "de": "Zur Auswahl hinzufügen",
+    "es": "Añadir a selección"
+  },
+  "analysis.labels.recording_and_preparation_83221c": {
+    "zh-CN": "记录与准备",
+    "en": "Recording and preparation",
+    "ja": "記録と準備",
+    "fr": "Enregistrement et préparation",
+    "de": "Aufzeichnung und Vorbereitung",
+    "es": "Registro y preparación"
+  },
+  "analysis.labels.save_analysis_session_f7835f": {
+    "zh-CN": "保存分析现场",
+    "en": "Save analysis session",
+    "ja": "分析状態を保存",
+    "fr": "Enregistrer la session",
+    "de": "Analysesitzung speichern",
+    "es": "Guardar sesión de análisis"
+  },
+  "analysis.labels.use_as_intervention_draft_165e49": {
+    "zh-CN": "所选送入干预草稿",
+    "en": "Use selection in intervention draft",
+    "ja": "選択を介入下書きに使用",
+    "fr": "Utiliser la sélection dans le brouillon d’intervention",
+    "de": "Auswahl im Interventionsentwurf verwenden",
+    "es": "Usar la selección en el borrador de intervención"
+  },
+  "analysis.persist.save_21a9fe": {
+    "zh-CN": "请先保存当前来源",
+    "en": "Save the current source first",
+    "ja": "先に現在の元データを保存してください",
+    "fr": "Enregistrez d’abord la source actuelle",
+    "de": "Speichern Sie zuerst die aktuelle Quelle",
+    "es": "Guarde primero el origen actual"
+  },
+  "analysis.renderAnalysisSelection.50_6a1fd9": {
+    "zh-CN": " · 前50个",
+    "en": " · top 50",
+    "ja": " · 上位 50 件",
+    "fr": " · les 50 premiers",
+    "de": " · die ersten 50",
+    "es": " · los primeros 50"
+  },
+  "analysis.renderAnalysisSelection.add_focused_node_eb2d76": {
+    "zh-CN": "加入当前节点",
+    "en": "Add focused node",
+    "ja": "注目ノードを追加",
+    "fr": "Ajouter le nœud courant",
+    "de": "Aktuellen Knoten hinzufügen",
+    "es": "Añadir nodo actual"
+  },
+  "analysis.renderAnalysisSelection.message_fa2c54": {
+    "zh-CN": "加入 ",
+    "en": "add ",
+    "ja": "追加 ",
+    "fr": "ajouter ",
+    "de": "hinzufügen ",
+    "es": "añadir "
+  },
+  "analysis.renderAnalysisSelection.selected_577202": {
+    "zh-CN": "当前选择 {p0}{p1}",
+    "en": "Selected: {p0}{p1}",
+    "ja": "選択数：{p0}{p1}",
+    "fr": "Sélection : {p0}{p1}",
+    "de": "Auswahl: {p0}{p1}",
+    "es": "Selección: {p0}{p1}"
+  },
+  "analysis.saveAnalysisScene.analysis_session_save_fc07ac": {
+    "zh-CN": "分析现场已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "analysis.saveAnalysisScene.enter_a_session_name_20eb1c": {
+    "zh-CN": "请输入现场名称",
+    "en": "Enter a session name",
+    "ja": "分析状態名を入力してください",
+    "fr": "Saisissez un nom de session",
+    "de": "Sitzungsnamen eingeben",
+    "es": "Introduzca un nombre de sesión"
+  },
+  "analysis.saveAnalysisScene.open_a_source_result_first_692119": {
+    "zh-CN": "先打开来源结果",
+    "en": "Open a source result first",
+    "ja": "先に元の結果を開いてください",
+    "fr": "Ouvrez d’abord un résultat source",
+    "de": "Öffnen Sie zuerst ein Quellergebnis",
+    "es": "Abra primero un resultado de origen"
+  },
+  "analysis.saveAnalysisScene.saving_source_references_and_session_e64cbe": {
+    "zh-CN": "正在保存来源引用与分析现场…",
+    "en": "Saving source references and session…",
+    "ja": "出典参照とセッションを保存中…",
+    "fr": "Enregistrement des références et de la session…",
+    "de": "Quellenverweise und Sitzung speichern…",
+    "es": "Guardando referencias y sesión…"
+  },
+  "analysis.saveAnalysisScene.wait_for_the_current_task_to_stop_2a5566": {
+    "zh-CN": "请等待当前任务结束",
+    "en": "Wait for the current task to stop",
+    "ja": "現在のタスク終了を待ってください",
+    "fr": "Attendez la fin de la tâche courante",
+    "de": "Auf das Ende der aktuellen Aufgabe warten",
+    "es": "Espere al fin de la tarea actual"
+  }
+}

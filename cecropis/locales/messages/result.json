@@ -1,0 +1,10 @@
+{
+  "result.actualLoss": {
+    "zh-CN": "实际下降 {value}",
+    "en": "Actual decrease: {value}",
+    "ja": "実際の減少量: {value}",
+    "fr": "Diminution réelle : {value}",
+    "de": "Tatsächliche Abnahme: {value}",
+    "es": "Disminución real: {value}"
+  }
+}

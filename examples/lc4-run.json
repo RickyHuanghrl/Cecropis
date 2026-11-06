@@ -1,0 +1,20 @@
+{
+  "experiment": {
+    "steps": 40,
+    "alpha": 0.3,
+    "rho": 0.9,
+    "input_group": "LC4 input",
+    "input_start": 0,
+    "input_stop": 10,
+    "amplitude": 1.0,
+    "intervention_group": "candidates",
+    "intervention_start": 4,
+    "intervention_stop": 25,
+    "gain": 0.2,
+    "outputs": [
+      "DNp04",
+      "DNp01"
+    ],
+    "intervention_ids": null
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "comparison.actions": {
+    "zh-CN": "操作",
+    "en": "Actions",
+    "ja": "操作",
+    "fr": "Actions",
+    "de": "Aktionen",
+    "es": "Acciones"
+  },
+  "comparison.condition": {
+    "zh-CN": "条件",
+    "en": "Condition",
+    "ja": "条件",
+    "fr": "Condition",
+    "de": "Bedingung",
+    "es": "Condición"
+  },
+  "comparison.constraints": {
+    "zh-CN": "约束",
+    "en": "Constraints",
+    "ja": "制約",
+    "fr": "Contraintes",
+    "de": "Nebenbedingungen",
+    "es": "Restricciones"
+  },
+  "comparison.coverage": {
+    "zh-CN": "干预节点／边",
+    "en": "Intervened nodes / edges",
+    "ja": "介入ノード／辺",
+    "fr": "Nœuds / arêtes modifiés",
+    "de": "Beeinflusste Knoten / Kanten",
+    "es": "Nodos / aristas intervenidos"
+  },
+  "comparison.cumulative": {
+    "zh-CN": "累计变化",
+    "en": "Cumulative change",
+    "ja": "累積変化",
+    "fr": "Variation cumulée",
+    "de": "Kumulative Änderung",
+    "es": "Cambio acumulado"
+  },
+  "comparison.disabled": {
+    "zh-CN": "停用",
+    "en": "Disabled",
+    "ja": "無効",
+    "fr": "Désactivé",
+    "de": "Deaktiviert",
+    "es": "Deshabilitado"
+  },
+  "comparison.fixedCurves": {
+    "zh-CN": "固定时段曲线",
+    "en": "Fixed-interval curves",
+    "ja": "固定区間の曲線",
+    "fr": "Courbes à intervalle fixe",
+    "de": "Kurven für festes Intervall",
+    "es": "Curvas de intervalo fijo"
+  },
+  "comparison.gain": {
+    "zh-CN": "保留增益",
+    "en": "Retained gain",
+    "ja": "残存ゲイン",
+    "fr": "Gain conservé",
+    "de": "Verbleibende Verstärkung",
+    "es": "Ganancia conservada"
+  },
+  "comparison.interval": {
+    "zh-CN": "更新时段",
+    "en": "Update interval",
+    "ja": "更新区間",
+    "fr": "Intervalle de mises à jour",
+    "de": "Schrittintervall",
+    "es": "Intervalo de pasos"
+  },
+  "comparison.loadRun": {
+    "zh-CN": "载入并运行",
+    "en": "Load and run",
+    "ja": "読込と実行",
+    "fr": "Charger et exécuter",
+    "de": "Laden und ausführen",
+    "es": "Cargar y ejecutar"
+  },
+  "comparison.nodeEdges": {
+    "zh-CN": "{nodes} / {edges}",
+    "en": "{nodes} / {edges}",
+    "ja": "{nodes}／{edges}",
+    "fr": "{nodes} / {edges}",
+    "de": "{nodes} / {edges}",
+    "es": "{nodes} / {edges}"
+  },
+  "comparison.ready": {
+    "zh-CN": "{conditions} 个条件 · {observations} 观察集合",
+    "en": "{conditions} conditions · {observations} observation sets",
+    "ja": "条件 {conditions}・観測集合 {observations}",
+    "fr": "{conditions} conditions · {observations} ensembles observés",
+    "de": "{conditions} Bedingungen · {observations} Beobachtungsmengen",
+    "es": "{conditions} condiciones · {observations} conjuntos observados"
+  },
+  "comparison.saved": {
+    "zh-CN": "已保存 · {conditions} 个条件 · {observations} 观察集合",
+    "en": "Saved · {conditions} conditions · {observations} observation sets",
+    "ja": "保存済み・条件 {conditions}・観測集合 {observations}",
+    "fr": "Enregistré · {conditions} conditions · {observations} ensembles observés",
+    "de": "Gespeichert · {conditions} Bedingungen · {observations} Beobachtungsmengen",
+    "es": "Guardado · {conditions} condiciones · {observations} conjuntos observados"
+  },
+  "comparison.savedTask": {
+    "zh-CN": "已保存任务结果 · {conditions} 条件",
+    "en": "Saved task result · {conditions} conditions",
+    "ja": "保存済みタスク結果・条件 {conditions}",
+    "fr": "Résultat enregistré · {conditions} conditions",
+    "de": "Gespeichertes Aufgabenergebnis · {conditions} Bedingungen",
+    "es": "Resultado guardado · {conditions} condiciones"
+  },
+  "comparison.task": {
+    "zh-CN": "任务结果 · {conditions} 条件",
+    "en": "Task result · {conditions} conditions",
+    "ja": "タスク結果・条件 {conditions}",
+    "fr": "Résultat de tâche · {conditions} conditions",
+    "de": "Aufgabenergebnis · {conditions} Bedingungen",
+    "es": "Resultado de tarea · {conditions} condiciones"
+  }
+}

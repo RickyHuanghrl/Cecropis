@@ -1,0 +1,666 @@
+{
+  "reduction.controls.all_constraintssatisfied_worst_target_effect_target_prot_d36d4a": {
+    "zh-CN": "{p0}. {p1} → 撤销 {p2} → {p3}\n全部决策约束满足；按最差目标、平均目标、最大保护下降、数值body ID顺序选取。",
+    "en": "{p0}. {p1} → remove {p2} → {p3}. All decision constraints satisfied. Ranked by worst target decrease, mean target decrease, maximum protected decrease, then numeric body ID.",
+    "ja": "{p0}. {p1} → {p2} を除去 → {p3}。全判断制約を満たしています。最悪の目標減少量、平均目標減少量、最大保護減少量、数値 body ID の順で選びます。",
+    "fr": "{p0}. {p1} → retrait de {p2} → {p3}. Toutes les contraintes de décision sont respectées. Classement par diminution cible minimale, moyenne, diminution protégée maximale, puis body ID numérique.",
+    "de": "{p0}. {p1} → {p2} entfernen → {p3}. Alle Entscheidungsbedingungen erfüllt. Reihenfolge: schlechteste Zielabnahme, mittlere Zielabnahme, maximale geschützte Abnahme, numerische body ID.",
+    "es": "{p0}. {p1} → quitar {p2} → {p3}. Se cumplen todas las restricciones de decisión. Orden: peor disminución objetivo, media, máxima disminución protegida y body ID numérico."
+  },
+  "reduction.controls.amplitude_88c90b": {
+    "zh-CN": "输入[{p0}, {p1}) 强度{p2} · {p3}",
+    "en": "input[{p0}, {p1}) Amplitude {p2} · {p3}",
+    "ja": "入力[{p0}, {p1}) 強度{p2} · {p3}",
+    "fr": "entrée[{p0}, {p1}) Amplitude {p2} · {p3}",
+    "de": "Eingabe[{p0}, {p1}) Stärke {p2} · {p3}",
+    "es": "entrada[{p0}, {p1}) Amplitud {p2} · {p3}"
+  },
+  "reduction.controls.assessment_677ee7": {
+    "zh-CN": "未判断",
+    "en": "Not assessed",
+    "ja": "未判定",
+    "fr": "Non évalué",
+    "de": "Nicht beurteilt",
+    "es": "Sin evaluar"
+  },
+  "reduction.controls.cancel_2cd0f3": {
+    "zh-CN": "取消",
+    "en": "Cancel",
+    "ja": "キャンセル",
+    "fr": "Annuler",
+    "de": "Abbrechen",
+    "es": "Cancelar"
+  },
+  "reduction.controls.cancel_keep_complete_f5b61c": {
+    "zh-CN": "请求取消 · 保留已完成集合",
+    "en": "Cancellation requested · completed set evaluations retained",
+    "ja": "キャンセル要求済み · 完了した集合評価は保持",
+    "fr": "Annulation demandée · évaluations terminées conservées",
+    "de": "Abbruch angefordert · abgeschlossene Mengenbewertungen bleiben erhalten",
+    "es": "Cancelación solicitada · se conservan las evaluaciones completadas"
+  },
+  "reduction.controls.complete_6707de": {
+    "zh-CN": "未完成",
+    "en": "Incomplete",
+    "ja": "未完了",
+    "fr": "Incomplet",
+    "de": "Unvollständig",
+    "es": "Incompleto"
+  },
+  "reduction.controls.edit_use_current_selection_and_protocol_f2fb07": {
+    "zh-CN": "编辑器协议已改，请重新采用当前选择与协议",
+    "en": "The protocol changed. Adopt the current selection and protocol again.",
+    "ja": "プロトコルが変更されました。現在の選択とプロトコルを再度採用してください。",
+    "fr": "Le protocole a changé. Adoptez à nouveau la sélection et le protocole actuels.",
+    "de": "Protokoll geändert. Aktuelle Auswahl und aktuelles Protokoll erneut übernehmen.",
+    "es": "El protocolo ha cambiado. Adopte de nuevo la selección y el protocolo actuales."
+  },
+  "reduction.controls.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "reduction.controls.gain_intervention_259c65": {
+    "zh-CN": "{p0} · gain {p1} / 干预[{p2}, {p3})\n",
+    "en": "{p0} · gain {p1} / Intervention[{p2}, {p3})\n",
+    "ja": "{p0} · gain {p1} / 介入[{p2}, {p3})\n",
+    "fr": "{p0} · gain {p1} / Intervention[{p2}, {p3})\n",
+    "de": "{p0} · gain {p1} / Eingriff[{p2}, {p3})\n",
+    "es": "{p0} · gain {p1} / Intervención[{p2}, {p3})\n"
+  },
+  "reduction.controls.intervention_0_no_intervention_b73893": {
+    "zh-CN": "计算 {p0} · 干预 0（无干预）",
+    "en": "calculation {p0} · Intervention 0（No intervention）",
+    "ja": "計算 {p0} · 介入 0（無介入）",
+    "fr": "calcul {p0} · Intervention 0（Sans intervention）",
+    "de": "Berechnung {p0} · Eingriff 0（Ohne Eingriff）",
+    "es": "cálculo {p0} · Intervención 0（Sin intervención）"
+  },
+  "reduction.controls.message_1b9624": {
+    "zh-CN": "额外评价",
+    "en": "Additional evaluation",
+    "ja": "追加評価",
+    "fr": "Évaluation supplémentaire",
+    "de": "Zusätzliche Auswertung",
+    "es": "Evaluación adicional"
+  },
+  "reduction.controls.message_1e7400": {
+    "zh-CN": "{p0} · 评价[{p1}, {p2}) · {p3}",
+    "en": "{p0} · evaluation[{p1}, {p2}) · {p3}",
+    "ja": "{p0} · 評価[{p1}, {p2}) · {p3}",
+    "fr": "{p0} · évaluation[{p1}, {p2}) · {p3}",
+    "de": "{p0} · Bewertung[{p1}, {p2}) · {p3}",
+    "es": "{p0} · evaluación[{p1}, {p2}) · {p3}"
+  },
+  "reduction.controls.message_4a64b5": {
+    "zh-CN": "父集合 {p0} → 撤销 {p1} {p2} → {p3}\n",
+    "en": "parent set {p0} → removal {p1} {p2} → {p3}\n",
+    "ja": "親集合 {p0} → 解除 {p1} {p2} → {p3}\n",
+    "fr": "ensemble parent {p0} → retrait {p1} {p2} → {p3}\n",
+    "de": "Elternmenge {p0} → Rücknahme {p1} {p2} → {p3}\n",
+    "es": "conjunto padre {p0} → retirada {p1} {p2} → {p3}\n"
+  },
+  "reduction.controls.message_5154a5": {
+    "zh-CN": "{p0} 下降",
+    "en": "{p0} decrease",
+    "ja": "{p0} 低下",
+    "fr": "{p0} baisse",
+    "de": "{p0} Abnahme",
+    "es": "{p0} disminución"
+  },
+  "reduction.controls.message_710fba": {
+    "zh-CN": "决策",
+    "en": "decision",
+    "ja": "判定",
+    "fr": "décision",
+    "de": "Entscheidung",
+    "es": "decisión"
+  },
+  "reduction.controls.message_8e6b8c": {
+    "zh-CN": "父集合 {p0} · 尚未评价撤销 {p1}",
+    "en": "Parent set {p0} · removal of {p1} not yet evaluated",
+    "ja": "親集合 {p0} · {p1} の除去は未評価",
+    "fr": "Ensemble parent {p0} · retrait de {p1} non encore évalué",
+    "de": "Elternmenge {p0} · Entfernung von {p1} noch nicht bewertet",
+    "es": "Conjunto padre {p0} · eliminación de {p1} aún sin evaluar"
+  },
+  "reduction.controls.message_df49f2": {
+    "zh-CN": "已评价",
+    "en": "evaluated",
+    "ja": "評価済み",
+    "fr": "évalué",
+    "de": "bewertet",
+    "es": "evaluado"
+  },
+  "reduction.controls.no_intervention_269771": {
+    "zh-CN": "无干预",
+    "en": "No intervention",
+    "ja": "介入なし",
+    "fr": "Sans intervention",
+    "de": "Ohne Eingriff",
+    "es": "Sin intervención"
+  },
+  "reduction.controls.no_intervention_85265c": {
+    "zh-CN": "无干预模式必须是确切空集合",
+    "en": "No-intervention mode requires an empty set",
+    "ja": "無介入モードには空集合が必要です",
+    "fr": "Le mode sans intervention nécessite un ensemble vide",
+    "de": "Der Modus ohne Intervention erfordert eine leere Menge",
+    "es": "El modo sin intervención requiere un conjunto vacío"
+  },
+  "reduction.controls.not_recorded_7450cc": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "reduction.controls.plan_starting_nodes_constraints_check_request_50200d": {
+    "zh-CN": "所选达标方案已设为新精简起点 · 保持原约束 · 请预检后开始",
+    "en": "Selected feasible plan set as the new reduction starting point · original constraints retained · check before running",
+    "ja": "選択した達成済み計画を新しい精簡の開始点に設定 · 元の制約は保持 · 実行前に確認してください",
+    "fr": "Plan satisfaisant sélectionné comme nouveau point de départ de réduction · contraintes conservées · vérifiez avant de lancer",
+    "de": "Ausgewählter zulässiger Plan als neuer Reduktionsstartpunkt gesetzt · ursprüngliche Nebenbedingungen beibehalten · vor dem Start prüfen",
+    "es": "Plan viable seleccionado como nuevo punto inicial de reducción · restricciones originales conservadas · compruebe antes de ejecutar"
+  },
+  "reduction.controls.protection_absolute_change_d1d1ea": {
+    "zh-CN": "保护 {p0}下降变化 {p1} · 响应绝对变化 {p2}",
+    "en": "protection {p0} decrease change {p1} · response Absolute change {p2}",
+    "ja": "保護 {p0}低下変化 {p1} · 応答絶対変化 {p2}",
+    "fr": "protection {p0} baisse variation {p1} · réponse Variation absolue {p2}",
+    "de": "Schutz {p0} AbnahmeÄnderung {p1} · Antwort Absolute Änderung {p2}",
+    "es": "protección {p0} disminución cambio {p1} · respuesta Cambio absoluto {p2}"
+  },
+  "reduction.controls.run_62cdc8": {
+    "zh-CN": "未运行",
+    "en": "Not run",
+    "ja": "未実行",
+    "fr": "Non exécuté",
+    "de": "Nicht ausgeführt",
+    "es": "Sin ejecutar"
+  },
+  "reduction.controls.satisfied_4e8156": {
+    "zh-CN": "满足",
+    "en": "Satisfied",
+    "ja": "達成",
+    "fr": "Respecté",
+    "de": "Erfüllt",
+    "es": "Cumplido"
+  },
+  "reduction.controls.satisfied_ec9205": {
+    "zh-CN": "未满足",
+    "en": "Not satisfied",
+    "ja": "未達成",
+    "fr": "Non respecté",
+    "de": "Nicht erfüllt",
+    "es": "No cumplido"
+  },
+  "reduction.controls.save_cfe6f5": {
+    "zh-CN": "已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "reduction.controls.selection_9ea974": {
+    "zh-CN": "当前选择已改，请重新采用确切集合",
+    "en": "Selection changed. Adopt the exact set again.",
+    "ja": "選択が変更されました。正確な集合を再度採用してください。",
+    "fr": "La sélection a changé. Adoptez à nouveau l’ensemble exact.",
+    "de": "Auswahl geändert. Die genaue Menge erneut übernehmen.",
+    "es": "La selección ha cambiado. Adopte de nuevo el conjunto exacto."
+  },
+  "reduction.controls.target_difference_41392f": {
+    "zh-CN": "{p0} · 目标效果 {p1} → {p2} · 差值 {p3}\n",
+    "en": "{p0} · target effect {p1} → {p2} · Difference {p3}\n",
+    "ja": "{p0} · 目標効果 {p1} → {p2} · 差分 {p3}\n",
+    "fr": "{p0} · cible effet {p1} → {p2} · Différence {p3}\n",
+    "de": "{p0} · Ziel Wirkung {p1} → {p2} · Differenz {p3}\n",
+    "es": "{p0} · objetivo efecto {p1} → {p2} · Diferencia {p3}\n"
+  },
+  "reduction.controls.view_db8db0": {
+    "zh-CN": "查看",
+    "en": "View",
+    "ja": "表示",
+    "fr": "Voir",
+    "de": "Anzeigen",
+    "es": "Ver"
+  },
+  "reduction.pollReduction.intervention_bf5152": {
+    "zh-CN": "{p0} · {p1} 完整集合评价 · {p2} 干预传播",
+    "en": "{p0} · {p1} complete set evaluation · {p2} Intervention simulation",
+    "ja": "{p0} · {p1} 完全集合評価 · {p2} 介入シミュレーション",
+    "fr": "{p0} · {p1} completévaluation d’ensemble · {p2} Intervention simulation",
+    "de": "{p0} · {p1} vollständig Mengenbewertung · {p2} Eingriff Simulation",
+    "es": "{p0} · {p1} completo evaluación de conjunto · {p2} Intervención simulación"
+  },
+  "reduction.pollReduction.message_d70857": {
+    "zh-CN": "评价",
+    "en": "evaluation",
+    "ja": "評価",
+    "fr": "évaluation",
+    "de": "Bewertung",
+    "es": "evaluación"
+  },
+  "reduction.pollReduction.save_05aa8a": {
+    "zh-CN": "未产生可保存结果",
+    "en": "No result available to save",
+    "ja": "保存可能な結果はありません",
+    "fr": "Aucun résultat à enregistrer",
+    "de": "Kein speicherbares Ergebnis verfügbar",
+    "es": "No hay resultados para guardar"
+  },
+  "reduction.reductionAnalyze.plan_a68dcd": {
+    "zh-CN": "撤销方案 · ",
+    "en": "removal Plan · ",
+    "ja": "解除計画 · ",
+    "fr": "retrait Plan · ",
+    "de": "Rücknahme Plan · ",
+    "es": "retirada Plan · "
+  },
+  "reduction.reductionAnalyze.select_an_item_plan_16a0d5": {
+    "zh-CN": "请选择已完整评价方案",
+    "en": "Select a fully evaluated plan",
+    "ja": "完全に評価済みの計画を選択してください",
+    "fr": "Sélectionnez un plan entièrement évalué",
+    "de": "Wählen Sie einen vollständig bewerteten Plan",
+    "es": "Seleccione un plan completamente evaluado"
+  },
+  "reduction.reductionBindOpened.plan_a68dcd": {
+    "zh-CN": "撤销方案 · ",
+    "en": "removal Plan · ",
+    "ja": "解除計画 · ",
+    "fr": "retrait Plan · ",
+    "de": "Rücknahme Plan · ",
+    "es": "retirada Plan · "
+  },
+  "reduction.reductionCheck.check_requestcomplete_definition_d5ee6c": {
+    "zh-CN": "预检完成 · 开始后按已确认定义评价",
+    "en": "Preflight complete · execution will use the confirmed definition",
+    "ja": "事前確認完了 · 確認済みの定義で実行します",
+    "fr": "Vérification terminée · l’exécution utilisera la définition confirmée",
+    "de": "Vorprüfung abgeschlossen · Ausführung verwendet die bestätigte Definition",
+    "es": "Comprobación previa completada · la ejecución usará la definición confirmada"
+  },
+  "reduction.reductionCheck.no_intervention_269771": {
+    "zh-CN": "无干预",
+    "en": "No intervention",
+    "ja": "介入なし",
+    "fr": "Sans intervention",
+    "de": "Ohne Eingriff",
+    "es": "Sin intervención"
+  },
+  "reduction.reductionCheck.node_plan_node_view_plan_budget_baseline_intervention_eac16e": {
+    "zh-CN": "计算 {p0}节点 · 原方案 {p1}节点\n{p2}\n决策 {p3}协议 / 额外评价 {p4}协议（按需查看曲线时评价，不参与撤销决策）\n初始撤销方案 {p5} / 预算 {p6}个完整集合\n预计传播上界：基线 {p7} + 干预 {p8} = {p9}\n",
+    "en": "Calculation: {p0} nodes; original plan: {p1} nodes. {p2}. Decision protocols: {p3}; additional protocols: {p4} (evaluated on demand for curves, excluded from removal decisions). Initial removal plans: {p5}; budget: {p6} complete sets. Propagation upper bound: {p7} baseline + {p8} intervention = {p9}.",
+    "ja": "計算: {p0} ノード、元の計画: {p1} ノード。{p2}。判断プロトコル: {p3}、追加プロトコル: {p4}（曲線要求時に評価し、除去判断には使用しません）。初期除去計画: {p5}、予算: {p6} 完全集合。伝播回数の上限: ベースライン {p7} + 介入 {p8} = {p9}。",
+    "fr": "Calcul : {p0} nœuds ; plan initial : {p1} nœuds. {p2}. Protocoles de décision : {p3} ; supplémentaires : {p4} (évalués à la demande pour les courbes, exclus des décisions de retrait). Plans de retrait initiaux : {p5} ; budget : {p6} ensembles complets. Borne de propagation : {p7} référence + {p8} intervention = {p9}.",
+    "de": "Berechnung: {p0} Knoten; ursprünglicher Plan: {p1} Knoten. {p2}. Entscheidungsprotokolle: {p3}; zusätzliche Protokolle: {p4} (für Kurven bei Bedarf ausgewertet, ohne Einfluss auf Entfernungsentscheidungen). Anfängliche Entfernungspläne: {p5}; Budget: {p6} vollständige Mengen. Obere Propagationsgrenze: {p7} Referenz + {p8} Intervention = {p9}.",
+    "es": "Cálculo: {p0} nodos; plan original: {p1} nodos. {p2}. Protocolos de decisión: {p3}; adicionales: {p4} (evaluados a petición para las curvas, excluidos de las decisiones de eliminación). Planes iniciales de eliminación: {p5}; presupuesto: {p6} conjuntos completos. Límite de propagaciones: {p7} referencia + {p8} intervención = {p9}."
+  },
+  "reduction.reductionCheck.plan_50f44e": {
+    "zh-CN": "正在检查确切方案与协议…",
+    "en": "Checking the exact plan and protocols…",
+    "ja": "正確な計画とプロトコルを確認中…",
+    "fr": "Vérification du plan exact et des protocoles…",
+    "de": "Exakter Plan und Protokolle werden geprüft…",
+    "es": "Comprobando el plan exacto y los protocolos…"
+  },
+  "reduction.reductionCurves.comparison_ae2f32": {
+    "zh-CN": "曲线已送入比较 · 按完整协议实际评价",
+    "en": "Curves sent to comparison · evaluated with the full protocols",
+    "ja": "曲線を比較に送信 · 完全なプロトコルで評価済み",
+    "fr": "Courbes transmises à la comparaison · évaluées avec les protocoles complets",
+    "de": "Kurven an Vergleich übergeben · mit vollständigen Protokollen bewertet",
+    "es": "Curvas enviadas a comparación · evaluadas con los protocolos completos"
+  },
+  "reduction.reductionCurves.plan_c7f1fc": {
+    "zh-CN": "正在按完整协议计算所选方案曲线…",
+    "en": "Calculating selected plan curves with the full protocols…",
+    "ja": "完全なプロトコルで選択計画の曲線を計算中…",
+    "fr": "Calcul des courbes du plan sélectionné avec les protocoles complets…",
+    "de": "Kurven des ausgewählten Plans werden mit vollständigen Protokollen berechnet…",
+    "es": "Calculando las curvas del plan seleccionado con los protocolos completos…"
+  },
+  "reduction.reductionDefinition.select_plan_selection_b4d62d": {
+    "zh-CN": "先选择来源方案或当前选择",
+    "en": "Choose a source plan or the current selection first",
+    "ja": "先に元の計画または現在の選択を指定してください",
+    "fr": "Choisissez d’abord un plan source ou la sélection actuelle",
+    "de": "Wählen Sie zuerst einen Quellplan oder die aktuelle Auswahl",
+    "es": "Elija primero un plan de origen o la selección actual"
+  },
+  "reduction.reductionDefinition.target_protectionconstraints_budget_1a601c": {
+    "zh-CN": "请先采用目标、保护约束和预算设置。",
+    "en": "Apply the target, protection constraints and budget settings first.",
+    "ja": "先に目標、保護制約、計算上限の設定を適用してください。",
+    "fr": "Appliquez d’abord l’objectif, les contraintes de protection et le budget.",
+    "de": "Übernehmen Sie zuerst Ziel, Schutzbedingungen und Budget.",
+    "es": "Aplique primero el objetivo, las restricciones de protección y el presupuesto."
+  },
+  "reduction.reductionLossChange.definition_2ba10d": {
+    "zh-CN": "未定义",
+    "en": "Undefined",
+    "ja": "未定義",
+    "fr": "Non défini",
+    "de": "Nicht definiert",
+    "es": "Sin definir"
+  },
+  "reduction.reductionLossChange.message_05e23c": {
+    "zh-CN": "个百分点",
+    "en": "percentage points",
+    "ja": "パーセントポイント",
+    "fr": "points de pourcentage",
+    "de": "Prozentpunkte",
+    "es": "puntos porcentuales"
+  },
+  "reduction.reductionRenderChain.message_93efc4": {
+    "zh-CN": " · 决策",
+    "en": " · decision",
+    "ja": " · 判定",
+    "fr": " · décision",
+    "de": " · Entscheidung",
+    "es": " · decisión"
+  },
+  "reduction.reductionRenderChain.message_e21fe3": {
+    "zh-CN": " · 额外评价",
+    "en": " · additional evaluation",
+    "ja": " · 追加評価",
+    "fr": " · évaluation supplémentaire",
+    "de": " · zusätzliche Bewertung",
+    "es": " · evaluación adicional"
+  },
+  "reduction.reductionRenderChain.remove_beb800": {
+    "zh-CN": "没有接受删除",
+    "en": "No removal accepted",
+    "ja": "受理された除去なし",
+    "fr": "Aucun retrait accepté",
+    "de": "Keine Entfernung akzeptiert",
+    "es": "No se aceptó ninguna eliminación"
+  },
+  "reduction.reductionRenderChain.save_othercombination_scope_309c0c": {
+    "zh-CN": "已保存各轮评价覆盖；未生成的其他组合不在本次评价范围",
+    "en": "Evaluation coverage is saved for each iteration. Ungenerated combinations were not evaluated.",
+    "ja": "各反復の評価範囲を保存しました。未生成の組合せは評価していません。",
+    "fr": "La couverture d’évaluation est enregistrée à chaque itération. Les combinaisons non générées n’ont pas été évaluées.",
+    "de": "Auswertungsumfang je Iteration gespeichert. Nicht erzeugte Kombinationen wurden nicht ausgewertet.",
+    "es": "Se guarda la cobertura de cada iteración. No se evaluaron las combinaciones no generadas."
+  },
+  "reduction.reductionRenderImpacts.not_recorded_fb4e28": {
+    "zh-CN": "未记录匹配父集合的撤销影响",
+    "en": "No recorded removal effect for the matching parent set",
+    "ja": "一致する親集合の除去効果は未記録です",
+    "fr": "Aucun effet de retrait enregistré pour l’ensemble parent correspondant",
+    "de": "Kein Entfernungseffekt für die passende Elternmenge aufgezeichnet",
+    "es": "No hay un efecto de eliminación registrado para el conjunto padre coincidente"
+  },
+  "reduction.reductionSelect.all_constraintssatisfied_47ac8b": {
+    "zh-CN": "全部决策约束满足",
+    "en": "all decision Constraints satisfied",
+    "ja": "すべて判定制約満足",
+    "fr": "tout décision Contraintes satisfait",
+    "de": "alle Entscheidung Nebenbedingungen erfüllt",
+    "es": "todo decisión Restricciones satisfecho"
+  },
+  "reduction.reductionSelect.constraints_per_protocol_8651d1": {
+    "zh-CN": "逐协议约束",
+    "en": "Constraints per protocol",
+    "ja": "プロトコル別制約",
+    "fr": "Contraintes par protocole",
+    "de": "Bedingungen je Protokoll",
+    "es": "Restricciones por protocolo"
+  },
+  "reduction.reductionSelect.keep_ed6d21": {
+    "zh-CN": "保留 {p0} · {p1} · 撤销 {p2} · {p3}",
+    "en": "Keep {p0} · {p1} · removal {p2} · {p3}",
+    "ja": "保持 {p0} · {p1} · 解除 {p2} · {p3}",
+    "fr": "Conserver {p0} · {p1} · retrait {p2} · {p3}",
+    "de": "Behalten {p0} · {p1} · Rücknahme {p2} · {p3}",
+    "es": "Conservar {p0} · {p1} · retirada {p2} · {p3}"
+  },
+  "reduction.reductionSelect.message_484d55": {
+    "zh-CN": "无",
+    "en": "none",
+    "ja": "なし",
+    "fr": "aucun",
+    "de": "keine",
+    "es": "ninguno"
+  },
+  "reduction.reductionSelect.no_intervention_269771": {
+    "zh-CN": "无干预",
+    "en": "No intervention",
+    "ja": "介入なし",
+    "fr": "Sans intervention",
+    "de": "Ohne Eingriff",
+    "es": "Sin intervención"
+  },
+  "reduction.reductionSelect.protocol_and_role_c00b25": {
+    "zh-CN": "协议与用途",
+    "en": "Protocol and role",
+    "ja": "プロトコルと用途",
+    "fr": "Protocole et rôle",
+    "de": "Protokoll und Zweck",
+    "es": "Protocolo y función"
+  },
+  "reduction.reductionSelect.satisfied_failed_7ff401": {
+    "zh-CN": "未满足 · 失败协议 ",
+    "en": "not satisfied · failed protocol ",
+    "ja": "未満足 · 失敗プロトコル ",
+    "fr": "non satisfait · échec protocole ",
+    "de": "nicht erfüllt · fehlgeschlagen Protokoll ",
+    "es": "no satisfecho · fallido protocolo "
+  },
+  "reduction.reductionSelect.target_effect_relative_to_no_intervention_baseline_798824": {
+    "zh-CN": "相对无干预基线的目标效果",
+    "en": "Target effect relative to no-intervention baseline",
+    "ja": "無介入基準に対する目標効果",
+    "fr": "Effet cible relatif à la référence sans intervention",
+    "de": "Zieleffekt relativ zur Referenz ohne Eingriff",
+    "es": "Efecto objetivo respecto a base sin intervención"
+  },
+  "reduction.reductionSendDraft.node_not_run_782731": {
+    "zh-CN": "新草稿 · {p0}节点 · {p1} · 原来源保持 · 尚未运行",
+    "en": "New draft · {p0} nodes · {p1} · original source retained · not run",
+    "ja": "新しい下書き · {p0} ノード · {p1} · 元データは保持 · 未実行",
+    "fr": "Nouveau brouillon · {p0} nœuds · {p1} · source d’origine conservée · non exécuté",
+    "de": "Neuer Entwurf · {p0} Knoten · {p1} · ursprüngliche Quelle beibehalten · nicht ausgeführt",
+    "es": "Nuevo borrador · {p0} nodos · {p1} · origen original conservado · sin ejecutar"
+  },
+  "reduction.reductionSendDraft.select_cd1c4c": {
+    "zh-CN": "先选择一个确切协议",
+    "en": "Select an explicit protocol first",
+    "ja": "先に明確なプロトコルを選択してください",
+    "fr": "Sélectionnez d’abord un protocole explicite",
+    "de": "Wählen Sie zuerst ein explizites Protokoll",
+    "es": "Seleccione primero un protocolo explícito"
+  },
+  "reduction.reductionShowDefinition.target_budget_protection_3bb57a": {
+    "zh-CN": "目标 {p0} · {p1}以上 · 逻辑预算 {p2} · 保护 ",
+    "en": "target {p0} · {p1} above · logical budget {p2} · protection ",
+    "ja": "目標 {p0} · {p1}以上 · 論理予算 {p2} · 保護 ",
+    "fr": "cible {p0} · {p1} au-dessus · logique budget {p2} · protection ",
+    "de": "Ziel {p0} · {p1} oben · logisch Budget {p2} · Schutz ",
+    "es": "objetivo {p0} · {p1} arriba · lógico presupuesto {p2} · protección "
+  },
+  "reduction.reductionShowDefinition.target_protection_budget_c1e4fa": {
+    "zh-CN": "尚未指定目标、保护要求和预算",
+    "en": "Target, protection requirements and budget have not been specified",
+    "ja": "目標・保護要件・予算が未指定です",
+    "fr": "La cible, les exigences de protection et le budget ne sont pas définis",
+    "de": "Ziel, Schutzanforderungen und Budget sind noch nicht festgelegt",
+    "es": "No se han especificado el objetivo, los requisitos de protección ni el presupuesto"
+  },
+  "reduction.reductionStart.check_request_plan_9a9ad6": {
+    "zh-CN": "请重新预检当前方案",
+    "en": "Check the current plan again",
+    "ja": "現在の計画を再確認してください",
+    "fr": "Vérifiez à nouveau le plan actuel",
+    "de": "Prüfen Sie den aktuellen Plan erneut",
+    "es": "Vuelva a comprobar el plan actual"
+  },
+  "reduction.reductionUseSelection.intervention_f239cd": {
+    "zh-CN": "先整理一个非空原干预集合",
+    "en": "Define a nonempty original intervention set first",
+    "ja": "先に空でない元の介入集合を定義してください",
+    "fr": "Définissez d’abord un ensemble d’intervention initial non vide",
+    "de": "Definieren Sie zuerst eine nichtleere ursprüngliche Interventionsmenge",
+    "es": "Defina primero un conjunto de intervención original no vacío"
+  },
+  "reduction.reductionUseSelection.message_e456c3": {
+    "zh-CN": "当前明确协议",
+    "en": "current explicit protocol",
+    "ja": "現在明示プロトコル",
+    "fr": "actuel explicite protocole",
+    "de": "aktuell explizit Protokoll",
+    "es": "actual explícito protocolo"
+  },
+  "reduction.reductionUseSelection.node_gain_ab7337": {
+    "zh-CN": "新任务 · {p0}节点 · gain {p1} / [{p2}, {p3}) · {p4}",
+    "en": "new task · {p0} Node · gain {p1} / [{p2}, {p3}) · {p4}",
+    "ja": "新規タスク · {p0}ノード · gain {p1} / [{p2}, {p3}) · {p4}",
+    "fr": "nouveau tâche · {p0} Nœud · gain {p1} / [{p2}, {p3}) · {p4}",
+    "de": "neu Aufgabe · {p0} Knoten · gain {p1} / [{p2}, {p3}) · {p4}",
+    "es": "nuevo tarea · {p0} Nodo · gain {p1} / [{p2}, {p3}) · {p4}"
+  },
+  "reduction.reductionUseSelection.stop_actions_f9d6a3": {
+    "zh-CN": "请先结束当前操作",
+    "en": "Finish the current operation first",
+    "ja": "先に現在の操作を完了してください",
+    "fr": "Terminez d’abord l’opération en cours",
+    "de": "Schließen Sie zuerst den aktuellen Vorgang ab",
+    "es": "Termine primero la operación actual"
+  },
+  "reduction.reductionUseSource.open_plan_27f436": {
+    "zh-CN": "先打开确切结果方案",
+    "en": "Open the exact result plan first",
+    "ja": "先に結果の正確な計画を開いてください",
+    "fr": "Ouvrez d’abord le plan exact du résultat",
+    "de": "Öffnen Sie zuerst den exakten Ergebnisplan",
+    "es": "Abra primero el plan exacto del resultado"
+  },
+  "reduction.reductionUseSource.plan_5d42bd": {
+    "zh-CN": "来源方案 · ",
+    "en": "source Plan · ",
+    "ja": "ソース計画 · ",
+    "fr": "source Plan · ",
+    "de": "Quelle Plan · ",
+    "es": "origen Plan · "
+  },
+  "reduction.reductionUseSource.stop_actions_f9d6a3": {
+    "zh-CN": "请先结束当前操作",
+    "en": "Finish the current operation first",
+    "ja": "先に現在の操作を完了してください",
+    "fr": "Terminez d’abord l’opération en cours",
+    "de": "Schließen Sie zuerst den aktuellen Vorgang ab",
+    "es": "Termine primero la operación actual"
+  },
+  "reduction.reductionUseSourceOptions.not_recordedconstraints_use_current_search_constraints_c9bbb8": {
+    "zh-CN": "来源未保存约束，请采用当前搜索约束。",
+    "en": "The source has no saved constraints. Apply the current search constraints.",
+    "ja": "元の結果に制約が保存されていません。現在の探索制約を適用してください。",
+    "fr": "La source ne contient aucune contrainte enregistrée. Appliquez les contraintes de recherche actuelles.",
+    "de": "Die Quelle enthält keine gespeicherten Bedingungen. Übernehmen Sie die aktuellen Suchbedingungen.",
+    "es": "La fuente no contiene restricciones guardadas. Aplique las restricciones de búsqueda actuales."
+  },
+  "reduction.reductionUseSourceOptions.plan_2553aa": {
+    "zh-CN": "先采用已有来源方案",
+    "en": "Adopt an existing source plan first",
+    "ja": "先に既存の元計画を採用してください",
+    "fr": "Adoptez d’abord un plan source existant",
+    "de": "Übernehmen Sie zuerst einen vorhandenen Quellplan",
+    "es": "Adopte primero un plan de origen existente"
+  },
+  "reduction.renderReduction.50plan_9612f4": {
+    "zh-CN": "{p0} / {p1} · 每页50方案",
+    "en": "{p0}/{p1} · 50 plans per page",
+    "ja": "{p0}/{p1} · 1 ページ 50 計画",
+    "fr": "{p0}/{p1} · 50 plans par page",
+    "de": "{p0}/{p1} · 50 Pläne pro Seite",
+    "es": "{p0}/{p1} · 50 planes por página"
+  },
+  "reduction.renderReduction.baseline_failed_14773f": {
+    "zh-CN": "基线执行失败",
+    "en": "Baseline execution failed",
+    "ja": "ベースライン実行に失敗",
+    "fr": "Échec du calcul de référence",
+    "de": "Referenzberechnung fehlgeschlagen",
+    "es": "Error en el cálculo de referencia"
+  },
+  "reduction.renderReduction.budget_exhausted_7ae4d2": {
+    "zh-CN": "评价预算耗尽",
+    "en": "evaluation Budget exhausted",
+    "ja": "評価予算を消費",
+    "fr": "évaluation Budget épuisé",
+    "de": "Bewertung Budget ausgeschöpft",
+    "es": "evaluación Presupuesto agotado"
+  },
+  "reduction.renderReduction.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "reduction.renderReduction.condition_remove_members_constraints_92bb3a": {
+    "zh-CN": "在当前条件下，无法再通过删除一个成员保持约束",
+    "en": "No single member can be removed while retaining the current constraints.",
+    "ja": "現在の制約を保ったまま除去できる単一のメンバーはありません。",
+    "fr": "Aucun membre ne peut être retiré seul tout en respectant les contraintes actuelles.",
+    "de": "Kein einzelnes Mitglied kann unter Beibehaltung der aktuellen Bedingungen entfernt werden.",
+    "es": "No se puede quitar ningún miembro individual sin incumplir las restricciones actuales."
+  },
+  "reduction.renderReduction.decision_protocols_plan_baseline_intervention_baseline_i_bebe03": {
+    "zh-CN": "{p0} 决策协议 · 原集合 {p1} · 完整评价 {p2}/{p3} · 不同方案 {p4} · 缓存 {p5} · 基线传播 {p6}/{p7} · 干预 {p8}/{p9} · 曲线新增 {p10}/{p11} 基线，{p12}/{p13} 干预",
+    "en": "Decision protocols: {p0} · Original set: {p1} · Complete evaluations: {p2}/{p3} · Distinct plans: {p4} · Cached: {p5} · Baseline propagations: {p6}/{p7} · Intervention: {p8}/{p9} · Added curves: {p10}/{p11} baseline, {p12}/{p13} intervention",
+    "ja": "判断プロトコル: {p0} · 元の集合: {p1} · 完全評価: {p2}/{p3} · 異なる計画: {p4} · キャッシュ: {p5} · ベースライン伝播: {p6}/{p7} · 介入: {p8}/{p9} · 追加曲線: ベースライン {p10}/{p11}、介入 {p12}/{p13}",
+    "fr": "Protocoles de décision : {p0} · Ensemble initial : {p1} · Évaluations complètes : {p2}/{p3} · Plans distincts : {p4} · En cache : {p5} · Propagations de référence : {p6}/{p7} · Intervention : {p8}/{p9} · Courbes ajoutées : {p10}/{p11} référence, {p12}/{p13} intervention",
+    "de": "Entscheidungsprotokolle: {p0} · Ursprüngliche Menge: {p1} · Vollständige Auswertungen: {p2}/{p3} · Verschiedene Pläne: {p4} · Im Cache: {p5} · Referenzpropagationen: {p6}/{p7} · Intervention: {p8}/{p9} · Zusätzliche Kurven: {p10}/{p11} Referenz, {p12}/{p13} Intervention",
+    "es": "Protocolos de decisión: {p0} · Conjunto original: {p1} · Evaluaciones completas: {p2}/{p3} · Planes distintos: {p4} · En caché: {p5} · Propagaciones de referencia: {p6}/{p7} · Intervención: {p8}/{p9} · Curvas añadidas: {p10}/{p11} referencia, {p12}/{p13} intervención"
+  },
+  "reduction.renderReduction.message_1ed77c": {
+    "zh-CN": "已达到空集合",
+    "en": "Empty set reached",
+    "ja": "空集合に到達",
+    "fr": "Ensemble vide atteint",
+    "de": "Leere Menge erreicht",
+    "es": "Se alcanzó el conjunto vacío"
+  },
+  "reduction.renderReduction.plan_complete_aaba47": {
+    "zh-CN": "原方案逐项撤销已完成",
+    "en": "Individual removals from the original plan evaluated",
+    "ja": "元の計画からの個別除去の評価が完了",
+    "fr": "Retraits individuels du plan d’origine évalués",
+    "de": "Einzelne Entfernungen aus dem ursprünglichen Plan bewertet",
+    "es": "Evaluadas las eliminaciones individuales del plan original"
+  },
+  "reduction.renderReduction.plan_failed_52f140": {
+    "zh-CN": "方案执行失败",
+    "en": "Plan execution failed",
+    "ja": "計画の実行に失敗",
+    "fr": "Échec de l’exécution du plan",
+    "de": "Planausführung fehlgeschlagen",
+    "es": "Error en la ejecución del plan"
+  },
+  "reduction.renderReduction.plannot_satisfied_3ff535": {
+    "zh-CN": "原方案未满足要求，未执行自动精简。",
+    "en": "The original plan did not meet the constraints. Automatic reduction was not run.",
+    "ja": "元の計画が制約を満たしていないため、自動縮小は実行されていません。",
+    "fr": "Le plan initial ne respecte pas les contraintes. La réduction automatique n’a pas été exécutée.",
+    "de": "Der ursprüngliche Plan erfüllt die Bedingungen nicht. Die automatische Reduktion wurde nicht ausgeführt.",
+    "es": "El plan original no cumple las restricciones. No se ejecutó la reducción automática."
+  },
+  "reduction.renderReduction.target_protection_c53b18": {
+    "zh-CN": "本结果 · 目标 {p0} ≥ {p1} · 保护 ",
+    "en": "this result · target {p0} ≥ {p1} · protection ",
+    "ja": "本結果 · 目標 {p0} ≥ {p1} · 保護 ",
+    "fr": "ce résultat · cible {p0} ≥ {p1} · protection ",
+    "de": "dieser Ergebnis · Ziel {p0} ≥ {p1} · Schutz ",
+    "es": "este resultado · objetivo {p0} ≥ {p1} · protección "
+  }
+}

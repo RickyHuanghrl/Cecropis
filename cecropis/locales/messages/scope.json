@@ -1,0 +1,642 @@
+{
+  "scope.applyScopeConfig.save_scope_b31ae2": {
+    "zh-CN": "保存协议的范围不在当前列表：",
+    "en": "The saved protocol references a scope outside the current list: ",
+    "ja": "保存済みプロトコルが現在の一覧にない範囲を参照しています: ",
+    "fr": "Le protocole enregistré référence un périmètre absent de la liste actuelle : ",
+    "de": "Das gespeicherte Protokoll verweist auf einen Bereich außerhalb der aktuellen Liste: ",
+    "es": "El protocolo guardado hace referencia a un ámbito fuera de la lista actual:"
+  },
+  "scope.checkSingleSearchContext.baseline_1ea43d": {
+    "zh-CN": "正在计算基线与预选…",
+    "en": "Calculating the baseline and preselection…",
+    "ja": "ベースラインと事前選択を計算中…",
+    "fr": "Calcul de la référence et de la présélection…",
+    "de": "Referenz und Vorauswahl werden berechnet…",
+    "es": "Calculando la referencia y la preselección…"
+  },
+  "scope.controls.baseline_1bea37": {
+    "zh-CN": "准备基线",
+    "en": "Preparing baseline",
+    "ja": "ベースラインを準備中",
+    "fr": "Préparation de la référence",
+    "de": "Referenz wird vorbereitet",
+    "es": "Preparando la referencia"
+  },
+  "scope.controls.baseline_60a4ed": {
+    "zh-CN": "— · 基线接近零",
+    "en": "— · Baseline near zero",
+    "ja": "— · 基準ゼロ近傍",
+    "fr": "— · Référence proche de zéro",
+    "de": "— · Referenz nahe null",
+    "es": "— · Referencia cerca de cero"
+  },
+  "scope.controls.cancel_keep_completescope_e77790": {
+    "zh-CN": "正在取消，保留已完成范围…",
+    "en": "Cancelling. Completed evaluations will be retained…",
+    "ja": "キャンセル中。完了した評価は保持されます…",
+    "fr": "Annulation en cours. Les évaluations terminées seront conservées…",
+    "de": "Abbruch läuft. Abgeschlossene Auswertungen bleiben erhalten…",
+    "es": "Cancelando. Se conservarán las evaluaciones completadas…"
+  },
+  "scope.controls.circuit_66bc50": {
+    "zh-CN": "内部回路",
+    "en": "Internal circuit",
+    "ja": "内部回路",
+    "fr": "Circuit interne",
+    "de": "Interner Schaltkreis",
+    "es": "Circuito interno"
+  },
+  "scope.controls.current_protocol_732821": {
+    "zh-CN": "历史结果 · 当前协议不匹配 · ",
+    "en": "saved result · Current protocol mismatch · ",
+    "ja": "保存結果 · 現在のプロトコル不一致 · ",
+    "fr": "résultat enregistré · Protocole actuel incompatibilité · ",
+    "de": "gespeichertes Ergebnis · Aktuelles Protokoll nicht passend · ",
+    "es": "resultado guardado · Protocolo actual incompatible · "
+  },
+  "scope.controls.message_4ae9eb": {
+    "zh-CN": "不兼容",
+    "en": "Incompatible",
+    "ja": "互換性なし",
+    "fr": "Incompatible",
+    "de": "Inkompatibel",
+    "es": "Incompatible"
+  },
+  "scope.controls.message_583323": {
+    "zh-CN": "允许端点",
+    "en": "Allow endpoints",
+    "ja": "端点を含める",
+    "fr": "Autoriser les extrémités",
+    "de": "Endpunkte zulassen",
+    "es": "Permitir extremos"
+  },
+  "scope.controls.message_68543f": {
+    "zh-CN": "{p0} · 线宽 {p1}",
+    "en": "{p0} · line width {p1}",
+    "ja": "{p0} · 線幅 {p1}",
+    "fr": "{p0} · épaisseur {p1}",
+    "de": "{p0} · Linienbreite {p1}",
+    "es": "{p0} · grosor {p1}"
+  },
+  "scope.controls.message_93471a": {
+    "zh-CN": " · 当前设置已改",
+    "en": " · current settings changed",
+    "ja": " · 現在設定変更済み",
+    "fr": " · actuel paramètres modifiés",
+    "de": " · aktuell Einstellungen geändert",
+    "es": " · actual ajustes modificados"
+  },
+  "scope.controls.message_c69840": {
+    "zh-CN": "事件 {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "en": "event {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "ja": "イベント {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "fr": "événement {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "de": "Ereignis {p0} · [{p1}, {p2}) / {p3} · {p4}",
+    "es": "evento {p0} · [{p1}, {p2}) / {p3} · {p4}"
+  },
+  "scope.controls.message_d6ce0c": {
+    "zh-CN": "{p0} · {p1} / {p2} 次联合模拟{p3}",
+    "en": "{p0} · {p1}/{p2} joint simulations{p3}",
+    "ja": "{p0} · 共同シミュレーション {p1}/{p2}{p3}",
+    "fr": "{p0} · {p1}/{p2} simulations conjointes{p3}",
+    "de": "{p0} · {p1}/{p2} gemeinsame Simulationen{p3}",
+    "es": "{p0} · {p1}/{p2} simulaciones conjuntas{p3}"
+  },
+  "scope.controls.message_e0b5e7": {
+    "zh-CN": " · {p0} · 原候选 {p1} / 排除 {p2}",
+    "en": " · {p0} · original candidates {p1} / excluded {p2}",
+    "ja": " · {p0} · 元の候補 {p1} / 除外 {p2}",
+    "fr": " · {p0} · candidats originaux {p1} / exclu {p2}",
+    "de": " · {p0} · ursprüngliche Kandidaten {p1} / ausgeschlossen {p2}",
+    "es": " · {p0} · candidatos originales {p1} / excluido {p2}"
+  },
+  "scope.controls.message_e1ba81": {
+    "zh-CN": "兼容",
+    "en": "Compatible",
+    "ja": "互換性あり",
+    "fr": "Compatible",
+    "de": "Kompatibel",
+    "es": "Compatible"
+  },
+  "scope.controls.nodes_44b0c5": {
+    "zh-CN": " {p0} · {p1} 节点",
+    "en": " {p0} · {p1} nodes",
+    "ja": " {p0} · {p1}ノード",
+    "fr": " {p0} · {p1} nœuds",
+    "de": " {p0} · {p1} Knoten",
+    "es": " {p0} · {p1} nodos"
+  },
+  "scope.controls.observation_01868c": {
+    "zh-CN": "观察 {p0} · 评价[{p1}, {p2}) · {p3}",
+    "en": "Observation {p0} · evaluation[{p1}, {p2}) · {p3}",
+    "ja": "観測 {p0} · 評価[{p1}, {p2}) · {p3}",
+    "fr": "Observation {p0} · évaluation[{p1}, {p2}) · {p3}",
+    "de": "Beobachtung {p0} · Bewertung[{p1}, {p2}) · {p3}",
+    "es": "Observación {p0} · evaluación[{p1}, {p2}) · {p3}"
+  },
+  "scope.controls.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "scope.controls.scope_86a0e2": {
+    "zh-CN": "先确认当前实际候选范围",
+    "en": "Confirm the effective candidate set first",
+    "ja": "先に実際の候補集合を確認してください",
+    "fr": "Confirmez d’abord l’ensemble effectif des candidats",
+    "de": "Bestätigen Sie zuerst die tatsächliche Kandidatenmenge",
+    "es": "Confirme primero el conjunto efectivo de candidatos"
+  },
+  "scope.controls.scope_comparison_save_cd7aab": {
+    "zh-CN": "范围比较已保存 · {p0} · {p1}",
+    "en": "Scope comparison saved · {p0} · {p1}",
+    "ja": "範囲比較を保存済み · {p0} · {p1}",
+    "fr": "Comparaison des périmètres enregistrée · {p0} · {p1}",
+    "de": "Bereichsvergleich gespeichert · {p0} · {p1}",
+    "es": "Comparación de ámbitos guardada · {p0} · {p1}"
+  },
+  "scope.controls.search_save_7ce157": {
+    "zh-CN": "搜索已保存：",
+    "en": "Saved: ",
+    "ja": "保存済み: ",
+    "fr": "Enregistré : ",
+    "de": "Gespeichert: ",
+    "es": "Guardado: "
+  },
+  "scope.controls.searchfailed_6b5dde": {
+    "zh-CN": "搜索失败",
+    "en": "Search failed",
+    "ja": "検索に失敗しました",
+    "fr": "Échec de la recherche",
+    "de": "Suche fehlgeschlagen",
+    "es": "Error de búsqueda"
+  },
+  "scope.invalidateScopePreview.check_protocol_and_scopes_f0de16": {
+    "zh-CN": "待检查协议与范围",
+    "en": "Check the protocol and scopes",
+    "ja": "プロトコルと範囲を確認してください",
+    "fr": "Vérifiez le protocole et les périmètres",
+    "de": "Protokoll und Bereiche prüfen",
+    "es": "Compruebe el protocolo y los ámbitos"
+  },
+  "scope.invalidateScopePreview.scope_scope_58b536": {
+    "zh-CN": "协议、范围或记录已改 · 下方为上次范围结果",
+    "en": "Protocol, scopes or recording changed · showing previous scope results",
+    "ja": "プロトコル・範囲・記録を変更 · 前回の範囲結果を表示中",
+    "fr": "Protocole, périmètres ou enregistrement modifiés · résultats précédents affichés",
+    "de": "Protokoll, Bereiche oder Aufzeichnung geändert · frühere Bereichsergebnisse werden angezeigt",
+    "es": "Protocolo, ámbitos o registro modificados · se muestran los resultados anteriores"
+  },
+  "scope.invalidateSingleSearchContext.search_baseline_16a806": {
+    "zh-CN": "协议或搜索设置已改 · 基线与预选待重新检查",
+    "en": "Protocol or search settings changed · recheck the baseline and preselection",
+    "ja": "プロトコルまたは検索設定を変更 · ベースラインと事前選択を再確認してください",
+    "fr": "Protocole ou paramètres de recherche modifiés · vérifiez à nouveau la référence et la présélection",
+    "de": "Protokoll oder Sucheinstellungen geändert · Referenz und Vorauswahl erneut prüfen",
+    "es": "Protocolo o búsqueda modificados · vuelva a comprobar la referencia y la preselección"
+  },
+  "scope.markSearchMismatch.current_protocol_search_ee8bf1": {
+    "zh-CN": "历史结果 · 当前协议或搜索设置已改 · ",
+    "en": "saved result · Current protocol or Search settings changed · ",
+    "ja": "保存結果 · 現在のプロトコルまたは探索設定変更済み · ",
+    "fr": "résultat enregistré · Protocole actuel ou Recherche paramètres modifiés · ",
+    "de": "gespeichertes Ergebnis · Aktuelles Protokoll oder Suche Einstellungen geändert · ",
+    "es": "resultado guardado · Protocolo actual o Búsqueda ajustes modificados · "
+  },
+  "scope.markSearchMismatch.message_35a6ac": {
+    "zh-CN": "历史结果",
+    "en": "Previous result",
+    "ja": "以前の結果",
+    "fr": "Résultat précédent",
+    "de": "Früheres Ergebnis",
+    "es": "Resultado anterior"
+  },
+  "scope.missingMembers": {
+    "zh-CN": "缺少成员：{members}",
+    "en": "Missing members: {members}",
+    "ja": "不足するメンバー：{members}",
+    "fr": "Membres manquants : {members}",
+    "de": "Fehlende Mitglieder: {members}",
+    "es": "Miembros ausentes: {members}"
+  },
+  "scope.option.one": {
+    "zh-CN": "{name} · {n}节点",
+    "en": "{name} · {n} node",
+    "ja": "{name} · {n}ノード",
+    "fr": "{name} · {n} nœud",
+    "de": "{name} · {n} Knoten",
+    "es": "{name} · {n} nodo"
+  },
+  "scope.option.other": {
+    "zh-CN": "{name} · {n}节点",
+    "en": "{name} · {n} nodes",
+    "ja": "{name} · {n}ノード",
+    "fr": "{name} · {n} nœuds",
+    "de": "{name} · {n} Knoten",
+    "es": "{name} · {n} nodos"
+  },
+  "scope.pollScopeComparison.complete_scope_2ef386": {
+    "zh-CN": "完成 {p0}/{p1} 个范围 · 当前 {p2}",
+    "en": "{p0}/{p1} scopes complete · current: {p2}",
+    "ja": "範囲 {p0}/{p1} 完了 · 現在：{p2}",
+    "fr": "{p0}/{p1} périmètres terminés · actuel : {p2}",
+    "de": "{p0}/{p1} Bereiche abgeschlossen · aktuell: {p2}",
+    "es": "{p0}/{p1} ámbitos completados · actual: {p2}"
+  },
+  "scope.pollScopeComparison.message_b53be0": {
+    "zh-CN": "准备中",
+    "en": "Preparing",
+    "ja": "準備中",
+    "fr": "Préparation en cours",
+    "de": "Vorbereitung läuft",
+    "es": "Preparando"
+  },
+  "scope.pollScopeComparison.scope_comparisonfailed_82349e": {
+    "zh-CN": "范围比较失败",
+    "en": "Scope comparison failed",
+    "ja": "範囲比較失敗",
+    "fr": "Comparaison de périmètreséchec",
+    "de": "Umfangsvergleich fehlgeschlagen",
+    "es": "Comparación de alcances fallido"
+  },
+  "scope.previewScopeComparison.members_7581fe": {
+    "zh-CN": "正在检查成员、数据版本与记录…",
+    "en": "Checking members, data version and recording…",
+    "ja": "メンバー・データ版・記録を確認中…",
+    "fr": "Vérification des membres, de la version des données et de l’enregistrement…",
+    "de": "Mitglieder, Datenversion und Aufzeichnung werden geprüft…",
+    "es": "Comprobando miembros, versión de datos y registro…"
+  },
+  "scope.previewScopeComparison.members_scope_comparison_233dc0": {
+    "zh-CN": "协议成员与数据版本兼容，范围可比较",
+    "en": "Protocol members and dataset versions are compatible. These scopes can be compared.",
+    "ja": "プロトコルのメンバーとデータ版は互換です。範囲を比較できます。",
+    "fr": "Les membres du protocole et les versions des données sont compatibles. Ces périmètres peuvent être comparés.",
+    "de": "Protokollmitglieder und Datenversionen sind kompatibel. Diese Bereiche können verglichen werden.",
+    "es": "Los miembros del protocolo y las versiones de datos son compatibles. Se pueden comparar estos ámbitos."
+  },
+  "scope.previewScopeComparison.message_a61985": {
+    "zh-CN": "可预估部分 · ",
+    "en": "Partial estimate · ",
+    "ja": "推定可能な部分 · ",
+    "fr": "Estimation partielle · ",
+    "de": "Teilschätzung · ",
+    "es": "Estimación parcial · "
+  },
+  "scope.previewScopeComparison.order_allscope_2d6047": {
+    "zh-CN": "{p0}顺序计算记录峰值 {p1} · 全部范围记录总量 {p2}",
+    "en": "{p0}Peak recording memory for sequential runs: {p1} · total recordings across scopes: {p2}",
+    "ja": "{p0}逐次実行の記録メモリピーク {p1} · 全範囲の記録総量 {p2}",
+    "fr": "{p0}Pic mémoire des enregistrements en exécution séquentielle : {p1} · total pour les périmètres : {p2}",
+    "de": "{p0}Spitzenbedarf für Aufzeichnungen bei sequenzieller Berechnung: {p1} · Aufzeichnungen aller Bereiche: {p2}",
+    "es": "{p0}Memoria máxima de registro en ejecuciones secuenciales: {p1} · total de registros de los ámbitos: {p2}"
+  },
+  "scope.previewScopeComparison.scope_view_members_f024fc": {
+    "zh-CN": "存在不兼容范围，请查看缺失成员",
+    "en": "Some scopes are incompatible. Inspect the missing members.",
+    "ja": "互換性のない範囲があります。不足するメンバーを確認してください。",
+    "fr": "Certains périmètres sont incompatibles. Consultez les membres manquants.",
+    "de": "Einige Bereiche sind inkompatibel. Fehlende Mitglieder prüfen.",
+    "es": "Algunos ámbitos son incompatibles. Revise los miembros ausentes."
+  },
+  "scope.refreshSearchCandidates.circuit_66bc50": {
+    "zh-CN": "内部回路",
+    "en": "Internal circuit",
+    "ja": "内部回路",
+    "fr": "Circuit interne",
+    "de": "Interner Schaltkreis",
+    "es": "Circuito interno"
+  },
+  "scope.refreshSearchCandidates.message_583323": {
+    "zh-CN": "允许端点",
+    "en": "Allow endpoints",
+    "ja": "端点を含める",
+    "fr": "Autoriser les extrémités",
+    "de": "Endpunkte zulassen",
+    "es": "Permitir extremos"
+  },
+  "scope.refreshSearchCandidates.message_7f42db": {
+    "zh-CN": "{p0} · 原候选 {p1} · 排除端点 {p2} · 实际候选 {p3}{p4}",
+    "en": "{p0} · original candidates {p1} · excluded endpoints {p2} · effective candidates {p3}{p4}",
+    "ja": "{p0} · 元候補 {p1} · 除外端点 {p2} · 実際の候補 {p3}{p4}",
+    "fr": "{p0} · candidats initiaux {p1} · extrémités exclues {p2} · candidats effectifs {p3}{p4}",
+    "de": "{p0} · ursprüngliche Kandidaten {p1} · ausgeschlossene Endpunkte {p2} · tatsächliche Kandidaten {p3}{p4}",
+    "es": "{p0} · candidatos originales {p1} · extremos excluidos {p2} · candidatos efectivos {p3}{p4}"
+  },
+  "scope.refreshSearchCandidates.pin_operation_search_nodesearch_definition_d48696": {
+    "zh-CN": "固定事件计划使用操作组合搜索；节点搜索不支持该定义",
+    "en": "Use operation-combination search for a fixed event plan. Node search does not support this definition.",
+    "ja": "固定イベント計画には操作組合せ探索を使用してください。ノード探索はこの定義に対応していません。",
+    "fr": "Utilisez la recherche de combinaisons d’opérations pour un plan d’événements fixe. La recherche de nœuds ne prend pas en charge cette définition.",
+    "de": "Für feste Ereignispläne die Suche nach Operationskombinationen verwenden. Die Knotensuche unterstützt diese Definition nicht.",
+    "es": "Use la búsqueda de combinaciones de operaciones para un plan fijo de eventos. La búsqueda de nodos no admite esta definición."
+  },
+  "scope.refreshSearchCandidates.scope_a24a44": {
+    "zh-CN": "正在读取候选范围…",
+    "en": "Loading candidate scope…",
+    "ja": "候補範囲を読み込み中…",
+    "fr": "Chargement du périmètre des candidats…",
+    "de": "Kandidatenbereich wird geladen…",
+    "es": "Cargando el ámbito de candidatos…"
+  },
+  "scope.refreshSearchCandidates.searchnode_9bc438": {
+    "zh-CN": " · 没有可搜索节点，请调整候选或策略",
+    "en": " · No eligible nodes. Adjust the candidates or search policy.",
+    "ja": " · 対象ノードがありません。候補または探索方針を調整してください。",
+    "fr": " · Aucun nœud admissible. Ajustez les candidats ou la stratégie de recherche.",
+    "de": " · Keine geeigneten Knoten. Kandidaten oder Suchstrategie anpassen.",
+    "es": " · No hay nodos aptos. Ajuste los candidatos o la estrategia de búsqueda."
+  },
+  "scope.renderScopeComparison.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "scope.renderScopeComparison.comparisoncomplete_16db80": {
+    "zh-CN": "比较完成",
+    "en": "Comparison complete",
+    "ja": "比較完了",
+    "fr": "Comparaison terminée",
+    "de": "Vergleich abgeschlossen",
+    "es": "Comparación completada"
+  },
+  "scope.renderScopeComparison.comparisonfailed_b295c9": {
+    "zh-CN": "比较失败",
+    "en": "Comparison failed",
+    "ja": "比較に失敗しました",
+    "fr": "Échec de la comparaison",
+    "de": "Vergleich fehlgeschlagen",
+    "es": "Error de comparación"
+  },
+  "scope.renderScopeComparison.complete_scope_9da0b2": {
+    "zh-CN": " · 仅显示完整完成的范围",
+    "en": " · showing only fully completed scopes",
+    "ja": " · 完了した範囲のみ表示",
+    "fr": " · seuls les périmètres entièrement terminés sont affichés",
+    "de": " · nur vollständig abgeschlossene Bereiche werden angezeigt",
+    "es": " · solo se muestran los ámbitos completados"
+  },
+  "scope.renderScopeComparison.complete_scope_ea633c": {
+    "zh-CN": "{p0}{p1} · 完成 {p2}/{p3} 个范围{p4}",
+    "en": "{p0}{p1} · {p2}/{p3} scopes complete{p4}",
+    "ja": "{p0}{p1} · 範囲 {p2}/{p3} 完了{p4}",
+    "fr": "{p0}{p1} · {p2}/{p3} périmètres terminés{p4}",
+    "de": "{p0}{p1} · {p2}/{p3} Bereiche abgeschlossen{p4}",
+    "es": "{p0}{p1} · {p2}/{p3} ámbitos completados{p4}"
+  },
+  "scope.renderScopeComparison.save_92ce37": {
+    "zh-CN": "已保存 · ",
+    "en": "Saved · ",
+    "ja": "保存済み · ",
+    "fr": "Enregistré · ",
+    "de": "Gespeichert · ",
+    "es": "Guardado · "
+  },
+  "scope.renderScopeCurves.baseline_a7ac58": {
+    "zh-CN": "基线",
+    "en": "Baseline",
+    "ja": "ベースライン",
+    "fr": "Référence",
+    "de": "Referenz",
+    "es": "Referencia"
+  },
+  "scope.renderScopeCurves.baseline_dashed_intervention_solid_faecdb": {
+    "zh-CN": "基线实线 · 干预虚线",
+    "en": "Baseline solid · intervention dashed",
+    "ja": "基準は実線・介入は破線",
+    "fr": "Référence continue · intervention pointillée",
+    "de": "Referenz durchgezogen · Eingriff gestrichelt",
+    "es": "Referencia continua · intervención discontinua"
+  },
+  "scope.renderScopeCurves.no_complete_responses_or_scope_and_observations_not_sele_815968": {
+    "zh-CN": "暂无完整响应，或未选择范围与观察集合",
+    "en": "No complete responses, or scope and observations not selected",
+    "ja": "完全な応答なし、または範囲・観測未選択",
+    "fr": "Pas de réponses complètes, ou périmètre et observations non choisis",
+    "de": "Keine vollständigen Antworten oder Bereich und Beobachtungen fehlen",
+    "es": "Sin respuestas completas o faltan ámbito y observaciones"
+  },
+  "scope.renderScopeCurves.scope_observation_sets_1e19ad": {
+    "zh-CN": "所选计算范围与观察集合响应",
+    "en": "Responses of the selected scopes and observation sets",
+    "ja": "選択した範囲と観測集合の応答",
+    "fr": "Réponses des périmètres et ensembles d’observation sélectionnés",
+    "de": "Antworten der ausgewählten Bereiche und Beobachtungsmengen",
+    "es": "Respuestas de los ámbitos y conjuntos de observación seleccionados"
+  },
+  "scope.renderScopeCurves.set_mean_activity_model_units_41850f": {
+    "zh-CN": "集合平均活动 / 模型单位",
+    "en": "Set mean activity / model units",
+    "ja": "集合平均活動／モデル単位",
+    "fr": "Activité moyenne de l’ensemble / unités du modèle",
+    "de": "Mittlere Mengenaktivität / Modelleinheiten",
+    "es": "Actividad media del conjunto / unidades del modelo"
+  },
+  "scope.renderScopeCurves.state_step_ebe1ee": {
+    "zh-CN": "状态步",
+    "en": "State step",
+    "ja": "状態ステップ",
+    "fr": "Étape d’état",
+    "de": "Zustandsschritt",
+    "es": "Paso de estado"
+  },
+  "scope.renderScopeRows.cancelled_a37778": {
+    "zh-CN": "已取消",
+    "en": "Cancelled",
+    "ja": "キャンセル済み",
+    "fr": "Annulé",
+    "de": "Abgebrochen",
+    "es": "Cancelado"
+  },
+  "scope.renderScopeRows.complete_c0b3fb": {
+    "zh-CN": "完成",
+    "en": "Complete",
+    "ja": "完了",
+    "fr": "Terminé",
+    "de": "Abgeschlossen",
+    "es": "Completado"
+  },
+  "scope.renderScopeRows.failed_28384d": {
+    "zh-CN": "失败",
+    "en": "Failed",
+    "ja": "失敗",
+    "fr": "Échec",
+    "de": "Fehlgeschlagen",
+    "es": "Error"
+  },
+  "scope.renderScopeRows.run_62cdc8": {
+    "zh-CN": "未运行",
+    "en": "Not run",
+    "ja": "未実行",
+    "fr": "Non exécuté",
+    "de": "Nicht ausgeführt",
+    "es": "Sin ejecutar"
+  },
+  "scope.scopeBytes.message_8180a4": {
+    "zh-CN": "{p0} 字节",
+    "en": "{p0} bytes",
+    "ja": "{p0} バイト",
+    "fr": "{p0} octets",
+    "de": "{p0} Bytes",
+    "es": "{p0} bytes"
+  },
+  "scope.scopePayload.select_2_12_scope_527f0f": {
+    "zh-CN": "选择 2–12 个计算范围",
+    "en": "Select 2–12 calculation scopes",
+    "ja": "計算範囲を 2–12 個選択してください",
+    "fr": "Sélectionnez 2 à 12 périmètres de calcul",
+    "de": "Wählen Sie 2–12 Berechnungsbereiche",
+    "es": "Seleccione entre 2 y 12 ámbitos de cálculo"
+  },
+  "scope.startScopeComparison.current_protocol_scope_041367": {
+    "zh-CN": "请先检查当前协议与范围",
+    "en": "Check the current protocol and scopes first",
+    "ja": "先に現在のプロトコルと範囲を確認してください",
+    "fr": "Vérifiez d’abord le protocole et les périmètres actuels",
+    "de": "Prüfen Sie zuerst das aktuelle Protokoll und die Bereiche",
+    "es": "Compruebe primero el protocolo y los ámbitos actuales"
+  },
+  "scope.startScopeComparison.startscope_comparison_3c2602": {
+    "zh-CN": "正在启动范围比较…",
+    "en": "Starting scope comparison…",
+    "ja": "範囲比較を開始中…",
+    "fr": "Démarrage de la comparaison des périmètres…",
+    "de": "Bereichsvergleich wird gestartet…",
+    "es": "Iniciando la comparación de ámbitos…"
+  },
+  "scope.suspendDisplayedRun.run_save_d5b35b": {
+    "zh-CN": "历史结果 · 重新运行后可保存",
+    "en": "Previous result · run again to save a new result",
+    "ja": "以前の結果 · 新しい結果を保存するには再実行してください",
+    "fr": "Résultat précédent · relancez le calcul pour enregistrer un nouveau résultat",
+    "de": "Früheres Ergebnis · erneut ausführen, um ein neues Ergebnis zu speichern",
+    "es": "Resultado anterior · vuelva a ejecutar para guardar un nuevo resultado"
+  },
+  "scope.updateScopeProtocolSummary.all_calculation_nodes_c3d6e0": {
+    "zh-CN": "全部计算节点",
+    "en": "All calculation nodes",
+    "ja": "全計算ノード",
+    "fr": "Tous les nœuds calculés",
+    "de": "Alle Berechnungsknoten",
+    "es": "Todos los nodos calculados"
+  },
+  "scope.updateScopeProtocolSummary.alpha_rho_c1fad8": {
+    "zh-CN": "模型 · alpha {p0} / rho {p1}",
+    "en": "model · alpha {p0} / rho {p1}",
+    "ja": "モデル · alpha {p0} / rho {p1}",
+    "fr": "modèle · alpha {p0} / rho {p1}",
+    "de": "Modell · alpha {p0} / rho {p1}",
+    "es": "modelo · alpha {p0} / rho {p1}"
+  },
+  "scope.updateScopeProtocolSummary.condition_3943f8": {
+    "zh-CN": " · 普通条件未载入",
+    "en": " · standard Condition not load",
+    "ja": " · 通常条件未読込",
+    "fr": " · standard Condition non charger",
+    "de": " · standard Bedingung nicht laden",
+    "es": " · estándar Condición no cargar"
+  },
+  "scope.updateScopeProtocolSummary.condition_880a77": {
+    "zh-CN": "当前条件待补全",
+    "en": "Current condition is incomplete",
+    "ja": "現在の条件は未完成です",
+    "fr": "La condition actuelle est incomplète",
+    "de": "Die aktuelle Bedingung ist unvollständig",
+    "es": "La condición actual está incompleta"
+  },
+  "scope.updateScopeProtocolSummary.condition_b14319": {
+    "zh-CN": "当前条件",
+    "en": "Current condition",
+    "ja": "現在の条件",
+    "fr": "Condition actuelle",
+    "de": "Aktuelle Bedingung",
+    "es": "Condición actual"
+  },
+  "scope.updateScopeProtocolSummary.input_events_observation_sets_updates_scope_303dd7": {
+    "zh-CN": "{p0} · {p1} 输入事件 / {p2} 观察集合 / {p3} · {p4} 更新步 · 已选 {p5} 个范围",
+    "en": "{p0} · {p1} input events / {p2} observation sets / {p3} · {p4} updates · {p5} scopes selected",
+    "ja": "{p0} · 入力イベント {p1} / 観測集合 {p2} / {p3} · 更新 {p4} 回 · 選択範囲 {p5}",
+    "fr": "{p0} · {p1} événements d’entrée / {p2} ensembles d’observation / {p3} · {p4} mises à jour · {p5} périmètres sélectionnés",
+    "de": "{p0} · {p1} Eingabeereignisse / {p2} Beobachtungsmengen / {p3} · {p4} Aktualisierungen · {p5} Bereiche ausgewählt",
+    "es": "{p0} · {p1} eventos de entrada / {p2} conjuntos de observación / {p3} · {p4} actualizaciones · {p5} ámbitos seleccionados"
+  },
+  "scope.updateScopeProtocolSummary.intervention_892607": {
+    "zh-CN": "{p0} 干预事件",
+    "en": "{p0} Intervention event",
+    "ja": "{p0} 介入イベント",
+    "fr": "{p0} Interventionévénement",
+    "de": "{p0} Eingriff Ereignis",
+    "es": "{p0} Intervención evento"
+  },
+  "scope.updateScopeProtocolSummary.intervention_de33b8": {
+    "zh-CN": "干预 · {p0}",
+    "en": "Intervention · {p0}",
+    "ja": "介入 · {p0}",
+    "fr": "Intervention · {p0}",
+    "de": "Eingriff · {p0}",
+    "es": "Intervención · {p0}"
+  },
+  "scope.updateScopeProtocolSummary.interventionnode_468aef": {
+    "zh-CN": "{p0} 确切干预节点 · 增益 {p1} / [{p2}, {p3})",
+    "en": "{p0} exact intervention nodes · gain {p1} / [{p2}, {p3})",
+    "ja": "正確な介入ノード {p0} · ゲイン {p1} / [{p2}, {p3})",
+    "fr": "{p0} nœuds d’intervention exacts · gain {p1} / [{p2}, {p3})",
+    "de": "{p0} exakt bestimmte Interventionsknoten · Verstärkung {p1} / [{p2}, {p3})",
+    "es": "{p0} nodos de intervención exactos · ganancia {p1} / [{p2}, {p3})"
+  },
+  "scope.updateScopeProtocolSummary.message_637a50": {
+    "zh-CN": "记录 · {p0} / {p1} / 上限 {p2}{p3}",
+    "en": "record · {p0} / {p1} / limit {p2}{p3}",
+    "ja": "記録 · {p0} / {p1} / 上限 {p2}{p3}",
+    "fr": "enregistrement · {p0} / {p1} / limite {p2}{p3}",
+    "de": "Aufzeichnung · {p0} / {p1} / Grenze {p2}{p3}",
+    "es": "registro · {p0} / {p1} / límite {p2}{p3}"
+  },
+  "scope.updateScopeProtocolSummary.message_a4d2c2": {
+    "zh-CN": "间隔 ",
+    "en": "interval ",
+    "ja": "間隔 ",
+    "fr": "intervalle ",
+    "de": "Intervall ",
+    "es": "intervalo "
+  },
+  "scope.updateScopeProtocolSummary.message_e08381": {
+    "zh-CN": "不记录",
+    "en": "No recording",
+    "ja": "記録しない",
+    "fr": "Sans enregistrement",
+    "de": "Keine Aufzeichnung",
+    "es": "Sin registro"
+  },
+  "scope.updateScopeProtocolSummary.save_2af02f": {
+    "zh-CN": "保存协议",
+    "en": "Save protocol",
+    "ja": "保存プロトコル",
+    "fr": "Enregistrer protocole",
+    "de": "Speichern Protokoll",
+    "es": "Guardar protocolo"
+  },
+  "scope.updateScopeProtocolSummary.specified_nodes_1972ed": {
+    "zh-CN": "指定节点",
+    "en": "Specified nodes",
+    "ja": "指定ノード",
+    "fr": "Nœuds spécifiés",
+    "de": "Angegebene Knoten",
+    "es": "Nodos especificados"
+  },
+  "scope.updateScopeProtocolSummary.state_step_32edc3": {
+    "zh-CN": "状态步 ",
+    "en": "State step ",
+    "ja": "状態ステップ ",
+    "fr": "Étape d’état ",
+    "de": "Zustandsschritt ",
+    "es": "Paso de estado "
+  }
+}

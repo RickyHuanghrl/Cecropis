@@ -1,0 +1,58 @@
+{
+  "action.back": {
+    "zh-CN": "返回",
+    "en": "Back",
+    "ja": "戻る",
+    "fr": "Retour",
+    "de": "Zurück",
+    "es": "Volver"
+  },
+  "action.buildScope": {
+    "zh-CN": "建立计算范围",
+    "en": "Create a scope",
+    "ja": "計算範囲を作成",
+    "fr": "Créer un périmètre",
+    "de": "Umfang erstellen",
+    "es": "Crear alcance"
+  },
+  "action.copy": {
+    "zh-CN": "复制命令",
+    "en": "Copy command",
+    "ja": "コマンドをコピー",
+    "fr": "Copier la commande",
+    "de": "Befehl kopieren",
+    "es": "Copiar comando"
+  },
+  "action.openHistory": {
+    "zh-CN": "打开历史",
+    "en": "Open history",
+    "ja": "履歴を開く",
+    "fr": "Ouvrir l’historique",
+    "de": "Verlauf öffnen",
+    "es": "Abrir historial"
+  },
+  "action.openScope": {
+    "zh-CN": "打开已有范围",
+    "en": "Open a saved scope",
+    "ja": "保存範囲を開く",
+    "fr": "Ouvrir un périmètre",
+    "de": "Gespeicherten Umfang öffnen",
+    "es": "Abrir alcance guardado"
+  },
+  "action.saveScene": {
+    "zh-CN": "保存现场",
+    "en": "Save scene",
+    "ja": "分析状態を保存",
+    "fr": "Enregistrer la session",
+    "de": "Sitzung speichern",
+    "es": "Guardar sesión"
+  },
+  "action.workspaceDetails": {
+    "zh-CN": "目录与索引详情",
+    "en": "Directories & index details",
+    "ja": "ディレクトリと索引の詳細",
+    "fr": "Dossiers et index",
+    "de": "Verzeichnisse und Index",
+    "es": "Directorios e índice"
+  }
+}

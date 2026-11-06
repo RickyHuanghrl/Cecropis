@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cecropis</title><link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg"><link rel="stylesheet" href="/fonts.css"><link rel="stylesheet" href="/workspace_shell.css"><link rel="stylesheet" href="/preparation.css">
+<script src="/ui_messages.js"></script><script src="/ui_preferences.js"></script>
+<script>window.preparationInitial=__PREPARATION_INITIAL__;</script><script defer src="/preparation_ui.js"></script></head>
+<body><header class="app-header"><a class="brand-wordmark" href="/">Cecropis</a><div id="preparation_preferences" class="preference-controls"></div></header>
+<main class="prep-page"><h1 data-i18n="prep.title">Data settings</h1><form id="preparation_form">
+<div class="prep-fields" id="preparation_paths"></div>
+<details><summary data-i18n="prep.storageSettings">Storage settings</summary><div class="prep-fields" id="preparation_storage"></div></details>
+<details><summary data-i18n="prep.optionalGeometry">Optional skeletons and cache</summary><div class="prep-fields" id="preparation_geometry"></div></details>
+<label class="prep-remember"><input type="checkbox" id="preparation_remember"><span data-i18n="binding.remember">Remember these locations</span></label>
+<div class="buttons"><button type="button" id="preparation_open" class="primary" disabled data-i18n="prep.useData">Use this data</button><button type="submit" data-i18n="prep.check">Check local status</button></div>
+</form><section id="preparation_status" aria-live="polite"></section><div id="binding_status" role="status"></div>
+<div class="buttons"><button type="button" id="binding_forget" hidden data-i18n="binding.forget">Forget remembered locations</button><a id="binding_back" href="/" hidden data-i18n="action.back">Back</a></div></main></body></html>

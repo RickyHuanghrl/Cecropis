@@ -1,0 +1,26 @@
+{
+  "empty.noResult": {
+    "zh-CN": "尚未打开结果",
+    "en": "No result open",
+    "ja": "結果が未選択",
+    "fr": "Aucun résultat ouvert",
+    "de": "Kein Ergebnis geöffnet",
+    "es": "Ningún resultado abierto"
+  },
+  "empty.results": {
+    "zh-CN": "尚无已保存结果",
+    "en": "No saved results",
+    "ja": "保存結果はありません",
+    "fr": "Aucun résultat enregistré",
+    "de": "Keine gespeicherten Ergebnisse",
+    "es": "Sin resultados guardados"
+  },
+  "empty.scope": {
+    "zh-CN": "尚未选择计算范围",
+    "en": "No scope selected",
+    "ja": "計算範囲が未選択",
+    "fr": "Aucun périmètre sélectionné",
+    "de": "Kein Umfang ausgewählt",
+    "es": "Sin alcance seleccionado"
+  }
+}

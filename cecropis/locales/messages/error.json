@@ -1,0 +1,122 @@
+{
+  "error.busy": {
+    "zh-CN": "操作仍在进行，请等待完成或取消。",
+    "en": "An operation is running. Wait for it to finish or cancel it.",
+    "ja": "処理中です。完了を待つか、キャンセルしてください。",
+    "fr": "Une opération est en cours. Attendez sa fin ou annulez-la.",
+    "de": "Ein Vorgang läuft. Warten Sie auf den Abschluss oder brechen Sie ihn ab.",
+    "es": "Hay una operación en curso. Espere a que termine o cancélela."
+  },
+  "error.check_required": {
+    "zh-CN": "定义尚未通过当前预检，请检查后继续。",
+    "en": "Check the current definition before continuing.",
+    "ja": "続行する前に現在の定義を確認してください。",
+    "fr": "Vérifiez la définition actuelle avant de continuer.",
+    "de": "Aktuelle Definition vor dem Fortfahren prüfen.",
+    "es": "Verifique la definición actual antes de continuar."
+  },
+  "error.details": {
+    "zh-CN": "技术详情",
+    "en": "Technical details",
+    "ja": "技術的な詳細",
+    "fr": "Détails techniques",
+    "de": "Technische Details",
+    "es": "Detalles técnicos"
+  },
+  "error.index_unavailable": {
+    "zh-CN": "索引不可用，请在工作区配置中指定已有索引目录。",
+    "en": "Index unavailable. Set an existing index directory in the workspace configuration.",
+    "ja": "索引が利用できません。設定で既存の索引ディレクトリを指定してください。",
+    "fr": "Index indisponible. Indiquez un dossier d’index existant dans la configuration.",
+    "de": "Index nicht verfügbar. Vorhandenes Indexverzeichnis in der Konfiguration angeben.",
+    "es": "Índice no disponible. Indique un directorio existente en la configuración."
+  },
+  "error.invalid_definition": {
+    "zh-CN": "定义无效，请检查标出的字段。",
+    "en": "Invalid definition. Check the indicated fields.",
+    "ja": "定義が無効です。指定された項目を確認してください。",
+    "fr": "Définition invalide. Vérifiez les champs indiqués.",
+    "de": "Ungültige Definition. Angegebene Felder prüfen.",
+    "es": "Definición no válida. Revise los campos indicados."
+  },
+  "error.local_only": {
+    "zh-CN": "只允许本地访问。",
+    "en": "Local access only.",
+    "ja": "ローカルアクセスのみです。",
+    "fr": "Accès local uniquement.",
+    "de": "Nur lokaler Zugriff.",
+    "es": "Solo acceso local."
+  },
+  "error.memory_budget": {
+    "zh-CN": "资源预算不足，请缩小范围或调整预算。",
+    "en": "Resource budget exceeded. Reduce the scope or adjust the budget.",
+    "ja": "リソース予算を超えています。範囲を縮小するか予算を調整してください。",
+    "fr": "Budget dépassé. Réduisez le périmètre ou ajustez le budget.",
+    "de": "Ressourcenbudget überschritten. Umfang verkleinern oder Budget anpassen.",
+    "es": "Presupuesto excedido. Reduzca el alcance o ajuste el presupuesto."
+  },
+  "error.node_missing": {
+    "zh-CN": "未找到节点 {body_id}，请检查 ID 与当前数据索引。",
+    "en": "Node {body_id} was not found. Check the ID and current data index.",
+    "ja": "ノード {body_id} が見つかりません。IDと現在の索引を確認してください。",
+    "fr": "Nœud {body_id} introuvable. Vérifiez l’ID et l’index actuel.",
+    "de": "Knoten {body_id} nicht gefunden. ID und aktuellen Datenindex prüfen.",
+    "es": "No se encontró el nodo {body_id}. Revise el ID y el índice actual."
+  },
+  "error.request": {
+    "zh-CN": "请求失败，请查看错误详情并重试。",
+    "en": "Request failed. Check details and retry.",
+    "ja": "要求に失敗しました。詳細を確認して再試行してください。",
+    "fr": "Échec de la requête. Consultez les détails et réessayez.",
+    "de": "Anfrage fehlgeschlagen. Details prüfen und erneut versuchen.",
+    "es": "La solicitud falló. Consulte los detalles y reintente."
+  },
+  "error.scope_changed": {
+    "zh-CN": "当前范围已改变，请重新打开来源结果。",
+    "en": "The scope changed. Reopen the source result.",
+    "ja": "計算範囲が変更されました。元の結果を開き直してください。",
+    "fr": "Le périmètre a changé. Rouvrez le résultat source.",
+    "de": "Der Umfang wurde geändert. Quellergebnis erneut öffnen.",
+    "es": "El alcance cambió. Vuelva a abrir el resultado original."
+  },
+  "error.scope_required": {
+    "zh-CN": "请先打开或建立计算范围。",
+    "en": "Open or create a calculation scope first.",
+    "ja": "先に計算範囲を開くか作成してください。",
+    "fr": "Ouvrez ou créez d’abord un périmètre de calcul.",
+    "de": "Zuerst einen Berechnungsumfang öffnen oder erstellen.",
+    "es": "Abra o cree primero un alcance de cálculo."
+  },
+  "error.selection_required": {
+    "zh-CN": "请先选择所需对象，再执行此操作。",
+    "en": "Select the required objects before continuing.",
+    "ja": "先に必要な対象を選択してください。",
+    "fr": "Sélectionnez les objets nécessaires avant de continuer.",
+    "de": "Zuerst benötigte Objekte auswählen.",
+    "es": "Seleccione los objetos necesarios antes de continuar."
+  },
+  "error.token": {
+    "zh-CN": "会话令牌失效，请刷新页面后重试。",
+    "en": "Session token expired. Refresh the page and retry.",
+    "ja": "セッションが無効です。ページを更新してください。",
+    "fr": "Session expirée. Actualisez la page et réessayez.",
+    "de": "Sitzung abgelaufen. Seite neu laden.",
+    "es": "Sesión caducada. Actualice la página."
+  },
+  "error.report_preview_required": {
+    "zh-CN": "请先预览所选语言和条件的报告。",
+    "en": "Preview the report in the selected language and conditions first.",
+    "ja": "選択した言語と条件でレポートを先にプレビューしてください。",
+    "fr": "Prévisualisez d’abord le rapport avec la langue et les conditions sélectionnées.",
+    "de": "Zuerst den Bericht mit der gewählten Sprache und den gewählten Bedingungen in der Vorschau öffnen.",
+    "es": "Primero previsualice el informe con el idioma y las condiciones seleccionados."
+  },
+  "error.report_language": {
+    "zh-CN": "请选择支持的报告语言。",
+    "en": "Choose a supported report language.",
+    "ja": "対応するレポート言語を選択してください。",
+    "fr": "Choisissez une langue de rapport prise en charge.",
+    "de": "Eine unterstützte Berichtssprache wählen.",
+    "es": "Elija un idioma de informe compatible."
+  }
+}

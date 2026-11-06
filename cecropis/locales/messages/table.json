@@ -1,0 +1,26 @@
+{
+  "table.selectPage": {
+    "zh-CN": "全选当前页",
+    "en": "Select all on this page",
+    "ja": "このページをすべて選択",
+    "fr": "Tout sélectionner sur cette page",
+    "de": "Alle auf dieser Seite auswählen",
+    "es": "Seleccionar todo en esta página"
+  },
+  "table.clearPage": {
+    "zh-CN": "取消当前页全选",
+    "en": "Clear selection on this page",
+    "ja": "このページの選択を解除",
+    "fr": "Désélectionner cette page",
+    "de": "Auswahl auf dieser Seite aufheben",
+    "es": "Borrar selección de esta página"
+  },
+  "table.pageSelection": {
+    "zh-CN": "当前页已选 {selected} / {total} 项",
+    "en": "Selected on this page: {selected} / {total}",
+    "ja": "このページの選択数：{selected} / {total}",
+    "fr": "Sélection sur cette page : {selected} / {total}",
+    "de": "Auf dieser Seite ausgewählt: {selected} / {total}",
+    "es": "Selección en esta página: {selected} / {total}"
+  }
+}

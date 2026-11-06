@@ -1,0 +1,322 @@
+{
+  "code.baseline": {
+    "zh-CN": "计算无干预基线",
+    "en": "Computing no-intervention baseline",
+    "ja": "無介入ベースラインを計算中",
+    "fr": "Calcul de la référence sans intervention",
+    "de": "Berechnung der Referenz ohne Eingriff",
+    "es": "Calculando la referencia sin intervención"
+  },
+  "code.build": {
+    "zh-CN": "构建范围",
+    "en": "Preparing scope",
+    "ja": "範囲を準備中",
+    "fr": "Préparation du périmètre",
+    "de": "Umfang wird vorbereitet",
+    "es": "Preparando el alcance"
+  },
+  "code.built": {
+    "zh-CN": "已构建",
+    "en": "Prepared",
+    "ja": "準備済み",
+    "fr": "Préparé",
+    "de": "Vorbereitet",
+    "es": "Preparado"
+  },
+  "code.cancelled_before_start": {
+    "zh-CN": "开始前已取消",
+    "en": "Cancelled before starting",
+    "ja": "開始前にキャンセル",
+    "fr": "Annulé avant le démarrage",
+    "de": "Vor dem Start abgebrochen",
+    "es": "Cancelado antes de comenzar"
+  },
+  "code.edge_budget": {
+    "zh-CN": "超出连接预算",
+    "en": "Edge budget exceeded",
+    "ja": "接続予算超過",
+    "fr": "Budget d’arêtes dépassé",
+    "de": "Kantenbudget überschritten",
+    "es": "Presupuesto de aristas excedido"
+  },
+  "code.evaluation": {
+    "zh-CN": "评价方案",
+    "en": "Evaluating plan",
+    "ja": "計画を評価中",
+    "fr": "Évaluation du plan",
+    "de": "Plan wird bewertet",
+    "es": "Evaluando el plan"
+  },
+  "code.exclusive_group": {
+    "zh-CN": "互斥组冲突",
+    "en": "Mutually exclusive operations",
+    "ja": "排他的な操作の競合",
+    "fr": "Opérations mutuellement exclusives",
+    "de": "Sich ausschließende Operationen",
+    "es": "Operaciones mutuamente excluyentes"
+  },
+  "code.execution_or_checkpoint_failed": {
+    "zh-CN": "执行或检查点保存失败",
+    "en": "Execution or checkpoint save failed",
+    "ja": "実行またはチェックポイント保存が失敗",
+    "fr": "Échec de l’exécution ou de l’enregistrement du point de reprise",
+    "de": "Ausführung oder Speichern des Prüfpunkts fehlgeschlagen",
+    "es": "Error de ejecución o al guardar el punto de control"
+  },
+  "code.executor_ended_without_final_commit": {
+    "zh-CN": "执行进程已中断；未提交部分可重新执行",
+    "en": "Executor interrupted; uncommitted work can be retried",
+    "ja": "実行プロセスが中断されました。未確定の処理は再実行できます",
+    "fr": "Exécution interrompue ; le travail non enregistré peut être repris",
+    "de": "Ausführung unterbrochen; nicht gespeicherte Arbeit kann erneut ausgeführt werden",
+    "es": "Ejecución interrumpida; el trabajo no confirmado se puede reintentar"
+  },
+  "code.existing": {
+    "zh-CN": "已有范围",
+    "en": "Existing scope",
+    "ja": "既存の範囲",
+    "fr": "Périmètre existant",
+    "de": "Vorhandener Umfang",
+    "es": "Alcance existente"
+  },
+  "code.frontier_exhausted": {
+    "zh-CN": "无可继续扩展的成员",
+    "en": "No further reachable members",
+    "ja": "追加できるメンバーなし",
+    "fr": "Aucun autre membre accessible",
+    "de": "Keine weiteren erreichbaren Mitglieder",
+    "es": "No hay más miembros alcanzables"
+  },
+  "code.greedy": {
+    "zh-CN": "贪心组合评价",
+    "en": "Greedy combination evaluation",
+    "ja": "貪欲法による組み合わせ評価",
+    "fr": "Évaluation gloutonne des combinaisons",
+    "de": "Gierige Kombinationsbewertung",
+    "es": "Evaluación voraz de combinaciones"
+  },
+  "code.hops": {
+    "zh-CN": "达到邻接层数限制",
+    "en": "Hop limit reached",
+    "ja": "隣接層数の上限に到達",
+    "fr": "Limite de sauts atteinte",
+    "de": "Schrittgrenze erreicht",
+    "es": "Límite de saltos alcanzado"
+  },
+  "code.input": {
+    "zh-CN": "输入",
+    "en": "Input",
+    "ja": "入力",
+    "fr": "Entrée",
+    "de": "Eingabe",
+    "es": "Entrada"
+  },
+  "code.internal": {
+    "zh-CN": "候选",
+    "en": "Candidates",
+    "ja": "候補",
+    "fr": "Candidats",
+    "de": "Kandidaten",
+    "es": "Candidatos"
+  },
+  "code.intervention": {
+    "zh-CN": "计算干预响应",
+    "en": "Computing intervention response",
+    "ja": "介入応答を計算中",
+    "fr": "Calcul de la réponse avec intervention",
+    "de": "Berechnung der Eingriffsantwort",
+    "es": "Calculando la respuesta con intervención"
+  },
+  "code.local": {
+    "zh-CN": "局部替换评价",
+    "en": "Local replacement evaluation",
+    "ja": "局所置換の評価",
+    "fr": "Évaluation des substitutions locales",
+    "de": "Bewertung lokaler Ersetzungen",
+    "es": "Evaluación de sustituciones locales"
+  },
+  "code.maximum_protected_loss": {
+    "zh-CN": "保护输出下降超限",
+    "en": "Protected output decrease exceeds limit",
+    "ja": "保護出力の減少が上限超過",
+    "fr": "Diminution de la sortie protégée excessive",
+    "de": "Abnahme geschützter Ausgabe über Grenzwert",
+    "es": "Descenso de salida protegida superior al límite"
+  },
+  "code.minimum_target_loss": {
+    "zh-CN": "目标下降未达要求",
+    "en": "Target decrease below requirement",
+    "ja": "目標の減少量が要件未達",
+    "fr": "Diminution cible insuffisante",
+    "de": "Zielabnahme unter Anforderung",
+    "es": "Descenso objetivo insuficiente"
+  },
+  "code.no_effect": {
+    "zh-CN": "无有效操作",
+    "en": "No effective operation",
+    "ja": "有効な操作なし",
+    "fr": "Aucune opération effective",
+    "de": "Keine wirksame Operation",
+    "es": "Sin operación efectiva"
+  },
+  "code.node_budget": {
+    "zh-CN": "超出节点预算",
+    "en": "Node budget exceeded",
+    "ja": "ノード予算超過",
+    "fr": "Budget de nœuds dépassé",
+    "de": "Knotenbudget überschritten",
+    "es": "Presupuesto de nodos excedido"
+  },
+  "code.node_limit": {
+    "zh-CN": "达到节点上限",
+    "en": "Node limit reached",
+    "ja": "ノード上限に到達",
+    "fr": "Limite de nœuds atteinte",
+    "de": "Knotengrenze erreicht",
+    "es": "Límite de nodos alcanzado"
+  },
+  "code.not_recorded": {
+    "zh-CN": "未记录",
+    "en": "Not recorded",
+    "ja": "未記録",
+    "fr": "Non enregistré",
+    "de": "Nicht aufgezeichnet",
+    "es": "Sin registrar"
+  },
+  "code.not_run": {
+    "zh-CN": "未运行",
+    "en": "Not run",
+    "ja": "未実行",
+    "fr": "Non exécuté",
+    "de": "Nicht ausgeführt",
+    "es": "Sin ejecutar"
+  },
+  "code.output": {
+    "zh-CN": "观察",
+    "en": "Observation",
+    "ja": "観測",
+    "fr": "Observation",
+    "de": "Beobachtung",
+    "es": "Observación"
+  },
+  "code.outside_scope": {
+    "zh-CN": "计算范围外",
+    "en": "Outside calculation scope",
+    "ja": "計算範囲外",
+    "fr": "Hors du périmètre de calcul",
+    "de": "Außerhalb des Berechnungsumfangs",
+    "es": "Fuera del alcance de cálculo"
+  },
+  "code.partial": {
+    "zh-CN": "部分完成",
+    "en": "Partially complete",
+    "ja": "一部完了",
+    "fr": "Partiellement terminé",
+    "de": "Teilweise abgeschlossen",
+    "es": "Parcialmente completado"
+  },
+  "code.pending": {
+    "zh-CN": "待运行",
+    "en": "Pending",
+    "ja": "実行待ち",
+    "fr": "En attente",
+    "de": "Ausstehend",
+    "es": "Pendiente"
+  },
+  "code.preview": {
+    "zh-CN": "预检",
+    "en": "Preflight",
+    "ja": "事前確認",
+    "fr": "Vérification préalable",
+    "de": "Vorprüfung",
+    "es": "Comprobación previa"
+  },
+  "code.protected": {
+    "zh-CN": "保护输出下降超限：{name}",
+    "en": "Protected output decrease exceeds limit: {name}",
+    "ja": "保護出力の減少が上限超過：{name}",
+    "fr": "Diminution excessive de la sortie protégée : {name}",
+    "de": "Abnahme geschützter Ausgabe über Grenzwert: {name}",
+    "es": "Descenso excesivo de salida protegida: {name}"
+  },
+  "code.removed": {
+    "zh-CN": "撤销干预",
+    "en": "Intervention withdrawn",
+    "ja": "介入を撤回",
+    "fr": "Intervention retirée",
+    "de": "Eingriff zurückgenommen",
+    "es": "Intervención retirada"
+  },
+  "code.retained": {
+    "zh-CN": "保留干预",
+    "en": "Intervention retained",
+    "ja": "介入を保持",
+    "fr": "Intervention conservée",
+    "de": "Eingriff beibehalten",
+    "es": "Intervención conservada"
+  },
+  "code.reused": {
+    "zh-CN": "已复用",
+    "en": "Reused",
+    "ja": "再利用済み",
+    "fr": "Réutilisé",
+    "de": "Wiederverwendet",
+    "es": "Reutilizado"
+  },
+  "code.run": {
+    "zh-CN": "计算中",
+    "en": "Computing",
+    "ja": "計算中",
+    "fr": "Calcul en cours",
+    "de": "Berechnung läuft",
+    "es": "Calculando"
+  },
+  "code.scan_budget": {
+    "zh-CN": "达到扫描预算",
+    "en": "Scan budget reached",
+    "ja": "走査予算に到達",
+    "fr": "Budget de parcours atteint",
+    "de": "Scanbudget erreicht",
+    "es": "Presupuesto de exploración alcanzado"
+  },
+  "code.screening": {
+    "zh-CN": "单节点探查",
+    "en": "Single-node screening",
+    "ja": "単一ノードの調査",
+    "fr": "Examen des nœuds individuels",
+    "de": "Prüfung einzelner Knoten",
+    "es": "Exploración de nodos individuales"
+  },
+  "code.truncated": {
+    "zh-CN": "已截断",
+    "en": "Truncated",
+    "ja": "切り詰め済み",
+    "fr": "Tronqué",
+    "de": "Abgeschnitten",
+    "es": "Truncado"
+  },
+  "code.undefined_protected_metric": {
+    "zh-CN": "保护指标未定义：{name}",
+    "en": "Protection metric undefined: {name}",
+    "ja": "保護指標が未定義：{name}",
+    "fr": "Indicateur de protection non défini : {name}",
+    "de": "Schutzmetrik nicht definiert: {name}",
+    "es": "Métrica de protección no definida: {name}"
+  },
+  "code.undefined_target_metric": {
+    "zh-CN": "目标指标未定义",
+    "en": "Target metric undefined",
+    "ja": "目標指標が未定義",
+    "fr": "Indicateur cible non défini",
+    "de": "Zielmetrik nicht definiert",
+    "es": "Métrica objetivo no definida"
+  },
+  "code.unknown": {
+    "zh-CN": "未识别的状态",
+    "en": "Unrecognized status",
+    "ja": "未認識の状態",
+    "fr": "État non reconnu",
+    "de": "Unbekannter Status",
+    "es": "Estado no reconocido"
+  }
+}
